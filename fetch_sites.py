@@ -67,7 +67,7 @@ def _parse_time(raw: str) -> str:
     """텍스트에서 HH:MM:00Z 추출. 실패 시 00:00:00Z."""
     if not raw:
         return "00:00:00Z"
-    m = re.search(r"\b(\d{1,2}):(\d{2})\b", raw)
+    m = re.search(r"\b(\d{1,2}):(\d{2})(?:[^0-9]|$)", raw)
     if m:
         return f"{int(m.group(1)):02d}:{m.group(2)}:00Z"
     return "00:00:00Z"

@@ -1,8 +1,8 @@
 {
   "version": "2.0.0",
   "topic": "",
-  "generated_at": "2026-04-01T12:41:56Z",
-  "last_updated": "2026-04-01T12:41:56Z",
+  "generated_at": "2026-04-01T14:41:18Z",
+  "last_updated": "2026-04-01T14:41:18Z",
   "date_range": {
     "from": "2026-02-27",
     "to": "2026-04-01"
@@ -386,7 +386,47 @@
     {
       "event_id": "evt-001",
       "date": "2026-02-27",
-      "time": "00:00:00Z",
+      "time": "06:00:00Z",
+      "title": "프랑스·이탈리아 이란 대피령",
+      "summary": "프랑스와 이탈리아 외무부가 임박한 군사 충돌 가능성을 감지하고 자국민에게 이란 즉시 대피, 이스라엘 극도 주의를 지시했다.",
+      "importance": "critical",
+      "objectivity_avg": null,
+      "causally_related_to": [],
+      "confirmed_by": [
+        "iranwarlive"
+      ],
+      "source_urls": {
+        "iranwarlive": "https://iranwarlive.com/recaps/day-1.html"
+      },
+      "market_impact": {
+        "W": {
+          "delta_pct": 0.0,
+          "window_start": "2026-02-27T00:00:00Z",
+          "window_end": "2026-02-27T00:00:00Z"
+        },
+        "C": {
+          "delta_pct": 0.0,
+          "window_start": "2026-02-27T00:00:00Z",
+          "window_end": "2026-02-27T00:00:00Z"
+        },
+        "N": {
+          "delta_pct": 0.0,
+          "window_start": "2026-02-27T00:00:00Z",
+          "window_end": "2026-02-27T00:00:00Z"
+        },
+        "K": {
+          "delta_pct": 0.0,
+          "window_start": "2026-02-27T00:00:00Z",
+          "window_end": "2026-02-27T00:00:00Z"
+        }
+      },
+      "trump_posts": [],
+      "related_articles": []
+    },
+    {
+      "event_id": "evt-002",
+      "date": "2026-02-27",
+      "time": "07:00:00Z",
       "title": "트럼프, 오퍼레이션 에픽 퓨리 명령",
       "summary": "트럼프 미 대통령이 이란에 대한 대규모 군사작전 '오퍼레이션 에픽 퓨리'를 승인하고 개시 명령을 내렸다.",
       "importance": "critical",
@@ -484,49 +524,9 @@
       ]
     },
     {
-      "event_id": "evt-002",
-      "date": "2026-02-27",
-      "time": "00:00:00Z",
-      "title": "프랑스·이탈리아 이란 대피령",
-      "summary": "프랑스와 이탈리아 외무부가 임박한 군사 충돌 가능성을 감지하고 자국민에게 이란 즉시 대피, 이스라엘 극도 주의를 지시했다.",
-      "importance": "critical",
-      "objectivity_avg": null,
-      "causally_related_to": [],
-      "confirmed_by": [
-        "iranwarlive"
-      ],
-      "source_urls": {
-        "iranwarlive": "https://iranwarlive.com/recaps/day-1.html"
-      },
-      "market_impact": {
-        "W": {
-          "delta_pct": 0.0,
-          "window_start": "2026-02-27T00:00:00Z",
-          "window_end": "2026-02-27T00:00:00Z"
-        },
-        "C": {
-          "delta_pct": 0.0,
-          "window_start": "2026-02-27T00:00:00Z",
-          "window_end": "2026-02-27T00:00:00Z"
-        },
-        "N": {
-          "delta_pct": 0.0,
-          "window_start": "2026-02-27T00:00:00Z",
-          "window_end": "2026-02-27T00:00:00Z"
-        },
-        "K": {
-          "delta_pct": 0.0,
-          "window_start": "2026-02-27T00:00:00Z",
-          "window_end": "2026-02-27T00:00:00Z"
-        }
-      },
-      "trump_posts": [],
-      "related_articles": []
-    },
-    {
       "event_id": "evt-003",
       "date": "2026-02-27",
-      "time": "00:00:00Z",
+      "time": "08:30:00Z",
       "title": "IAF, 헤즈볼라 라드완 기지 공습",
       "summary": "이스라엘 공군(IAF)이 레바논 동부 헤즈볼라 정예 라드완 부대의 군사 기지 8곳을 정밀 타격, 지하 벙커와 무기 창고를 파괴했다.",
       "importance": "major",
@@ -566,7 +566,7 @@
     {
       "event_id": "evt-004",
       "date": "2026-02-27",
-      "time": "00:00:00Z",
+      "time": "11:15:00Z",
       "title": "이스라엘 대법원, 외국 NGO 금지 동결",
       "summary": "이스라엘 대법원이 가자·서안지구 내 외국 인도주의 단체 금지 행정명령을 임시 동결하는 가처분 결정을 내렸다.",
       "importance": "major",
@@ -606,7 +606,7 @@
     {
       "event_id": "evt-005",
       "date": "2026-02-27",
-      "time": "00:00:00Z",
+      "time": "13:45:00Z",
       "title": "IDF, 가자 지역 공습",
       "summary": "IDF가 가자지구 무기 저장시설로 의심되는 건물에 정밀 공습을 실시해 팔레스타인 5명이 사망했다.",
       "importance": "major",
@@ -646,7 +646,7 @@
     {
       "event_id": "evt-006",
       "date": "2026-02-27",
-      "time": "00:00:00Z",
+      "time": "16:00:00Z",
       "title": "루비오, 외교 메시지 통제 지시",
       "summary": "US Secretary of State Mandates Strict Diplomatic Messaging Discipline. (설명 원문 참조)",
       "importance": "critical",
@@ -686,7 +686,7 @@
     {
       "event_id": "evt-007",
       "date": "2026-02-27",
-      "time": "00:00:00Z",
+      "time": "18:30:00Z",
       "title": "IAF, 헤즈볼라 자금 자산 공습",
       "summary": "IAF가 레바논 전역에 걸친 헤즈볼라의 불법 자금 세탁·보관 시설에 정밀 타격을 가해 조직의 재정 인프라를 타격했다.",
       "importance": "major",
@@ -726,7 +726,7 @@
     {
       "event_id": "evt-008",
       "date": "2026-02-27",
-      "time": "00:00:00Z",
+      "time": "20:15:00Z",
       "title": "링컨 항모전단, 작전 준비",
       "summary": "USS 에이브러햄 링컨 항모에서 해군 항공대가 에픽 퓨리 작전 개시를 앞두고 정밀유도폭탄 등 대규모 무장 탑재를 완료했다.",
       "importance": "critical",
@@ -766,7 +766,7 @@
     {
       "event_id": "evt-009",
       "date": "2026-02-27",
-      "time": "00:00:00Z",
+      "time": "22:45:00Z",
       "title": "트럼프, 이란 핵 완전 포기 요구",
       "summary": "트럼프 대통령이 이란이 '협상 준비가 안 됐다'며 우라늄 완전 비농축을 최후통첩으로 제시, 외교적 공간을 사실상 봉쇄했다.",
       "importance": "critical",
@@ -835,7 +835,7 @@
     {
       "event_id": "evt-010",
       "date": "2026-02-28",
-      "time": "00:00:00Z",
+      "time": "07:30:00Z",
       "title": "연합군, 이란 핵·미사일 시설 타격",
       "summary": "미-이스라엘 공군이 이스파한·나탄즈·카라지의 이란 핵연구시설과 탄도미사일 제조공장에 대규모 관통폭탄을 투하, 지하시설을 파괴했다.",
       "importance": "critical",
@@ -875,7 +875,7 @@
     {
       "event_id": "evt-011",
       "date": "2026-02-28",
-      "time": "00:00:00Z",
+      "time": "09:00:00Z",
       "title": "중동 전역 민간항공 운항 중단",
       "summary": "에픽 퓨리 작전 개시와 이란의 보복 발사가 시작되자 중동 전역 민간항공 당국이 두바이·도하·텔아비브 등 주요 허브 공항을 즉시 폐쇄했다.",
       "importance": "critical",
@@ -917,7 +917,7 @@
     {
       "event_id": "evt-012",
       "date": "2026-02-28",
-      "time": "00:00:00Z",
+      "time": "11:00:00Z",
       "title": "미나브 여학교 부수적 피해 170명 사망",
       "summary": "미군이 반다르아바스 인근 IRGC 해군기지를 공습하던 중 기지 바로 옆 미나브 여학교에 폭탄이 낙탄, 약 170명의 민간인이 사망했다.",
       "importance": "critical",
@@ -957,7 +957,7 @@
     {
       "event_id": "evt-013",
       "date": "2026-02-28",
-      "time": "00:00:00Z",
+      "time": "14:00:00Z",
       "title": "IAF, 헤즈볼라 선제 공습",
       "summary": "IAF Conducts Preemptive Degradation Strikes Against Hezbollah. (설명 원문 참조)",
       "importance": "major",
@@ -997,7 +997,7 @@
     {
       "event_id": "evt-014",
       "date": "2026-02-28",
-      "time": "00:00:00Z",
+      "time": "16:30:00Z",
       "title": "이란, 대규모 탄도미사일 보복 공격",
       "summary": "이란 군이 지도부 제거와 전략 자산 손실에 대한 보복으로 수백 발의 탄도미사일과 드론을 이스라엘을 향해 발사했다. 다층 방어망이 대부분을 요격했으나 일부가 침투했다.",
       "importance": "critical",
@@ -1039,7 +1039,7 @@
     {
       "event_id": "evt-015",
       "date": "2026-02-28",
-      "time": "00:00:00Z",
+      "time": "18:00:00Z",
       "title": "IRGC, 미군기지·걸프 인프라 공격",
       "summary": "IRGC가 UAE·사우디·바레인의 미군기지와 석유 정제·담수화 시설에 탄도미사일 및 자폭드론을 발사, 걸프 국가 에너지 인프라를 직접 위협했다.",
       "importance": "critical",
@@ -1116,7 +1116,7 @@
     {
       "event_id": "evt-016",
       "date": "2026-02-28",
-      "time": "00:00:00Z",
+      "time": "20:00:00Z",
       "title": "호르무즈 해협 사실상 봉쇄",
       "summary": "이란의 대함 무기 사용과 상업 선박 직접 타격으로 호르무즈 해협이 사실상 봉쇄됐다. 세계 원유 공급의 약 20%가 통과하는 이 항로 차단으로 유가가 급등했다.",
       "importance": "critical",
@@ -1199,7 +1199,7 @@
     {
       "event_id": "evt-017",
       "date": "2026-03-01",
-      "time": "00:00:00Z",
+      "time": "02:00:00Z",
       "title": "연합군, 포르도 핵시설 벙커버스터 공격",
       "summary": "Coalition Executes Bunker-Buster Strikes on Residual Nuclear Sites. (설명 원문 참조)",
       "importance": "critical",
@@ -1239,7 +1239,7 @@
     {
       "event_id": "evt-018",
       "date": "2026-03-01",
-      "time": "00:00:00Z",
+      "time": "05:30:00Z",
       "title": "헤즈볼라, 하이파항 포화 공격",
       "summary": "헤즈볼라가 300발 이상의 로켓과 정밀유도탄으로 하이파 항구를 포화 공격, 일부가 방공망을 뚫고 해양 물류시설과 산업지구에 타격을 가했다.",
       "importance": "major",
@@ -1279,7 +1279,7 @@
     {
       "event_id": "evt-019",
       "date": "2026-03-01",
-      "time": "00:00:00Z",
+      "time": "08:15:00Z",
       "title": "미 해군, 후티 대함미사일 요격",
       "summary": "아라비아해의 미 해군 이지스 구축함들이 후티 세력이 발사한 대함탄도미사일(ASBM) 3발과 자폭드론 군집을 성공적으로 요격했다.",
       "importance": "critical",
@@ -1319,7 +1319,7 @@
     {
       "event_id": "evt-020",
       "date": "2026-03-01",
-      "time": "00:00:00Z",
+      "time": "11:00:00Z",
       "title": "IDF, 레바논 지상 침투 개시",
       "summary": "IDF 북부사령부가 헤즈볼라의 격렬한 로켓 공세에 대응해 레바논 남부 국경을 넘어 라드완 부대 진지와 침투 터널 소탕을 위한 제한적 지상작전을 개시했다.",
       "importance": "major",
@@ -1361,7 +1361,7 @@
     {
       "event_id": "evt-021",
       "date": "2026-03-01",
-      "time": "00:00:00Z",
+      "time": "14:30:00Z",
       "title": "유엔 안보리 휴전 결의 실패",
       "summary": "유엔 안전보장이사회 긴급회의가 미국의 거부권 행사로 즉각 휴전 요구 결의안 채택에 실패, 국제사회의 외교적 해결 노력이 좌절됐다.",
       "importance": "critical",
@@ -1401,7 +1401,7 @@
     {
       "event_id": "evt-022",
       "date": "2026-03-01",
-      "time": "00:00:00Z",
+      "time": "17:00:00Z",
       "title": "이라크 민병대, 아사드 기지 드론 공격",
       "summary": "이란 연계 이라크 시아파 민병대가 서부 이라크 아사드 공군기지에 자폭드론 군집을 발사, 미군 기지를 공격했다.",
       "importance": "major",
@@ -1441,7 +1441,7 @@
     {
       "event_id": "evt-023",
       "date": "2026-03-01",
-      "time": "00:00:00Z",
+      "time": "19:45:00Z",
       "title": "미 항모, IRGC 고속정 무력화",
       "summary": "USS 에이브러햄 링컨 항모의 F/A-18 전투기들이 반다르아바스 인근에 집결 중인 IRGC 고속정 군집에 선제 타격을 가해 대함 위협을 제거했다.",
       "importance": "critical",
@@ -1481,7 +1481,7 @@
     {
       "event_id": "evt-024",
       "date": "2026-03-01",
-      "time": "00:00:00Z",
+      "time": "22:00:00Z",
       "title": "중국, 즉각 중단 강력 경고",
       "summary": "중국 외교부가 이란에 대한 연합군 작전의 즉각 중단을 요구하며 서방에 심각한 경제·외교적 경고를 발했다. 중국의 걸프 에너지 이익 보호를 위한 강력한 압박이다.",
       "importance": "major",
@@ -1521,7 +1521,7 @@
     {
       "event_id": "evt-025",
       "date": "2026-03-02",
-      "time": "00:00:00Z",
+      "time": "04:30:00Z",
       "title": "연합군, IRGC 이동식 발사대 추적",
       "summary": "Coalition Aircraft Hunt IRGC Mobile Ballistic Missile TELs. (설명 원문 참조)",
       "importance": "critical",
@@ -1561,7 +1561,7 @@
     {
       "event_id": "evt-026",
       "date": "2026-03-02",
-      "time": "00:00:00Z",
+      "time": "07:15:00Z",
       "title": "IDF 기갑, 헤즈볼라 대전차 교전",
       "summary": "IDF Armor Engages Hezbollah ATGM Teams in Close-Quarters Combat. (설명 원문 참조)",
       "importance": "major",
@@ -1601,7 +1601,7 @@
     {
       "event_id": "evt-027",
       "date": "2026-03-02",
-      "time": "00:00:00Z",
+      "time": "09:45:00Z",
       "title": "미군, 알탄프 드론 공격 요격",
       "summary": "US CENTCOM Intercepts Coordinated Drone Swarm at Al-Tanf Garrison. (설명 원문 참조)",
       "importance": "major",
@@ -1641,7 +1641,7 @@
     {
       "event_id": "evt-028",
       "date": "2026-03-02",
-      "time": "00:00:00Z",
+      "time": "13:00:00Z",
       "title": "터키, 군 항공기 영공 통과 차단",
       "summary": "Turkey Closes Airspace to Military Transit Over Regional Escalation. (설명 원문 참조)",
       "importance": "critical",
@@ -1681,7 +1681,7 @@
     {
       "event_id": "evt-029",
       "date": "2026-03-02",
-      "time": "00:00:00Z",
+      "time": "15:30:00Z",
       "title": "미 해군, IRGC 기뢰 부설선 격파",
       "summary": "US Naval Aviation Neutralizes IRGC Minelaying Vessels. (설명 원문 참조)",
       "importance": "critical",
@@ -1721,7 +1721,7 @@
     {
       "event_id": "evt-030",
       "date": "2026-03-02",
-      "time": "00:00:00Z",
+      "time": "18:45:00Z",
       "title": "애로우3, 이라크 민병대 순항미사일 요격",
       "summary": "Arrow 3 System Intercepts Iraqi Militia Cruise Missiles Targeting Eilat. (설명 원문 참조)",
       "importance": "major",
@@ -1761,7 +1761,7 @@
     {
       "event_id": "evt-031",
       "date": "2026-03-02",
-      "time": "00:00:00Z",
+      "time": "21:10:00Z",
       "title": "후티, 유럽 상선 타격",
       "summary": "Houthis Strike European Merchant Vessel with Anti-Ship Ballistic Missile. (설명 원문 참조)",
       "importance": "critical",
@@ -1801,7 +1801,7 @@
     {
       "event_id": "evt-032",
       "date": "2026-03-02",
-      "time": "00:00:00Z",
+      "time": "23:30:00Z",
       "title": "미 재무부, 이란 우회 제재",
       "summary": "US Treasury Sanctions Secondary Entities Facilitating Iranian Oil Exports. (설명 원문 참조)",
       "importance": "major",
@@ -1841,7 +1841,7 @@
     {
       "event_id": "evt-033",
       "date": "2026-03-03",
-      "time": "00:00:00Z",
+      "time": "03:00:00Z",
       "title": "연합군, 하르그섬 석유터미널 파괴",
       "summary": "미-이스라엘 공군이 이란 원유 수출의 90%를 처리하는 하르그섬 석유터미널을 완전히 파괴, 이란의 핵심 경제 동맥을 차단했다.",
       "importance": "major",
@@ -1881,7 +1881,7 @@
     {
       "event_id": "evt-034",
       "date": "2026-03-03",
-      "time": "00:00:00Z",
+      "time": "06:45:00Z",
       "title": "IDF 98사단, 빈트 주베일 격전",
       "summary": "IDF 98th Division Encounters Heavy Resistance in Bint Jbeil. (설명 원문 참조)",
       "importance": "critical",
@@ -1950,7 +1950,7 @@
     {
       "event_id": "evt-035",
       "date": "2026-03-03",
-      "time": "00:00:00Z",
+      "time": "09:30:00Z",
       "title": "패트리엇, 하리르 기지 탄도미사일 요격",
       "summary": "Patriot Battery Intercepts Ballistic Missile Aimed at Harir Air Base. (설명 원문 참조)",
       "importance": "critical",
@@ -1990,7 +1990,7 @@
     {
       "event_id": "evt-036",
       "date": "2026-03-03",
-      "time": "00:00:00Z",
+      "time": "12:15:00Z",
       "title": "미 B-2, 후티 지하 무기고 타격",
       "summary": "US B-2 Bombers Target Deeply Buried Houthi Weapons Caches. (설명 원문 참조)",
       "importance": "critical",
@@ -2030,7 +2030,7 @@
     {
       "event_id": "evt-037",
       "date": "2026-03-03",
-      "time": "00:00:00Z",
+      "time": "15:00:00Z",
       "title": "IAEA, 포르도 방사선 급증 확인",
       "summary": "IAEA가 포르도 농축시설 인근에서 극도로 높은 방사성 동위원소 수치를 감지, 연합군의 벙커버스터 공격으로 격납 구조물이 파괴된 것을 확인했다.",
       "importance": "critical",
@@ -2099,7 +2099,7 @@
     {
       "event_id": "evt-038",
       "date": "2026-03-03",
-      "time": "00:00:00Z",
+      "time": "18:20:00Z",
       "title": "PIJ, 가자 인도적 구역서 로켓 발사",
       "summary": "PIJ Launches Heavy Rocket Barrage from Gaza Humanitarian Zone. (설명 원문 참조)",
       "importance": "major",
@@ -2139,7 +2139,7 @@
     {
       "event_id": "evt-039",
       "date": "2026-03-03",
-      "time": "00:00:00Z",
+      "time": "20:45:00Z",
       "title": "영 HMS 다이아몬드, 후티 드론 격추",
       "summary": "HMS Diamond Downs Houthi Drone Swarm Targeting Escort Flotilla. (설명 원문 참조)",
       "importance": "major",
@@ -2179,7 +2179,7 @@
     {
       "event_id": "evt-040",
       "date": "2026-03-03",
-      "time": "00:00:00Z",
+      "time": "23:10:00Z",
       "title": "요르단, 영공 무기한 폐쇄",
       "summary": "Jordan Indefinitely Closes Airspace Amid Rising Proxy Incursions. (설명 원문 참조)",
       "importance": "critical",
@@ -2248,7 +2248,7 @@
     {
       "event_id": "evt-041",
       "date": "2026-03-04",
-      "time": "00:00:00Z",
+      "time": "04:15:00Z",
       "title": "IDF 36사단, 나바티에 시가전",
       "summary": "IDF 36th Division Engages in Heavy Urban Combat Near Nabatieh. (설명 원문 참조)",
       "importance": "major",
@@ -2288,7 +2288,7 @@
     {
       "event_id": "evt-042",
       "date": "2026-03-04",
-      "time": "00:00:00Z",
+      "time": "07:30:00Z",
       "title": "미 해군, IRGC 잠수함 추적·격침",
       "summary": "US Navy ASW Assets Prosecute IRGCN Submarine Movements. (설명 원문 참조)",
       "importance": "critical",
@@ -2328,7 +2328,7 @@
     {
       "event_id": "evt-043",
       "date": "2026-03-04",
-      "time": "00:00:00Z",
+      "time": "10:45:00Z",
       "title": "애로우3, 예멘발 탄도미사일 요격",
       "summary": "Arrow 3 Intercepts Advanced Ballistic Missile from Yemen. (설명 원문 참조)",
       "importance": "critical",
@@ -2368,7 +2368,7 @@
     {
       "event_id": "evt-044",
       "date": "2026-03-04",
-      "time": "00:00:00Z",
+      "time": "13:20:00Z",
       "title": "EU 긴급회의, 포르도 방사능 위협",
       "summary": "EU Convenes Emergency Summit on Fordow Radiological Threat. (설명 원문 참조)",
       "importance": "critical",
@@ -2408,7 +2408,7 @@
     {
       "event_id": "evt-045",
       "date": "2026-03-04",
-      "time": "00:00:00Z",
+      "time": "16:10:00Z",
       "title": "이란 프록시, 코노코 미군기지 공격",
       "summary": "Proxies Launch Saturation Rocket Attack on US Conoco Outpost. (설명 원문 참조)",
       "importance": "major",
@@ -2448,7 +2448,7 @@
     {
       "event_id": "evt-046",
       "date": "2026-03-04",
-      "time": "00:00:00Z",
+      "time": "19:00:00Z",
       "title": "연합군, 후티 해안 레이더 제압",
       "summary": "Coalition Conducts SEAD Operations Against Houthi Coastal Radars. (설명 원문 참조)",
       "importance": "critical",
@@ -2488,7 +2488,7 @@
     {
       "event_id": "evt-047",
       "date": "2026-03-04",
-      "time": "00:00:00Z",
+      "time": "21:30:00Z",
       "title": "사우디, 석유시설 보호 국가방위군 동원",
       "summary": "Saudi Arabia Mobilizes National Guard to Protect Oil Infrastructure. (설명 원문 참조)",
       "importance": "critical",
@@ -2528,7 +2528,7 @@
     {
       "event_id": "evt-048",
       "date": "2026-03-04",
-      "time": "00:00:00Z",
+      "time": "23:45:00Z",
       "title": "프랑스 프리깃, 후티 무인선박 격파",
       "summary": "French Frigate Neutralizes Houthi USV Targeting Salvage Operations. (설명 원문 참조)",
       "importance": "major",
@@ -2568,7 +2568,7 @@
     {
       "event_id": "evt-049",
       "date": "2026-03-05",
-      "time": "00:00:00Z",
+      "time": "03:00:00Z",
       "title": "IAF, 다히예 헤즈볼라 거점 공습",
       "summary": "IAF Executes Precision Strikes on Hezbollah Dahiyeh Stronghold. (설명 원문 참조)",
       "importance": "major",
@@ -2608,7 +2608,7 @@
     {
       "event_id": "evt-050",
       "date": "2026-03-05",
-      "time": "00:00:00Z",
+      "time": "06:15:00Z",
       "title": "미 잠수함, 인도양서 이란 군함 격침",
       "summary": "US Submarine Sinks Iranian Warship off Sri Lankan Coast. (설명 원문 참조)",
       "importance": "major",
@@ -2648,7 +2648,7 @@
     {
       "event_id": "evt-051",
       "date": "2026-03-05",
-      "time": "00:00:00Z",
+      "time": "09:30:00Z",
       "title": "IDF, 키암 지상작전 확대",
       "summary": "IDF Expands Ground Incursion into Southern Lebanese Town of Khiam. (설명 원문 참조)",
       "importance": "major",
@@ -2688,7 +2688,7 @@
     {
       "event_id": "evt-052",
       "date": "2026-03-05",
-      "time": "00:00:00Z",
+      "time": "12:45:00Z",
       "title": "미 상원, 군사작전 중단 결의 부결",
       "summary": "US Senate Rejects Resolution to Halt Military Operations. (설명 원문 참조)",
       "importance": "critical",
@@ -2765,7 +2765,7 @@
     {
       "event_id": "evt-053",
       "date": "2026-03-05",
-      "time": "00:00:00Z",
+      "time": "15:30:00Z",
       "title": "프록시 드론, 두바이 미 영사관 공격",
       "summary": "Proxy Drone Swarm Targets US Consulate in Dubai. (설명 원문 참조)",
       "importance": "major",
@@ -2805,7 +2805,7 @@
     {
       "event_id": "evt-054",
       "date": "2026-03-05",
-      "time": "00:00:00Z",
+      "time": "18:00:00Z",
       "title": "카타르 방공, 우다이드 기지 위협 요격",
       "summary": "Qatari Air Defenses Intercept Missile Near Al-Udeid Air Base. (설명 원문 참조)",
       "importance": "critical",
@@ -2845,7 +2845,7 @@
     {
       "event_id": "evt-055",
       "date": "2026-03-05",
-      "time": "00:00:00Z",
+      "time": "21:00:00Z",
       "title": "영국 아크로티리 기지 방공경보 발령",
       "summary": "Air Defense Sirens Activate at Strategic UK Base. (설명 원문 참조)",
       "importance": "major",
@@ -2885,7 +2885,7 @@
     {
       "event_id": "evt-056",
       "date": "2026-03-05",
-      "time": "00:00:00Z",
+      "time": "23:30:00Z",
       "title": "IAF, IRGC 인프라 신규 파상 공습",
       "summary": "IAF Initiates New Wave of Strikes Targeting IRGC Infrastructure. (설명 원문 참조)",
       "importance": "critical",
@@ -2925,7 +2925,7 @@
     {
       "event_id": "evt-057",
       "date": "2026-03-06",
-      "time": "00:00:00Z",
+      "time": "02:30:00Z",
       "title": "미 B-1B, 자그로스 지하 미사일 사일로 타격",
       "summary": "USAF B-1B Lancers Strike Deep Subterranean Missile Silos. (설명 원문 참조)",
       "importance": "critical",
@@ -2965,7 +2965,7 @@
     {
       "event_id": "evt-058",
       "date": "2026-03-06",
-      "time": "00:00:00Z",
+      "time": "05:45:00Z",
       "title": "IDF, 티레 근해 수륙양용 우회기동",
       "summary": "IDF Amphibious Elements Conduct Flanking Maneuver near Tyre. (설명 원문 참조)",
       "importance": "major",
@@ -3005,7 +3005,7 @@
     {
       "event_id": "evt-059",
       "date": "2026-03-06",
-      "time": "00:00:00Z",
+      "time": "08:20:00Z",
       "title": "다윗의 돌팔매, 헤즈볼라 드론 요격",
       "summary": "David's Sling Intercepts Coordinated Hezbollah Drone Swarm. (설명 원문 참조)",
       "importance": "major",
@@ -3045,7 +3045,7 @@
     {
       "event_id": "evt-060",
       "date": "2026-03-06",
-      "time": "00:00:00Z",
+      "time": "11:15:00Z",
       "title": "프록시 단거리탄도탄, 요르단 미군 기지 타격",
       "summary": "Proxy SRBM Strikes US Logistics Hub in Jordan. (설명 원문 참조)",
       "importance": "critical",
@@ -3085,7 +3085,7 @@
     {
       "event_id": "evt-061",
       "date": "2026-03-06",
-      "time": "00:00:00Z",
+      "time": "14:00:00Z",
       "title": "OPEC+, 글로벌 석유 공급 불가항력 선언",
       "summary": "OPEC+ Declares Force Majeure on Global Oil Deliveries. (설명 원문 참조)",
       "importance": "critical",
@@ -3125,7 +3125,7 @@
     {
       "event_id": "evt-062",
       "date": "2026-03-06",
-      "time": "00:00:00Z",
+      "time": "17:30:00Z",
       "title": "연합군, 후티 민간시설 내 지휘소 타격",
       "summary": "Coalition Strikes Houthi C2 Nodes Operating in Civilian Infrastructure. (설명 원문 참조)",
       "importance": "critical",
@@ -3165,7 +3165,7 @@
     {
       "event_id": "evt-063",
       "date": "2026-03-06",
-      "time": "00:00:00Z",
+      "time": "20:45:00Z",
       "title": "독일 함정, 후티 대함탄도탄 격퇴",
       "summary": "German Frigate Repels Houthi ASBM Attack on Escort Flotilla. (설명 원문 참조)",
       "importance": "critical",
@@ -3205,7 +3205,7 @@
     {
       "event_id": "evt-064",
       "date": "2026-03-06",
-      "time": "00:00:00Z",
+      "time": "23:10:00Z",
       "title": "이라크, 영공 폐쇄",
       "summary": "Iraq Closes Airspace Following Unprecedented Proxy Missile Launches. (설명 원문 참조)",
       "importance": "critical",
@@ -3245,7 +3245,7 @@
     {
       "event_id": "evt-065",
       "date": "2026-03-07",
-      "time": "00:00:00Z",
+      "time": "01:15:00Z",
       "title": "미 공군, 이란 드론 공장 타격",
       "summary": "USAF Targets Secondary Iranian C2 and Drone Manufacturing Hubs. (설명 원문 참조)",
       "importance": "major",
@@ -3285,7 +3285,7 @@
     {
       "event_id": "evt-066",
       "date": "2026-03-07",
-      "time": "00:00:00Z",
+      "time": "04:30:00Z",
       "title": "IDF 98사단, 리타니강 도하 성공",
       "summary": "IDF 98낙하산사단이 리타니강을 도하해 여러 교두보를 확보, 2006년 레바논전쟁 이후 가장 깊은 레바논 지상 침투를 달성했다.",
       "importance": "major",
@@ -3325,7 +3325,7 @@
     {
       "event_id": "evt-067",
       "date": "2026-03-07",
-      "time": "00:00:00Z",
+      "time": "08:00:00Z",
       "title": "WHO, 포르도 방사능 낙진 경보",
       "summary": "IAEA가 포르도 농축시설 인근에서 극도로 높은 방사성 동위원소 수치를 감지, 연합군의 벙커버스터 공격으로 격납 구조물이 파괴된 것을 확인했다.",
       "importance": "critical",
@@ -3365,7 +3365,7 @@
     {
       "event_id": "evt-068",
       "date": "2026-03-07",
-      "time": "00:00:00Z",
+      "time": "11:45:00Z",
       "title": "헤즈볼라, 아이언돔 돌파 하이파 정유시설 타격",
       "summary": "Hezbollah Saturation Attack Penetrates Iron Dome, Striking Haifa Refineries. (설명 원문 참조)",
       "importance": "critical",
@@ -3405,7 +3405,7 @@
     {
       "event_id": "evt-069",
       "date": "2026-03-07",
-      "time": "00:00:00Z",
+      "time": "14:30:00Z",
       "title": "패트리엇, 이라크 민병대 순항미사일 격파",
       "summary": "Patriot Batteries Neutralize Iraqi Militia Cruise Missiles. (설명 원문 참조)",
       "importance": "critical",
@@ -3445,7 +3445,7 @@
     {
       "event_id": "evt-070",
       "date": "2026-03-07",
-      "time": "00:00:00Z",
+      "time": "17:00:00Z",
       "title": "쿠웨이트, 민간 영공 폐쇄",
       "summary": "Kuwait Mandates Commercial Airspace Closure Amid Gulf Escalation. (설명 원문 참조)",
       "importance": "critical",
@@ -3485,7 +3485,7 @@
     {
       "event_id": "evt-071",
       "date": "2026-03-07",
-      "time": "00:00:00Z",
+      "time": "19:15:00Z",
       "title": "미 사이버사령부, IRGC 사이버 공격",
       "summary": "US Cyber Command Initiates Offensive Operations Against IRGC Networks. (설명 원문 참조)",
       "importance": "critical",
@@ -3525,7 +3525,7 @@
     {
       "event_id": "evt-072",
       "date": "2026-03-07",
-      "time": "00:00:00Z",
+      "time": "22:30:00Z",
       "title": "미 항모전단, 후티 복합 공격 격퇴",
       "summary": "US Carrier Strike Group Repels Coordinated Houthi USV and ASBM Swarm. (설명 원문 참조)",
       "importance": "critical",
@@ -3565,7 +3565,7 @@
     {
       "event_id": "evt-073",
       "date": "2026-03-08",
-      "time": "00:00:00Z",
+      "time": "02:00:00Z",
       "title": "연합군, 카스피해 군수기지 타격",
       "summary": "Coalition Strikes Caspian Sea Logistics Nodes. (설명 원문 참조)",
       "importance": "major",
@@ -3605,7 +3605,7 @@
     {
       "event_id": "evt-074",
       "date": "2026-03-08",
-      "time": "00:00:00Z",
+      "time": "05:30:00Z",
       "title": "IDF, 제즈닌 진격 중 EFP 매복 피해",
       "summary": "IDF Armor Encounters Heavy EFP Ambushes Advancing on Jezzine. (설명 원문 참조)",
       "importance": "critical",
@@ -3645,7 +3645,7 @@
     {
       "event_id": "evt-075",
       "date": "2026-03-08",
-      "time": "00:00:00Z",
+      "time": "08:45:00Z",
       "title": "애로우3, 이란 극초음속 무기 첫 요격",
       "summary": "Arrow 3 Intercepts First Suspected Iranian Hypersonic Glide Vehicle. (설명 원문 참조)",
       "importance": "critical",
@@ -3685,7 +3685,7 @@
     {
       "event_id": "evt-076",
       "date": "2026-03-08",
-      "time": "00:00:00Z",
+      "time": "11:15:00Z",
       "title": "EU, 핵시설 공습 제재 위협",
       "summary": "EU Threatens Sanctions Over Counter-Nuclear Radiological Fallout. (설명 원문 참조)",
       "importance": "critical",
@@ -3725,7 +3725,7 @@
     {
       "event_id": "evt-077",
       "date": "2026-03-08",
-      "time": "00:00:00Z",
+      "time": "14:00:00Z",
       "title": "드론, 쿠웨이트 영공 침투 미군 격납고 타격",
       "summary": "Proxy Drone Penetrates Kuwaiti Airspace, Striking US Hangar. (설명 원문 참조)",
       "importance": "major",
@@ -3765,7 +3765,7 @@
     {
       "event_id": "evt-078",
       "date": "2026-03-08",
-      "time": "00:00:00Z",
+      "time": "16:30:00Z",
       "title": "후티, 해저 광케이블 절단",
       "summary": "Houthi Sabotage Teams Sever Submarine Telecommunications Cable. (설명 원문 참조)",
       "importance": "major",
@@ -3805,7 +3805,7 @@
     {
       "event_id": "evt-079",
       "date": "2026-03-08",
-      "time": "00:00:00Z",
+      "time": "19:00:00Z",
       "title": "IAF, 시리아 IRGC 쿠드스군 지휘관 제거",
       "summary": "IAF Decapitation Strike Eliminates IRGC-QF Syrian Liaison. (설명 원문 참조)",
       "importance": "critical",
@@ -3845,7 +3845,7 @@
     {
       "event_id": "evt-080",
       "date": "2026-03-08",
-      "time": "00:00:00Z",
+      "time": "22:15:00Z",
       "title": "사우디 방공, 주바일 드론 요격",
       "summary": "Royal Saudi Air Defense Intercepts Drone Swarm Targeting Jubail. (설명 원문 참조)",
       "importance": "critical",
@@ -3885,7 +3885,7 @@
     {
       "event_id": "evt-081",
       "date": "2026-03-09",
-      "time": "00:00:00Z",
+      "time": "02:15:00Z",
       "title": "IAF, 반다르아바스 해군 항공 타격",
       "summary": "IAF Executes Deep Strike on IRGC Naval Aviation Facilities. (설명 원문 참조)",
       "importance": "critical",
@@ -3925,7 +3925,7 @@
     {
       "event_id": "evt-082",
       "date": "2026-03-09",
-      "time": "00:00:00Z",
+      "time": "05:30:00Z",
       "title": "IDF, 제즈닌 고지대 거점 확보",
       "summary": "IDF Consolidates Positions on Jezzine High Ground Amid Heavy Friction. (설명 원문 참조)",
       "importance": "major",
@@ -3965,7 +3965,7 @@
     {
       "event_id": "evt-083",
       "date": "2026-03-09",
-      "time": "00:00:00Z",
+      "time": "08:45:00Z",
       "title": "미 해군, 후티 해안 레이더 제압",
       "summary": "US Navy Conducts SEAD Strikes on Houthi Coastal Radar Arrays. (설명 원문 참조)",
       "importance": "critical",
@@ -4005,7 +4005,7 @@
     {
       "event_id": "evt-084",
       "date": "2026-03-09",
-      "time": "00:00:00Z",
+      "time": "11:20:00Z",
       "title": "이라크 민병대, 아사드 기지 탄도탄 타격",
       "summary": "Proxy Ballistic Missiles Strike US Perimeter at Al Asad. (설명 원문 참조)",
       "importance": "critical",
@@ -4045,7 +4045,7 @@
     {
       "event_id": "evt-085",
       "date": "2026-03-09",
-      "time": "00:00:00Z",
+      "time": "14:00:00Z",
       "title": "미 국방부, 요격미사일 긴급 공수",
       "summary": "Pentagon Expedites Emergency Airlift of Interceptor Munitions. (설명 원문 참조)",
       "importance": "critical",
@@ -4085,7 +4085,7 @@
     {
       "event_id": "evt-086",
       "date": "2026-03-09",
-      "time": "00:00:00Z",
+      "time": "16:45:00Z",
       "title": "IAF, 이라크-시리아 국경 무기 수송 차단",
       "summary": "IAF Interdicts Strategic Weapons Convoy on Iraqi-Syrian Border. (설명 원문 참조)",
       "importance": "major",
@@ -4125,7 +4125,7 @@
     {
       "event_id": "evt-087",
       "date": "2026-03-09",
-      "time": "00:00:00Z",
+      "time": "19:30:00Z",
       "title": "애로우3, 후티 중거리미사일 요격",
       "summary": "Arrow 3 Achieves Exo-Atmospheric Kill Against Houthi MRBM. (설명 원문 참조)",
       "importance": "critical",
@@ -4165,7 +4165,7 @@
     {
       "event_id": "evt-088",
       "date": "2026-03-09",
-      "time": "00:00:00Z",
+      "time": "22:10:00Z",
       "title": "오만, 영공 무기한 폐쇄",
       "summary": "Oman Indefinitely Closes Airspace Due to Regional Kinetic Spillover. (설명 원문 참조)",
       "importance": "critical",
@@ -4205,7 +4205,7 @@
     {
       "event_id": "evt-089",
       "date": "2026-03-10",
-      "time": "00:00:00Z",
+      "time": "01:00:00Z",
       "title": "연합군, 이스파한 재건 항공우주 시설 파괴",
       "summary": "Coalition Destroys Reconstituted IRGC Aerospace Facilities. (설명 원문 참조)",
       "importance": "critical",
@@ -4245,7 +4245,7 @@
     {
       "event_id": "evt-090",
       "date": "2026-03-10",
-      "time": "00:00:00Z",
+      "time": "04:30:00Z",
       "title": "IDF, 시돈 기계화 작전 개시",
       "summary": "IDF Initiates Mechanized Shaping Operations Near Sidon. (설명 원문 참조)",
       "importance": "critical",
@@ -4285,7 +4285,7 @@
     {
       "event_id": "evt-091",
       "date": "2026-03-10",
-      "time": "00:00:00Z",
+      "time": "07:15:00Z",
       "title": "패트리엇, 하리르 기지 위협 요격",
       "summary": "Patriot PAC-3 Neutralizes SRBM Targeting Harir Air Base. (설명 원문 참조)",
       "importance": "critical",
@@ -4325,7 +4325,7 @@
     {
       "event_id": "evt-092",
       "date": "2026-03-10",
-      "time": "00:00:00Z",
+      "time": "10:00:00Z",
       "title": "중국, 걸프 해군 전단 파견",
       "summary": "PLAN Deploys Naval Task Force for Contingency NEO. (설명 원문 참조)",
       "importance": "major",
@@ -4365,7 +4365,7 @@
     {
       "event_id": "evt-093",
       "date": "2026-03-10",
-      "time": "00:00:00Z",
+      "time": "13:30:00Z",
       "title": "미 B-52, 후티 지하터널 대량 폭격",
       "summary": "USAF B-52s Execute Carpet Bombing on Houthi Tunnels. (설명 원문 참조)",
       "importance": "critical",
@@ -4405,7 +4405,7 @@
     {
       "event_id": "evt-094",
       "date": "2026-03-10",
-      "time": "00:00:00Z",
+      "time": "16:45:00Z",
       "title": "헤즈볼라, 하이파 방공망 돌파",
       "summary": "Hezbollah Barrage Penetrates Northern Air Defenses. (설명 원문 참조)",
       "importance": "critical",
@@ -4445,7 +4445,7 @@
     {
       "event_id": "evt-095",
       "date": "2026-03-10",
-      "time": "00:00:00Z",
+      "time": "19:20:00Z",
       "title": "미 구축함, IRGC 무인선박 공격 격퇴",
       "summary": "US Destroyer Repels IRGC USV Swarm Attack. (설명 원문 참조)",
       "importance": "critical",
@@ -4485,7 +4485,7 @@
     {
       "event_id": "evt-096",
       "date": "2026-03-10",
-      "time": "00:00:00Z",
+      "time": "22:00:00Z",
       "title": "이집트, 시나이 영공 제한",
       "summary": "Egypt Restricts Sinai Airspace Amid Red Sea Escalation. (설명 원문 참조)",
       "importance": "critical",
@@ -4525,7 +4525,7 @@
     {
       "event_id": "evt-097",
       "date": "2026-03-11",
-      "time": "00:00:00Z",
+      "time": "02:00:00Z",
       "title": "연합군, 이란 동부 이동 발사대 추적",
       "summary": "Coalition Aircraft Hunt Dispersed IRGC Mobile TELs. (설명 원문 참조)",
       "importance": "critical",
@@ -4565,7 +4565,7 @@
     {
       "event_id": "evt-098",
       "date": "2026-03-11",
-      "time": "00:00:00Z",
+      "time": "05:45:00Z",
       "title": "IDF 기갑, 차량폭탄 매복 대규모 피해",
       "summary": "IDF Armor Column Sustains Heavy Casualties in Complex VBIED Ambush. (설명 원문 참조)",
       "importance": "critical",
@@ -4605,7 +4605,7 @@
     {
       "event_id": "evt-099",
       "date": "2026-03-11",
-      "time": "00:00:00Z",
+      "time": "09:15:00Z",
       "title": "후티, 중국 선적 화물선 타격",
       "summary": "Houthi ASBM Strikes Chinese-Flagged Bulk Carrier. (설명 원문 참조)",
       "importance": "critical",
@@ -4645,7 +4645,7 @@
     {
       "event_id": "evt-100",
       "date": "2026-03-11",
-      "time": "00:00:00Z",
+      "time": "12:30:00Z",
       "title": "C-RAM, 하리르 기지 드론 격파",
       "summary": "C-RAM Defeats Drone Swarm Targeting Harir Air Base. (설명 원문 참조)",
       "importance": "major",
@@ -4685,7 +4685,7 @@
     {
       "event_id": "evt-101",
       "date": "2026-03-11",
-      "time": "00:00:00Z",
+      "time": "15:00:00Z",
       "title": "중국, 이란에 즉각 긴장완화 요구",
       "summary": "China Demands Immediate De-escalation Following Vessel Strike. (설명 원문 참조)",
       "importance": "major",
@@ -4725,7 +4725,7 @@
     {
       "event_id": "evt-102",
       "date": "2026-03-11",
-      "time": "00:00:00Z",
+      "time": "17:45:00Z",
       "title": "IAF, 다마스쿠스 IRGC 지하무기고 타격",
       "summary": "IAF Strikes IRGC-QF Subterranean Weapons Cache Near Mezzeh. (설명 원문 참조)",
       "importance": "critical",
@@ -4765,7 +4765,7 @@
     {
       "event_id": "evt-103",
       "date": "2026-03-11",
-      "time": "00:00:00Z",
+      "time": "20:20:00Z",
       "title": "헤즈볼라, 사페드 IDF 지휘소 공격",
       "summary": "Hezbollah Precision Rocket Barrage Degrades Northern C2 Nodes. (설명 원문 참조)",
       "importance": "critical",
@@ -4805,7 +4805,7 @@
     {
       "event_id": "evt-104",
       "date": "2026-03-11",
-      "time": "00:00:00Z",
+      "time": "23:10:00Z",
       "title": "바레인, 영공 임시 폐쇄",
       "summary": "Bahrain Temporarily Closes Airspace Amid Rising Interception Debris Risks. (설명 원문 참조)",
       "importance": "critical",
@@ -4845,7 +4845,7 @@
     {
       "event_id": "evt-105",
       "date": "2026-03-12",
-      "time": "00:00:00Z",
+      "time": "03:15:00Z",
       "title": "중국 해군, 아덴만 진입 상선 호위",
       "summary": "PLAN Task Force Enters Gulf of Aden Escorting Commercial Shipping. (설명 원문 참조)",
       "importance": "major",
@@ -4885,7 +4885,7 @@
     {
       "event_id": "evt-106",
       "date": "2026-03-12",
-      "time": "00:00:00Z",
+      "time": "06:30:00Z",
       "title": "IAF F-35, 반다르아바스 IRGC 지휘소 타격",
       "summary": "IAF F-35s Execute Decapitation Strike on IRGCN Command Center. (설명 원문 참조)",
       "importance": "critical",
@@ -4925,7 +4925,7 @@
     {
       "event_id": "evt-107",
       "date": "2026-03-12",
-      "time": "00:00:00Z",
+      "time": "09:45:00Z",
       "title": "IDF 기갑 진격, 헤즈볼라 대전차 공세에 저지",
       "summary": "IDF Armor Advance Stalls Amid Massive Hezbollah ATGM Barrages. (설명 원문 참조)",
       "importance": "critical",
@@ -4965,7 +4965,7 @@
     {
       "event_id": "evt-108",
       "date": "2026-03-12",
-      "time": "00:00:00Z",
+      "time": "12:20:00Z",
       "title": "이라크 민병대 드론, 에르빌 군수기지 타격",
       "summary": "Iraqi Militia Drone Swarm Strikes Coalition Logistics Hub. (설명 원문 참조)",
       "importance": "critical",
@@ -5005,7 +5005,7 @@
     {
       "event_id": "evt-109",
       "date": "2026-03-12",
-      "time": "00:00:00Z",
+      "time": "15:00:00Z",
       "title": "중국, 이란에 홍해 안전 보장 최후통첩",
       "summary": "China Issues Ultimatum to Iran Over Red Sea Security Guarantees. (설명 원문 참조)",
       "importance": "critical",
@@ -5074,7 +5074,7 @@
     {
       "event_id": "evt-110",
       "date": "2026-03-12",
-      "time": "00:00:00Z",
+      "time": "17:45:00Z",
       "title": "애로우3, 예멘발 탄도미사일 3발 요격",
       "summary": "Arrow 3 Intercepts Coordinated Ballistic Missile Salvo from Yemen. (설명 원문 참조)",
       "importance": "critical",
@@ -5114,7 +5114,7 @@
     {
       "event_id": "evt-111",
       "date": "2026-03-12",
-      "time": "00:00:00Z",
+      "time": "20:30:00Z",
       "title": "미 전략폭격기, 후티 지하 ASBM 격납고 타격",
       "summary": "US Strategic Bombers Target Houthi Subterranean ASBM Caches. (설명 원문 참조)",
       "importance": "critical",
@@ -5154,7 +5154,7 @@
     {
       "event_id": "evt-112",
       "date": "2026-03-12",
-      "time": "00:00:00Z",
+      "time": "23:15:00Z",
       "title": "레바논, 공식 영공 폐쇄",
       "summary": "Lebanon Formally Closes Airspace as IAF Bombardment Intensifies. (설명 원문 참조)",
       "importance": "critical",
@@ -5194,7 +5194,7 @@
     {
       "event_id": "evt-113",
       "date": "2026-03-13",
-      "time": "00:00:00Z",
+      "time": "04:00:00Z",
       "title": "IRGC, 후티 해상 작전 일시 중단 명령",
       "summary": "IRGC Commands Temporary Halt to Houthi Maritime Operations Following Chinese Ultimatum. (설명 원문 참조)",
       "importance": "critical",
@@ -5263,7 +5263,7 @@
     {
       "event_id": "evt-114",
       "date": "2026-03-13",
-      "time": "00:00:00Z",
+      "time": "06:30:00Z",
       "title": "IAF, 베카 계곡 보급로 초토화",
       "summary": "IAF Executes Scorched-Earth Campaign on Beqaa Valley Logistical Arteries. (설명 원문 참조)",
       "importance": "major",
@@ -5303,7 +5303,7 @@
     {
       "event_id": "evt-115",
       "date": "2026-03-13",
-      "time": "00:00:00Z",
+      "time": "09:15:00Z",
       "title": "IDF, 시돈 교착 돌파",
       "summary": "IDF Breaks Stalemate at Sidon with Heavy Naval Gunfire Support. (설명 원문 참조)",
       "importance": "critical",
@@ -5343,7 +5343,7 @@
     {
       "event_id": "evt-116",
       "date": "2026-03-13",
-      "time": "00:00:00Z",
+      "time": "12:45:00Z",
       "title": "애로우3, 이란 탄도미사일 살보 전량 요격",
       "summary": "Arrow 3 Defeats Desperate Iranian Ballistic Missile Salvo Targeting Nevatim. (설명 원문 참조)",
       "importance": "critical",
@@ -5383,7 +5383,7 @@
     {
       "event_id": "evt-117",
       "date": "2026-03-13",
-      "time": "00:00:00Z",
+      "time": "15:30:00Z",
       "title": "미군 드론, 다마스쿠스서 이라크 민병대 지휘관 제거",
       "summary": "Coalition Drones Eliminate High-Ranking Iraqi Militia Commanders in Syria. (설명 원문 참조)",
       "importance": "critical",
@@ -5423,7 +5423,7 @@
     {
       "event_id": "evt-118",
       "date": "2026-03-13",
-      "time": "00:00:00Z",
+      "time": "18:00:00Z",
       "title": "미 항모전단, 공세적 재배치",
       "summary": "Pentagon Re-allocates Carrier Strike Group Following Maritime De-escalation. (설명 원문 참조)",
       "importance": "critical",
@@ -5463,7 +5463,7 @@
     {
       "event_id": "evt-119",
       "date": "2026-03-13",
-      "time": "00:00:00Z",
+      "time": "20:15:00Z",
       "title": "고립된 헤즈볼라, 북부 국경 박격포 공격",
       "summary": "Isolated Hezbollah Cells Launch Desperate Mortar Barrages on Northern Border. (설명 원문 참조)",
       "importance": "major",
@@ -5503,7 +5503,7 @@
     {
       "event_id": "evt-120",
       "date": "2026-03-13",
-      "time": "00:00:00Z",
+      "time": "22:45:00Z",
       "title": "ICAO, 중동 영공 교전구역 공식 지정",
       "summary": "ICAO Formally Downgrades Middle East Airspace to Active Combat Zone. (설명 원문 참조)",
       "importance": "critical",
@@ -5543,7 +5543,7 @@
     {
       "event_id": "evt-121",
       "date": "2026-03-14",
-      "time": "00:00:00Z",
+      "time": "02:00:00Z",
       "title": "연합군, 나탄즈 잔여 지하시설 타격",
       "summary": "Coalition Bunker-Busters Target Residual Natanz Subterranean Facilities. (설명 원문 참조)",
       "importance": "critical",
@@ -5583,7 +5583,7 @@
     {
       "event_id": "evt-122",
       "date": "2026-03-14",
-      "time": "00:00:00Z",
+      "time": "05:15:00Z",
       "title": "IDF 36사단, 아왈리강 도하 베이루트 접근",
       "summary": "IDF 36th Division Crosses Awali River Approaching Beirut. (설명 원문 참조)",
       "importance": "major",
@@ -5623,7 +5623,7 @@
     {
       "event_id": "evt-123",
       "date": "2026-03-14",
-      "time": "00:00:00Z",
+      "time": "08:30:00Z",
       "title": "GCC, 오만 경유 비밀 휴전 협상 개시",
       "summary": "GCC Initiates Emergency Back-Channel Ceasefire Negotiations via Oman. (설명 원문 참조)",
       "importance": "major",
@@ -5663,7 +5663,7 @@
     {
       "event_id": "evt-124",
       "date": "2026-03-14",
-      "time": "00:00:00Z",
+      "time": "11:45:00Z",
       "title": "아이언돔, 골란 상공 이라크 드론 요격",
       "summary": "Iron Dome Intercepts Iraqi Militia Drone Swarm Over Golan. (설명 원문 참조)",
       "importance": "critical",
@@ -5703,7 +5703,7 @@
     {
       "event_id": "evt-125",
       "date": "2026-03-14",
-      "time": "00:00:00Z",
+      "time": "14:20:00Z",
       "title": "IAF, 이라크 탈출 시도 IRGC 차량 타격",
       "summary": "IAF Strikes IRGC-QF Convoy Attempting Exfiltration to Iraq. (설명 원문 참조)",
       "importance": "major",
@@ -5743,7 +5743,7 @@
     {
       "event_id": "evt-126",
       "date": "2026-03-14",
-      "time": "00:00:00Z",
+      "time": "17:00:00Z",
       "title": "미 사이버사령부, 이란 전국 전력망 마비",
       "summary": "USCYBERCOM Destabilizes Iranian National Power Grid. (설명 원문 참조)",
       "importance": "critical",
@@ -5783,7 +5783,7 @@
     {
       "event_id": "evt-127",
       "date": "2026-03-14",
-      "time": "00:00:00Z",
+      "time": "19:30:00Z",
       "title": "PIJ, 가자 인도구역서 에일라트 로켓 발사",
       "summary": "PIJ Launches Rocket Barrage from Gaza Humanitarian Zones. (설명 원문 참조)",
       "importance": "major",
@@ -5823,7 +5823,7 @@
     {
       "event_id": "evt-128",
       "date": "2026-03-14",
-      "time": "00:00:00Z",
+      "time": "22:15:00Z",
       "title": "IAF, 베이루트 중심부 헤즈볼라 타격",
       "summary": "IAF Targets Hezbollah Administrative Centers in Central Beirut. (설명 원문 참조)",
       "importance": "major",
@@ -5863,7 +5863,7 @@
     {
       "event_id": "evt-129",
       "date": "2026-03-15",
-      "time": "00:00:00Z",
+      "time": "04:00:00Z",
       "title": "IDF, 베이루트 남부 외곽 진입",
       "summary": "IDF Armor Reaches Southern Outskirts of Beirut. (설명 원문 참조)",
       "importance": "critical",
@@ -5903,7 +5903,7 @@
     {
       "event_id": "evt-130",
       "date": "2026-03-15",
-      "time": "00:00:00Z",
+      "time": "07:30:00Z",
       "title": "미 공군, 이란 지하 통신망 타격",
       "summary": "USAF Targets Subterranean Fiber-Optic C2 Nodes. (설명 원문 참조)",
       "importance": "critical",
@@ -5943,7 +5943,7 @@
     {
       "event_id": "evt-131",
       "date": "2026-03-15",
-      "time": "00:00:00Z",
+      "time": "10:15:00Z",
       "title": "패트리엇, 이라크 민병대 드론 격파",
       "summary": "US Patriot Batteries Neutralize Iraqi Militia Drone Swarm. (설명 원문 참조)",
       "importance": "critical",
@@ -5983,7 +5983,7 @@
     {
       "event_id": "evt-132",
       "date": "2026-03-15",
-      "time": "00:00:00Z",
+      "time": "13:45:00Z",
       "title": "IAF, 베이루트 중심부 벙커 타격",
       "summary": "IAF Decapitation Strikes Target Central Beirut Bunkers. (설명 원문 참조)",
       "importance": "critical",
@@ -6023,7 +6023,7 @@
     {
       "event_id": "evt-133",
       "date": "2026-03-15",
-      "time": "00:00:00Z",
+      "time": "16:30:00Z",
       "title": "GCC, 이란에 단계적 긴장완화 제안",
       "summary": "GCC Mediators Present De-escalation Framework to Tehran. (설명 원문 참조)",
       "importance": "major",
@@ -6063,7 +6063,7 @@
     {
       "event_id": "evt-134",
       "date": "2026-03-15",
-      "time": "00:00:00Z",
+      "time": "19:00:00Z",
       "title": "IDF, 가자 PIJ 매복 격퇴",
       "summary": "IDF Repels PIJ Ambush Attempt in Central Gaza. (설명 원문 참조)",
       "importance": "major",
@@ -6103,7 +6103,7 @@
     {
       "event_id": "evt-135",
       "date": "2026-03-15",
-      "time": "00:00:00Z",
+      "time": "21:15:00Z",
       "title": "미 해군, 바브엘만데브 소해 작전",
       "summary": "US Navy Commences Aggressive Minesweeping Operations. (설명 원문 참조)",
       "importance": "critical",
@@ -6143,7 +6143,7 @@
     {
       "event_id": "evt-136",
       "date": "2026-03-15",
-      "time": "00:00:00Z",
+      "time": "23:45:00Z",
       "title": "아이언돔, 시리아 발사 로켓 요격",
       "summary": "Iron Dome Intercepts Syrian-Launched Heavy Rockets. (설명 원문 참조)",
       "importance": "major",
@@ -6183,7 +6183,7 @@
     {
       "event_id": "evt-137",
       "date": "2026-03-16",
-      "time": "00:00:00Z",
+      "time": "03:00:00Z",
       "title": "IDF, 베이루트 완전 포위",
       "summary": "IDF 36·98사단이 베이루트 광역시를 완전히 포위하는 데 성공, 헤즈볼라의 모든 탈출로와 외부 보급선을 차단했다.",
       "importance": "major",
@@ -6252,7 +6252,7 @@
     {
       "event_id": "evt-138",
       "date": "2026-03-16",
-      "time": "00:00:00Z",
+      "time": "06:45:00Z",
       "title": "IAF, 케르만샤 IRGC 지하 지휘소 타격",
       "summary": "IAF Targets Subterranean IRGC Command Bunkers. (설명 원문 참조)",
       "importance": "critical",
@@ -6292,7 +6292,7 @@
     {
       "event_id": "evt-139",
       "date": "2026-03-16",
-      "time": "00:00:00Z",
+      "time": "09:30:00Z",
       "title": "미 해군, 홍해 소해 작전 가속",
       "summary": "US Navy Accelerates Mine Countermeasures in Red Sea. (설명 원문 참조)",
       "importance": "critical",
@@ -6332,7 +6332,7 @@
     {
       "event_id": "evt-140",
       "date": "2026-03-16",
-      "time": "00:00:00Z",
+      "time": "12:15:00Z",
       "title": "미군, 코노코 기지 드론 공격 격퇴",
       "summary": "US Forces Repel Iraqi Militia Drone Swarm at Conoco Base. (설명 원문 참조)",
       "importance": "major",
@@ -6372,7 +6372,7 @@
     {
       "event_id": "evt-141",
       "date": "2026-03-16",
-      "time": "00:00:00Z",
+      "time": "15:00:00Z",
       "title": "이란, 무스카트서 GCC 휴전안 검토",
       "summary": "Iran Evaluates GCC Ceasefire Ultimatum in Muscat. (설명 원문 참조)",
       "importance": "critical",
@@ -6412,7 +6412,7 @@
     {
       "event_id": "evt-142",
       "date": "2026-03-16",
-      "time": "00:00:00Z",
+      "time": "17:45:00Z",
       "title": "IAF, 다히예 헤즈볼라 지휘소 정밀 타격",
       "summary": "IAF Executes Precision Strikes on Hezbollah C2 Nodes in Dahiyeh. (설명 원문 참조)",
       "importance": "major",
@@ -6452,7 +6452,7 @@
     {
       "event_id": "evt-143",
       "date": "2026-03-16",
-      "time": "00:00:00Z",
+      "time": "20:30:00Z",
       "title": "아이언돔, 골란 시리아 민병대 로켓 요격",
       "summary": "Iron Dome Intercepts Syrian Militia Rocket Fire at Golan. (설명 원문 참조)",
       "importance": "major",
@@ -6492,7 +6492,7 @@
     {
       "event_id": "evt-144",
       "date": "2026-03-16",
-      "time": "00:00:00Z",
+      "time": "22:15:00Z",
       "title": "중국 해군, 아덴만 항행의 자유 작전",
       "summary": "PLAN Task Force Conducts High-Visibility FONOPs in Gulf of Aden. (설명 원문 참조)",
       "importance": "major",
@@ -6532,7 +6532,7 @@
     {
       "event_id": "evt-145",
       "date": "2026-03-17",
-      "time": "00:00:00Z",
+      "time": "02:00:00Z",
       "title": "연합군, IRGC 내부 치안 인프라 타격",
       "summary": "Coalition Degrades IRGC Internal Security Infrastructure. (설명 원문 참조)",
       "importance": "critical",
@@ -6572,7 +6572,7 @@
     {
       "event_id": "evt-146",
       "date": "2026-03-17",
-      "time": "00:00:00Z",
+      "time": "05:30:00Z",
       "title": "IDF, 다히예 외곽 방어선 돌파",
       "summary": "IDF Breaches Dahiyeh Outer Defensive Perimeter. (설명 원문 참조)",
       "importance": "major",
@@ -6612,7 +6612,7 @@
     {
       "event_id": "evt-147",
       "date": "2026-03-17",
-      "time": "00:00:00Z",
+      "time": "08:15:00Z",
       "title": "미 해군, 이라크 민병대 순항미사일 격파",
       "summary": "US Navy Aegis Cruisers Defeat Iraqi Cruise Missile Salvo. (설명 원문 참조)",
       "importance": "major",
@@ -6652,7 +6652,7 @@
     {
       "event_id": "evt-148",
       "date": "2026-03-17",
-      "time": "00:00:00Z",
+      "time": "11:00:00Z",
       "title": "테헤란·이스파한 등 이란 전역 반정부 폭동",
       "summary": "이란 전역에서 전국 단전·경제난·IRGC 내부치안 붕괴를 계기로 대규모 반정부 폭동이 발생, 일부 시민이 바시즈 민병대 무기고를 탈취해 무장충돌이 발생했다.",
       "importance": "critical",
@@ -6743,7 +6743,7 @@
     {
       "event_id": "evt-149",
       "date": "2026-03-17",
-      "time": "00:00:00Z",
+      "time": "14:30:00Z",
       "title": "IDF, 베이루트 공항 지하 터널 발견",
       "summary": "IDF Uncovers Strategic Subterranean Network Beneath Beirut Airport. (설명 원문 참조)",
       "importance": "major",
@@ -6783,7 +6783,7 @@
     {
       "event_id": "evt-150",
       "date": "2026-03-17",
-      "time": "00:00:00Z",
+      "time": "16:45:00Z",
       "title": "IAF, 시리아 동부 IRGC 마지막 보급대 격파",
       "summary": "IAF Obliterates Final IRGC Supply Convoy in Eastern Syria. (설명 원문 참조)",
       "importance": "critical",
@@ -6823,7 +6823,7 @@
     {
       "event_id": "evt-151",
       "date": "2026-03-17",
-      "time": "00:00:00Z",
+      "time": "19:20:00Z",
       "title": "이란, GCC 휴전 최후통첩 연장 요청",
       "summary": "Iran Formally Requests Extension on GCC Ceasefire Ultimatum. (설명 원문 참조)",
       "importance": "major",
@@ -6863,7 +6863,7 @@
     {
       "event_id": "evt-152",
       "date": "2026-03-17",
-      "time": "00:00:00Z",
+      "time": "22:00:00Z",
       "title": "포위된 헤즈볼라, 텔아비브 로켓 발사",
       "summary": "Besieged Hezbollah Cells Launch Unguided Barrage at Central Israel. (설명 원문 참조)",
       "importance": "major",
@@ -6903,7 +6903,7 @@
     {
       "event_id": "evt-153",
       "date": "2026-03-18",
-      "time": "00:00:00Z",
+      "time": "02:15:00Z",
       "title": "IRGC·아르테시 무장 충돌 보고",
       "summary": "Reported Armed Friction Between IRGC and Artesh Units in Tehran. (설명 원문 참조)",
       "importance": "critical",
@@ -6972,7 +6972,7 @@
     {
       "event_id": "evt-154",
       "date": "2026-03-18",
-      "time": "00:00:00Z",
+      "time": "05:45:00Z",
       "title": "IDF, 다히예 헤즈볼라 지휘 인프라 타격",
       "summary": "IDF Strikes Hezbollah Command Infrastructure in Dahiyeh. (설명 원문 참조)",
       "importance": "major",
@@ -7012,7 +7012,7 @@
     {
       "event_id": "evt-155",
       "date": "2026-03-18",
-      "time": "00:00:00Z",
+      "time": "08:30:00Z",
       "title": "미 중부사령부, 이란 동부 군사 타격 확인",
       "summary": "CENTCOM Confirms Strikes on Iranian Military Targets in Eastern Provinces. (설명 원문 참조)",
       "importance": "major",
@@ -7052,7 +7052,7 @@
     {
       "event_id": "evt-156",
       "date": "2026-03-18",
-      "time": "00:00:00Z",
+      "time": "11:15:00Z",
       "title": "헤즈볼라, 하이파 및 북부 로켓 발사",
       "summary": "Hezbollah Fires Rockets Toward Haifa and Northern Communities. (설명 원문 참조)",
       "importance": "major",
@@ -7092,7 +7092,7 @@
     {
       "event_id": "evt-157",
       "date": "2026-03-18",
-      "time": "00:00:00Z",
+      "time": "14:00:00Z",
       "title": "IAF, 이스파한 IRGC 항공우주 시설 타격",
       "summary": "IAF Strikes IRGC Aerospace Facilities in Isfahan. (설명 원문 참조)",
       "importance": "major",
@@ -7132,7 +7132,7 @@
     {
       "event_id": "evt-158",
       "date": "2026-03-18",
-      "time": "00:00:00Z",
+      "time": "16:45:00Z",
       "title": "미 해군, 북부 홍해 소해 작전",
       "summary": "US Navy Conducts Mine Countermeasure Operations in Northern Red Sea. (설명 원문 참조)",
       "importance": "major",
@@ -7172,7 +7172,7 @@
     {
       "event_id": "evt-159",
       "date": "2026-03-18",
-      "time": "00:00:00Z",
+      "time": "19:30:00Z",
       "title": "GCC 휴전안 기한 도과, 이란 통일된 답변 없어",
       "summary": "GCC Ceasefire Framework Deadline Passes Without Unified Iranian Response. (설명 원문 참조)",
       "importance": "critical",
@@ -7241,7 +7241,7 @@
     {
       "event_id": "evt-160",
       "date": "2026-03-18",
-      "time": "00:00:00Z",
+      "time": "22:00:00Z",
       "title": "이란, 걸프 국가 미사일·드론 공격 지속",
       "summary": "Iran Fires Missiles and Drones at Gulf States as Regional Attacks Continue. (설명 원문 참조)",
       "importance": "critical",
@@ -7281,7 +7281,7 @@
     {
       "event_id": "evt-161",
       "date": "2026-03-19",
-      "time": "00:00:00Z",
+      "time": "02:15:00Z",
       "title": "아르테시 최고사령부, 지방 IRGC 지휘권 주장",
       "summary": "Artesh High Command Issues Authority Assertions Over IRGC Provincial Units. (설명 원문 참조)",
       "importance": "minor",
@@ -7321,7 +7321,7 @@
     {
       "event_id": "evt-162",
       "date": "2026-03-19",
-      "time": "00:00:00Z",
+      "time": "05:45:00Z",
       "title": "IDF, 다히예 헤즈볼라 인프라 작전 지속",
       "summary": "IDF Continues Operations Against Hezbollah Infrastructure in Dahiyeh. (설명 원문 참조)",
       "importance": "major",
@@ -7361,7 +7361,7 @@
     {
       "event_id": "evt-163",
       "date": "2026-03-19",
-      "time": "00:00:00Z",
+      "time": "08:30:00Z",
       "title": "연합군, 이란 지휘·항공우주 인프라 타격",
       "summary": "Coalition Strikes Iranian Command and Aerospace Infrastructure. (설명 원문 참조)",
       "importance": "major",
@@ -7401,7 +7401,7 @@
     {
       "event_id": "evt-164",
       "date": "2026-03-19",
-      "time": "00:00:00Z",
+      "time": "11:15:00Z",
       "title": "헤즈볼라, 북부 이스라엘 54차례 공격",
       "summary": "Hezbollah Sustains 54 Attack Waves Against Northern Israel. (설명 원문 참조)",
       "importance": "major",
@@ -7441,7 +7441,7 @@
     {
       "event_id": "evt-165",
       "date": "2026-03-19",
-      "time": "00:00:00Z",
+      "time": "14:00:00Z",
       "title": "UAE 방공, 이란 탄도미사일·드론 요격",
       "summary": "UAE Air Defenses Engage Iranian Ballistic Missiles and UAVs. (설명 원문 참조)",
       "importance": "critical",
@@ -7481,7 +7481,7 @@
     {
       "event_id": "evt-166",
       "date": "2026-03-19",
-      "time": "00:00:00Z",
+      "time": "16:45:00Z",
       "title": "레바논 살람 총리, 전쟁 결정권 국가 환수 촉구",
       "summary": "Lebanese PM Salam Calls for State Authority Over War and Peace Decisions. (설명 원문 참조)",
       "importance": "minor",
@@ -7521,7 +7521,7 @@
     {
       "event_id": "evt-167",
       "date": "2026-03-19",
-      "time": "00:00:00Z",
+      "time": "19:30:00Z",
       "title": "헤즈볼라, 아슈켈론까지 이례적 미사일 발사",
       "summary": "Hezbollah Fires Unusual Missile Launch Toward Ashkelon Area. (설명 원문 참조)",
       "importance": "major",
@@ -7561,7 +7561,7 @@
     {
       "event_id": "evt-168",
       "date": "2026-03-19",
-      "time": "00:00:00Z",
+      "time": "22:00:00Z",
       "title": "GCC, 비공개 외교 채널 활동 지속",
       "summary": "GCC and International Partners Continue Diplomatic Back-Channel Activity. (설명 원문 참조)",
       "importance": "major",
@@ -7601,7 +7601,7 @@
     {
       "event_id": "evt-169",
       "date": "2026-03-20",
-      "time": "00:00:00Z",
+      "time": "02:15:00Z",
       "title": "트럼프, 호르무즈 48시간 최후통첩",
       "summary": "트럼프 대통령이 트루스소셜에 이란이 48시간 내 호르무즈 해협을 완전 개방하지 않으면 대형 발전소부터 공격하겠다고 최후통첩을 발표했다.",
       "importance": "critical",
@@ -7692,7 +7692,7 @@
     {
       "event_id": "evt-170",
       "date": "2026-03-20",
-      "time": "00:00:00Z",
+      "time": "05:45:00Z",
       "title": "연합군, 이란 미사일 생산 시설 타격",
       "summary": "Coalition Strikes Iranian Missile Production Infrastructure. (설명 원문 참조)",
       "importance": "major",
@@ -7732,7 +7732,7 @@
     {
       "event_id": "evt-171",
       "date": "2026-03-20",
-      "time": "00:00:00Z",
+      "time": "08:30:00Z",
       "title": "IDF 공병, 다히예 철거 작전",
       "summary": "IDF Combat Engineers Conduct Demolition Operations in Dahiyeh. (설명 원문 참조)",
       "importance": "major",
@@ -7772,7 +7772,7 @@
     {
       "event_id": "evt-172",
       "date": "2026-03-20",
-      "time": "00:00:00Z",
+      "time": "11:15:00Z",
       "title": "이란, 북부 이스라엘 5차 미사일 공격",
       "summary": "Iran Launches Fifth Missile Barrage of the Day Against Northern Israel. (설명 원문 참조)",
       "importance": "major",
@@ -7812,7 +7812,7 @@
     {
       "event_id": "evt-173",
       "date": "2026-03-20",
-      "time": "00:00:00Z",
+      "time": "14:00:00Z",
       "title": "이란, 걸프 국가 인프라 공격 지속",
       "summary": "Iran Continues Strikes on Gulf State Infrastructure. (설명 원문 참조)",
       "importance": "major",
@@ -7852,7 +7852,7 @@
     {
       "event_id": "evt-174",
       "date": "2026-03-20",
-      "time": "00:00:00Z",
+      "time": "16:45:00Z",
       "title": "이란, 걸프 에너지 인프라 보복 위협",
       "summary": "Iran Threatens Gulf Energy Infrastructure in Response to Hormuz Ultimatum. (설명 원문 참조)",
       "importance": "critical",
@@ -7894,7 +7894,7 @@
     {
       "event_id": "evt-175",
       "date": "2026-03-20",
-      "time": "00:00:00Z",
+      "time": "19:30:00Z",
       "title": "IDF, 남부 베이루트 외곽 대피령",
       "summary": "IDF Issues Evacuation Notice for Southern Beirut Suburbs. (설명 원문 참조)",
       "importance": "major",
@@ -7934,7 +7934,7 @@
     {
       "event_id": "evt-176",
       "date": "2026-03-20",
-      "time": "00:00:00Z",
+      "time": "22:00:00Z",
       "title": "요격 파편 예루살렘 구시가지 낙하",
       "summary": "Intercepted Missile Shrapnel Strikes Old City of Jerusalem. (설명 원문 참조)",
       "importance": "major",
@@ -7974,7 +7974,7 @@
     {
       "event_id": "evt-177",
       "date": "2026-03-21",
-      "time": "00:00:00Z",
+      "time": "02:15:00Z",
       "title": "IAF 60기, 테헤란 무기공장 150발 투하",
       "summary": "IAF Launches Large-Scale Strikes on Tehran Weapons Production Facilities. (설명 원문 참조)",
       "importance": "major",
@@ -8014,7 +8014,7 @@
     {
       "event_id": "evt-178",
       "date": "2026-03-21",
-      "time": "00:00:00Z",
+      "time": "05:45:00Z",
       "title": "이란, 디에고가르시아 탄도미사일 2발 발사 실패",
       "summary": "Two Ballistic Missiles Fired Toward Diego Garcia; Both Fail to Strike Base. (설명 원문 참조)",
       "importance": "critical",
@@ -8054,7 +8054,7 @@
     {
       "event_id": "evt-179",
       "date": "2026-03-21",
-      "time": "00:00:00Z",
+      "time": "09:00:00Z",
       "title": "이란 탄도미사일, 디모나·아라드 타격 100명 부상",
       "summary": "이란 탄도미사일이 이스라엘 방공망을 뚫고 디모나·아라드 시를 직격, 4세 어린이를 포함한 100명 이상이 부상을 입었다. 시몬 페레스 네게브 핵연구소 인근 최초 직격이다.",
       "importance": "critical",
@@ -8137,7 +8137,7 @@
     {
       "event_id": "evt-180",
       "date": "2026-03-21",
-      "time": "00:00:00Z",
+      "time": "12:00:00Z",
       "title": "IDF 참모총장, 이란 작전 절반 완료",
       "summary": "IDF Chief Zamir Says Campaign at Halfway Stage; Approves Overnight Strikes. (설명 원문 참조)",
       "importance": "critical",
@@ -8177,7 +8177,7 @@
     {
       "event_id": "evt-181",
       "date": "2026-03-21",
-      "time": "00:00:00Z",
+      "time": "15:00:00Z",
       "title": "IRGC, 이스라엘 남부 군사·보안 시설 타격 주장",
       "summary": "IRGC Says It Targeted Israeli Military and Security Sites in Southern Israel. (설명 원문 참조)",
       "importance": "critical",
@@ -8217,7 +8217,7 @@
     {
       "event_id": "evt-182",
       "date": "2026-03-21",
-      "time": "00:00:00Z",
+      "time": "18:00:00Z",
       "title": "UAE, 341번째 탄도미사일 요격",
       "summary": "UAE Engages 341st Ballistic Missile and Ongoing Drone Attacks. (설명 원문 참조)",
       "importance": "critical",
@@ -8286,7 +8286,7 @@
     {
       "event_id": "evt-183",
       "date": "2026-03-21",
-      "time": "00:00:00Z",
+      "time": "21:00:00Z",
       "title": "이스라엘, 테헤란 동부 신규 공습",
       "summary": "Israel Launches New Wave of Strikes on Eastern Tehran. (설명 원문 참조)",
       "importance": "major",
@@ -8326,7 +8326,7 @@
     {
       "event_id": "evt-184",
       "date": "2026-03-21",
-      "time": "00:00:00Z",
+      "time": "23:30:00Z",
       "title": "트럼프, 발전소 위협 재차 강조",
       "summary": "트럼프 대통령이 이란 발전소 공격 위협을 반복하며 미국이 '예정보다 수주 앞서' 있다고 주장. 이란 지도부는 워싱턴과의 협상을 부인하며 '완전하고 포괄적인 전쟁 종식'을 추구한다고 밝혔다.",
       "importance": "major",
@@ -8366,7 +8366,7 @@
     {
       "event_id": "evt-185",
       "date": "2026-03-22",
-      "time": "00:00:00Z",
+      "time": "02:15:00Z",
       "title": "트럼프, 호르무즈 기한 연장 발전소 공격 유보",
       "summary": "Trump Extends Hormuz Deadline; Backs Away from Immediate Power Plant Strikes. (설명 원문 참조)",
       "importance": "critical",
@@ -8443,7 +8443,7 @@
     {
       "event_id": "evt-186",
       "date": "2026-03-22",
-      "time": "00:00:00Z",
+      "time": "05:45:00Z",
       "title": "IAF, 레바논 교량·헤즈볼라 인프라 타격",
       "summary": "IAF Strikes Strategic Bridges and Hezbollah Infrastructure in Lebanon. (설명 원문 참조)",
       "importance": "major",
@@ -8483,7 +8483,7 @@
     {
       "event_id": "evt-187",
       "date": "2026-03-22",
-      "time": "00:00:00Z",
+      "time": "09:00:00Z",
       "title": "드론, 바그다드 공항 인근 이라크 정보청사 공격",
       "summary": "Drone Strikes Iraqi National Intelligence Building Near Baghdad Airport. (설명 원문 참조)",
       "importance": "major",
@@ -8523,7 +8523,7 @@
     {
       "event_id": "evt-188",
       "date": "2026-03-22",
-      "time": "00:00:00Z",
+      "time": "12:00:00Z",
       "title": "이란, 이스라엘 중부 2차례 미사일 공격",
       "summary": "Iran Conducts Two Rounds of Missile Strikes Against Central Israel. (설명 원문 참조)",
       "importance": "major",
@@ -8563,7 +8563,7 @@
     {
       "event_id": "evt-189",
       "date": "2026-03-22",
-      "time": "00:00:00Z",
+      "time": "15:00:00Z",
       "title": "IAEA, 이란 핵시설 긴급 접근 요청",
       "summary": "IAEA Seeks Emergency Access to Iranian Nuclear Facilities. (설명 원문 참조)",
       "importance": "critical",
@@ -8603,7 +8603,7 @@
     {
       "event_id": "evt-190",
       "date": "2026-03-22",
-      "time": "00:00:00Z",
+      "time": "18:00:00Z",
       "title": "IDF 공병, 리타니 안보선 구축 작업",
       "summary": "IDF Engineering Units Advance Litani Security Line Fortifications. (설명 원문 참조)",
       "importance": "major",
@@ -8643,7 +8643,7 @@
     {
       "event_id": "evt-191",
       "date": "2026-03-22",
-      "time": "00:00:00Z",
+      "time": "21:00:00Z",
       "title": "미 국방부, 추가 전쟁 예산 의회 요청",
       "summary": "Pentagon Requests Additional Defense Appropriations as Conflict Enters Fourth Week. (설명 원문 참조)",
       "importance": "minor",
@@ -8683,7 +8683,7 @@
     {
       "event_id": "evt-192",
       "date": "2026-03-22",
-      "time": "00:00:00Z",
+      "time": "23:30:00Z",
       "title": "헤즈볼라 잔존 세력, 북부 이스라엘 로켓 발사",
       "summary": "Isolated Hezbollah Cell Fires Rockets at Northern Israeli Communities. (설명 원문 참조)",
       "importance": "major",
@@ -8723,7 +8723,7 @@
     {
       "event_id": "evt-193",
       "date": "2026-03-23",
-      "time": "00:00:00Z",
+      "time": "02:15:00Z",
       "title": "미 해군, 호르무즈 IRGC 고속정 타격",
       "summary": "US Navy Strikes IRGC Navy Fast-Attack Craft in Strait of Hormuz. (설명 원문 참조)",
       "importance": "critical",
@@ -8792,7 +8792,7 @@
     {
       "event_id": "evt-194",
       "date": "2026-03-23",
-      "time": "00:00:00Z",
+      "time": "05:45:00Z",
       "title": "미 82공정사단 중동 파병 명령",
       "summary": "Pentagon Orders 82nd Airborne Division to Deploy to Middle East. (설명 원문 참조)",
       "importance": "major",
@@ -8875,7 +8875,7 @@
     {
       "event_id": "evt-195",
       "date": "2026-03-23",
-      "time": "00:00:00Z",
+      "time": "09:00:00Z",
       "title": "미군 5만명 중동 배치, 트리폴리함 파견",
       "summary": "CENTCOM Confirms 50,000 US Troops in Middle East; USS Tripoli Deploying. (설명 원문 참조)",
       "importance": "major",
@@ -8915,7 +8915,7 @@
     {
       "event_id": "evt-196",
       "date": "2026-03-23",
-      "time": "00:00:00Z",
+      "time": "12:00:00Z",
       "title": "연합군, 이란 무기생산 1000개 타격",
       "summary": "Coalition Continues Deep Strike Campaign Against Iranian Weapon Production. (설명 원문 참조)",
       "importance": "major",
@@ -8955,7 +8955,7 @@
     {
       "event_id": "evt-197",
       "date": "2026-03-23",
-      "time": "00:00:00Z",
+      "time": "15:00:00Z",
       "title": "파키스탄, 미-이란 중재·15개항 제안 전달 확인",
       "summary": "파키스탄 샤리프 총리가 미국의 15개항 종전 제안을 이란에 전달했음을 공식 확인했다. 트럼프는 이란이 협상을 원한다고 주장했으나 이란은 협상 자체를 부인했다.",
       "importance": "major",
@@ -8995,7 +8995,7 @@
     {
       "event_id": "evt-198",
       "date": "2026-03-23",
-      "time": "00:00:00Z",
+      "time": "18:00:00Z",
       "title": "이란·헤즈볼라, 이스라엘 미사일·로켓 공세 유지",
       "summary": "Iran and Hezbollah Maintain Missile and Rocket Pressure on Israel. (설명 원문 참조)",
       "importance": "major",
@@ -9035,7 +9035,7 @@
     {
       "event_id": "evt-199",
       "date": "2026-03-23",
-      "time": "00:00:00Z",
+      "time": "21:00:00Z",
       "title": "미군, 이라크 이란 민병대 자산 타격",
       "summary": "US Forces Strike Iran-Backed Militia Assets in Iraq. (설명 원문 참조)",
       "importance": "major",
@@ -9075,7 +9075,7 @@
     {
       "event_id": "evt-200",
       "date": "2026-03-23",
-      "time": "00:00:00Z",
+      "time": "23:30:00Z",
       "title": "이란, 종전 5가지 조건 제시",
       "summary": "Iran Sets Five Conditions for Ending War; Rejects US Framing of Negotiations. (설명 원문 참조)",
       "importance": "critical",
@@ -9158,7 +9158,7 @@
     {
       "event_id": "evt-201",
       "date": "2026-03-24",
-      "time": "00:00:00Z",
+      "time": "02:15:00Z",
       "title": "미 공군, 이란 중부 이동식 발사대 타격",
       "summary": "USAF Strikes IRGC Mobile Missile Launchers in Central Iran. (설명 원문 참조)",
       "importance": "critical",
@@ -9198,7 +9198,7 @@
     {
       "event_id": "evt-202",
       "date": "2026-03-24",
-      "time": "00:00:00Z",
+      "time": "05:45:00Z",
       "title": "IDF 공병, 다히예 IED 제거 작전",
       "summary": "IDF Combat Engineers Neutralize IED Complex in Dahiyeh Clearing Operations. (설명 원문 참조)",
       "importance": "major",
@@ -9238,7 +9238,7 @@
     {
       "event_id": "evt-203",
       "date": "2026-03-24",
-      "time": "00:00:00Z",
+      "time": "09:00:00Z",
       "title": "82공정사단 사령부 중동 파견 지상전 옵션 확대",
       "summary": "82nd Airborne Leadership Ordered to Middle East as Ground Options Expand. (설명 원문 참조)",
       "importance": "critical",
@@ -9293,7 +9293,7 @@
     {
       "event_id": "evt-204",
       "date": "2026-03-24",
-      "time": "00:00:00Z",
+      "time": "12:00:00Z",
       "title": "미군, 알탄프 드론 공격 격퇴",
       "summary": "US Coyote Interceptors Defeat Militia Drone Attack at Al-Tanf Garrison. (설명 원문 참조)",
       "importance": "major",
@@ -9333,7 +9333,7 @@
     {
       "event_id": "evt-205",
       "date": "2026-03-24",
-      "time": "00:00:00Z",
+      "time": "15:00:00Z",
       "title": "아르테시, 이스파한 IRGC 저항세력 진압",
       "summary": "Artesh Forces Engage IRGC Holdouts Near Isfahan Military Facilities. (설명 원문 참조)",
       "importance": "minor",
@@ -9373,7 +9373,7 @@
     {
       "event_id": "evt-206",
       "date": "2026-03-24",
-      "time": "00:00:00Z",
+      "time": "18:00:00Z",
       "title": "미 해군, 아덴만 후티 해안포대 타격",
       "summary": "US Navy Strikes Houthi Coastal Defense Site in Gulf of Aden. (설명 원문 참조)",
       "importance": "critical",
@@ -9413,7 +9413,7 @@
     {
       "event_id": "evt-207",
       "date": "2026-03-24",
-      "time": "00:00:00Z",
+      "time": "21:00:00Z",
       "title": "이라크 대테러부대, 카타이브 드론 시설 급습",
       "summary": "Iraqi Counter-Terrorism Service Raids Kata'ib Hezbollah Drone Facility. (설명 원문 참조)",
       "importance": "major",
@@ -9453,7 +9453,7 @@
     {
       "event_id": "evt-208",
       "date": "2026-03-24",
-      "time": "00:00:00Z",
+      "time": "23:30:00Z",
       "title": "EU, 러시아 이란 정보지원 공개 비난",
       "summary": "EU Accuses Russia of Providing Intelligence Support to Iran Against US Forces. (설명 원문 참조)",
       "importance": "critical",
@@ -9510,7 +9510,7 @@
       "date": "2026-03-25",
       "time": "00:00:00Z",
       "title": "이란 드론, 쿠웨이트 공항 연료 창고 화재",
-      "summary": "이란 드론이 쿠웨이트 국제공항 연료 창고에 화재를 일으켰으며, 보안군은 이란 국기를 단 선박이 인근 해역에서 목격됐다고 보고했다.",
+      "summary": "Iranian drones set a fuel depot on Kuwait's international airport on fire, while security forces reported that another six drones have been intercepte",
       "importance": "major",
       "objectivity_avg": null,
       "causally_related_to": [],
@@ -9550,7 +9550,7 @@
       "date": "2026-03-25",
       "time": "00:00:00Z",
       "title": "이란 미사일 요르단 상공 요격",
-      "summary": "이란 미사일이 요르단 상공에서 요격됐으며, 잔해가 수도 암만 인근에 낙하했다. 해당 미사일은 하이파를 목표로 발사된 것이었다.",
+      "summary": "An Iranian missile was intercepted over Jordan , with debris coming down near the capital Amman . The Israeli military reported at least one rocket in",
       "importance": "major",
       "objectivity_avg": null,
       "causally_related_to": [],
@@ -9590,7 +9590,7 @@
       "date": "2026-03-25",
       "time": "00:00:00Z",
       "title": "이란 미사일, 하데라 발전소 인근 낙탄",
-      "summary": "이란 미사일이 하데라 인근 이스라엘 최대 발전소 주변 농지에 낙탄했다. 인명 피해나 구조물 손상은 발생하지 않았다.",
+      "summary": "An Iranian missile impacted on a field near Israel's largest powerplant near Hadera . No injuries or damages were reported.",
       "importance": "minor",
       "objectivity_avg": null,
       "causally_related_to": [],
@@ -9630,7 +9630,7 @@
       "date": "2026-03-25",
       "time": "00:00:00Z",
       "title": "이란 북서부 공습 11명 사망",
-      "summary": "이란 북서부에서 공습으로 11명이 사망했다.",
+      "summary": "11 people in northwestern Iran were killed by airstrikes.",
       "importance": "critical",
       "objectivity_avg": null,
       "causally_related_to": [],
@@ -9670,7 +9670,7 @@
       "date": "2026-03-25",
       "time": "00:00:00Z",
       "title": "테헤란 순항미사일 공장 2곳 파괴",
-      "summary": "테헤란에서 순항미사일을 생산하던 시설 2곳이 공습으로 파괴됐다.",
+      "summary": "Two sites in Tehran that produced cruise missiles were destroyed by airstrikes.",
       "importance": "major",
       "objectivity_avg": null,
       "causally_related_to": [],
@@ -9710,7 +9710,7 @@
       "date": "2026-03-25",
       "time": "00:00:00Z",
       "title": "이란 다수 도시 야간 공습",
-      "summary": "차바하르, 노우샤흐르, 라레 등 이란 여러 도시에서 야간 공습이 보고됐다.",
+      "summary": "Overnight strikes were reported in numerous Iranian cities, including Chabahar , Nowshahr , and Larestan .",
       "importance": "major",
       "objectivity_avg": null,
       "causally_related_to": [],
@@ -9750,7 +9750,7 @@
       "date": "2026-03-25",
       "time": "00:00:00Z",
       "title": "이스라엘, 이스파한 해군연구소 파괴",
-      "summary": "이스라엘이 이스파한의 해군연구소를 파괴했다고 발표했다.",
+      "summary": "Israel says it destroyed a naval research center in Isfahan.",
       "importance": "minor",
       "objectivity_avg": null,
       "causally_related_to": [],
@@ -9790,7 +9790,7 @@
       "date": "2026-03-25",
       "time": "00:00:00Z",
       "title": "이란, 링컨 항모 향해 카더 순항미사일 발사 주장",
-      "summary": "이란은 USS 에이브러햄 링컨 항공모함을 향해 카더 순항미사일을 발사했다고 주장했다. 함선은 피해를 입지 않았다.",
+      "summary": "Iran claimed that it had fired Qader cruise missiles against the USS Abraham Lincoln . The ship was not harmed.",
       "importance": "major",
       "objectivity_avg": null,
       "causally_related_to": [],
@@ -9830,7 +9830,7 @@
       "date": "2026-03-25",
       "time": "00:00:00Z",
       "title": "이라크 군인 7명 미군 공습에 사망",
-      "summary": "이라크 서부 안바르 주의 PMF 시설 인근에서 미군 공습으로 이라크 육군 병사 7명이 사망했다.",
+      "summary": "Seven Iraqi Army soldiers were killed in a U.S airstrike near a PMF site in western Anbar, Iraq.",
       "importance": "critical",
       "objectivity_avg": 85,
       "causally_related_to": [],
@@ -9897,7 +9897,7 @@
     {
       "event_id": "evt-218",
       "date": "2026-03-25",
-      "time": "00:00:00Z",
+      "time": "02:15:00Z",
       "title": "IAEA, 이란 핵시설 접근 확대",
       "summary": "IAEA Monitoring Teams Expand Access to Iranian Nuclear Facilities. (설명 원문 참조)",
       "importance": "critical",
@@ -9966,7 +9966,7 @@
     {
       "event_id": "evt-219",
       "date": "2026-03-25",
-      "time": "00:00:00Z",
+      "time": "05:45:00Z",
       "title": "아르테시, 반다르아바스 IRGC 잔류 세력 교전",
       "summary": "Reports: Artesh Forces Engage IRGCN Holdouts Near Bandar Abbas Naval Complex. (설명 원문 참조)",
       "importance": "critical",
@@ -10035,7 +10035,7 @@
     {
       "event_id": "evt-220",
       "date": "2026-03-25",
-      "time": "00:00:00Z",
+      "time": "08:45:00Z",
       "title": "IDF, 다히예 최종 대규모 철거 완료",
       "summary": "IDF Completes Final Major Demolition Operations in Dahiyeh. (설명 원문 참조)",
       "importance": "minor",
@@ -10075,7 +10075,7 @@
     {
       "event_id": "evt-221",
       "date": "2026-03-25",
-      "time": "00:00:00Z",
+      "time": "11:20:00Z",
       "title": "패트리엇, 에르빌 상공 민병대 탄도탄 요격",
       "summary": "US Patriot Battery Intercepts Militia Ballistic Missile Over Erbil. (설명 원문 참조)",
       "importance": "critical",
@@ -10115,7 +10115,7 @@
     {
       "event_id": "evt-222",
       "date": "2026-03-25",
-      "time": "00:00:00Z",
+      "time": "14:00:00Z",
       "title": "이라크 CTS, 바빌주 카타이브 소탕 확대",
       "summary": "Iraqi CTS Expands Raids Against Kata'ib Hezbollah in Babil Province. (설명 원문 참조)",
       "importance": "major",
@@ -10155,7 +10155,7 @@
     {
       "event_id": "evt-223",
       "date": "2026-03-25",
-      "time": "00:00:00Z",
+      "time": "17:00:00Z",
       "title": "미 해군, 홍해 후티 해안포대 타격",
       "summary": "US Navy Strikes Houthi Coastal Defense Battery in Red Sea Area. (설명 원문 참조)",
       "importance": "critical",
@@ -10195,7 +10195,7 @@
     {
       "event_id": "evt-224",
       "date": "2026-03-25",
-      "time": "00:00:00Z",
+      "time": "20:00:00Z",
       "title": "IDF, 리타니 안보선 헤즈볼라 인프라 타격",
       "summary": "IDF Strikes Hezbollah Infrastructure Along Litani Security Line. (설명 원문 참조)",
       "importance": "critical",
@@ -10235,7 +10235,7 @@
     {
       "event_id": "evt-225",
       "date": "2026-03-25",
-      "time": "00:00:00Z",
+      "time": "23:15:00Z",
       "title": "미-이란 외교, 파키스탄 통해 지속",
       "summary": "US-Iran Diplomatic Track Continues Through Pakistani Intermediary. (설명 원문 참조)",
       "importance": "major",
@@ -10275,7 +10275,7 @@
     {
       "event_id": "evt-226",
       "date": "2026-03-26",
-      "time": "00:00:00Z",
+      "time": "02:15:00Z",
       "title": "백악관, 이란 탄도미사일 발사율 90% 감소 확인",
       "summary": "White House Confirms 90% Degradation of Iranian Ballistic Missile Launch Rate. (설명 원문 참조)",
       "importance": "critical",
@@ -10344,7 +10344,7 @@
     {
       "event_id": "evt-227",
       "date": "2026-03-26",
-      "time": "00:00:00Z",
+      "time": "05:30:00Z",
       "title": "이스라엘, IRGC 해군 사령관 탕시리 제거",
       "summary": "이스라엘 공습으로 IRGC 해군 사령관 알리레자 탕시리 제독이 반다르아바스에서 제거됐다. 그는 호르무즈 해협 봉쇄의 핵심 인물이었다.",
       "importance": "critical",
@@ -10427,7 +10427,7 @@
     {
       "event_id": "evt-228",
       "date": "2026-03-26",
-      "time": "00:00:00Z",
+      "time": "09:00:00Z",
       "title": "IAF, 이스파한·파르친 무기시설 대규모 공습",
       "summary": "IAF Conducts Extensive Strikes on Isfahan and Parchin Weapons Facilities. (설명 원문 참조)",
       "importance": "major",
@@ -10467,7 +10467,7 @@
     {
       "event_id": "evt-229",
       "date": "2026-03-26",
-      "time": "00:00:00Z",
+      "time": "14:00:00Z",
       "title": "이란, 걸프 공격 지속·이라크 민병대 드론",
       "summary": "Iran Strikes Gulf States as Iraq Suffers Militia Drone Attacks. (설명 원문 참조)",
       "importance": "critical",
@@ -10507,7 +10507,7 @@
     {
       "event_id": "evt-230",
       "date": "2026-03-26",
-      "time": "00:00:00Z",
+      "time": "17:00:00Z",
       "title": "헤즈볼라 로켓, 나하리야 민간인 1명 사망",
       "summary": "Hezbollah Rocket Strike Kills One Civilian in Nahariya; IDF Responds. (설명 원문 참조)",
       "importance": "critical",
@@ -10547,7 +10547,7 @@
     {
       "event_id": "evt-231",
       "date": "2026-03-26",
-      "time": "00:00:00Z",
+      "time": "20:00:00Z",
       "title": "트럼프, 이란 협상 관심 없다 발언",
       "summary": "Trump Says He Does Not Care About Reaching a Deal With Iran. (설명 원문 참조)",
       "importance": "minor",
@@ -10587,7 +10587,7 @@
     {
       "event_id": "evt-232",
       "date": "2026-03-26",
-      "time": "00:00:00Z",
+      "time": "23:00:00Z",
       "title": "미-이란 파키스탄 중재 대화 지속",
       "summary": "US-Iran Back-Channel Dialogue Continues Through Pakistani Intermediary. (설명 원문 참조)",
       "importance": "minor",
@@ -10628,18 +10628,16 @@
       "event_id": "evt-233",
       "date": "2026-03-27",
       "time": "00:00:00Z",
-      "title": "이란, 이스라엘 탄도미사일 4차례 발사",
-      "summary": "IDF reported 4 missile salvos were fired from Iran on targets in Israel since the early morning, with most being intercepted and the rest causing no c. (설명 원문 참조)",
-      "importance": "critical",
+      "title": "이스라엘, 이란 철강공장 타격",
+      "summary": "Israeli strikes hit the factories of Mobarakeh Steel Company and Khouzestan Steel Company , located respectively in Isfahan and Ahvaz .Israel",
+      "importance": "major",
       "objectivity_avg": null,
       "causally_related_to": [],
       "confirmed_by": [
-        "wikipedia",
-        "iranwarlive"
+        "wikipedia"
       ],
       "source_urls": {
-        "wikipedia": "https://en.wikipedia.org/wiki/Timeline_of_the_2026_Iran_war#27_March",
-        "iranwarlive": "https://iranwarlive.com/recaps/day-29.html"
+        "wikipedia": "https://en.wikipedia.org/wiki/Timeline_of_the_2026_Iran_war#27_March"
       },
       "market_impact": {
         "W": {
@@ -10670,18 +10668,154 @@
       "event_id": "evt-234",
       "date": "2026-03-27",
       "time": "00:00:00Z",
-      "title": "쿠웨이트 슈와이크항 드론 공격",
-      "summary": "Kuwait reported an attack by drones on Shuwaikh Port , and drones and missiles on Mubarak Al Kabeer Port causing material damage but no human casualti. (설명 원문 참조)",
-      "importance": "major",
+      "title": "이란 집속탄, 이스라엘 중부 6곳 타격",
+      "summary": "An Iranian cluster bomb attack impacted six sites across central Israel, killing one person in Ramat Gan and injuring three others.",
+      "importance": "critical",
+      "objectivity_avg": 84,
+      "causally_related_to": [],
+      "confirmed_by": [
+        "wikipedia"
+      ],
+      "source_urls": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Timeline_of_the_2026_Iran_war#27_March"
+      },
+      "market_impact": {
+        "W": {
+          "delta_pct": 0.0,
+          "window_start": "2026-03-27T22:00:00Z",
+          "window_end": "2026-03-27T22:00:00Z"
+        },
+        "C": {
+          "delta_pct": -4.1824,
+          "window_start": "2026-03-27T22:00:00Z",
+          "window_end": "2026-03-27T22:00:00Z"
+        },
+        "N": {
+          "delta_pct": 0.0,
+          "window_start": "2026-03-27T22:00:00Z",
+          "window_end": "2026-03-27T22:00:00Z"
+        },
+        "K": {
+          "delta_pct": 0.0,
+          "window_start": "2026-03-27T22:00:00Z",
+          "window_end": "2026-03-27T22:00:00Z"
+        }
+      },
+      "trump_posts": [],
+      "related_articles": [
+        {
+          "id": "art-61da78cb",
+          "title": "Iran: Unlawful Cluster Munition Strikes on Israel",
+          "title_ko": "이란의 이스라엘 대상 불법 집속탄 공격",
+          "source": "Human Rights Watch",
+          "url": "https://www.hrw.org/news/2026/03/30/iran-unlawful-cluster-munition-strikes-on-israel",
+          "published_date": "2026-03-30T10:00:00Z",
+          "summary": "Human Rights Watch documented Iran's use of cluster munitions against civilian areas in central Israel, calling the March 27 attack on six impact sites unlawful under international humanitarian law.",
+          "summary_ko": "휴먼라이츠워치가 이란의 이스라엘 중부 민간 지역 집속탄 사용을 기록하면서 3월 27일 여섯 곳에 대한 공격이 국제인도법 위반이라고 규정했다.",
+          "source_bias": "center-left",
+          "source_reliability": 85,
+          "relevance_score": 94,
+          "relevance_note": "이란의 이스라엘 중부 집속탄 6개 충격 지점 공격 HRW 기록"
+        },
+        {
+          "id": "art-26974a7d",
+          "title": "At least 6 impact sites in central Israel after Iranian cluster bomb attack",
+          "title_ko": "이란 집속탄 공격으로 이스라엘 중부 6개 지점 이상 피격",
+          "source": "Times of Israel",
+          "url": "https://www.timesofisrael.com/liveblog_entry/at-least-6-impact-sites-reported-in-central-israel-after-iranian-cluster-bomb-attack/",
+          "published_date": "2026-03-27T22:00:00Z",
+          "summary": "An Iranian ballistic missile with a cluster warhead dispersed bomblets across six sites in central Israel including Bat Yam, Holon and Or Yehuda, killing one man and wounding two others.",
+          "summary_ko": "집속 탄두를 장착한 이란 탄도미사일이 이스라엘 중부 배트 얌, 홀론, 오르 예후다 등 6개 지점에 소형 폭탄을 산포해 1명이 사망하고 2명이 부상을 입었다.",
+          "source_bias": "center-right",
+          "source_reliability": 82,
+          "relevance_score": 95,
+          "relevance_note": "이란 집속탄 탄두 미사일 이스라엘 중부 6개 지점 피격 타임스오브이스라엘 보도"
+        }
+      ]
+    },
+    {
+      "event_id": "evt-235",
+      "date": "2026-03-27",
+      "time": "00:00:00Z",
+      "title": "이란 보건부, 어린이 230명 이상 사망 주장",
+      "summary": "Iran's Ministry of Health claimed that over 230 children had been killed in US-Israeli attacks in the first month of the war.",
+      "importance": "critical",
+      "objectivity_avg": 79,
+      "causally_related_to": [],
+      "confirmed_by": [
+        "wikipedia"
+      ],
+      "source_urls": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Timeline_of_the_2026_Iran_war#27_March"
+      },
+      "market_impact": {
+        "W": {
+          "delta_pct": -0.942,
+          "window_start": "2026-03-27T00:00:00Z",
+          "window_end": "2026-03-27T00:00:00Z"
+        },
+        "C": {
+          "delta_pct": -0.0801,
+          "window_start": "2026-03-27T00:00:00Z",
+          "window_end": "2026-03-27T00:00:00Z"
+        },
+        "N": {
+          "delta_pct": 0.0,
+          "window_start": "2026-03-27T00:00:00Z",
+          "window_end": "2026-03-27T00:00:00Z"
+        },
+        "K": {
+          "delta_pct": -2.4089,
+          "window_start": "2026-03-27T00:00:00Z",
+          "window_end": "2026-03-27T00:00:00Z"
+        }
+      },
+      "trump_posts": [],
+      "related_articles": [
+        {
+          "id": "art-f4fd49a3",
+          "title": "Over 230 children killed in US-Israeli attacks in first month of war, says Iran",
+          "title_ko": "이란, '전쟁 첫 달 미국·이스라엘 공격으로 어린이 230명 이상 사망'",
+          "source": "Anadolu Agency",
+          "url": "https://www.aa.com.tr/en/middle-east/over-230-children-killed-in-us-israeli-attacks-in-first-month-of-war-says-iran/3883330",
+          "published_date": "2026-03-27T12:00:00Z",
+          "summary": "Iran's Ministry of Health claimed that over 230 children had been killed in the first month of US-Israeli strikes, as the government published updated civilian casualty statistics.",
+          "summary_ko": "이란 보건부가 미국-이스라엘 공습 첫 달에 어린이 230명 이상이 사망했다고 주장하며 민간인 사상자 통계를 업데이트했다.",
+          "source_bias": "center",
+          "source_reliability": 78,
+          "relevance_score": 90,
+          "relevance_note": "이란 보건부 발표: 어린이 230명 이상 사망 아나돌루통신 보도"
+        },
+        {
+          "id": "art-b2613470",
+          "title": "Casualties of the 2026 Iran War - Wikipedia",
+          "title_ko": "2026년 이란 전쟁 사상자 - 위키백과",
+          "source": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Casualties_of_the_Twelve-Day_War",
+          "published_date": "2026-03-27T00:00:00Z",
+          "summary": "Wikipedia's running compilation of casualty figures from both sides of the 2026 Iran war, including Iranian claims of children killed in US-Israeli strikes.",
+          "summary_ko": "위키백과의 2026년 이란 전쟁 양측 사상자 수치 집계. 미국-이스라엘 공습으로 사망한 어린이에 대한 이란의 주장 포함.",
+          "source_bias": "center",
+          "source_reliability": 80,
+          "relevance_score": 85,
+          "relevance_note": "이란 전쟁 양측 사상자 집계 위키백과"
+        }
+      ]
+    },
+    {
+      "event_id": "evt-236",
+      "date": "2026-03-27",
+      "time": "03:00:00Z",
+      "title": "IAF, 베이루트 새벽 공습 2명 사망",
+      "summary": "IAF Pre-Dawn Strike on Beirut Kills Two. (설명 원문 참조)",
+      "importance": "critical",
       "objectivity_avg": null,
       "causally_related_to": [],
       "confirmed_by": [
-        "wikipedia",
         "iranwarlive"
       ],
       "source_urls": {
-        "wikipedia": "https://en.wikipedia.org/wiki/Timeline_of_the_2026_Iran_war#27_March",
-        "iranwarlive": "https://iranwarlive.com/recaps/day-30.html"
+        "iranwarlive": "https://iranwarlive.com/recaps/day-29.html"
       },
       "market_impact": {
         "W": {
@@ -10709,9 +10843,173 @@
       "related_articles": []
     },
     {
-      "event_id": "evt-235",
+      "event_id": "evt-237",
       "date": "2026-03-27",
-      "time": "00:00:00Z",
+      "time": "05:30:00Z",
+      "title": "이스라엘, 아라크 중수로 단지 타격",
+      "summary": "Israel Strikes Shahid Khondab Heavy Water Complex in Arak. (설명 원문 참조)",
+      "importance": "critical",
+      "objectivity_avg": 84,
+      "causally_related_to": [],
+      "confirmed_by": [
+        "iranwarlive"
+      ],
+      "source_urls": {
+        "iranwarlive": "https://iranwarlive.com/recaps/day-29.html"
+      },
+      "market_impact": {
+        "W": {
+          "delta_pct": 1.9793,
+          "window_start": "2026-03-27T10:00:00Z",
+          "window_end": "2026-03-27T10:00:00Z"
+        },
+        "C": {
+          "delta_pct": -1.5532,
+          "window_start": "2026-03-27T10:00:00Z",
+          "window_end": "2026-03-27T10:00:00Z"
+        },
+        "N": {
+          "delta_pct": 0.0,
+          "window_start": "2026-03-27T10:00:00Z",
+          "window_end": "2026-03-27T10:00:00Z"
+        },
+        "K": {
+          "delta_pct": 0.0,
+          "window_start": "2026-03-27T10:00:00Z",
+          "window_end": "2026-03-27T10:00:00Z"
+        }
+      },
+      "trump_posts": [],
+      "related_articles": [
+        {
+          "id": "art-f75705fc",
+          "title": "Israel strikes Iranian nuclear development facilities, Tehran vows retaliation",
+          "title_ko": "이스라엘, 이란 핵개발 시설 타격...테헤란 보복 경고",
+          "source": "Jerusalem Post",
+          "url": "https://www.jpost.com/middle-east/iran-news/article-891437",
+          "published_date": "2026-03-27T10:00:00Z",
+          "summary": "Israeli Air Force struck Iran's Shahid Khondab heavy water complex in Arak, targeting the heavy water research reactor associated with potential plutonium weapons production.",
+          "summary_ko": "이스라엘 공군이 이란 아라크의 샤히드 혼다브 중수 복합시설을 타격했으며, 플루토늄 무기 생산과 관련된 중수 연구용 원자로를 목표로 삼았다.",
+          "source_bias": "center-right",
+          "source_reliability": 82,
+          "relevance_score": 96,
+          "relevance_note": "이스라엘의 아라크 샤히드 혼다브 중수 시설 타격 예루살렘포스트 보도"
+        },
+        {
+          "id": "art-acbf2763",
+          "title": "Israel strikes Iran's nuclear facilities as Tehran vows retaliation",
+          "title_ko": "이스라엘, 이란 핵시설 타격...테헤란 보복 맹세",
+          "source": "Fortune",
+          "url": "https://fortune.com/2026/03/27/israel-strikes-irans-nuclear-facilities-tehran-vows-retaliation/",
+          "published_date": "2026-03-27T12:00:00Z",
+          "summary": "Israel struck Iran's Arak heavy water complex and Ardakan yellowcake facility on March 27, with Tehran vowing that retaliation 'will no longer be an eye for an eye.'",
+          "summary_ko": "이스라엘이 3월 27일 이란의 아라크 중수 복합시설과 아르다칸 옐로케이크 시설을 타격했으며, 테헤란은 보복이 '더 이상 눈에는 눈 방식이 아닐 것'이라고 맹세했다.",
+          "source_bias": "center",
+          "source_reliability": 85,
+          "relevance_score": 95,
+          "relevance_note": "아라크·아르다칸 핵시설 동시 타격 후 테헤란 보복 경고 포춘 보도"
+        }
+      ]
+    },
+    {
+      "event_id": "evt-238",
+      "date": "2026-03-27",
+      "time": "07:45:00Z",
+      "title": "IAF, 아르다칸 옐로케이크 공장 타격",
+      "summary": "IAF Strikes Ardakan Yellowcake Production Plant; No Radiation Release Reported. (설명 원문 참조)",
+      "importance": "critical",
+      "objectivity_avg": 80,
+      "causally_related_to": [],
+      "confirmed_by": [
+        "iranwarlive"
+      ],
+      "source_urls": {
+        "iranwarlive": "https://iranwarlive.com/recaps/day-29.html"
+      },
+      "market_impact": {
+        "W": {
+          "delta_pct": 3.6622,
+          "window_start": "2026-03-27T14:00:00Z",
+          "window_end": "2026-03-27T14:00:00Z"
+        },
+        "C": {
+          "delta_pct": -4.4629,
+          "window_start": "2026-03-27T14:00:00Z",
+          "window_end": "2026-03-27T14:00:00Z"
+        },
+        "N": {
+          "delta_pct": -1.2653,
+          "window_start": "2026-03-27T14:00:00Z",
+          "window_end": "2026-03-27T14:00:00Z"
+        },
+        "K": {
+          "delta_pct": 0.0,
+          "window_start": "2026-03-27T14:00:00Z",
+          "window_end": "2026-03-27T14:00:00Z"
+        }
+      },
+      "trump_posts": [],
+      "related_articles": [
+        {
+          "id": "art-b2360f48",
+          "title": "Israeli Air Force Conducts Fresh Strikes on Iran's Arak Reactor and Uranium Processing Facilities",
+          "title_ko": "이스라엘 공군, 이란 아라크 원자로 및 우라늄 처리 시설 추가 타격",
+          "source": "Defense News",
+          "url": "https://www.thedefensenews.com/news-details/Israeli-Air-Force-Conducts-Fresh-Strikes-on-Irans-Arak-Reactor-and-Uranium-Processing-Facilities/",
+          "published_date": "2026-03-27T14:00:00Z",
+          "summary": "The IAF struck Iran's Ardakan yellowcake processing plant and the Arak heavy water complex in a coordinated strike involving over 50 fighter jets, with satellite imagery confirming significant damage.",
+          "summary_ko": "IAF가 50기 이상의 전투기를 동원한 협동 타격으로 이란의 아르다칸 옐로케이크 처리 시설과 아라크 중수 복합시설을 공격했으며, 위성 이미지가 심각한 피해를 확인했다.",
+          "source_bias": "center",
+          "source_reliability": 80,
+          "relevance_score": 96,
+          "relevance_note": "IAF의 아르다칸 옐로케이크 처리장 및 아라크 중수 시설 협동 타격 방산뉴스 보도"
+        }
+      ]
+    },
+    {
+      "event_id": "evt-239",
+      "date": "2026-03-27",
+      "time": "10:15:00Z",
+      "title": "이란, 쿠웨이트 항구 공격 중국 일대일로 시설 피해",
+      "summary": "Iranian Attacks Damage Kuwait Ports Including Chinese Belt and Road Facility. (설명 원문 참조)",
+      "importance": "major",
+      "objectivity_avg": null,
+      "causally_related_to": [],
+      "confirmed_by": [
+        "iranwarlive"
+      ],
+      "source_urls": {
+        "iranwarlive": "https://iranwarlive.com/recaps/day-29.html"
+      },
+      "market_impact": {
+        "W": {
+          "delta_pct": -0.942,
+          "window_start": "2026-03-27T00:00:00Z",
+          "window_end": "2026-03-27T00:00:00Z"
+        },
+        "C": {
+          "delta_pct": -0.0801,
+          "window_start": "2026-03-27T00:00:00Z",
+          "window_end": "2026-03-27T00:00:00Z"
+        },
+        "N": {
+          "delta_pct": 0.0,
+          "window_start": "2026-03-27T00:00:00Z",
+          "window_end": "2026-03-27T00:00:00Z"
+        },
+        "K": {
+          "delta_pct": -2.4089,
+          "window_start": "2026-03-27T00:00:00Z",
+          "window_end": "2026-03-27T00:00:00Z"
+        }
+      },
+      "trump_posts": [],
+      "related_articles": []
+    },
+    {
+      "event_id": "evt-240",
+      "date": "2026-03-27",
+      "time": "11:30:00Z",
       "title": "UAE, 이란 탄도미사일 6발·드론 9기 요격",
       "summary": "UAE authorities reported six ballistic missiles and nine drones from Iran were intercepted.. (설명 원문 참조)",
       "importance": "critical",
@@ -10751,80 +11049,9 @@
       "related_articles": []
     },
     {
-      "event_id": "evt-236",
+      "event_id": "evt-241",
       "date": "2026-03-27",
-      "time": "00:00:00Z",
-      "title": "IDF, 야즈드 미사일·기뢰 생산 시설 타격",
-      "summary": "The IDF said that it struck a major missile and naval mine production site in Yazd.. (설명 원문 참조)",
-      "importance": "critical",
-      "objectivity_avg": 82,
-      "causally_related_to": [],
-      "confirmed_by": [
-        "wikipedia",
-        "iranwarlive"
-      ],
-      "source_urls": {
-        "wikipedia": "https://en.wikipedia.org/wiki/Timeline_of_the_2026_Iran_war#27_March",
-        "iranwarlive": "https://iranwarlive.com/recaps/day-29.html"
-      },
-      "market_impact": {
-        "W": {
-          "delta_pct": 1.5876,
-          "window_start": "2026-03-27T08:00:00Z",
-          "window_end": "2026-03-27T08:00:00Z"
-        },
-        "C": {
-          "delta_pct": -0.6511,
-          "window_start": "2026-03-27T08:00:00Z",
-          "window_end": "2026-03-27T08:00:00Z"
-        },
-        "N": {
-          "delta_pct": 0.0,
-          "window_start": "2026-03-27T08:00:00Z",
-          "window_end": "2026-03-27T08:00:00Z"
-        },
-        "K": {
-          "delta_pct": 0.0,
-          "window_start": "2026-03-27T08:00:00Z",
-          "window_end": "2026-03-27T08:00:00Z"
-        }
-      },
-      "trump_posts": [],
-      "related_articles": [
-        {
-          "id": "art-4ffbb324",
-          "title": "IDF says it bombed Iran's 'most central' naval arms production site in Yazd",
-          "title_ko": "IDF, 이란 야즈드 '핵심' 해군 무기 생산 시설 폭격",
-          "source": "Times of Israel",
-          "url": "https://www.timesofisrael.com/liveblog_entry/idf-says-it-bombed-irans-most-central-naval-arms-production-site/",
-          "published_date": "2026-03-27T08:00:00Z",
-          "summary": "The IDF struck Iran's most central naval weapons production facility in Yazd, which manufactured missiles and sea mines for naval deployment, including those used in the Strait of Hormuz blockade.",
-          "summary_ko": "IDF가 이란 야즈드의 핵심 해군 무기 생산 시설을 타격했다. 이 시설은 호르무즈 해협 봉쇄에 사용된 것을 포함한 해군 배치용 미사일과 해상 기뢰를 제조했다.",
-          "source_bias": "center-right",
-          "source_reliability": 82,
-          "relevance_score": 96,
-          "relevance_note": "IDF의 야즈드 이란 해군 미사일·기뢰 생산 시설 타격 타임스오브이스라엘 보도"
-        },
-        {
-          "id": "art-86d620c3",
-          "title": "IDF strikes Iran's missile and sea mine production site in Yazd",
-          "title_ko": "IDF, 이란 야즈드 미사일·해상 기뢰 생산 시설 공격",
-          "source": "Jerusalem Post",
-          "url": "https://www.jpost.com/middle-east/iran-news/article-891408",
-          "published_date": "2026-03-27T10:00:00Z",
-          "summary": "Israeli forces struck Iran's central production site for naval missiles and sea mines in Yazd, targeting the facility that supplied weapons to the IRGC Navy for the Hormuz blockade.",
-          "summary_ko": "이스라엘군이 호르무즈 봉쇄를 위해 IRGC 해군에 무기를 공급한 야즈드의 이란 해군 미사일 및 해상 기뢰 핵심 생산 시설을 공격했다.",
-          "source_bias": "center-right",
-          "source_reliability": 82,
-          "relevance_score": 95,
-          "relevance_note": "야즈드 이란 해상 기뢰·해군 미사일 생산 시설 타격 예루살렘포스트 보도"
-        }
-      ]
-    },
-    {
-      "event_id": "evt-237",
-      "date": "2026-03-27",
-      "time": "00:00:00Z",
+      "time": "12:30:00Z",
       "title": "이란, 프린스 술탄 기지 미사일·드론 타격",
       "summary": "An Iranian missile and drone strike on Prince Sultan Air Base damaged several US refueling aircraft and injured fifteen US soldiers, including five cr. (설명 원문 참조)",
       "importance": "critical",
@@ -10907,391 +11134,9 @@
       ]
     },
     {
-      "event_id": "evt-238",
-      "date": "2026-03-27",
-      "time": "00:00:00Z",
-      "title": "이스라엘, 이란 철강공장 타격",
-      "summary": "이스라엘의 공습이 이스파한의 모바라케 철강회사와 아흐바즈의 후제스탄 철강회사 공장을 각각 타격했다.",
-      "importance": "major",
-      "objectivity_avg": null,
-      "causally_related_to": [],
-      "confirmed_by": [
-        "wikipedia"
-      ],
-      "source_urls": {
-        "wikipedia": "https://en.wikipedia.org/wiki/Timeline_of_the_2026_Iran_war#27_March"
-      },
-      "market_impact": {
-        "W": {
-          "delta_pct": -0.942,
-          "window_start": "2026-03-27T00:00:00Z",
-          "window_end": "2026-03-27T00:00:00Z"
-        },
-        "C": {
-          "delta_pct": -0.0801,
-          "window_start": "2026-03-27T00:00:00Z",
-          "window_end": "2026-03-27T00:00:00Z"
-        },
-        "N": {
-          "delta_pct": 0.0,
-          "window_start": "2026-03-27T00:00:00Z",
-          "window_end": "2026-03-27T00:00:00Z"
-        },
-        "K": {
-          "delta_pct": -2.4089,
-          "window_start": "2026-03-27T00:00:00Z",
-          "window_end": "2026-03-27T00:00:00Z"
-        }
-      },
-      "trump_posts": [],
-      "related_articles": []
-    },
-    {
-      "event_id": "evt-239",
-      "date": "2026-03-27",
-      "time": "00:00:00Z",
-      "title": "이란 집속탄, 이스라엘 중부 6곳 타격",
-      "summary": "이란의 집속탄 공격이 이스라엘 중부 6개 지점을 강타해 라마트 간에서 1명이 사망하고 27명이 부상을 입었다.",
-      "importance": "critical",
-      "objectivity_avg": 84,
-      "causally_related_to": [],
-      "confirmed_by": [
-        "wikipedia"
-      ],
-      "source_urls": {
-        "wikipedia": "https://en.wikipedia.org/wiki/Timeline_of_the_2026_Iran_war#27_March"
-      },
-      "market_impact": {
-        "W": {
-          "delta_pct": 0.0,
-          "window_start": "2026-03-27T22:00:00Z",
-          "window_end": "2026-03-27T22:00:00Z"
-        },
-        "C": {
-          "delta_pct": -4.1824,
-          "window_start": "2026-03-27T22:00:00Z",
-          "window_end": "2026-03-27T22:00:00Z"
-        },
-        "N": {
-          "delta_pct": 0.0,
-          "window_start": "2026-03-27T22:00:00Z",
-          "window_end": "2026-03-27T22:00:00Z"
-        },
-        "K": {
-          "delta_pct": 0.0,
-          "window_start": "2026-03-27T22:00:00Z",
-          "window_end": "2026-03-27T22:00:00Z"
-        }
-      },
-      "trump_posts": [],
-      "related_articles": [
-        {
-          "id": "art-61da78cb",
-          "title": "Iran: Unlawful Cluster Munition Strikes on Israel",
-          "title_ko": "이란의 이스라엘 대상 불법 집속탄 공격",
-          "source": "Human Rights Watch",
-          "url": "https://www.hrw.org/news/2026/03/30/iran-unlawful-cluster-munition-strikes-on-israel",
-          "published_date": "2026-03-30T10:00:00Z",
-          "summary": "Human Rights Watch documented Iran's use of cluster munitions against civilian areas in central Israel, calling the March 27 attack on six impact sites unlawful under international humanitarian law.",
-          "summary_ko": "휴먼라이츠워치가 이란의 이스라엘 중부 민간 지역 집속탄 사용을 기록하면서 3월 27일 여섯 곳에 대한 공격이 국제인도법 위반이라고 규정했다.",
-          "source_bias": "center-left",
-          "source_reliability": 85,
-          "relevance_score": 94,
-          "relevance_note": "이란의 이스라엘 중부 집속탄 6개 충격 지점 공격 HRW 기록"
-        },
-        {
-          "id": "art-26974a7d",
-          "title": "At least 6 impact sites in central Israel after Iranian cluster bomb attack",
-          "title_ko": "이란 집속탄 공격으로 이스라엘 중부 6개 지점 이상 피격",
-          "source": "Times of Israel",
-          "url": "https://www.timesofisrael.com/liveblog_entry/at-least-6-impact-sites-reported-in-central-israel-after-iranian-cluster-bomb-attack/",
-          "published_date": "2026-03-27T22:00:00Z",
-          "summary": "An Iranian ballistic missile with a cluster warhead dispersed bomblets across six sites in central Israel including Bat Yam, Holon and Or Yehuda, killing one man and wounding two others.",
-          "summary_ko": "집속 탄두를 장착한 이란 탄도미사일이 이스라엘 중부 배트 얌, 홀론, 오르 예후다 등 6개 지점에 소형 폭탄을 산포해 1명이 사망하고 2명이 부상을 입었다.",
-          "source_bias": "center-right",
-          "source_reliability": 82,
-          "relevance_score": 95,
-          "relevance_note": "이란 집속탄 탄두 미사일 이스라엘 중부 6개 지점 피격 타임스오브이스라엘 보도"
-        }
-      ]
-    },
-    {
-      "event_id": "evt-240",
-      "date": "2026-03-27",
-      "time": "00:00:00Z",
-      "title": "이란 보건부, 어린이 230명 이상 사망 주장",
-      "summary": "이란 보건부는 미국-이스라엘의 공격으로 전주까지 어린이 230명 이상이 사망했다고 주장했다.",
-      "importance": "critical",
-      "objectivity_avg": 79,
-      "causally_related_to": [],
-      "confirmed_by": [
-        "wikipedia"
-      ],
-      "source_urls": {
-        "wikipedia": "https://en.wikipedia.org/wiki/Timeline_of_the_2026_Iran_war#27_March"
-      },
-      "market_impact": {
-        "W": {
-          "delta_pct": -0.942,
-          "window_start": "2026-03-27T00:00:00Z",
-          "window_end": "2026-03-27T00:00:00Z"
-        },
-        "C": {
-          "delta_pct": -0.0801,
-          "window_start": "2026-03-27T00:00:00Z",
-          "window_end": "2026-03-27T00:00:00Z"
-        },
-        "N": {
-          "delta_pct": 0.0,
-          "window_start": "2026-03-27T00:00:00Z",
-          "window_end": "2026-03-27T00:00:00Z"
-        },
-        "K": {
-          "delta_pct": -2.4089,
-          "window_start": "2026-03-27T00:00:00Z",
-          "window_end": "2026-03-27T00:00:00Z"
-        }
-      },
-      "trump_posts": [],
-      "related_articles": [
-        {
-          "id": "art-f4fd49a3",
-          "title": "Over 230 children killed in US-Israeli attacks in first month of war, says Iran",
-          "title_ko": "이란, '전쟁 첫 달 미국·이스라엘 공격으로 어린이 230명 이상 사망'",
-          "source": "Anadolu Agency",
-          "url": "https://www.aa.com.tr/en/middle-east/over-230-children-killed-in-us-israeli-attacks-in-first-month-of-war-says-iran/3883330",
-          "published_date": "2026-03-27T12:00:00Z",
-          "summary": "Iran's Ministry of Health claimed that over 230 children had been killed in the first month of US-Israeli strikes, as the government published updated civilian casualty statistics.",
-          "summary_ko": "이란 보건부가 미국-이스라엘 공습 첫 달에 어린이 230명 이상이 사망했다고 주장하며 민간인 사상자 통계를 업데이트했다.",
-          "source_bias": "center",
-          "source_reliability": 78,
-          "relevance_score": 90,
-          "relevance_note": "이란 보건부 발표: 어린이 230명 이상 사망 아나돌루통신 보도"
-        },
-        {
-          "id": "art-b2613470",
-          "title": "Casualties of the 2026 Iran War - Wikipedia",
-          "title_ko": "2026년 이란 전쟁 사상자 - 위키백과",
-          "source": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Casualties_of_the_Twelve-Day_War",
-          "published_date": "2026-03-27T00:00:00Z",
-          "summary": "Wikipedia's running compilation of casualty figures from both sides of the 2026 Iran war, including Iranian claims of children killed in US-Israeli strikes.",
-          "summary_ko": "위키백과의 2026년 이란 전쟁 양측 사상자 수치 집계. 미국-이스라엘 공습으로 사망한 어린이에 대한 이란의 주장 포함.",
-          "source_bias": "center",
-          "source_reliability": 80,
-          "relevance_score": 85,
-          "relevance_note": "이란 전쟁 양측 사상자 집계 위키백과"
-        }
-      ]
-    },
-    {
-      "event_id": "evt-241",
-      "date": "2026-03-27",
-      "time": "00:00:00Z",
-      "title": "IAF, 베이루트 새벽 공습 2명 사망",
-      "summary": "IAF Pre-Dawn Strike on Beirut Kills Two. (설명 원문 참조)",
-      "importance": "critical",
-      "objectivity_avg": null,
-      "causally_related_to": [],
-      "confirmed_by": [
-        "iranwarlive"
-      ],
-      "source_urls": {
-        "iranwarlive": "https://iranwarlive.com/recaps/day-29.html"
-      },
-      "market_impact": {
-        "W": {
-          "delta_pct": -0.942,
-          "window_start": "2026-03-27T00:00:00Z",
-          "window_end": "2026-03-27T00:00:00Z"
-        },
-        "C": {
-          "delta_pct": -0.0801,
-          "window_start": "2026-03-27T00:00:00Z",
-          "window_end": "2026-03-27T00:00:00Z"
-        },
-        "N": {
-          "delta_pct": 0.0,
-          "window_start": "2026-03-27T00:00:00Z",
-          "window_end": "2026-03-27T00:00:00Z"
-        },
-        "K": {
-          "delta_pct": -2.4089,
-          "window_start": "2026-03-27T00:00:00Z",
-          "window_end": "2026-03-27T00:00:00Z"
-        }
-      },
-      "trump_posts": [],
-      "related_articles": []
-    },
-    {
       "event_id": "evt-242",
       "date": "2026-03-27",
-      "time": "00:00:00Z",
-      "title": "이스라엘, 아라크 중수로 단지 타격",
-      "summary": "Israel Strikes Shahid Khondab Heavy Water Complex in Arak. (설명 원문 참조)",
-      "importance": "critical",
-      "objectivity_avg": 84,
-      "causally_related_to": [],
-      "confirmed_by": [
-        "iranwarlive"
-      ],
-      "source_urls": {
-        "iranwarlive": "https://iranwarlive.com/recaps/day-29.html"
-      },
-      "market_impact": {
-        "W": {
-          "delta_pct": 1.9793,
-          "window_start": "2026-03-27T10:00:00Z",
-          "window_end": "2026-03-27T10:00:00Z"
-        },
-        "C": {
-          "delta_pct": -1.5532,
-          "window_start": "2026-03-27T10:00:00Z",
-          "window_end": "2026-03-27T10:00:00Z"
-        },
-        "N": {
-          "delta_pct": 0.0,
-          "window_start": "2026-03-27T10:00:00Z",
-          "window_end": "2026-03-27T10:00:00Z"
-        },
-        "K": {
-          "delta_pct": 0.0,
-          "window_start": "2026-03-27T10:00:00Z",
-          "window_end": "2026-03-27T10:00:00Z"
-        }
-      },
-      "trump_posts": [],
-      "related_articles": [
-        {
-          "id": "art-f75705fc",
-          "title": "Israel strikes Iranian nuclear development facilities, Tehran vows retaliation",
-          "title_ko": "이스라엘, 이란 핵개발 시설 타격...테헤란 보복 경고",
-          "source": "Jerusalem Post",
-          "url": "https://www.jpost.com/middle-east/iran-news/article-891437",
-          "published_date": "2026-03-27T10:00:00Z",
-          "summary": "Israeli Air Force struck Iran's Shahid Khondab heavy water complex in Arak, targeting the heavy water research reactor associated with potential plutonium weapons production.",
-          "summary_ko": "이스라엘 공군이 이란 아라크의 샤히드 혼다브 중수 복합시설을 타격했으며, 플루토늄 무기 생산과 관련된 중수 연구용 원자로를 목표로 삼았다.",
-          "source_bias": "center-right",
-          "source_reliability": 82,
-          "relevance_score": 96,
-          "relevance_note": "이스라엘의 아라크 샤히드 혼다브 중수 시설 타격 예루살렘포스트 보도"
-        },
-        {
-          "id": "art-acbf2763",
-          "title": "Israel strikes Iran's nuclear facilities as Tehran vows retaliation",
-          "title_ko": "이스라엘, 이란 핵시설 타격...테헤란 보복 맹세",
-          "source": "Fortune",
-          "url": "https://fortune.com/2026/03/27/israel-strikes-irans-nuclear-facilities-tehran-vows-retaliation/",
-          "published_date": "2026-03-27T12:00:00Z",
-          "summary": "Israel struck Iran's Arak heavy water complex and Ardakan yellowcake facility on March 27, with Tehran vowing that retaliation 'will no longer be an eye for an eye.'",
-          "summary_ko": "이스라엘이 3월 27일 이란의 아라크 중수 복합시설과 아르다칸 옐로케이크 시설을 타격했으며, 테헤란은 보복이 '더 이상 눈에는 눈 방식이 아닐 것'이라고 맹세했다.",
-          "source_bias": "center",
-          "source_reliability": 85,
-          "relevance_score": 95,
-          "relevance_note": "아라크·아르다칸 핵시설 동시 타격 후 테헤란 보복 경고 포춘 보도"
-        }
-      ]
-    },
-    {
-      "event_id": "evt-243",
-      "date": "2026-03-27",
-      "time": "00:00:00Z",
-      "title": "IAF, 아르다칸 옐로케이크 공장 타격",
-      "summary": "IAF Strikes Ardakan Yellowcake Production Plant; No Radiation Release Reported. (설명 원문 참조)",
-      "importance": "critical",
-      "objectivity_avg": 80,
-      "causally_related_to": [],
-      "confirmed_by": [
-        "iranwarlive"
-      ],
-      "source_urls": {
-        "iranwarlive": "https://iranwarlive.com/recaps/day-29.html"
-      },
-      "market_impact": {
-        "W": {
-          "delta_pct": 3.6622,
-          "window_start": "2026-03-27T14:00:00Z",
-          "window_end": "2026-03-27T14:00:00Z"
-        },
-        "C": {
-          "delta_pct": -4.4629,
-          "window_start": "2026-03-27T14:00:00Z",
-          "window_end": "2026-03-27T14:00:00Z"
-        },
-        "N": {
-          "delta_pct": -1.2653,
-          "window_start": "2026-03-27T14:00:00Z",
-          "window_end": "2026-03-27T14:00:00Z"
-        },
-        "K": {
-          "delta_pct": 0.0,
-          "window_start": "2026-03-27T14:00:00Z",
-          "window_end": "2026-03-27T14:00:00Z"
-        }
-      },
-      "trump_posts": [],
-      "related_articles": [
-        {
-          "id": "art-b2360f48",
-          "title": "Israeli Air Force Conducts Fresh Strikes on Iran's Arak Reactor and Uranium Processing Facilities",
-          "title_ko": "이스라엘 공군, 이란 아라크 원자로 및 우라늄 처리 시설 추가 타격",
-          "source": "Defense News",
-          "url": "https://www.thedefensenews.com/news-details/Israeli-Air-Force-Conducts-Fresh-Strikes-on-Irans-Arak-Reactor-and-Uranium-Processing-Facilities/",
-          "published_date": "2026-03-27T14:00:00Z",
-          "summary": "The IAF struck Iran's Ardakan yellowcake processing plant and the Arak heavy water complex in a coordinated strike involving over 50 fighter jets, with satellite imagery confirming significant damage.",
-          "summary_ko": "IAF가 50기 이상의 전투기를 동원한 협동 타격으로 이란의 아르다칸 옐로케이크 처리 시설과 아라크 중수 복합시설을 공격했으며, 위성 이미지가 심각한 피해를 확인했다.",
-          "source_bias": "center",
-          "source_reliability": 80,
-          "relevance_score": 96,
-          "relevance_note": "IAF의 아르다칸 옐로케이크 처리장 및 아라크 중수 시설 협동 타격 방산뉴스 보도"
-        }
-      ]
-    },
-    {
-      "event_id": "evt-244",
-      "date": "2026-03-27",
-      "time": "00:00:00Z",
-      "title": "이란, 쿠웨이트 항구 공격 중국 일대일로 시설 피해",
-      "summary": "Iranian Attacks Damage Kuwait Ports Including Chinese Belt and Road Facility. (설명 원문 참조)",
-      "importance": "major",
-      "objectivity_avg": null,
-      "causally_related_to": [],
-      "confirmed_by": [
-        "iranwarlive"
-      ],
-      "source_urls": {
-        "iranwarlive": "https://iranwarlive.com/recaps/day-29.html"
-      },
-      "market_impact": {
-        "W": {
-          "delta_pct": -0.942,
-          "window_start": "2026-03-27T00:00:00Z",
-          "window_end": "2026-03-27T00:00:00Z"
-        },
-        "C": {
-          "delta_pct": -0.0801,
-          "window_start": "2026-03-27T00:00:00Z",
-          "window_end": "2026-03-27T00:00:00Z"
-        },
-        "N": {
-          "delta_pct": 0.0,
-          "window_start": "2026-03-27T00:00:00Z",
-          "window_end": "2026-03-27T00:00:00Z"
-        },
-        "K": {
-          "delta_pct": -2.4089,
-          "window_start": "2026-03-27T00:00:00Z",
-          "window_end": "2026-03-27T00:00:00Z"
-        }
-      },
-      "trump_posts": [],
-      "related_articles": []
-    },
-    {
-      "event_id": "evt-245",
-      "date": "2026-03-27",
-      "time": "00:00:00Z",
+      "time": "15:00:00Z",
       "title": "G7 외교장관, 호르무즈 공동성명·트럼프 기한 연장",
       "summary": "G7 Foreign Ministers Issue Joint Statement on Hormuz; Trump Extends Deadline to April 6. (설명 원문 참조)",
       "importance": "critical",
@@ -11358,9 +11203,9 @@
       ]
     },
     {
-      "event_id": "evt-246",
+      "event_id": "evt-243",
       "date": "2026-03-27",
-      "time": "00:00:00Z",
+      "time": "18:45:00Z",
       "title": "사우디, 리야드 향한 미사일·드론 요격",
       "summary": "Saudi Air Defenses Intercept Missiles and Drones Targeting Riyadh. (설명 원문 참조)",
       "importance": "major",
@@ -11398,9 +11243,581 @@
       "related_articles": []
     },
     {
+      "event_id": "evt-244",
+      "date": "2026-03-27",
+      "time": "19:45:00Z",
+      "title": "쿠웨이트 슈와이크항 드론 공격",
+      "summary": "Kuwait reported an attack by drones on Shuwaikh Port , and drones and missiles on Mubarak Al Kabeer Port causing material damage but no human casualti. (설명 원문 참조)",
+      "importance": "major",
+      "objectivity_avg": null,
+      "causally_related_to": [],
+      "confirmed_by": [
+        "wikipedia",
+        "iranwarlive"
+      ],
+      "source_urls": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Timeline_of_the_2026_Iran_war#27_March",
+        "iranwarlive": "https://iranwarlive.com/recaps/day-30.html"
+      },
+      "market_impact": {
+        "W": {
+          "delta_pct": -0.942,
+          "window_start": "2026-03-27T00:00:00Z",
+          "window_end": "2026-03-27T00:00:00Z"
+        },
+        "C": {
+          "delta_pct": -0.0801,
+          "window_start": "2026-03-27T00:00:00Z",
+          "window_end": "2026-03-27T00:00:00Z"
+        },
+        "N": {
+          "delta_pct": 0.0,
+          "window_start": "2026-03-27T00:00:00Z",
+          "window_end": "2026-03-27T00:00:00Z"
+        },
+        "K": {
+          "delta_pct": -2.4089,
+          "window_start": "2026-03-27T00:00:00Z",
+          "window_end": "2026-03-27T00:00:00Z"
+        }
+      },
+      "trump_posts": [],
+      "related_articles": []
+    },
+    {
+      "event_id": "evt-245",
+      "date": "2026-03-27",
+      "time": "21:30:00Z",
+      "title": "이란, 이스라엘 탄도미사일 4차례 발사",
+      "summary": "IDF reported 4 missile salvos were fired from Iran on targets in Israel since the early morning, with most being intercepted and the rest causing no c. (설명 원문 참조)",
+      "importance": "critical",
+      "objectivity_avg": null,
+      "causally_related_to": [],
+      "confirmed_by": [
+        "wikipedia",
+        "iranwarlive"
+      ],
+      "source_urls": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Timeline_of_the_2026_Iran_war#27_March",
+        "iranwarlive": "https://iranwarlive.com/recaps/day-29.html"
+      },
+      "market_impact": {
+        "W": {
+          "delta_pct": -0.942,
+          "window_start": "2026-03-27T00:00:00Z",
+          "window_end": "2026-03-27T00:00:00Z"
+        },
+        "C": {
+          "delta_pct": -0.0801,
+          "window_start": "2026-03-27T00:00:00Z",
+          "window_end": "2026-03-27T00:00:00Z"
+        },
+        "N": {
+          "delta_pct": 0.0,
+          "window_start": "2026-03-27T00:00:00Z",
+          "window_end": "2026-03-27T00:00:00Z"
+        },
+        "K": {
+          "delta_pct": -2.4089,
+          "window_start": "2026-03-27T00:00:00Z",
+          "window_end": "2026-03-27T00:00:00Z"
+        }
+      },
+      "trump_posts": [],
+      "related_articles": []
+    },
+    {
+      "event_id": "evt-246",
+      "date": "2026-03-27",
+      "time": "21:30:00Z",
+      "title": "IDF, 야즈드 미사일·기뢰 생산 시설 타격",
+      "summary": "The IDF said that it struck a major missile and naval mine production site in Yazd.. (설명 원문 참조)",
+      "importance": "critical",
+      "objectivity_avg": 82,
+      "causally_related_to": [],
+      "confirmed_by": [
+        "wikipedia",
+        "iranwarlive"
+      ],
+      "source_urls": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Timeline_of_the_2026_Iran_war#27_March",
+        "iranwarlive": "https://iranwarlive.com/recaps/day-29.html"
+      },
+      "market_impact": {
+        "W": {
+          "delta_pct": 1.5876,
+          "window_start": "2026-03-27T08:00:00Z",
+          "window_end": "2026-03-27T08:00:00Z"
+        },
+        "C": {
+          "delta_pct": -0.6511,
+          "window_start": "2026-03-27T08:00:00Z",
+          "window_end": "2026-03-27T08:00:00Z"
+        },
+        "N": {
+          "delta_pct": 0.0,
+          "window_start": "2026-03-27T08:00:00Z",
+          "window_end": "2026-03-27T08:00:00Z"
+        },
+        "K": {
+          "delta_pct": 0.0,
+          "window_start": "2026-03-27T08:00:00Z",
+          "window_end": "2026-03-27T08:00:00Z"
+        }
+      },
+      "trump_posts": [],
+      "related_articles": [
+        {
+          "id": "art-4ffbb324",
+          "title": "IDF says it bombed Iran's 'most central' naval arms production site in Yazd",
+          "title_ko": "IDF, 이란 야즈드 '핵심' 해군 무기 생산 시설 폭격",
+          "source": "Times of Israel",
+          "url": "https://www.timesofisrael.com/liveblog_entry/idf-says-it-bombed-irans-most-central-naval-arms-production-site/",
+          "published_date": "2026-03-27T08:00:00Z",
+          "summary": "The IDF struck Iran's most central naval weapons production facility in Yazd, which manufactured missiles and sea mines for naval deployment, including those used in the Strait of Hormuz blockade.",
+          "summary_ko": "IDF가 이란 야즈드의 핵심 해군 무기 생산 시설을 타격했다. 이 시설은 호르무즈 해협 봉쇄에 사용된 것을 포함한 해군 배치용 미사일과 해상 기뢰를 제조했다.",
+          "source_bias": "center-right",
+          "source_reliability": 82,
+          "relevance_score": 96,
+          "relevance_note": "IDF의 야즈드 이란 해군 미사일·기뢰 생산 시설 타격 타임스오브이스라엘 보도"
+        },
+        {
+          "id": "art-86d620c3",
+          "title": "IDF strikes Iran's missile and sea mine production site in Yazd",
+          "title_ko": "IDF, 이란 야즈드 미사일·해상 기뢰 생산 시설 공격",
+          "source": "Jerusalem Post",
+          "url": "https://www.jpost.com/middle-east/iran-news/article-891408",
+          "published_date": "2026-03-27T10:00:00Z",
+          "summary": "Israeli forces struck Iran's central production site for naval missiles and sea mines in Yazd, targeting the facility that supplied weapons to the IRGC Navy for the Hormuz blockade.",
+          "summary_ko": "이스라엘군이 호르무즈 봉쇄를 위해 IRGC 해군에 무기를 공급한 야즈드의 이란 해군 미사일 및 해상 기뢰 핵심 생산 시설을 공격했다.",
+          "source_bias": "center-right",
+          "source_reliability": 82,
+          "relevance_score": 95,
+          "relevance_note": "야즈드 이란 해상 기뢰·해군 미사일 생산 시설 타격 예루살렘포스트 보도"
+        }
+      ]
+    },
+    {
       "event_id": "evt-247",
       "date": "2026-03-28",
       "time": "00:00:00Z",
+      "title": "오만 살랄라항 드론 2기 공격",
+      "summary": "Port installations in Salalah in southern Oman were hit by two drones. One worker was reported injured. Iran said that it targeted a logistics vessel",
+      "importance": "major",
+      "objectivity_avg": null,
+      "causally_related_to": [],
+      "confirmed_by": [
+        "wikipedia"
+      ],
+      "source_urls": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Timeline_of_the_2026_Iran_war#28_March"
+      },
+      "market_impact": {
+        "W": {
+          "delta_pct": 0.0,
+          "window_start": "2026-03-28T00:00:00Z",
+          "window_end": "2026-03-28T00:00:00Z"
+        },
+        "C": {
+          "delta_pct": -0.0259,
+          "window_start": "2026-03-28T00:00:00Z",
+          "window_end": "2026-03-28T00:00:00Z"
+        },
+        "N": {
+          "delta_pct": 0.0,
+          "window_start": "2026-03-28T00:00:00Z",
+          "window_end": "2026-03-28T00:00:00Z"
+        },
+        "K": {
+          "delta_pct": 0.0,
+          "window_start": "2026-03-28T00:00:00Z",
+          "window_end": "2026-03-28T00:00:00Z"
+        }
+      },
+      "trump_posts": [],
+      "related_articles": []
+    },
+    {
+      "event_id": "evt-248",
+      "date": "2026-03-28",
+      "time": "00:00:00Z",
+      "title": "이란, 두바이 내 우크라이나 장비 창고 타격 주장",
+      "summary": "Iran said that it targeted a Ukrainian anti-drone system depot in Dubai which it said was used to assist American forces.",
+      "importance": "major",
+      "objectivity_avg": null,
+      "causally_related_to": [],
+      "confirmed_by": [
+        "wikipedia"
+      ],
+      "source_urls": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Timeline_of_the_2026_Iran_war#28_March"
+      },
+      "market_impact": {
+        "W": {
+          "delta_pct": 0.0,
+          "window_start": "2026-03-28T00:00:00Z",
+          "window_end": "2026-03-28T00:00:00Z"
+        },
+        "C": {
+          "delta_pct": -0.0259,
+          "window_start": "2026-03-28T00:00:00Z",
+          "window_end": "2026-03-28T00:00:00Z"
+        },
+        "N": {
+          "delta_pct": 0.0,
+          "window_start": "2026-03-28T00:00:00Z",
+          "window_end": "2026-03-28T00:00:00Z"
+        },
+        "K": {
+          "delta_pct": 0.0,
+          "window_start": "2026-03-28T00:00:00Z",
+          "window_end": "2026-03-28T00:00:00Z"
+        }
+      },
+      "trump_posts": [],
+      "related_articles": []
+    },
+    {
+      "event_id": "evt-249",
+      "date": "2026-03-28",
+      "time": "00:00:00Z",
+      "title": "이란 드론, 쿠웨이트 공항 레이더 손상",
+      "summary": "Iranian drones hit Kuwait international airport and damaged its radar system. The fire, which had been burning in the airports fuel depot for 3 days,",
+      "importance": "major",
+      "objectivity_avg": null,
+      "causally_related_to": [],
+      "confirmed_by": [
+        "wikipedia"
+      ],
+      "source_urls": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Timeline_of_the_2026_Iran_war#28_March"
+      },
+      "market_impact": {
+        "W": {
+          "delta_pct": 0.0,
+          "window_start": "2026-03-28T00:00:00Z",
+          "window_end": "2026-03-28T00:00:00Z"
+        },
+        "C": {
+          "delta_pct": -0.0259,
+          "window_start": "2026-03-28T00:00:00Z",
+          "window_end": "2026-03-28T00:00:00Z"
+        },
+        "N": {
+          "delta_pct": 0.0,
+          "window_start": "2026-03-28T00:00:00Z",
+          "window_end": "2026-03-28T00:00:00Z"
+        },
+        "K": {
+          "delta_pct": 0.0,
+          "window_start": "2026-03-28T00:00:00Z",
+          "window_end": "2026-03-28T00:00:00Z"
+        }
+      },
+      "trump_posts": [],
+      "related_articles": []
+    },
+    {
+      "event_id": "evt-250",
+      "date": "2026-03-28",
+      "time": "00:00:00Z",
+      "title": "드론, 쿠르드 대통령 바르자니 자택 공격",
+      "summary": "A drone attack targeted the home of Kurdistan Region president Nechirvan Barzani in Duhok .",
+      "importance": "major",
+      "objectivity_avg": null,
+      "causally_related_to": [],
+      "confirmed_by": [
+        "wikipedia"
+      ],
+      "source_urls": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Timeline_of_the_2026_Iran_war#28_March"
+      },
+      "market_impact": {
+        "W": {
+          "delta_pct": 0.0,
+          "window_start": "2026-03-28T00:00:00Z",
+          "window_end": "2026-03-28T00:00:00Z"
+        },
+        "C": {
+          "delta_pct": -0.0259,
+          "window_start": "2026-03-28T00:00:00Z",
+          "window_end": "2026-03-28T00:00:00Z"
+        },
+        "N": {
+          "delta_pct": 0.0,
+          "window_start": "2026-03-28T00:00:00Z",
+          "window_end": "2026-03-28T00:00:00Z"
+        },
+        "K": {
+          "delta_pct": 0.0,
+          "window_start": "2026-03-28T00:00:00Z",
+          "window_end": "2026-03-28T00:00:00Z"
+        }
+      },
+      "trump_posts": [],
+      "related_articles": []
+    },
+    {
+      "event_id": "evt-251",
+      "date": "2026-03-28",
+      "time": "00:00:00Z",
+      "title": "이란 과학기술대 건물 야간 공습 피해",
+      "summary": "An overnight strike in Tehran damaged buildings belonging to Iran University of Science and Technology . The IRGC to threatened to attack US universit",
+      "importance": "major",
+      "objectivity_avg": null,
+      "causally_related_to": [],
+      "confirmed_by": [
+        "wikipedia"
+      ],
+      "source_urls": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Timeline_of_the_2026_Iran_war#28_March"
+      },
+      "market_impact": {
+        "W": {
+          "delta_pct": 0.0,
+          "window_start": "2026-03-28T00:00:00Z",
+          "window_end": "2026-03-28T00:00:00Z"
+        },
+        "C": {
+          "delta_pct": -0.0259,
+          "window_start": "2026-03-28T00:00:00Z",
+          "window_end": "2026-03-28T00:00:00Z"
+        },
+        "N": {
+          "delta_pct": 0.0,
+          "window_start": "2026-03-28T00:00:00Z",
+          "window_end": "2026-03-28T00:00:00Z"
+        },
+        "K": {
+          "delta_pct": 0.0,
+          "window_start": "2026-03-28T00:00:00Z",
+          "window_end": "2026-03-28T00:00:00Z"
+        }
+      },
+      "trump_posts": [],
+      "related_articles": []
+    },
+    {
+      "event_id": "evt-252",
+      "date": "2026-03-28",
+      "time": "00:00:00Z",
+      "title": "이란 탄도미사일, 에슈타올 19명 부상",
+      "summary": "An Iranian ballistic missile strike in Eshtaol injured 19 people and damaged several homes.",
+      "importance": "critical",
+      "objectivity_avg": null,
+      "causally_related_to": [],
+      "confirmed_by": [
+        "wikipedia"
+      ],
+      "source_urls": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Timeline_of_the_2026_Iran_war#28_March"
+      },
+      "market_impact": {
+        "W": {
+          "delta_pct": 0.0,
+          "window_start": "2026-03-28T00:00:00Z",
+          "window_end": "2026-03-28T00:00:00Z"
+        },
+        "C": {
+          "delta_pct": -0.0259,
+          "window_start": "2026-03-28T00:00:00Z",
+          "window_end": "2026-03-28T00:00:00Z"
+        },
+        "N": {
+          "delta_pct": 0.0,
+          "window_start": "2026-03-28T00:00:00Z",
+          "window_end": "2026-03-28T00:00:00Z"
+        },
+        "K": {
+          "delta_pct": 0.0,
+          "window_start": "2026-03-28T00:00:00Z",
+          "window_end": "2026-03-28T00:00:00Z"
+        }
+      },
+      "trump_posts": [],
+      "related_articles": []
+    },
+    {
+      "event_id": "evt-253",
+      "date": "2026-03-28",
+      "time": "00:00:00Z",
+      "title": "이라크 드론, 알탄프 기지 공격 시도 요격",
+      "summary": "A drone attack from Iraq targeting Syria's al-Tanf military base was intercepted.",
+      "importance": "major",
+      "objectivity_avg": null,
+      "causally_related_to": [],
+      "confirmed_by": [
+        "wikipedia"
+      ],
+      "source_urls": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Timeline_of_the_2026_Iran_war#28_March"
+      },
+      "market_impact": {
+        "W": {
+          "delta_pct": 0.0,
+          "window_start": "2026-03-28T00:00:00Z",
+          "window_end": "2026-03-28T00:00:00Z"
+        },
+        "C": {
+          "delta_pct": -0.0259,
+          "window_start": "2026-03-28T00:00:00Z",
+          "window_end": "2026-03-28T00:00:00Z"
+        },
+        "N": {
+          "delta_pct": 0.0,
+          "window_start": "2026-03-28T00:00:00Z",
+          "window_end": "2026-03-28T00:00:00Z"
+        },
+        "K": {
+          "delta_pct": 0.0,
+          "window_start": "2026-03-28T00:00:00Z",
+          "window_end": "2026-03-28T00:00:00Z"
+        }
+      },
+      "trump_posts": [],
+      "related_articles": []
+    },
+    {
+      "event_id": "evt-254",
+      "date": "2026-03-28",
+      "time": "00:00:00Z",
+      "title": "영국 해군, 호르무즈에 기뢰탐지함 파견",
+      "summary": "The British navy sends the RFA Lyme Bay , an amphibius ship fitted with mine-hunting drones to the Straits of Hormuz.",
+      "importance": "major",
+      "objectivity_avg": null,
+      "causally_related_to": [],
+      "confirmed_by": [
+        "wikipedia"
+      ],
+      "source_urls": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Timeline_of_the_2026_Iran_war#28_March"
+      },
+      "market_impact": {
+        "W": {
+          "delta_pct": 0.0,
+          "window_start": "2026-03-28T00:00:00Z",
+          "window_end": "2026-03-28T00:00:00Z"
+        },
+        "C": {
+          "delta_pct": -0.0259,
+          "window_start": "2026-03-28T00:00:00Z",
+          "window_end": "2026-03-28T00:00:00Z"
+        },
+        "N": {
+          "delta_pct": 0.0,
+          "window_start": "2026-03-28T00:00:00Z",
+          "window_end": "2026-03-28T00:00:00Z"
+        },
+        "K": {
+          "delta_pct": 0.0,
+          "window_start": "2026-03-28T00:00:00Z",
+          "window_end": "2026-03-28T00:00:00Z"
+        }
+      },
+      "trump_posts": [],
+      "related_articles": []
+    },
+    {
+      "event_id": "evt-255",
+      "date": "2026-03-28",
+      "time": "00:00:00Z",
+      "title": "이란, 파키스탄 선박 20척 호르무즈 추가 통항 허용",
+      "summary": "Iran agreed to allow 20 more Pakistani-flagged ships to transit Strait of Hormuz; Islamabad confirmed it.",
+      "importance": "critical",
+      "objectivity_avg": 82,
+      "causally_related_to": [],
+      "confirmed_by": [
+        "wikipedia"
+      ],
+      "source_urls": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Timeline_of_the_2026_Iran_war#28_March"
+      },
+      "market_impact": {
+        "W": {
+          "delta_pct": 0.0,
+          "window_start": "2026-03-28T12:00:00Z",
+          "window_end": "2026-03-28T12:00:00Z"
+        },
+        "C": {
+          "delta_pct": 0.0708,
+          "window_start": "2026-03-28T12:00:00Z",
+          "window_end": "2026-03-28T12:00:00Z"
+        },
+        "N": {
+          "delta_pct": 0.0,
+          "window_start": "2026-03-28T12:00:00Z",
+          "window_end": "2026-03-28T12:00:00Z"
+        },
+        "K": {
+          "delta_pct": 0.0,
+          "window_start": "2026-03-28T12:00:00Z",
+          "window_end": "2026-03-28T12:00:00Z"
+        }
+      },
+      "trump_posts": [],
+      "related_articles": [
+        {
+          "id": "art-8bbddf7b",
+          "title": "Iran declares Strait of Hormuz open to peaceful ships as China sails through",
+          "title_ko": "이란, 평화적 선박에 호르무즈 개방 선언...중국 선박 통과",
+          "source": "Christian Science Monitor",
+          "url": "https://www.csmonitor.com/World/Asia-Pacific/2026/0325/china-ships-strait-of-hormuz-iran-partnership",
+          "published_date": "2026-03-28T12:00:00Z",
+          "summary": "Iran agreed to allow 20 Pakistani-flagged ships to transit the Strait of Hormuz in a selective opening, signaling flexibility while maintaining the blockade against Western shipping.",
+          "summary_ko": "이란이 20척의 파키스탄 국적 선박의 호르무즈 해협 통과를 허용하는 선별적 개방에 동의하면서 서방 선박 봉쇄를 유지하면서도 유연성을 보였다.",
+          "source_bias": "center",
+          "source_reliability": 82,
+          "relevance_score": 90,
+          "relevance_note": "이란의 파키스탄 선박 호르무즈 통과 허용 크리스천사이언스모니터 보도"
+        }
+      ]
+    },
+    {
+      "event_id": "evt-256",
+      "date": "2026-03-28",
+      "time": "02:00:00Z",
+      "title": "IDF, 테헤란 해양산업기구 본부 타격",
+      "summary": "The IDF said that it struck the headquarters of the Marine Industries Organization in Tehran alongside other arms manufacturing sites and air defenses. (설명 원문 참조)",
+      "importance": "critical",
+      "objectivity_avg": null,
+      "causally_related_to": [],
+      "confirmed_by": [
+        "wikipedia",
+        "iranwarlive"
+      ],
+      "source_urls": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Timeline_of_the_2026_Iran_war#28_March",
+        "iranwarlive": "https://iranwarlive.com/recaps/day-30.html"
+      },
+      "market_impact": {
+        "W": {
+          "delta_pct": 0.0,
+          "window_start": "2026-03-28T00:00:00Z",
+          "window_end": "2026-03-28T00:00:00Z"
+        },
+        "C": {
+          "delta_pct": -0.0259,
+          "window_start": "2026-03-28T00:00:00Z",
+          "window_end": "2026-03-28T00:00:00Z"
+        },
+        "N": {
+          "delta_pct": 0.0,
+          "window_start": "2026-03-28T00:00:00Z",
+          "window_end": "2026-03-28T00:00:00Z"
+        },
+        "K": {
+          "delta_pct": 0.0,
+          "window_start": "2026-03-28T00:00:00Z",
+          "window_end": "2026-03-28T00:00:00Z"
+        }
+      },
+      "trump_posts": [],
+      "related_articles": []
+    },
+    {
+      "event_id": "evt-257",
+      "date": "2026-03-28",
+      "time": "04:30:00Z",
       "title": "후티, 예멘서 브에르셰바 향해 탄도미사일 발사",
       "summary": "A Houthi ballistic missile was launched from Yemen toward Beersheba in Southern Israel after its military spokesman gave a speech.[ 5. (설명 원문 참조)",
       "importance": "critical",
@@ -11483,57 +11900,15 @@
       ]
     },
     {
-      "event_id": "evt-248",
+      "event_id": "evt-258",
       "date": "2026-03-28",
-      "time": "00:00:00Z",
-      "title": "IDF, 테헤란 해양산업기구 본부 타격",
-      "summary": "The IDF said that it struck the headquarters of the Marine Industries Organization in Tehran alongside other arms manufacturing sites and air defenses. (설명 원문 참조)",
-      "importance": "critical",
-      "objectivity_avg": null,
-      "causally_related_to": [],
-      "confirmed_by": [
-        "wikipedia",
-        "iranwarlive"
-      ],
-      "source_urls": {
-        "wikipedia": "https://en.wikipedia.org/wiki/Timeline_of_the_2026_Iran_war#28_March",
-        "iranwarlive": "https://iranwarlive.com/recaps/day-30.html"
-      },
-      "market_impact": {
-        "W": {
-          "delta_pct": 0.0,
-          "window_start": "2026-03-28T00:00:00Z",
-          "window_end": "2026-03-28T00:00:00Z"
-        },
-        "C": {
-          "delta_pct": -0.0259,
-          "window_start": "2026-03-28T00:00:00Z",
-          "window_end": "2026-03-28T00:00:00Z"
-        },
-        "N": {
-          "delta_pct": 0.0,
-          "window_start": "2026-03-28T00:00:00Z",
-          "window_end": "2026-03-28T00:00:00Z"
-        },
-        "K": {
-          "delta_pct": 0.0,
-          "window_start": "2026-03-28T00:00:00Z",
-          "window_end": "2026-03-28T00:00:00Z"
-        }
-      },
-      "trump_posts": [],
-      "related_articles": []
-    },
-    {
-      "event_id": "evt-249",
-      "date": "2026-03-28",
-      "time": "00:00:00Z",
+      "time": "08:00:00Z",
       "title": "이란, UAE·바레인 알루미늄 시설 보복 타격",
       "summary": "이란이 자국 철강공장 타격에 대한 보복으로 Aluminium Bahrain(Alba)과 Emirates Global Aluminium을 공격해 시설 피해와 근로자 2명 부상. IRGC는 미-이스라엘의 이란 철강공장 공격에 대한 직접적 보복이라고 밝혔다.",
       "importance": "major",
       "objectivity_avg": null,
       "causally_related_to": [
-        "evt-248"
+        "evt-257"
       ],
       "confirmed_by": [
         "wikipedia",
@@ -11542,368 +11917,6 @@
       "source_urls": {
         "wikipedia": "https://en.wikipedia.org/wiki/Timeline_of_the_2026_Iran_war#28_March",
         "iranwarlive": "https://iranwarlive.com/recaps/day-30.html"
-      },
-      "market_impact": {
-        "W": {
-          "delta_pct": 0.0,
-          "window_start": "2026-03-28T00:00:00Z",
-          "window_end": "2026-03-28T00:00:00Z"
-        },
-        "C": {
-          "delta_pct": -0.0259,
-          "window_start": "2026-03-28T00:00:00Z",
-          "window_end": "2026-03-28T00:00:00Z"
-        },
-        "N": {
-          "delta_pct": 0.0,
-          "window_start": "2026-03-28T00:00:00Z",
-          "window_end": "2026-03-28T00:00:00Z"
-        },
-        "K": {
-          "delta_pct": 0.0,
-          "window_start": "2026-03-28T00:00:00Z",
-          "window_end": "2026-03-28T00:00:00Z"
-        }
-      },
-      "trump_posts": [],
-      "related_articles": []
-    },
-    {
-      "event_id": "evt-250",
-      "date": "2026-03-28",
-      "time": "00:00:00Z",
-      "title": "IDF 낙하산여단 병사, 헤즈볼라 로켓에 전사",
-      "summary": "An IDF soldier of the Paratroopers Brigade was killed in a Hezbollah rocket attack in southern Lebanon, increasing the number of IDF soldiers killed s. (설명 원문 참조)",
-      "importance": "critical",
-      "objectivity_avg": null,
-      "causally_related_to": [],
-      "confirmed_by": [
-        "wikipedia",
-        "iranwarlive"
-      ],
-      "source_urls": {
-        "wikipedia": "https://en.wikipedia.org/wiki/Timeline_of_the_2026_Iran_war#28_March",
-        "iranwarlive": "https://iranwarlive.com/recaps/day-30.html"
-      },
-      "market_impact": {
-        "W": {
-          "delta_pct": 0.0,
-          "window_start": "2026-03-28T00:00:00Z",
-          "window_end": "2026-03-28T00:00:00Z"
-        },
-        "C": {
-          "delta_pct": -0.0259,
-          "window_start": "2026-03-28T00:00:00Z",
-          "window_end": "2026-03-28T00:00:00Z"
-        },
-        "N": {
-          "delta_pct": 0.0,
-          "window_start": "2026-03-28T00:00:00Z",
-          "window_end": "2026-03-28T00:00:00Z"
-        },
-        "K": {
-          "delta_pct": 0.0,
-          "window_start": "2026-03-28T00:00:00Z",
-          "window_end": "2026-03-28T00:00:00Z"
-        }
-      },
-      "trump_posts": [],
-      "related_articles": []
-    },
-    {
-      "event_id": "evt-251",
-      "date": "2026-03-28",
-      "time": "00:00:00Z",
-      "title": "오만 살랄라항 드론 2기 공격",
-      "summary": "오만 남부 살랄라의 항구 시설이 드론 2기의 공격을 받았다. 근로자 1명이 부상을 입은 것으로 보고됐다.",
-      "importance": "major",
-      "objectivity_avg": null,
-      "causally_related_to": [],
-      "confirmed_by": [
-        "wikipedia"
-      ],
-      "source_urls": {
-        "wikipedia": "https://en.wikipedia.org/wiki/Timeline_of_the_2026_Iran_war#28_March"
-      },
-      "market_impact": {
-        "W": {
-          "delta_pct": 0.0,
-          "window_start": "2026-03-28T00:00:00Z",
-          "window_end": "2026-03-28T00:00:00Z"
-        },
-        "C": {
-          "delta_pct": -0.0259,
-          "window_start": "2026-03-28T00:00:00Z",
-          "window_end": "2026-03-28T00:00:00Z"
-        },
-        "N": {
-          "delta_pct": 0.0,
-          "window_start": "2026-03-28T00:00:00Z",
-          "window_end": "2026-03-28T00:00:00Z"
-        },
-        "K": {
-          "delta_pct": 0.0,
-          "window_start": "2026-03-28T00:00:00Z",
-          "window_end": "2026-03-28T00:00:00Z"
-        }
-      },
-      "trump_posts": [],
-      "related_articles": []
-    },
-    {
-      "event_id": "evt-252",
-      "date": "2026-03-28",
-      "time": "00:00:00Z",
-      "title": "이란, 두바이 내 우크라이나 장비 창고 타격 주장",
-      "summary": "이란은 두바이에 있는 우크라이나 대드론 시스템 창고를 타격했다고 밝히며, 해당 시설이 이스라엘 지원에 활용됐다고 주장했다.",
-      "importance": "major",
-      "objectivity_avg": null,
-      "causally_related_to": [],
-      "confirmed_by": [
-        "wikipedia"
-      ],
-      "source_urls": {
-        "wikipedia": "https://en.wikipedia.org/wiki/Timeline_of_the_2026_Iran_war#28_March"
-      },
-      "market_impact": {
-        "W": {
-          "delta_pct": 0.0,
-          "window_start": "2026-03-28T00:00:00Z",
-          "window_end": "2026-03-28T00:00:00Z"
-        },
-        "C": {
-          "delta_pct": -0.0259,
-          "window_start": "2026-03-28T00:00:00Z",
-          "window_end": "2026-03-28T00:00:00Z"
-        },
-        "N": {
-          "delta_pct": 0.0,
-          "window_start": "2026-03-28T00:00:00Z",
-          "window_end": "2026-03-28T00:00:00Z"
-        },
-        "K": {
-          "delta_pct": 0.0,
-          "window_start": "2026-03-28T00:00:00Z",
-          "window_end": "2026-03-28T00:00:00Z"
-        }
-      },
-      "trump_posts": [],
-      "related_articles": []
-    },
-    {
-      "event_id": "evt-253",
-      "date": "2026-03-28",
-      "time": "00:00:00Z",
-      "title": "이란 드론, 쿠웨이트 공항 레이더 손상",
-      "summary": "이란 드론이 쿠웨이트 국제공항을 타격해 레이더 시스템을 손상시켰다. 공항 연료 창고에서 타오르던 화재가 재발화한 것으로 보고됐다.",
-      "importance": "major",
-      "objectivity_avg": null,
-      "causally_related_to": [],
-      "confirmed_by": [
-        "wikipedia"
-      ],
-      "source_urls": {
-        "wikipedia": "https://en.wikipedia.org/wiki/Timeline_of_the_2026_Iran_war#28_March"
-      },
-      "market_impact": {
-        "W": {
-          "delta_pct": 0.0,
-          "window_start": "2026-03-28T00:00:00Z",
-          "window_end": "2026-03-28T00:00:00Z"
-        },
-        "C": {
-          "delta_pct": -0.0259,
-          "window_start": "2026-03-28T00:00:00Z",
-          "window_end": "2026-03-28T00:00:00Z"
-        },
-        "N": {
-          "delta_pct": 0.0,
-          "window_start": "2026-03-28T00:00:00Z",
-          "window_end": "2026-03-28T00:00:00Z"
-        },
-        "K": {
-          "delta_pct": 0.0,
-          "window_start": "2026-03-28T00:00:00Z",
-          "window_end": "2026-03-28T00:00:00Z"
-        }
-      },
-      "trump_posts": [],
-      "related_articles": []
-    },
-    {
-      "event_id": "evt-254",
-      "date": "2026-03-28",
-      "time": "00:00:00Z",
-      "title": "드론, 쿠르드 대통령 바르자니 자택 공격",
-      "summary": "이라크 두호크에서 쿠르디스탄 지역 대통령 네치르반 바르자니의 자택을 겨냥한 드론 공격이 발생했다.",
-      "importance": "major",
-      "objectivity_avg": null,
-      "causally_related_to": [],
-      "confirmed_by": [
-        "wikipedia"
-      ],
-      "source_urls": {
-        "wikipedia": "https://en.wikipedia.org/wiki/Timeline_of_the_2026_Iran_war#28_March"
-      },
-      "market_impact": {
-        "W": {
-          "delta_pct": 0.0,
-          "window_start": "2026-03-28T00:00:00Z",
-          "window_end": "2026-03-28T00:00:00Z"
-        },
-        "C": {
-          "delta_pct": -0.0259,
-          "window_start": "2026-03-28T00:00:00Z",
-          "window_end": "2026-03-28T00:00:00Z"
-        },
-        "N": {
-          "delta_pct": 0.0,
-          "window_start": "2026-03-28T00:00:00Z",
-          "window_end": "2026-03-28T00:00:00Z"
-        },
-        "K": {
-          "delta_pct": 0.0,
-          "window_start": "2026-03-28T00:00:00Z",
-          "window_end": "2026-03-28T00:00:00Z"
-        }
-      },
-      "trump_posts": [],
-      "related_articles": []
-    },
-    {
-      "event_id": "evt-255",
-      "date": "2026-03-28",
-      "time": "00:00:00Z",
-      "title": "이란 과학기술대 건물 야간 공습 피해",
-      "summary": "테헤란 야간 공습으로 이란 과학기술대학교 건물이 피해를 입었다.",
-      "importance": "major",
-      "objectivity_avg": null,
-      "causally_related_to": [],
-      "confirmed_by": [
-        "wikipedia"
-      ],
-      "source_urls": {
-        "wikipedia": "https://en.wikipedia.org/wiki/Timeline_of_the_2026_Iran_war#28_March"
-      },
-      "market_impact": {
-        "W": {
-          "delta_pct": 0.0,
-          "window_start": "2026-03-28T00:00:00Z",
-          "window_end": "2026-03-28T00:00:00Z"
-        },
-        "C": {
-          "delta_pct": -0.0259,
-          "window_start": "2026-03-28T00:00:00Z",
-          "window_end": "2026-03-28T00:00:00Z"
-        },
-        "N": {
-          "delta_pct": 0.0,
-          "window_start": "2026-03-28T00:00:00Z",
-          "window_end": "2026-03-28T00:00:00Z"
-        },
-        "K": {
-          "delta_pct": 0.0,
-          "window_start": "2026-03-28T00:00:00Z",
-          "window_end": "2026-03-28T00:00:00Z"
-        }
-      },
-      "trump_posts": [],
-      "related_articles": []
-    },
-    {
-      "event_id": "evt-256",
-      "date": "2026-03-28",
-      "time": "00:00:00Z",
-      "title": "이란 탄도미사일, 에슈타올 19명 부상",
-      "summary": "이란의 탄도미사일이 에슈타올을 타격해 19명이 부상을 입고 여러 주택이 손상됐다.",
-      "importance": "critical",
-      "objectivity_avg": null,
-      "causally_related_to": [],
-      "confirmed_by": [
-        "wikipedia"
-      ],
-      "source_urls": {
-        "wikipedia": "https://en.wikipedia.org/wiki/Timeline_of_the_2026_Iran_war#28_March"
-      },
-      "market_impact": {
-        "W": {
-          "delta_pct": 0.0,
-          "window_start": "2026-03-28T00:00:00Z",
-          "window_end": "2026-03-28T00:00:00Z"
-        },
-        "C": {
-          "delta_pct": -0.0259,
-          "window_start": "2026-03-28T00:00:00Z",
-          "window_end": "2026-03-28T00:00:00Z"
-        },
-        "N": {
-          "delta_pct": 0.0,
-          "window_start": "2026-03-28T00:00:00Z",
-          "window_end": "2026-03-28T00:00:00Z"
-        },
-        "K": {
-          "delta_pct": 0.0,
-          "window_start": "2026-03-28T00:00:00Z",
-          "window_end": "2026-03-28T00:00:00Z"
-        }
-      },
-      "trump_posts": [],
-      "related_articles": []
-    },
-    {
-      "event_id": "evt-257",
-      "date": "2026-03-28",
-      "time": "00:00:00Z",
-      "title": "이라크 드론, 알탄프 기지 공격 시도 요격",
-      "summary": "이라크에서 발진한 드론이 시리아 알탄프 군사기지를 목표로 공격을 시도했으나 요격됐다.",
-      "importance": "major",
-      "objectivity_avg": null,
-      "causally_related_to": [],
-      "confirmed_by": [
-        "wikipedia"
-      ],
-      "source_urls": {
-        "wikipedia": "https://en.wikipedia.org/wiki/Timeline_of_the_2026_Iran_war#28_March"
-      },
-      "market_impact": {
-        "W": {
-          "delta_pct": 0.0,
-          "window_start": "2026-03-28T00:00:00Z",
-          "window_end": "2026-03-28T00:00:00Z"
-        },
-        "C": {
-          "delta_pct": -0.0259,
-          "window_start": "2026-03-28T00:00:00Z",
-          "window_end": "2026-03-28T00:00:00Z"
-        },
-        "N": {
-          "delta_pct": 0.0,
-          "window_start": "2026-03-28T00:00:00Z",
-          "window_end": "2026-03-28T00:00:00Z"
-        },
-        "K": {
-          "delta_pct": 0.0,
-          "window_start": "2026-03-28T00:00:00Z",
-          "window_end": "2026-03-28T00:00:00Z"
-        }
-      },
-      "trump_posts": [],
-      "related_articles": []
-    },
-    {
-      "event_id": "evt-258",
-      "date": "2026-03-28",
-      "time": "00:00:00Z",
-      "title": "영국 해군, 호르무즈에 기뢰탐지함 파견",
-      "summary": "영국 해군은 기뢰탐지 드론을 탑재한 상륙지원함 RFA 라임 베이를 호르무즈 해협에 파견했다.",
-      "importance": "major",
-      "objectivity_avg": null,
-      "causally_related_to": [],
-      "confirmed_by": [
-        "wikipedia"
-      ],
-      "source_urls": {
-        "wikipedia": "https://en.wikipedia.org/wiki/Timeline_of_the_2026_Iran_war#28_March"
       },
       "market_impact": {
         "W": {
@@ -11933,62 +11946,7 @@
     {
       "event_id": "evt-259",
       "date": "2026-03-28",
-      "time": "00:00:00Z",
-      "title": "이란, 파키스탄 선박 20척 호르무즈 추가 통항 허용",
-      "summary": "이란이 파키스탄 선적 선박 20척의 호르무즈 해협 추가 통항을 허용하는 데 합의했으며, 이슬라마바드는 이를 공식 확인했다.",
-      "importance": "critical",
-      "objectivity_avg": 82,
-      "causally_related_to": [],
-      "confirmed_by": [
-        "wikipedia"
-      ],
-      "source_urls": {
-        "wikipedia": "https://en.wikipedia.org/wiki/Timeline_of_the_2026_Iran_war#28_March"
-      },
-      "market_impact": {
-        "W": {
-          "delta_pct": 0.0,
-          "window_start": "2026-03-28T12:00:00Z",
-          "window_end": "2026-03-28T12:00:00Z"
-        },
-        "C": {
-          "delta_pct": 0.0708,
-          "window_start": "2026-03-28T12:00:00Z",
-          "window_end": "2026-03-28T12:00:00Z"
-        },
-        "N": {
-          "delta_pct": 0.0,
-          "window_start": "2026-03-28T12:00:00Z",
-          "window_end": "2026-03-28T12:00:00Z"
-        },
-        "K": {
-          "delta_pct": 0.0,
-          "window_start": "2026-03-28T12:00:00Z",
-          "window_end": "2026-03-28T12:00:00Z"
-        }
-      },
-      "trump_posts": [],
-      "related_articles": [
-        {
-          "id": "art-8bbddf7b",
-          "title": "Iran declares Strait of Hormuz open to peaceful ships as China sails through",
-          "title_ko": "이란, 평화적 선박에 호르무즈 개방 선언...중국 선박 통과",
-          "source": "Christian Science Monitor",
-          "url": "https://www.csmonitor.com/World/Asia-Pacific/2026/0325/china-ships-strait-of-hormuz-iran-partnership",
-          "published_date": "2026-03-28T12:00:00Z",
-          "summary": "Iran agreed to allow 20 Pakistani-flagged ships to transit the Strait of Hormuz in a selective opening, signaling flexibility while maintaining the blockade against Western shipping.",
-          "summary_ko": "이란이 20척의 파키스탄 국적 선박의 호르무즈 해협 통과를 허용하는 선별적 개방에 동의하면서 서방 선박 봉쇄를 유지하면서도 유연성을 보였다.",
-          "source_bias": "center",
-          "source_reliability": 82,
-          "relevance_score": 90,
-          "relevance_note": "이란의 파키스탄 선박 호르무즈 통과 허용 크리스천사이언스모니터 보도"
-        }
-      ]
-    },
-    {
-      "event_id": "evt-260",
-      "date": "2026-03-28",
-      "time": "00:00:00Z",
+      "time": "11:15:00Z",
       "title": "미 트리폴리 ARG 배치·전사 13명 부상 303명",
       "summary": "미 중부사령부가 개전 이래 처음으로 공식 인명피해를 발표했다. 미군 전사자 13명, 부상자 303명이며 대부분은 이란의 프린스 술탄 기지 탄도미사일 공격에 의한 외상성 뇌손상이다.",
       "importance": "critical",
@@ -12055,9 +12013,51 @@
       ]
     },
     {
+      "event_id": "evt-260",
+      "date": "2026-03-28",
+      "time": "14:30:00Z",
+      "title": "IDF 낙하산여단 병사, 헤즈볼라 로켓에 전사",
+      "summary": "An IDF soldier of the Paratroopers Brigade was killed in a Hezbollah rocket attack in southern Lebanon, increasing the number of IDF soldiers killed s. (설명 원문 참조)",
+      "importance": "critical",
+      "objectivity_avg": null,
+      "causally_related_to": [],
+      "confirmed_by": [
+        "wikipedia",
+        "iranwarlive"
+      ],
+      "source_urls": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Timeline_of_the_2026_Iran_war#28_March",
+        "iranwarlive": "https://iranwarlive.com/recaps/day-30.html"
+      },
+      "market_impact": {
+        "W": {
+          "delta_pct": 0.0,
+          "window_start": "2026-03-28T00:00:00Z",
+          "window_end": "2026-03-28T00:00:00Z"
+        },
+        "C": {
+          "delta_pct": -0.0259,
+          "window_start": "2026-03-28T00:00:00Z",
+          "window_end": "2026-03-28T00:00:00Z"
+        },
+        "N": {
+          "delta_pct": 0.0,
+          "window_start": "2026-03-28T00:00:00Z",
+          "window_end": "2026-03-28T00:00:00Z"
+        },
+        "K": {
+          "delta_pct": 0.0,
+          "window_start": "2026-03-28T00:00:00Z",
+          "window_end": "2026-03-28T00:00:00Z"
+        }
+      },
+      "trump_posts": [],
+      "related_articles": []
+    },
+    {
       "event_id": "evt-261",
       "date": "2026-03-28",
-      "time": "00:00:00Z",
+      "time": "17:00:00Z",
       "title": "연합군, 야즈드 지하 미사일 기지 6번째 타격",
       "summary": "Coalition Executes Sixth Strike on Deeply Buried Yazd Missile Base. (설명 원문 참조)",
       "importance": "critical",
@@ -12098,90 +12098,6 @@
       "event_id": "evt-262",
       "date": "2026-03-29",
       "time": "00:00:00Z",
-      "title": "이란 미사일, 네오트 호바브 화학시설 타격",
-      "summary": "이란 미사일이 네오트 호바브의 ADAMA 화학시설을 타격해 1명 부상.",
-      "importance": "minor",
-      "objectivity_avg": null,
-      "causally_related_to": [],
-      "confirmed_by": [
-        "wikipedia",
-        "iranwarlive"
-      ],
-      "source_urls": {
-        "wikipedia": "https://en.wikipedia.org/wiki/Timeline_of_the_2026_Iran_war#29_March",
-        "iranwarlive": "https://iranwarlive.com/recaps/day-31.html"
-      },
-      "market_impact": {
-        "W": {
-          "delta_pct": 0.0,
-          "window_start": "2026-03-29T00:00:00Z",
-          "window_end": "2026-03-29T00:00:00Z"
-        },
-        "C": {
-          "delta_pct": -0.0041,
-          "window_start": "2026-03-29T00:00:00Z",
-          "window_end": "2026-03-29T00:00:00Z"
-        },
-        "N": {
-          "delta_pct": 0.0,
-          "window_start": "2026-03-29T00:00:00Z",
-          "window_end": "2026-03-29T00:00:00Z"
-        },
-        "K": {
-          "delta_pct": 0.0,
-          "window_start": "2026-03-29T00:00:00Z",
-          "window_end": "2026-03-29T00:00:00Z"
-        }
-      },
-      "trump_posts": [],
-      "related_articles": []
-    },
-    {
-      "event_id": "evt-263",
-      "date": "2026-03-29",
-      "time": "00:00:00Z",
-      "title": "테헤란·알보르즈주 일부 정전 발생",
-      "summary": "파편으로 전력 인프라가 손상되어 테헤란과 카라지 포함 알보르즈주 일부 지역에서 정전이 발생했다.",
-      "importance": "major",
-      "objectivity_avg": null,
-      "causally_related_to": [],
-      "confirmed_by": [
-        "wikipedia",
-        "iranwarlive"
-      ],
-      "source_urls": {
-        "wikipedia": "https://en.wikipedia.org/wiki/Timeline_of_the_2026_Iran_war#29_March",
-        "iranwarlive": "https://iranwarlive.com/recaps/day-32.html"
-      },
-      "market_impact": {
-        "W": {
-          "delta_pct": 0.0,
-          "window_start": "2026-03-29T00:00:00Z",
-          "window_end": "2026-03-29T00:00:00Z"
-        },
-        "C": {
-          "delta_pct": -0.0041,
-          "window_start": "2026-03-29T00:00:00Z",
-          "window_end": "2026-03-29T00:00:00Z"
-        },
-        "N": {
-          "delta_pct": 0.0,
-          "window_start": "2026-03-29T00:00:00Z",
-          "window_end": "2026-03-29T00:00:00Z"
-        },
-        "K": {
-          "delta_pct": 0.0,
-          "window_start": "2026-03-29T00:00:00Z",
-          "window_end": "2026-03-29T00:00:00Z"
-        }
-      },
-      "trump_posts": [],
-      "related_articles": []
-    },
-    {
-      "event_id": "evt-264",
-      "date": "2026-03-29",
-      "time": "00:00:00Z",
       "title": "이란 드론, 이라크 에르빌 바르자니 자택 공격",
       "summary": "야간 드론 공격이 이라크 에르빌에서 쿠르드민주당 지도자 마수드 바르자니 자택과 이란 반대파 본부를 겨냥했다.",
       "importance": "major",
@@ -12219,7 +12135,7 @@
       "related_articles": []
     },
     {
-      "event_id": "evt-265",
+      "event_id": "evt-263",
       "date": "2026-03-29",
       "time": "00:00:00Z",
       "title": "이란 전역 다수 지역에서 폭발 보고",
@@ -12259,7 +12175,7 @@
       "related_articles": []
     },
     {
-      "event_id": "evt-266",
+      "event_id": "evt-264",
       "date": "2026-03-29",
       "time": "00:00:00Z",
       "title": "이스라엘, 테헤란 이동식 지휘소 타격",
@@ -12299,7 +12215,7 @@
       "related_articles": []
     },
     {
-      "event_id": "evt-267",
+      "event_id": "evt-265",
       "date": "2026-03-29",
       "time": "00:00:00Z",
       "title": "이란 국회의장, 대미 협상 거부 선언",
@@ -12339,7 +12255,7 @@
       "related_articles": []
     },
     {
-      "event_id": "evt-268",
+      "event_id": "evt-266",
       "date": "2026-03-29",
       "time": "00:00:00Z",
       "title": "미-이스라엘 공격으로 이란 마을 6명 사망",
@@ -12379,7 +12295,7 @@
       "related_articles": []
     },
     {
-      "event_id": "evt-269",
+      "event_id": "evt-267",
       "date": "2026-03-29",
       "time": "00:00:00Z",
       "title": "IAEA, IR-40 중수로 가동 중단 확인",
@@ -12419,7 +12335,7 @@
       "related_articles": []
     },
     {
-      "event_id": "evt-270",
+      "event_id": "evt-268",
       "date": "2026-03-29",
       "time": "00:00:00Z",
       "title": "이란 드론, 쿠웨이트 군사시설 타격",
@@ -12459,7 +12375,7 @@
       "related_articles": []
     },
     {
-      "event_id": "evt-271",
+      "event_id": "evt-269",
       "date": "2026-03-29",
       "time": "00:00:00Z",
       "title": "이란 남부·중부 광범위 폭발 보고",
@@ -12499,11 +12415,93 @@
       "related_articles": []
     },
     {
+      "event_id": "evt-270",
+      "date": "2026-03-29",
+      "time": "01:00:00Z",
+      "title": "테헤란·알보르즈주 일부 정전 발생",
+      "summary": "파편으로 전력 인프라가 손상되어 테헤란과 카라지 포함 알보르즈주 일부 지역에서 정전이 발생했다.",
+      "importance": "major",
+      "objectivity_avg": null,
+      "causally_related_to": [],
+      "confirmed_by": [
+        "wikipedia",
+        "iranwarlive"
+      ],
+      "source_urls": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Timeline_of_the_2026_Iran_war#29_March",
+        "iranwarlive": "https://iranwarlive.com/recaps/day-32.html"
+      },
+      "market_impact": {
+        "W": {
+          "delta_pct": 0.0,
+          "window_start": "2026-03-29T00:00:00Z",
+          "window_end": "2026-03-29T00:00:00Z"
+        },
+        "C": {
+          "delta_pct": -0.0041,
+          "window_start": "2026-03-29T00:00:00Z",
+          "window_end": "2026-03-29T00:00:00Z"
+        },
+        "N": {
+          "delta_pct": 0.0,
+          "window_start": "2026-03-29T00:00:00Z",
+          "window_end": "2026-03-29T00:00:00Z"
+        },
+        "K": {
+          "delta_pct": 0.0,
+          "window_start": "2026-03-29T00:00:00Z",
+          "window_end": "2026-03-29T00:00:00Z"
+        }
+      },
+      "trump_posts": [],
+      "related_articles": []
+    },
+    {
+      "event_id": "evt-271",
+      "date": "2026-03-29",
+      "time": "02:00:00Z",
+      "title": "이스라엘, 이란 군산복합·학술 시설 타격",
+      "summary": "Israel Strikes Iranian Military-Industrial and Academic Sites",
+      "importance": "major",
+      "objectivity_avg": null,
+      "causally_related_to": [],
+      "confirmed_by": [
+        "iranwarlive"
+      ],
+      "source_urls": {
+        "iranwarlive": "https://iranwarlive.com/recaps/day-31.html"
+      },
+      "market_impact": {
+        "W": {
+          "delta_pct": 0.0,
+          "window_start": "2026-03-29T00:00:00Z",
+          "window_end": "2026-03-29T00:00:00Z"
+        },
+        "C": {
+          "delta_pct": -0.0041,
+          "window_start": "2026-03-29T00:00:00Z",
+          "window_end": "2026-03-29T00:00:00Z"
+        },
+        "N": {
+          "delta_pct": 0.0,
+          "window_start": "2026-03-29T00:00:00Z",
+          "window_end": "2026-03-29T00:00:00Z"
+        },
+        "K": {
+          "delta_pct": 0.0,
+          "window_start": "2026-03-29T00:00:00Z",
+          "window_end": "2026-03-29T00:00:00Z"
+        }
+      },
+      "trump_posts": [],
+      "related_articles": []
+    },
+    {
       "event_id": "evt-272",
       "date": "2026-03-29",
-      "time": "00:00:00Z",
-      "title": "이스라엘, 이란 군산복합·학술 시설 타격",
-      "summary": "이스라엘이 이란의 군산복합 시설 및 학술 기관을 타격했다.",
+      "time": "03:30:00Z",
+      "title": "우크라이나, 발트해 우스트루가 원유터미널 타격",
+      "summary": "Ukraine SBU Alpha Strikes Ust-Luga Baltic Oil Terminal â Second Hit in a Week",
       "importance": "major",
       "objectivity_avg": null,
       "causally_related_to": [],
@@ -12541,7 +12539,7 @@
     {
       "event_id": "evt-273",
       "date": "2026-03-29",
-      "time": "00:00:00Z",
+      "time": "05:00:00Z",
       "title": "이란, 프린스 술탄 공군기지 타격",
       "summary": "이란이 프린스 술탄 공군기지를 타격해 미군 최소 15명 부상, E-3 Sentry 조기경보기 손상.",
       "importance": "major",
@@ -12581,251 +12579,7 @@
     {
       "event_id": "evt-274",
       "date": "2026-03-29",
-      "time": "00:00:00Z",
-      "title": "이란, UAE EMAL 알루미늄 공장 공격",
-      "summary": "이란이 탄도미사일 16발과 UAV 42대로 UAE EMAL 알루미늄 공장을 공격했다.",
-      "importance": "critical",
-      "objectivity_avg": 95,
-      "causally_related_to": [],
-      "confirmed_by": [
-        "iranwarlive"
-      ],
-      "source_urls": {
-        "iranwarlive": "https://iranwarlive.com/recaps/day-31.html"
-      },
-      "market_impact": {
-        "W": {
-          "delta_pct": 0.0,
-          "window_start": "2026-03-29T14:00:00Z",
-          "window_end": "2026-03-29T14:00:00Z"
-        },
-        "C": {
-          "delta_pct": 0.3058,
-          "window_start": "2026-03-29T14:00:00Z",
-          "window_end": "2026-03-29T14:00:00Z"
-        },
-        "N": {
-          "delta_pct": 0.0,
-          "window_start": "2026-03-29T14:00:00Z",
-          "window_end": "2026-03-29T14:00:00Z"
-        },
-        "K": {
-          "delta_pct": 0.0,
-          "window_start": "2026-03-29T14:00:00Z",
-          "window_end": "2026-03-29T14:00:00Z"
-        }
-      },
-      "trump_posts": [],
-      "related_articles": [
-        {
-          "id": "art-72347b9c",
-          "title": "Iran fires 16 ballistic missiles at UAE aluminium plants; Abu Dhabi air defenses engage",
-          "title_ko": "이란, UAE 알루미늄 공장에 탄도미사일 16발 발사...아부다비 방공 대응",
-          "source": "Reuters",
-          "url": "https://www.reuters.com/world/middle-east/iran-missiles-uae-emal-aluminium-march-2026/",
-          "published_date": "2026-03-29T14:00:00Z",
-          "summary": "Iran launched 16 ballistic missiles and drones at UAE aluminium facilities including Emirates Global Aluminium's EMAL plant, representing a major escalation against Gulf state infrastructure.",
-          "summary_ko": "이란이 UAE 알루미늄 시설, 특히 에미리트 글로벌 알루미늄(EMAL) 공장을 향해 탄도미사일 16발과 드론을 발사하는 걸프 국가 인프라에 대한 대규모 공격을 감행했다.",
-          "source_bias": "center",
-          "source_reliability": 95,
-          "relevance_score": 95,
-          "relevance_note": "이란의 UAE EMAL 알루미늄 공장 탄도미사일 16발 공격 로이터 보도"
-        }
-      ]
-    },
-    {
-      "event_id": "evt-275",
-      "date": "2026-03-29",
-      "time": "00:00:00Z",
-      "title": "레바논 인도네시아 유니필 평화유지군 전사",
-      "summary": "Indonesian UNIFIL Peacekeeper Killed Near Adchit al-Qusayr â Origin of Fire Under Investigation",
-      "importance": "critical",
-      "objectivity_avg": 88,
-      "causally_related_to": [],
-      "confirmed_by": [
-        "iranwarlive"
-      ],
-      "source_urls": {
-        "iranwarlive": "https://iranwarlive.com/recaps/day-31.html"
-      },
-      "market_impact": {
-        "W": {
-          "delta_pct": 0.0,
-          "window_start": "2026-03-29T14:00:00Z",
-          "window_end": "2026-03-29T14:00:00Z"
-        },
-        "C": {
-          "delta_pct": 0.3058,
-          "window_start": "2026-03-29T14:00:00Z",
-          "window_end": "2026-03-29T14:00:00Z"
-        },
-        "N": {
-          "delta_pct": 0.0,
-          "window_start": "2026-03-29T14:00:00Z",
-          "window_end": "2026-03-29T14:00:00Z"
-        },
-        "K": {
-          "delta_pct": 0.0,
-          "window_start": "2026-03-29T14:00:00Z",
-          "window_end": "2026-03-29T14:00:00Z"
-        }
-      },
-      "trump_posts": [],
-      "related_articles": [
-        {
-          "id": "art-4c54309c",
-          "title": "UN peacekeeper killed, another seriously injured, in southern Lebanon",
-          "title_ko": "남부 레바논에서 UN 평화유지군 1명 사망·1명 중상",
-          "source": "UN News",
-          "url": "https://news.un.org/en/story/2026/03/1167214",
-          "published_date": "2026-03-29T14:00:00Z",
-          "summary": "A UN UNIFIL peacekeeper from Indonesia was killed near Adchit al-Qusayr in southern Lebanon when a projectile exploded at their position. Another peacekeeper was seriously injured.",
-          "summary_ko": "유엔 UNIFIL 인도네시아 평화유지군이 남부 레바논 아드칫 알쿠사이르 인근에서 포탄 폭발로 사망했으며, 또 다른 평화유지군 1명이 중상을 입었다.",
-          "source_bias": "center",
-          "source_reliability": 95,
-          "relevance_score": 96,
-          "relevance_note": "UNIFIL 인도네시아 평화유지군 사망 UN 공식 발표"
-        },
-        {
-          "id": "art-02c9e303",
-          "title": "UN peacekeeper killed in southern Lebanon as Israeli invasion intensifies",
-          "title_ko": "이스라엘 침공 격화 속 남부 레바논에서 UN 평화유지군 사망",
-          "source": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/3/30/un-peacekeeper-killed-as-israel-hezbollah-fighting-escalates-in-lebanon",
-          "published_date": "2026-03-29T18:00:00Z",
-          "summary": "The killing of the Indonesian UNIFIL peacekeeper near Adchit al-Qusayr was the first UNIFIL fatality of the renewed 2026 Lebanon conflict, sparking international condemnation.",
-          "summary_ko": "아드칫 알쿠사이르 인근에서 인도네시아 UNIFIL 평화유지군이 사망한 사건은 2026년 레바논 분쟁 재발 이후 첫 UNIFIL 사망자로, 국제적 비난을 불러일으켰다.",
-          "source_bias": "center-left",
-          "source_reliability": 80,
-          "relevance_score": 94,
-          "relevance_note": "UNIFIL 인도네시아 평화유지군 사망 2026 레바논 분쟁 최초 사례 알자지라 보도"
-        }
-      ]
-    },
-    {
-      "event_id": "evt-276",
-      "date": "2026-03-29",
-      "time": "00:00:00Z",
-      "title": "IDF 146사단, 라스알바야다 진출",
-      "summary": "IDF 146th Division Advances to Ras al-Bayada â Netanyahu Confirms Expanding Buffer Zone",
-      "importance": "major",
-      "objectivity_avg": null,
-      "causally_related_to": [],
-      "confirmed_by": [
-        "iranwarlive"
-      ],
-      "source_urls": {
-        "iranwarlive": "https://iranwarlive.com/recaps/day-31.html"
-      },
-      "market_impact": {
-        "W": {
-          "delta_pct": 0.0,
-          "window_start": "2026-03-29T00:00:00Z",
-          "window_end": "2026-03-29T00:00:00Z"
-        },
-        "C": {
-          "delta_pct": -0.0041,
-          "window_start": "2026-03-29T00:00:00Z",
-          "window_end": "2026-03-29T00:00:00Z"
-        },
-        "N": {
-          "delta_pct": 0.0,
-          "window_start": "2026-03-29T00:00:00Z",
-          "window_end": "2026-03-29T00:00:00Z"
-        },
-        "K": {
-          "delta_pct": 0.0,
-          "window_start": "2026-03-29T00:00:00Z",
-          "window_end": "2026-03-29T00:00:00Z"
-        }
-      },
-      "trump_posts": [],
-      "related_articles": []
-    },
-    {
-      "event_id": "evt-277",
-      "date": "2026-03-29",
-      "time": "00:00:00Z",
-      "title": "이란, 'Janfada' 전국민 동원 캠페인 발동",
-      "summary": "이란이 미군 지상 침공 우려를 들어 전국민 대상 SMS 모병 캠페인 'Janfada'를 시작했다.",
-      "importance": "minor",
-      "objectivity_avg": null,
-      "causally_related_to": [],
-      "confirmed_by": [
-        "iranwarlive"
-      ],
-      "source_urls": {
-        "iranwarlive": "https://iranwarlive.com/recaps/day-31.html"
-      },
-      "market_impact": {
-        "W": {
-          "delta_pct": 0.0,
-          "window_start": "2026-03-29T00:00:00Z",
-          "window_end": "2026-03-29T00:00:00Z"
-        },
-        "C": {
-          "delta_pct": -0.0041,
-          "window_start": "2026-03-29T00:00:00Z",
-          "window_end": "2026-03-29T00:00:00Z"
-        },
-        "N": {
-          "delta_pct": 0.0,
-          "window_start": "2026-03-29T00:00:00Z",
-          "window_end": "2026-03-29T00:00:00Z"
-        },
-        "K": {
-          "delta_pct": 0.0,
-          "window_start": "2026-03-29T00:00:00Z",
-          "window_end": "2026-03-29T00:00:00Z"
-        }
-      },
-      "trump_posts": [],
-      "related_articles": []
-    },
-    {
-      "event_id": "evt-278",
-      "date": "2026-03-29",
-      "time": "00:00:00Z",
-      "title": "우크라이나, 발트해 우스트루가 원유터미널 타격",
-      "summary": "Ukraine SBU Alpha Strikes Ust-Luga Baltic Oil Terminal â Second Hit in a Week",
-      "importance": "major",
-      "objectivity_avg": null,
-      "causally_related_to": [],
-      "confirmed_by": [
-        "iranwarlive"
-      ],
-      "source_urls": {
-        "iranwarlive": "https://iranwarlive.com/recaps/day-31.html"
-      },
-      "market_impact": {
-        "W": {
-          "delta_pct": 0.0,
-          "window_start": "2026-03-29T00:00:00Z",
-          "window_end": "2026-03-29T00:00:00Z"
-        },
-        "C": {
-          "delta_pct": -0.0041,
-          "window_start": "2026-03-29T00:00:00Z",
-          "window_end": "2026-03-29T00:00:00Z"
-        },
-        "N": {
-          "delta_pct": 0.0,
-          "window_start": "2026-03-29T00:00:00Z",
-          "window_end": "2026-03-29T00:00:00Z"
-        },
-        "K": {
-          "delta_pct": 0.0,
-          "window_start": "2026-03-29T00:00:00Z",
-          "window_end": "2026-03-29T00:00:00Z"
-        }
-      },
-      "trump_posts": [],
-      "related_articles": []
-    },
-    {
-      "event_id": "evt-279",
-      "date": "2026-03-29",
-      "time": "00:00:00Z",
+      "time": "08:00:00Z",
       "title": "러시아, 442대 드론+킨잘 공격 감행",
       "summary": "러시아가 442대 드론 떼와 킨잘 미사일로 우크라이나를 공격, 오데사 산부인과 병원 피격으로 민간인 5명 사망.",
       "importance": "critical",
@@ -12892,9 +12646,337 @@
       ]
     },
     {
+      "event_id": "evt-275",
+      "date": "2026-03-29",
+      "time": "10:00:00Z",
+      "title": "이란, UAE EMAL 알루미늄 공장 공격",
+      "summary": "이란이 탄도미사일 16발과 UAV 42대로 UAE EMAL 알루미늄 공장을 공격했다.",
+      "importance": "critical",
+      "objectivity_avg": 95,
+      "causally_related_to": [],
+      "confirmed_by": [
+        "iranwarlive"
+      ],
+      "source_urls": {
+        "iranwarlive": "https://iranwarlive.com/recaps/day-31.html"
+      },
+      "market_impact": {
+        "W": {
+          "delta_pct": 0.0,
+          "window_start": "2026-03-29T14:00:00Z",
+          "window_end": "2026-03-29T14:00:00Z"
+        },
+        "C": {
+          "delta_pct": 0.3058,
+          "window_start": "2026-03-29T14:00:00Z",
+          "window_end": "2026-03-29T14:00:00Z"
+        },
+        "N": {
+          "delta_pct": 0.0,
+          "window_start": "2026-03-29T14:00:00Z",
+          "window_end": "2026-03-29T14:00:00Z"
+        },
+        "K": {
+          "delta_pct": 0.0,
+          "window_start": "2026-03-29T14:00:00Z",
+          "window_end": "2026-03-29T14:00:00Z"
+        }
+      },
+      "trump_posts": [],
+      "related_articles": [
+        {
+          "id": "art-72347b9c",
+          "title": "Iran fires 16 ballistic missiles at UAE aluminium plants; Abu Dhabi air defenses engage",
+          "title_ko": "이란, UAE 알루미늄 공장에 탄도미사일 16발 발사...아부다비 방공 대응",
+          "source": "Reuters",
+          "url": "https://www.reuters.com/world/middle-east/iran-missiles-uae-emal-aluminium-march-2026/",
+          "published_date": "2026-03-29T14:00:00Z",
+          "summary": "Iran launched 16 ballistic missiles and drones at UAE aluminium facilities including Emirates Global Aluminium's EMAL plant, representing a major escalation against Gulf state infrastructure.",
+          "summary_ko": "이란이 UAE 알루미늄 시설, 특히 에미리트 글로벌 알루미늄(EMAL) 공장을 향해 탄도미사일 16발과 드론을 발사하는 걸프 국가 인프라에 대한 대규모 공격을 감행했다.",
+          "source_bias": "center",
+          "source_reliability": 95,
+          "relevance_score": 95,
+          "relevance_note": "이란의 UAE EMAL 알루미늄 공장 탄도미사일 16발 공격 로이터 보도"
+        }
+      ]
+    },
+    {
+      "event_id": "evt-276",
+      "date": "2026-03-29",
+      "time": "12:00:00Z",
+      "title": "이란 미사일, 네오트 호바브 화학시설 타격",
+      "summary": "이란 미사일이 네오트 호바브의 ADAMA 화학시설을 타격해 1명 부상.",
+      "importance": "minor",
+      "objectivity_avg": null,
+      "causally_related_to": [],
+      "confirmed_by": [
+        "wikipedia",
+        "iranwarlive"
+      ],
+      "source_urls": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Timeline_of_the_2026_Iran_war#29_March",
+        "iranwarlive": "https://iranwarlive.com/recaps/day-31.html"
+      },
+      "market_impact": {
+        "W": {
+          "delta_pct": 0.0,
+          "window_start": "2026-03-29T00:00:00Z",
+          "window_end": "2026-03-29T00:00:00Z"
+        },
+        "C": {
+          "delta_pct": -0.0041,
+          "window_start": "2026-03-29T00:00:00Z",
+          "window_end": "2026-03-29T00:00:00Z"
+        },
+        "N": {
+          "delta_pct": 0.0,
+          "window_start": "2026-03-29T00:00:00Z",
+          "window_end": "2026-03-29T00:00:00Z"
+        },
+        "K": {
+          "delta_pct": 0.0,
+          "window_start": "2026-03-29T00:00:00Z",
+          "window_end": "2026-03-29T00:00:00Z"
+        }
+      },
+      "trump_posts": [],
+      "related_articles": []
+    },
+    {
+      "event_id": "evt-277",
+      "date": "2026-03-29",
+      "time": "14:00:00Z",
+      "title": "레바논 인도네시아 유니필 평화유지군 전사",
+      "summary": "Indonesian UNIFIL Peacekeeper Killed Near Adchit al-Qusayr â Origin of Fire Under Investigation",
+      "importance": "critical",
+      "objectivity_avg": 88,
+      "causally_related_to": [],
+      "confirmed_by": [
+        "iranwarlive"
+      ],
+      "source_urls": {
+        "iranwarlive": "https://iranwarlive.com/recaps/day-31.html"
+      },
+      "market_impact": {
+        "W": {
+          "delta_pct": 0.0,
+          "window_start": "2026-03-29T14:00:00Z",
+          "window_end": "2026-03-29T14:00:00Z"
+        },
+        "C": {
+          "delta_pct": 0.3058,
+          "window_start": "2026-03-29T14:00:00Z",
+          "window_end": "2026-03-29T14:00:00Z"
+        },
+        "N": {
+          "delta_pct": 0.0,
+          "window_start": "2026-03-29T14:00:00Z",
+          "window_end": "2026-03-29T14:00:00Z"
+        },
+        "K": {
+          "delta_pct": 0.0,
+          "window_start": "2026-03-29T14:00:00Z",
+          "window_end": "2026-03-29T14:00:00Z"
+        }
+      },
+      "trump_posts": [],
+      "related_articles": [
+        {
+          "id": "art-4c54309c",
+          "title": "UN peacekeeper killed, another seriously injured, in southern Lebanon",
+          "title_ko": "남부 레바논에서 UN 평화유지군 1명 사망·1명 중상",
+          "source": "UN News",
+          "url": "https://news.un.org/en/story/2026/03/1167214",
+          "published_date": "2026-03-29T14:00:00Z",
+          "summary": "A UN UNIFIL peacekeeper from Indonesia was killed near Adchit al-Qusayr in southern Lebanon when a projectile exploded at their position. Another peacekeeper was seriously injured.",
+          "summary_ko": "유엔 UNIFIL 인도네시아 평화유지군이 남부 레바논 아드칫 알쿠사이르 인근에서 포탄 폭발로 사망했으며, 또 다른 평화유지군 1명이 중상을 입었다.",
+          "source_bias": "center",
+          "source_reliability": 95,
+          "relevance_score": 96,
+          "relevance_note": "UNIFIL 인도네시아 평화유지군 사망 UN 공식 발표"
+        },
+        {
+          "id": "art-02c9e303",
+          "title": "UN peacekeeper killed in southern Lebanon as Israeli invasion intensifies",
+          "title_ko": "이스라엘 침공 격화 속 남부 레바논에서 UN 평화유지군 사망",
+          "source": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/3/30/un-peacekeeper-killed-as-israel-hezbollah-fighting-escalates-in-lebanon",
+          "published_date": "2026-03-29T18:00:00Z",
+          "summary": "The killing of the Indonesian UNIFIL peacekeeper near Adchit al-Qusayr was the first UNIFIL fatality of the renewed 2026 Lebanon conflict, sparking international condemnation.",
+          "summary_ko": "아드칫 알쿠사이르 인근에서 인도네시아 UNIFIL 평화유지군이 사망한 사건은 2026년 레바논 분쟁 재발 이후 첫 UNIFIL 사망자로, 국제적 비난을 불러일으켰다.",
+          "source_bias": "center-left",
+          "source_reliability": 80,
+          "relevance_score": 94,
+          "relevance_note": "UNIFIL 인도네시아 평화유지군 사망 2026 레바논 분쟁 최초 사례 알자지라 보도"
+        }
+      ]
+    },
+    {
+      "event_id": "evt-278",
+      "date": "2026-03-29",
+      "time": "16:00:00Z",
+      "title": "IDF 146사단, 라스알바야다 진출",
+      "summary": "IDF 146th Division Advances to Ras al-Bayada â Netanyahu Confirms Expanding Buffer Zone",
+      "importance": "major",
+      "objectivity_avg": null,
+      "causally_related_to": [],
+      "confirmed_by": [
+        "iranwarlive"
+      ],
+      "source_urls": {
+        "iranwarlive": "https://iranwarlive.com/recaps/day-31.html"
+      },
+      "market_impact": {
+        "W": {
+          "delta_pct": 0.0,
+          "window_start": "2026-03-29T00:00:00Z",
+          "window_end": "2026-03-29T00:00:00Z"
+        },
+        "C": {
+          "delta_pct": -0.0041,
+          "window_start": "2026-03-29T00:00:00Z",
+          "window_end": "2026-03-29T00:00:00Z"
+        },
+        "N": {
+          "delta_pct": 0.0,
+          "window_start": "2026-03-29T00:00:00Z",
+          "window_end": "2026-03-29T00:00:00Z"
+        },
+        "K": {
+          "delta_pct": 0.0,
+          "window_start": "2026-03-29T00:00:00Z",
+          "window_end": "2026-03-29T00:00:00Z"
+        }
+      },
+      "trump_posts": [],
+      "related_articles": []
+    },
+    {
+      "event_id": "evt-279",
+      "date": "2026-03-29",
+      "time": "18:00:00Z",
+      "title": "이란, 'Janfada' 전국민 동원 캠페인 발동",
+      "summary": "이란이 미군 지상 침공 우려를 들어 전국민 대상 SMS 모병 캠페인 'Janfada'를 시작했다.",
+      "importance": "minor",
+      "objectivity_avg": null,
+      "causally_related_to": [],
+      "confirmed_by": [
+        "iranwarlive"
+      ],
+      "source_urls": {
+        "iranwarlive": "https://iranwarlive.com/recaps/day-31.html"
+      },
+      "market_impact": {
+        "W": {
+          "delta_pct": 0.0,
+          "window_start": "2026-03-29T00:00:00Z",
+          "window_end": "2026-03-29T00:00:00Z"
+        },
+        "C": {
+          "delta_pct": -0.0041,
+          "window_start": "2026-03-29T00:00:00Z",
+          "window_end": "2026-03-29T00:00:00Z"
+        },
+        "N": {
+          "delta_pct": 0.0,
+          "window_start": "2026-03-29T00:00:00Z",
+          "window_end": "2026-03-29T00:00:00Z"
+        },
+        "K": {
+          "delta_pct": 0.0,
+          "window_start": "2026-03-29T00:00:00Z",
+          "window_end": "2026-03-29T00:00:00Z"
+        }
+      },
+      "trump_posts": [],
+      "related_articles": []
+    },
+    {
       "event_id": "evt-280",
       "date": "2026-03-30",
       "time": "00:00:00Z",
+      "title": "IDF, 테헤란 IRGC 무기연구시설 타격",
+      "summary": "IDF가 테헤란 이맘 호세인 대학교 내 IRGC 무기 연구·시험 시설을 타격했다고 발표했다.",
+      "importance": "minor",
+      "objectivity_avg": null,
+      "causally_related_to": [],
+      "confirmed_by": [
+        "wikipedia"
+      ],
+      "source_urls": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Timeline_of_the_2026_Iran_war#30_March"
+      },
+      "market_impact": {
+        "W": {
+          "delta_pct": 2.489,
+          "window_start": "2026-03-30T00:00:00Z",
+          "window_end": "2026-03-30T00:00:00Z"
+        },
+        "C": {
+          "delta_pct": 1.0348,
+          "window_start": "2026-03-30T00:00:00Z",
+          "window_end": "2026-03-30T00:00:00Z"
+        },
+        "N": {
+          "delta_pct": 0.0,
+          "window_start": "2026-03-30T00:00:00Z",
+          "window_end": "2026-03-30T00:00:00Z"
+        },
+        "K": {
+          "delta_pct": -3.0626,
+          "window_start": "2026-03-30T00:00:00Z",
+          "window_end": "2026-03-30T00:00:00Z"
+        }
+      },
+      "trump_posts": [],
+      "related_articles": []
+    },
+    {
+      "event_id": "evt-281",
+      "date": "2026-03-30",
+      "time": "05:30:00Z",
+      "title": "NATO, 터키 영공서 이란 미사일 요격",
+      "summary": "NATO 방공망이 터키 영공에서 이란 미사일을 격추. 이란은 터키를 겨냥하지 않았다며 위장 공격이라고 부인했다.",
+      "importance": "minor",
+      "objectivity_avg": null,
+      "causally_related_to": [],
+      "confirmed_by": [
+        "wikipedia",
+        "iranwarlive"
+      ],
+      "source_urls": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Timeline_of_the_2026_Iran_war#30_March",
+        "iranwarlive": "https://iranwarlive.com/recaps/day-33.html"
+      },
+      "market_impact": {
+        "W": {
+          "delta_pct": 2.489,
+          "window_start": "2026-03-30T00:00:00Z",
+          "window_end": "2026-03-30T00:00:00Z"
+        },
+        "C": {
+          "delta_pct": 1.0348,
+          "window_start": "2026-03-30T00:00:00Z",
+          "window_end": "2026-03-30T00:00:00Z"
+        },
+        "N": {
+          "delta_pct": 0.0,
+          "window_start": "2026-03-30T00:00:00Z",
+          "window_end": "2026-03-30T00:00:00Z"
+        },
+        "K": {
+          "delta_pct": -3.0626,
+          "window_start": "2026-03-30T00:00:00Z",
+          "window_end": "2026-03-30T00:00:00Z"
+        }
+      },
+      "trump_posts": [],
+      "related_articles": []
+    },
+    {
+      "event_id": "evt-282",
+      "date": "2026-03-30",
+      "time": "07:00:00Z",
       "title": "이란 드론, 쿠웨이트 발전소·담수시설 타격",
       "summary": "이란 추정 드론이 쿠웨이트 발전소와 담수처리시설을 타격해 건물 피해 발생, 근로자 1명 사망.",
       "importance": "critical",
@@ -12963,9 +13045,9 @@
       ]
     },
     {
-      "event_id": "evt-281",
+      "event_id": "evt-283",
       "date": "2026-03-30",
-      "time": "00:00:00Z",
+      "time": "08:45:00Z",
       "title": "미사일 잔해, 하이파 BAZAN 정유소 타격",
       "summary": "요격된 미사일 잔해가 하이파 BAZAN 정유소를 타격해 연료 탱크와 인근 지붕이 손상되었다.",
       "importance": "major",
@@ -13005,91 +13087,9 @@
       "related_articles": []
     },
     {
-      "event_id": "evt-282",
-      "date": "2026-03-30",
-      "time": "00:00:00Z",
-      "title": "NATO, 터키 영공서 이란 미사일 요격",
-      "summary": "NATO 방공망이 터키 영공에서 이란 미사일을 격추. 이란은 터키를 겨냥하지 않았다며 위장 공격이라고 부인했다.",
-      "importance": "minor",
-      "objectivity_avg": null,
-      "causally_related_to": [],
-      "confirmed_by": [
-        "wikipedia",
-        "iranwarlive"
-      ],
-      "source_urls": {
-        "wikipedia": "https://en.wikipedia.org/wiki/Timeline_of_the_2026_Iran_war#30_March",
-        "iranwarlive": "https://iranwarlive.com/recaps/day-33.html"
-      },
-      "market_impact": {
-        "W": {
-          "delta_pct": 2.489,
-          "window_start": "2026-03-30T00:00:00Z",
-          "window_end": "2026-03-30T00:00:00Z"
-        },
-        "C": {
-          "delta_pct": 1.0348,
-          "window_start": "2026-03-30T00:00:00Z",
-          "window_end": "2026-03-30T00:00:00Z"
-        },
-        "N": {
-          "delta_pct": 0.0,
-          "window_start": "2026-03-30T00:00:00Z",
-          "window_end": "2026-03-30T00:00:00Z"
-        },
-        "K": {
-          "delta_pct": -3.0626,
-          "window_start": "2026-03-30T00:00:00Z",
-          "window_end": "2026-03-30T00:00:00Z"
-        }
-      },
-      "trump_posts": [],
-      "related_articles": []
-    },
-    {
-      "event_id": "evt-283",
-      "date": "2026-03-30",
-      "time": "00:00:00Z",
-      "title": "IDF, 테헤란 IRGC 무기연구시설 타격",
-      "summary": "IDF가 테헤란 이맘 호세인 대학교 내 IRGC 무기 연구·시험 시설을 타격했다고 발표했다.",
-      "importance": "minor",
-      "objectivity_avg": null,
-      "causally_related_to": [],
-      "confirmed_by": [
-        "wikipedia"
-      ],
-      "source_urls": {
-        "wikipedia": "https://en.wikipedia.org/wiki/Timeline_of_the_2026_Iran_war#30_March"
-      },
-      "market_impact": {
-        "W": {
-          "delta_pct": 2.489,
-          "window_start": "2026-03-30T00:00:00Z",
-          "window_end": "2026-03-30T00:00:00Z"
-        },
-        "C": {
-          "delta_pct": 1.0348,
-          "window_start": "2026-03-30T00:00:00Z",
-          "window_end": "2026-03-30T00:00:00Z"
-        },
-        "N": {
-          "delta_pct": 0.0,
-          "window_start": "2026-03-30T00:00:00Z",
-          "window_end": "2026-03-30T00:00:00Z"
-        },
-        "K": {
-          "delta_pct": -3.0626,
-          "window_start": "2026-03-30T00:00:00Z",
-          "window_end": "2026-03-30T00:00:00Z"
-        }
-      },
-      "trump_posts": [],
-      "related_articles": []
-    },
-    {
       "event_id": "evt-284",
       "date": "2026-03-30",
-      "time": "00:00:00Z",
+      "time": "09:00:00Z",
       "title": "이란 부통령, 하르그섬 미군에 경고",
       "summary": "이란 부통령 아레프가 하르그섬에 파견된 미군은 '귀국하지 못할 것'이라고 경고했다.",
       "importance": "major",
@@ -13158,7 +13158,7 @@
     {
       "event_id": "evt-285",
       "date": "2026-03-30",
-      "time": "00:00:00Z",
+      "time": "10:00:00Z",
       "title": "레바논 인도네시아 유니필 추가 2명 전사",
       "summary": "Two More Indonesian UNIFIL Peacekeepers Killed Near Bani Hayyan â Three Total in 24 Hours; Vehicle Destroyed by Explosion of Unknown Origin",
       "importance": "critical",
@@ -13227,47 +13227,7 @@
     {
       "event_id": "evt-286",
       "date": "2026-03-30",
-      "time": "00:00:00Z",
-      "title": "IDF 나할 정찰대원 4명 헤즈볼라와 근접전 전사",
-      "summary": "Four IDF Nahal Reconnaissance Soldiers Killed in Close-Quarters Combat with Hezbollah â Deadliest Single Lebanon Engagement",
-      "importance": "critical",
-      "objectivity_avg": null,
-      "causally_related_to": [],
-      "confirmed_by": [
-        "iranwarlive"
-      ],
-      "source_urls": {
-        "iranwarlive": "https://iranwarlive.com/recaps/day-32.html"
-      },
-      "market_impact": {
-        "W": {
-          "delta_pct": 2.489,
-          "window_start": "2026-03-30T00:00:00Z",
-          "window_end": "2026-03-30T00:00:00Z"
-        },
-        "C": {
-          "delta_pct": 1.0348,
-          "window_start": "2026-03-30T00:00:00Z",
-          "window_end": "2026-03-30T00:00:00Z"
-        },
-        "N": {
-          "delta_pct": 0.0,
-          "window_start": "2026-03-30T00:00:00Z",
-          "window_end": "2026-03-30T00:00:00Z"
-        },
-        "K": {
-          "delta_pct": -3.0626,
-          "window_start": "2026-03-30T00:00:00Z",
-          "window_end": "2026-03-30T00:00:00Z"
-        }
-      },
-      "trump_posts": [],
-      "related_articles": []
-    },
-    {
-      "event_id": "evt-287",
-      "date": "2026-03-30",
-      "time": "00:00:00Z",
+      "time": "13:00:00Z",
       "title": "이스라엘 공습, 레바논 군인 검문소서 사망",
       "summary": "Israeli Strike Kills Lebanese Army Soldier at Checkpoint on QlilehâTyre Road",
       "importance": "critical",
@@ -13305,9 +13265,89 @@
       "related_articles": []
     },
     {
+      "event_id": "evt-287",
+      "date": "2026-03-30",
+      "time": "14:00:00Z",
+      "title": "파키스탄, 미-이란 공식 평화회담 개최 선언",
+      "summary": "Pakistan Announces It Will Host Formal US-Iran Peace Talks â Saudi Arabia, Turkey and Egypt FMs in Islamabad",
+      "importance": "minor",
+      "objectivity_avg": null,
+      "causally_related_to": [],
+      "confirmed_by": [
+        "iranwarlive"
+      ],
+      "source_urls": {
+        "iranwarlive": "https://iranwarlive.com/recaps/day-32.html"
+      },
+      "market_impact": {
+        "W": {
+          "delta_pct": 2.489,
+          "window_start": "2026-03-30T00:00:00Z",
+          "window_end": "2026-03-30T00:00:00Z"
+        },
+        "C": {
+          "delta_pct": 1.0348,
+          "window_start": "2026-03-30T00:00:00Z",
+          "window_end": "2026-03-30T00:00:00Z"
+        },
+        "N": {
+          "delta_pct": 0.0,
+          "window_start": "2026-03-30T00:00:00Z",
+          "window_end": "2026-03-30T00:00:00Z"
+        },
+        "K": {
+          "delta_pct": -3.0626,
+          "window_start": "2026-03-30T00:00:00Z",
+          "window_end": "2026-03-30T00:00:00Z"
+        }
+      },
+      "trump_posts": [],
+      "related_articles": []
+    },
+    {
       "event_id": "evt-288",
       "date": "2026-03-30",
-      "time": "00:00:00Z",
+      "time": "15:30:00Z",
+      "title": "IDF 나할 정찰대원 4명 헤즈볼라와 근접전 전사",
+      "summary": "Four IDF Nahal Reconnaissance Soldiers Killed in Close-Quarters Combat with Hezbollah â Deadliest Single Lebanon Engagement",
+      "importance": "critical",
+      "objectivity_avg": null,
+      "causally_related_to": [],
+      "confirmed_by": [
+        "iranwarlive"
+      ],
+      "source_urls": {
+        "iranwarlive": "https://iranwarlive.com/recaps/day-32.html"
+      },
+      "market_impact": {
+        "W": {
+          "delta_pct": 2.489,
+          "window_start": "2026-03-30T00:00:00Z",
+          "window_end": "2026-03-30T00:00:00Z"
+        },
+        "C": {
+          "delta_pct": 1.0348,
+          "window_start": "2026-03-30T00:00:00Z",
+          "window_end": "2026-03-30T00:00:00Z"
+        },
+        "N": {
+          "delta_pct": 0.0,
+          "window_start": "2026-03-30T00:00:00Z",
+          "window_end": "2026-03-30T00:00:00Z"
+        },
+        "K": {
+          "delta_pct": -3.0626,
+          "window_start": "2026-03-30T00:00:00Z",
+          "window_end": "2026-03-30T00:00:00Z"
+        }
+      },
+      "trump_posts": [],
+      "related_articles": []
+    },
+    {
+      "event_id": "evt-289",
+      "date": "2026-03-30",
+      "time": "19:00:00Z",
       "title": "이란·헤즈볼라, 하이파 정유시설 타격",
       "summary": "Iran and Hezbollah Strike Haifa Oil Refinery â Industrial Fire at Benzene Tanker Periphery",
       "importance": "major",
@@ -13374,89 +13414,7 @@
       ]
     },
     {
-      "event_id": "evt-289",
-      "date": "2026-03-30",
-      "time": "00:00:00Z",
-      "title": "파키스탄, 미-이란 공식 평화회담 개최 선언",
-      "summary": "Pakistan Announces It Will Host Formal US-Iran Peace Talks â Saudi Arabia, Turkey and Egypt FMs in Islamabad",
-      "importance": "minor",
-      "objectivity_avg": null,
-      "causally_related_to": [],
-      "confirmed_by": [
-        "iranwarlive"
-      ],
-      "source_urls": {
-        "iranwarlive": "https://iranwarlive.com/recaps/day-32.html"
-      },
-      "market_impact": {
-        "W": {
-          "delta_pct": 2.489,
-          "window_start": "2026-03-30T00:00:00Z",
-          "window_end": "2026-03-30T00:00:00Z"
-        },
-        "C": {
-          "delta_pct": 1.0348,
-          "window_start": "2026-03-30T00:00:00Z",
-          "window_end": "2026-03-30T00:00:00Z"
-        },
-        "N": {
-          "delta_pct": 0.0,
-          "window_start": "2026-03-30T00:00:00Z",
-          "window_end": "2026-03-30T00:00:00Z"
-        },
-        "K": {
-          "delta_pct": -3.0626,
-          "window_start": "2026-03-30T00:00:00Z",
-          "window_end": "2026-03-30T00:00:00Z"
-        }
-      },
-      "trump_posts": [],
-      "related_articles": []
-    },
-    {
       "event_id": "evt-290",
-      "date": "2026-03-31",
-      "time": "00:00:00Z",
-      "title": "두바이 북방 해상서 두 번째 유조선 피격",
-      "summary": "3월 31일 늦은 시각 두바이 북쪽 17해리 해상에서 두 번째 유조선이 좌현에 피탄되었다.",
-      "importance": "minor",
-      "objectivity_avg": null,
-      "causally_related_to": [],
-      "confirmed_by": [
-        "wikipedia",
-        "iranwarlive"
-      ],
-      "source_urls": {
-        "wikipedia": "https://en.wikipedia.org/wiki/Timeline_of_the_2026_Iran_war#31_March",
-        "iranwarlive": "https://iranwarlive.com/recaps/day-33.html"
-      },
-      "market_impact": {
-        "W": {
-          "delta_pct": 3.2757,
-          "window_start": "2026-03-31T00:00:00Z",
-          "window_end": "2026-03-31T00:00:00Z"
-        },
-        "C": {
-          "delta_pct": 0.0653,
-          "window_start": "2026-03-31T00:00:00Z",
-          "window_end": "2026-03-31T00:00:00Z"
-        },
-        "N": {
-          "delta_pct": 0.0,
-          "window_start": "2026-03-31T00:00:00Z",
-          "window_end": "2026-03-31T00:00:00Z"
-        },
-        "K": {
-          "delta_pct": -2.8671,
-          "window_start": "2026-03-31T00:00:00Z",
-          "window_end": "2026-03-31T00:00:00Z"
-        }
-      },
-      "trump_posts": [],
-      "related_articles": []
-    },
-    {
-      "event_id": "evt-291",
       "date": "2026-03-31",
       "time": "00:00:00Z",
       "title": "동부 테헤란 대규모 정전 발생",
@@ -13496,7 +13454,7 @@
       "related_articles": []
     },
     {
-      "event_id": "evt-292",
+      "event_id": "evt-291",
       "date": "2026-03-31",
       "time": "00:00:00Z",
       "title": "테헤란 서부 바르다바르드 지역 폭격",
@@ -13536,7 +13494,7 @@
       "related_articles": []
     },
     {
-      "event_id": "evt-293",
+      "event_id": "evt-292",
       "date": "2026-03-31",
       "time": "00:00:00Z",
       "title": "미군, 이스파한 지하 탄약고 벙커버스터 투하",
@@ -13613,7 +13571,7 @@
       ]
     },
     {
-      "event_id": "evt-294",
+      "event_id": "evt-293",
       "date": "2026-03-31",
       "time": "00:00:00Z",
       "title": "이란, 이스라엘에 미사일 3차례 공격",
@@ -13653,7 +13611,7 @@
       "related_articles": []
     },
     {
-      "event_id": "evt-295",
+      "event_id": "evt-294",
       "date": "2026-03-31",
       "time": "00:00:00Z",
       "title": "이스파한 모바라케 철강공장 공습 피격",
@@ -13693,7 +13651,7 @@
       "related_articles": []
     },
     {
-      "event_id": "evt-296",
+      "event_id": "evt-295",
       "date": "2026-03-31",
       "time": "00:00:00Z",
       "title": "IDF, 펜타닐 생산 토피크다루 공장 타격",
@@ -13733,11 +13691,53 @@
       "related_articles": []
     },
     {
+      "event_id": "evt-296",
+      "date": "2026-03-31",
+      "time": "00:10:00Z",
+      "title": "두바이항 인근 원유 유조선 드론 피격 화재",
+      "summary": "만재 원유 유조선 Al Salmi호가 두바이항 인근에서 이란 추정 드론에 우현을 피격당해 화재가 발생했다.",
+      "importance": "major",
+      "objectivity_avg": null,
+      "causally_related_to": [],
+      "confirmed_by": [
+        "wikipedia",
+        "iranwarlive"
+      ],
+      "source_urls": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Timeline_of_the_2026_Iran_war#31_March",
+        "iranwarlive": "https://iranwarlive.com/recaps/day-32.html"
+      },
+      "market_impact": {
+        "W": {
+          "delta_pct": 3.2757,
+          "window_start": "2026-03-31T00:00:00Z",
+          "window_end": "2026-03-31T00:00:00Z"
+        },
+        "C": {
+          "delta_pct": 0.0653,
+          "window_start": "2026-03-31T00:00:00Z",
+          "window_end": "2026-03-31T00:00:00Z"
+        },
+        "N": {
+          "delta_pct": 0.0,
+          "window_start": "2026-03-31T00:00:00Z",
+          "window_end": "2026-03-31T00:00:00Z"
+        },
+        "K": {
+          "delta_pct": -2.8671,
+          "window_start": "2026-03-31T00:00:00Z",
+          "window_end": "2026-03-31T00:00:00Z"
+        }
+      },
+      "trump_posts": [],
+      "related_articles": []
+    },
+    {
       "event_id": "evt-297",
       "date": "2026-03-31",
-      "time": "00:00:00Z",
+      "time": "02:00:00Z",
       "title": "연합군, 테헤란 무기공장·이스파한 미사일 지하기지 파괴",
-      "summary": "연합군이 테헤란 무기공장과 이스파한 소파 산 인근 지하 '미사일 시티'를 대규모 공습으로 파괴했다.",
+      "summary": "Coalition Devastates Tehran Arms Factories and Isfahan Underground 'Missile City' Near Mount Soffeh",
       "importance": "minor",
       "objectivity_avg": null,
       "causally_related_to": [],
@@ -13775,7 +13775,49 @@
     {
       "event_id": "evt-298",
       "date": "2026-03-31",
-      "time": "00:00:00Z",
+      "time": "11:15:00Z",
+      "title": "두바이 북방 해상서 두 번째 유조선 피격",
+      "summary": "3월 31일 늦은 시각 두바이 북쪽 17해리 해상에서 두 번째 유조선이 좌현에 피탄되었다.",
+      "importance": "minor",
+      "objectivity_avg": null,
+      "causally_related_to": [],
+      "confirmed_by": [
+        "wikipedia",
+        "iranwarlive"
+      ],
+      "source_urls": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Timeline_of_the_2026_Iran_war#31_March",
+        "iranwarlive": "https://iranwarlive.com/recaps/day-33.html"
+      },
+      "market_impact": {
+        "W": {
+          "delta_pct": 3.2757,
+          "window_start": "2026-03-31T00:00:00Z",
+          "window_end": "2026-03-31T00:00:00Z"
+        },
+        "C": {
+          "delta_pct": 0.0653,
+          "window_start": "2026-03-31T00:00:00Z",
+          "window_end": "2026-03-31T00:00:00Z"
+        },
+        "N": {
+          "delta_pct": 0.0,
+          "window_start": "2026-03-31T00:00:00Z",
+          "window_end": "2026-03-31T00:00:00Z"
+        },
+        "K": {
+          "delta_pct": -2.8671,
+          "window_start": "2026-03-31T00:00:00Z",
+          "window_end": "2026-03-31T00:00:00Z"
+        }
+      },
+      "trump_posts": [],
+      "related_articles": []
+    },
+    {
+      "event_id": "evt-299",
+      "date": "2026-03-31",
+      "time": "14:00:00Z",
       "title": "트럼프 말살 위협 반복, 부시 항모 배치",
       "summary": "트럼프가 이란 말살 위협을 반복하고, 헤그세스 국방장관은 협상이 '힘을 얻고 있다'고 발언. USS 조지 H.W. 부시 항모전단 공식 배치.",
       "importance": "major",
@@ -13857,9 +13899,9 @@
       ]
     },
     {
-      "event_id": "evt-299",
+      "event_id": "evt-300",
       "date": "2026-03-31",
-      "time": "00:00:00Z",
+      "time": "16:30:00Z",
       "title": "유엔 안보리, 유니필 사망 긴급회의",
       "summary": "UN Security Council Emergency Session on UNIFIL Deaths â France, Spain, Indonesia Demand Accountability; IDF Investigation Ongoing",
       "importance": "minor",
@@ -13897,9 +13939,9 @@
       "related_articles": []
     },
     {
-      "event_id": "evt-300",
+      "event_id": "evt-301",
       "date": "2026-03-31",
-      "time": "00:00:00Z",
+      "time": "18:00:00Z",
       "title": "이스라엘 사형법 통과, 팔레스타인 교수형",
       "summary": "이스라엘 크네세트가 군사법원에서 치명적 공격으로 유죄 판결받은 팔레스타인인에 대해 교수형을 기본 형벌로 하는 사형법을 통과시켰다.",
       "importance": "major",
@@ -13937,11 +13979,11 @@
       "related_articles": []
     },
     {
-      "event_id": "evt-301",
+      "event_id": "evt-302",
       "date": "2026-03-31",
-      "time": "00:00:00Z",
+      "time": "21:00:00Z",
       "title": "중국·파키스탄, 5개항 공동 평화안 발표",
-      "summary": "중국과 파키스탄이 공동 5개항 평화안을 발표했으며, 미국 휘발유 가격이 갤런당 4달러를 돌파하고 유가 시장은 유조선 피격 여파로 요동쳤다.",
+      "summary": "China and Pakistan Issue Joint 5-Point Peace Proposal; US Gasoline Surpasses $4/Gallon; Oil Markets Rattle on Tanker Strikes",
       "importance": "major",
       "objectivity_avg": 92,
       "causally_related_to": [],
@@ -14006,53 +14048,11 @@
       ]
     },
     {
-      "event_id": "evt-302",
-      "date": "2026-03-31",
-      "time": "00:10:00Z",
-      "title": "두바이항 인근 원유 유조선 드론 피격 화재",
-      "summary": "만재 원유 유조선 Al Salmi호가 두바이항 인근에서 이란 추정 드론에 우현을 피격당해 화재가 발생했다.",
-      "importance": "major",
-      "objectivity_avg": null,
-      "causally_related_to": [],
-      "confirmed_by": [
-        "wikipedia",
-        "iranwarlive"
-      ],
-      "source_urls": {
-        "wikipedia": "https://en.wikipedia.org/wiki/Timeline_of_the_2026_Iran_war#31_March",
-        "iranwarlive": "https://iranwarlive.com/recaps/day-32.html"
-      },
-      "market_impact": {
-        "W": {
-          "delta_pct": 3.2757,
-          "window_start": "2026-03-31T00:00:00Z",
-          "window_end": "2026-03-31T00:00:00Z"
-        },
-        "C": {
-          "delta_pct": 0.0653,
-          "window_start": "2026-03-31T00:00:00Z",
-          "window_end": "2026-03-31T00:00:00Z"
-        },
-        "N": {
-          "delta_pct": 0.0,
-          "window_start": "2026-03-31T00:00:00Z",
-          "window_end": "2026-03-31T00:00:00Z"
-        },
-        "K": {
-          "delta_pct": -2.8671,
-          "window_start": "2026-03-31T00:00:00Z",
-          "window_end": "2026-03-31T00:00:00Z"
-        }
-      },
-      "trump_posts": [],
-      "related_articles": []
-    },
-    {
       "event_id": "evt-303",
       "date": "2026-04-01",
       "time": "00:00:00Z",
       "title": "이란 드론, 쿠웨이트 공항 연료 창고 대화재",
-      "summary": "이란 드론이 쿠웨이트 국제공항 연료 창고를 타격해 대규모 화재가 발생했다.",
+      "summary": "A fuel storage at Kuwait International Airport was hit by Iranian drones, causing a major fire.",
       "importance": "major",
       "objectivity_avg": null,
       "causally_related_to": [],

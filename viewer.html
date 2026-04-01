@@ -115,10 +115,11 @@ body {
 .cat-date-label { font-size: 11px; color: var(--text-muted); opacity: .7; }
 
 /* timeline */
-#tl-wrap { flex: 1; overflow-x: auto; overflow-y: hidden; padding: 20px; }
+#tl-wrap { flex: 1; overflow: auto; padding: 20px; }
 #timeline {
-  display: flex; gap: 0; height: 100%;
+  display: flex; gap: 0;
   min-width: max-content; position: relative;
+  align-items: flex-start;
 }
 #timeline::before {
   content: ''; position: absolute; left: 0; right: 0; top: 48px;
@@ -147,7 +148,7 @@ body {
 .mkt-chip.flat { color: var(--flat); }
 
 /* events stack */
-.day-events { display: flex; flex-direction: column; gap: 8px; overflow-y: auto; flex: 1; padding-bottom: 8px; }
+.day-events { display: flex; flex-direction: column; gap: 8px; padding-bottom: 8px; }
 
 /* event card */
 .evt-card {
@@ -310,8 +311,7 @@ body {
   :root { --header-h: 50px; }
   body { font-size: 15px; }
   .evt-summary { -webkit-line-clamp: 3; }
-  .day-events { scroll-snap-type: y mandatory; overflow-y: scroll; }
-  .evt-card   { scroll-snap-align: start; flex-shrink: 0; }
+  .evt-card   { scroll-snap-align: start; }
 
   #sidebar-toggle { display: flex; align-items: center; }
 
@@ -693,7 +693,8 @@ function evtCard(evt, date) {
       }
     }
   }
-  const t = realTime ? `<span class="evt-time">${ftime(realTime)}</span>` : '';
+  const tLabel = realTime ? new Date(realTime).toLocaleTimeString('ko-KR', { hour:'2-digit', minute:'2-digit', timeZone:'Asia/Seoul', hour12: false }) : '';
+  const t = tLabel ? `<span class="evt-time">${tLabel}</span>` : '';
 
   return `<div class="evt-card" id="evc-${id}" onclick="toggleCard('${id}')">
     <div class="evt-head">

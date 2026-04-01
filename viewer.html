@@ -303,12 +303,14 @@ body {
   :root { --sidebar-w: 160px; }
   #cat-title { font-size: 18px; }
   #importance-legend { display: none; } /* hide on tablet to save space */
+  .evt-head { height: 150px; }
 }
 
 /* ── Mobile ── */
 @media (max-width: 768px) {
   :root { --header-h: 50px; }
   body { font-size: 15px; }
+  .evt-head { height: auto; min-height: 120px; max-height: 160px; }
 
   #sidebar-toggle { display: flex; align-items: center; }
 

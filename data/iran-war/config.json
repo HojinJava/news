@@ -1,0 +1,11 @@
+{
+  "name": "이란-이스라엘 전쟁",
+  "topic": "이란 이스라엘 미국 전쟁",
+  "markets": [
+    { "key": "W", "label": "유가선물(WTI)", "ticker": "CL=F" },
+    { "key": "C", "label": "BTC",           "ticker": "BTC-USD" },
+    { "key": "N", "label": "나스닥",         "ticker": "^IXIC" },
+    { "key": "K", "label": "코스닥",         "ticker": "^KQ11" }
+  ],
+  "tags": ["미국", "이란", "이스라엘", "후티", "핵", "미사일", "공습", "드론"]
+}

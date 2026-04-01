@@ -310,7 +310,9 @@ body {
 @media (max-width: 768px) {
   :root { --header-h: 50px; }
   body { font-size: 15px; }
-  .evt-head { height: auto; min-height: 120px; max-height: 160px; }
+  .evt-head { height: auto; overflow: visible; }
+  .evt-title { -webkit-line-clamp: 3; }
+  .evt-summary { -webkit-line-clamp: 3; }
 
   #sidebar-toggle { display: flex; align-items: center; }
 

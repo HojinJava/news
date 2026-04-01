@@ -353,3 +353,32 @@ python main.py --preset war_iran
 - 객관도 점수는 참고용이며 절대적 진실이 아님 (UI에서 안내 필요).
 - 특정 국가/세력 입장을 대변하지 않도록 중립적으로 작성.
 - 각 팀원은 자기 파일만 수정. 공유 파일은 리드가 관리.
+
+---
+
+## 에이전트 팀 강제 규칙
+
+### 핵심 원칙 (위반 금지)
+- **크롤링/업데이트 요청 시 절대 직접 처리 금지** — 반드시 에이전트 팀을 통해 처리한다.
+- **번역은 Claude Code 직접 수행** — 외부 번역 API(deep_translator, Google Translate 등) 호출 금지.
+- **시장 데이터는 fetch_market.py 경유** — yfinance 직접 호출 금지.
+- **각 에이전트는 AGENTS.md의 역할 계약 준수** — 역할 외 작업 금지.
+
+### "크롤링 해줘" 요청 시 워크플로우
+1. 카테고리 슬러그/이름 확인 (없으면 생성)
+2. 시작 날짜 입력 받기 (종료일은 오늘로 강제)
+3. `data/{slug}/config.json` + `data/registry.json` 생성/업데이트
+4. 에이전트 팀 순차 실행: Collector → Verifier-A → Verifier-B → Arbiter → Bias-Analyst → Timeline-Builder
+5. `python fetch_market.py --category {slug}` 실행
+
+### "업데이트 해줘" 요청 시 워크플로우
+1. `data/{slug}/news.json`의 `last_updated` 읽기
+2. 해당 시각 이후 기사만 수집 (date_from = last_updated)
+3. 에이전트 팀 순차 실행 (증분)
+4. news.json 머지 저장 (기존 이벤트 유지, 새 이벤트 추가)
+5. `python fetch_market.py --category {slug} --incremental` 실행
+
+### 새 카테고리 추가 시
+- `data/{slug}/config.json`에 해당 카테고리에서 사용할 지표(markets) 정의
+- `data/registry.json`의 categories 배열에 항목 추가
+- viewer.html 코드 수정 불필요 (동적 로딩)

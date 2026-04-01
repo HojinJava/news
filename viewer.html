@@ -159,10 +159,10 @@ body {
 .evt-head { padding: 12px 14px 8px; display: flex; flex-direction: column; gap: 4px; }
 .evt-meta { display: flex; align-items: center; gap: 6px; flex-wrap: wrap; }
 .evt-time {
-  font-size: 15px; font-weight: 700; color: var(--text);
-  background: var(--surface2); border: 1px solid var(--border);
-  padding: 2px 8px; border-radius: 4px;
-  flex-shrink: 0; order: -1;
+  font-size: 12px; font-weight: 600; color: var(--accent);
+  background: rgba(107,124,255,.08); border: 1px solid rgba(107,124,255,.25);
+  padding: 2px 7px; border-radius: 3px;
+  flex-shrink: 0; order: -1; letter-spacing: .02em;
 }
 
 /* confirmed-by badges */
@@ -683,7 +683,18 @@ function evtCard(evt, date) {
   const title = esc(evt.title || evt.title_ko || '');
   const summary = esc(evt.summary || evt.description_ko || '');
   const imp = esc(evt.importance || 'minor');
-  const t = (evt.time && evt.time !== '00:00:00Z') ? `<span class="evt-time">${ftime(date + 'T' + evt.time)}</span>` : '';
+  // Get real event time: prefer news.json time, fallback to market event_time
+  let realTime = (evt.time && evt.time !== '00:00:00Z') ? date + 'T' + evt.time : null;
+  if (!realTime && MKT) {
+    for (const td of Object.values(MKT.tickers || {})) {
+      const win = td.windows?.[evt.event_id];
+      if (win?.event_time && !win.event_time.endsWith('T00:00:00Z')) {
+        realTime = win.event_time;
+        break;
+      }
+    }
+  }
+  const t = realTime ? `<span class="evt-time">${ftime(realTime)}</span>` : '';
 
   return `<div class="evt-card" id="evc-${id}" onclick="toggleCard('${id}')">
     <div class="evt-head">

@@ -1,14 +1,14 @@
 {
   "version": "2.0.0",
   "topic": "",
-  "generated_at": "2026-04-01T14:41:18Z",
-  "last_updated": "2026-04-01T14:41:18Z",
+  "generated_at": "2026-04-01T23:46:48Z",
+  "last_updated": "2026-04-01T23:46:48Z",
   "date_range": {
     "from": "2026-02-27",
     "to": "2026-04-01"
   },
-  "total_events": 303,
-  "total_articles": 101,
+  "total_events": 310,
+  "total_articles": 121,
   "by_date": {
     "2026-02-27": [
       "evt-001",
@@ -379,7 +379,14 @@
       "evt-302"
     ],
     "2026-04-01": [
-      "evt-303"
+      "evt-303",
+      "evt-304",
+      "evt-305",
+      "evt-306",
+      "evt-307",
+      "evt-308",
+      "evt-309",
+      "evt-310"
     ]
   },
   "events": [
@@ -14086,6 +14093,581 @@
       },
       "trump_posts": [],
       "related_articles": []
+    },
+    {
+      "event_id": "evt-304",
+      "date": "2026-04-01",
+      "time": "00:00:00Z",
+      "title": "이란, 이스라엘에 미사일 4차례 포격·집속탄 부상 14명",
+      "summary": "이스라엘은 이란에서 발사된 4차례의 미사일 포격을 보고했으며, 브네이 브라크와 텔아비브에 집속탄이 떨어져 14명이 부상을 입은 것으로 확인됐다.",
+      "importance": "major",
+      "objectivity_avg": 82,
+      "causally_related_to": [],
+      "confirmed_by": [
+        "wikipedia"
+      ],
+      "source_urls": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Timeline_of_the_2026_Iran_war#1_April"
+      },
+      "market_impact": {
+        "W": {
+          "delta_pct": 0.9667,
+          "window_start": "2026-04-01T00:00:00Z",
+          "window_end": "2026-04-01T00:00:00Z"
+        },
+        "C": {
+          "delta_pct": -0.45,
+          "window_start": "2026-04-01T00:00:00Z",
+          "window_end": "2026-04-01T00:00:00Z"
+        },
+        "N": {
+          "delta_pct": 0.0,
+          "window_start": "2026-04-01T00:00:00Z",
+          "window_end": "2026-04-01T00:00:00Z"
+        },
+        "K": {
+          "delta_pct": 4.6722,
+          "window_start": "2026-04-01T00:00:00Z",
+          "window_end": "2026-04-01T00:00:00Z"
+        }
+      },
+      "trump_posts": [],
+      "related_articles": [
+        {
+          "id": "art-304a1b2",
+          "title": "Sixteen wounded in central Israel after Iran launches cluster munitions",
+          "title_ko": "이란 집속탄 공격에 이스라엘 중부 16명 부상",
+          "source": "The Jerusalem Post",
+          "url": "https://www.jpost.com/israel-news/article-891868",
+          "published_date": "2026-04-01T00:00:00Z",
+          "summary": "Sixteen people were wounded in central Israel after Iran launched cluster munitions on April 1, 2026. An 11-year-old girl was critically injured in Bnei Brak, and multiple children were among the wounded.",
+          "summary_ko": "이란이 2026년 4월 1일 이스라엘 중부에 집속탄을 발사해 16명이 부상을 입었다. 브네이 브라크에서 11세 소녀가 위중한 상태로 부상했으며, 부상자 중 다수가 어린이였다.",
+          "source_bias": "center-right",
+          "source_reliability": 80,
+          "relevance_score": 95,
+          "relevance_note": "브네이 브라크·텔아비브 집속탄 타격, 날짜·장소 정확히 일치"
+        },
+        {
+          "id": "art-304c3d4",
+          "title": "At Least 14 Wounded, Including 11-year-old Girl in Critical Condition, by Iranian Cluster Missile Strike in Central Israel",
+          "title_ko": "이란 집속 미사일로 이스라엘 중부 최소 14명 부상, 11세 소녀 위중",
+          "source": "Haaretz",
+          "url": "https://www.haaretz.com/israel-news/israel-security/2026-04-01/ty-article/.premium/at-least-14-wounded-by-iranian-cluster-missile-strike-in-central-israel/0000019d-4822-d70a-abbf-ddff3c820000",
+          "published_date": "2026-04-01T00:00:00Z",
+          "summary": "At least 14 people were wounded by an Iranian cluster missile strike on central Israel. A 12-year-old girl from Bnei Brak was hospitalized in serious condition after shrapnel injuries.",
+          "summary_ko": "이란의 집속 미사일 공격으로 이스라엘 중부에서 최소 14명이 부상을 입었다. 브네이 브라크 출신 12세 소녀가 파편 부상으로 위중한 상태로 입원했다.",
+          "source_bias": "center-left",
+          "source_reliability": 85,
+          "relevance_score": 95,
+          "relevance_note": "브네이 브라크 집속탄 피해 상세 보도, 날짜·장소·사상자 수 일치"
+        },
+        {
+          "id": "art-304e5f6",
+          "title": "Girl, 11, critically hurt by Iranian cluster bomb as repeated salvos target center",
+          "title_ko": "이란 집속탄에 11세 소녀 위중, 이스라엘 중부 반복 포격",
+          "source": "The Times of Israel",
+          "url": "https://www.timesofisrael.com/girl-critically-hurt-by-iranian-cluster-bomb-as-repeated-salvos-target-center/",
+          "published_date": "2026-04-01T00:00:00Z",
+          "summary": "Iran launched repeated missile salvos targeting central Israel, with cluster bomb fragments critically injuring an 11-year-old girl. Sirens first sounded in central Israel at 7:45 a.m., followed by multiple additional barrages.",
+          "summary_ko": "이란이 이스라엘 중부를 향해 반복적으로 미사일 포격을 가했으며, 집속탄 파편이 11세 소녀에게 중상을 입혔다. 오전 7시 45분 중부 이스라엘에서 첫 사이렌이 울린 뒤 추가 포격이 이어졌다.",
+          "source_bias": "center-right",
+          "source_reliability": 82,
+          "relevance_score": 93,
+          "relevance_note": "4차례 포격 패턴, 집속탄 피해 상세 보도, 날짜 일치"
+        }
+      ]
+    },
+    {
+      "event_id": "evt-305",
+      "date": "2026-04-01",
+      "time": "00:00:00Z",
+      "title": "IDF, 후티 미사일 요격 성공",
+      "summary": "이스라엘 방위군(IDF)은 후티 민병대가 발사한 미사일 1발을 요격했다고 발표했다.",
+      "importance": "minor",
+      "objectivity_avg": 80,
+      "causally_related_to": [],
+      "confirmed_by": [
+        "wikipedia"
+      ],
+      "source_urls": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Timeline_of_the_2026_Iran_war#1_April"
+      },
+      "market_impact": {
+        "W": {
+          "delta_pct": 0.9667,
+          "window_start": "2026-04-01T00:00:00Z",
+          "window_end": "2026-04-01T00:00:00Z"
+        },
+        "C": {
+          "delta_pct": -0.45,
+          "window_start": "2026-04-01T00:00:00Z",
+          "window_end": "2026-04-01T00:00:00Z"
+        },
+        "N": {
+          "delta_pct": 0.0,
+          "window_start": "2026-04-01T00:00:00Z",
+          "window_end": "2026-04-01T00:00:00Z"
+        },
+        "K": {
+          "delta_pct": 4.6722,
+          "window_start": "2026-04-01T00:00:00Z",
+          "window_end": "2026-04-01T00:00:00Z"
+        }
+      },
+      "trump_posts": [],
+      "related_articles": [
+        {
+          "id": "art-305a1b2",
+          "title": "IDF says it downed Houthi missile fired at south; no injuries reported",
+          "title_ko": "IDF, 남부 향한 후티 미사일 요격 발표·인명 피해 없음",
+          "source": "The Times of Israel",
+          "url": "https://www.timesofisrael.com/liveblog_entry/idf-says-it-downed-houthi-missile-fired-at-south-no-injuries-reported/",
+          "published_date": "2026-04-01T00:00:00Z",
+          "summary": "The IDF announced it had downed a Houthi missile fired at southern Israel. No injuries were reported. Sirens had sounded in Beersheba and across the south.",
+          "summary_ko": "IDF가 이스라엘 남부를 향해 발사된 후티 미사일 1발을 격추했다고 발표했다. 인명 피해는 없으며, 베에르셰바와 남부 전역에 경보 사이렌이 울렸다.",
+          "source_bias": "center-right",
+          "source_reliability": 82,
+          "relevance_score": 90,
+          "relevance_note": "후티 미사일 요격 사실 보도, 날짜·행위자 일치"
+        },
+        {
+          "id": "art-305c3d4",
+          "title": "IDF intercepts Houthi missile targeting Israel",
+          "title_ko": "IDF, 이스라엘 겨냥 후티 미사일 요격",
+          "source": "Ynet News",
+          "url": "https://www.ynetnews.com/article/sjeojizwlx",
+          "published_date": "2026-04-01T00:00:00Z",
+          "summary": "The IDF intercepted a ballistic missile launched by the Houthi militia targeting Israel, as the Houthis joined the broader Iran war conflict from Yemen.",
+          "summary_ko": "이스라엘 방위군이 예멘 후티 민병대가 이스라엘을 향해 발사한 탄도 미사일을 요격했다. 후티 민병대는 이란전 발발 이후 예멘에서 교전에 참여하고 있다.",
+          "source_bias": "center-right",
+          "source_reliability": 78,
+          "relevance_score": 88,
+          "relevance_note": "후티 미사일 요격 보도, 4월 1일 사건과 부합"
+        }
+      ]
+    },
+    {
+      "event_id": "evt-306",
+      "date": "2026-04-01",
+      "time": "00:00:00Z",
+      "title": "이란 드론, 이라크 에르빌 윤활유 공장 대화재",
+      "summary": "이라크 에르빌의 윤활유 공장이 여러 차례 드론 파상 공세를 받아 대형 화재가 발생했다.",
+      "importance": "major",
+      "objectivity_avg": 77,
+      "causally_related_to": [],
+      "confirmed_by": [
+        "wikipedia"
+      ],
+      "source_urls": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Timeline_of_the_2026_Iran_war#1_April"
+      },
+      "market_impact": {
+        "W": {
+          "delta_pct": 0.9667,
+          "window_start": "2026-04-01T00:00:00Z",
+          "window_end": "2026-04-01T00:00:00Z"
+        },
+        "C": {
+          "delta_pct": -0.45,
+          "window_start": "2026-04-01T00:00:00Z",
+          "window_end": "2026-04-01T00:00:00Z"
+        },
+        "N": {
+          "delta_pct": 0.0,
+          "window_start": "2026-04-01T00:00:00Z",
+          "window_end": "2026-04-01T00:00:00Z"
+        },
+        "K": {
+          "delta_pct": 4.6722,
+          "window_start": "2026-04-01T00:00:00Z",
+          "window_end": "2026-04-01T00:00:00Z"
+        }
+      },
+      "trump_posts": [],
+      "related_articles": [
+        {
+          "id": "art-306a1b2",
+          "title": "Oil Plant 'Hit by Iranian Drones' as Huge Fire Breaks Out in Erbil",
+          "title_ko": "이란 드론 공격으로 에르빌 유류 시설 대화재 발생",
+          "source": "Ground News",
+          "url": "https://ground.news/article/huge-fireball-as-drone-strikes-british-oil-company-hours-after-iran-warning",
+          "published_date": "2026-04-01T00:00:00Z",
+          "summary": "A massive fire engulfed a Castrol oil plant in Erbil, Iraq after drone strikes hit the facility. Three drones directly hit the depot storing automotive motor oil at around 7:30 AM, with subsequent waves at 8:40 AM and 10:20 AM.",
+          "summary_ko": "이라크 에르빌의 카스트롤 윤활유 시설이 드론 공격을 받아 대형 화재가 발생했다. 오전 7시 30분경 자동차 윤활유 창고에 드론 3기가 직격한 뒤, 오전 8시 40분과 10시 20분에 추가 공격이 이어졌다.",
+          "source_bias": "center",
+          "source_reliability": 75,
+          "relevance_score": 92,
+          "relevance_note": "에르빌 윤활유 공장 드론 파상 공격, 날짜·장소·공격 패턴 일치"
+        },
+        {
+          "id": "art-306c3d4",
+          "title": "Drone Attacks Spark Major Fire at Motor Oil Depot Near Erbil",
+          "title_ko": "에르빌 인근 윤활유 창고 드론 공격으로 대규모 화재",
+          "source": "Kurdistan 24",
+          "url": "https://www.kurdistan24.net/en/story/904861/drone-attacks-spark-major-fire-at-motor-oil-depot-near-erbil",
+          "published_date": "2026-04-01T00:00:00Z",
+          "summary": "Drone attacks sparked a major fire at a motor oil depot near Erbil, the capital of the Kurdistan Region in Iraq. Emergency services battled the blaze as footage showed flames and thick black smoke engulfing the facility.",
+          "summary_ko": "이라크 쿠르디스탄 지역 수도 에르빌 인근 윤활유 창고가 드론 공격을 받아 대규모 화재가 발생했다. 소방 당국이 진화에 나선 가운데, 시설을 뒤덮은 화염과 짙은 검은 연기가 영상에 담겼다.",
+          "source_bias": "center",
+          "source_reliability": 78,
+          "relevance_score": 90,
+          "relevance_note": "에르빌 윤활유 창고 드론 공격 상세 보도, 날짜·장소 일치"
+        },
+        {
+          "id": "art-306e5f6",
+          "title": "British company attacked with two Iranian Shahed drones",
+          "title_ko": "이란 샤헤드 드론 2기, 영국 기업 공격",
+          "source": "Rudaw",
+          "url": "https://www.rudaw.net/english/kurdistan/01042026",
+          "published_date": "2026-04-01T00:00:00Z",
+          "summary": "A British-owned Castrol oil facility in Erbil was attacked by Iranian Shahed drones, causing a significant fire. The attack came hours after Iran's ambassador to the UK warned that British military bases could be 'legitimate targets.'",
+          "summary_ko": "에르빌의 영국계 카스트롤 윤활유 시설이 이란의 샤헤드 드론 공격을 받아 대형 화재가 발생했다. 이란 주영 대사가 영국 군사기지를 '합법적 표적'이라 경고한 직후에 발생한 공격이다.",
+          "source_bias": "center",
+          "source_reliability": 78,
+          "relevance_score": 88,
+          "relevance_note": "이란 샤헤드 드론의 에르빌 영국 기업 공격, 날짜·장소 일치"
+        }
+      ]
+    },
+    {
+      "event_id": "evt-307",
+      "date": "2026-04-01",
+      "time": "00:00:00Z",
+      "title": "미군 공습, 테헤란 구 미대사관 박물관 피격",
+      "summary": "미군의 테헤란 공습으로 이란 혁명 당시 점거된 후 박물관으로 전용된 구 미국 대사관 건물이 피해를 입은 것으로 전해졌다.",
+      "importance": "major",
+      "objectivity_avg": 77,
+      "causally_related_to": [],
+      "confirmed_by": [
+        "wikipedia"
+      ],
+      "source_urls": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Timeline_of_the_2026_Iran_war#1_April"
+      },
+      "market_impact": {
+        "W": {
+          "delta_pct": 0.9667,
+          "window_start": "2026-04-01T00:00:00Z",
+          "window_end": "2026-04-01T00:00:00Z"
+        },
+        "C": {
+          "delta_pct": -0.45,
+          "window_start": "2026-04-01T00:00:00Z",
+          "window_end": "2026-04-01T00:00:00Z"
+        },
+        "N": {
+          "delta_pct": 0.0,
+          "window_start": "2026-04-01T00:00:00Z",
+          "window_end": "2026-04-01T00:00:00Z"
+        },
+        "K": {
+          "delta_pct": 4.6722,
+          "window_start": "2026-04-01T00:00:00Z",
+          "window_end": "2026-04-01T00:00:00Z"
+        }
+      },
+      "trump_posts": [],
+      "related_articles": [
+        {
+          "id": "art-307a1b2",
+          "title": "Airstrike appears to hit Tehran compound of former US embassy where IRGC set up anti-American museum",
+          "title_ko": "공습, IRGC 반미 박물관 설치된 테헤란 구 미 대사관 타격",
+          "source": "The Times of Israel",
+          "url": "https://www.timesofisrael.com/liveblog_entry/airstrike-appears-to-hit-tehran-compound-of-former-us-embassy-where-irgc-set-up-anti-american-museum/",
+          "published_date": "2026-04-01T00:00:00Z",
+          "summary": "An airstrike in Tehran on April 1, 2026 appears to have struck inside the former US Embassy compound, now controlled by the IRGC's Basij force which runs an anti-American museum inside the building. Witnesses reported blown-out windows surrounding the compound on Taleghani Street, with Russia's nearby embassy reporting damage to a cathedral and nursing home.",
+          "summary_ko": "2026년 4월 1일 테헤란 공습이 구 미 대사관 단지 내부를 타격한 것으로 보인다. 현재 이 건물은 IRGC 산하 바시즈가 관리하며 반미 박물관을 운영 중이다. 목격자들은 탈레가니 거리 단지 주변의 창문이 날아갔다고 전했으며, 인근 러시아 대사관도 성당과 요양원 피해를 보고했다.",
+          "source_bias": "center-right",
+          "source_reliability": 82,
+          "relevance_score": 95,
+          "relevance_note": "테헤란 구 미 대사관 단지 타격 상세 보도, 날짜·장소 일치"
+        },
+        {
+          "id": "art-307c3d4",
+          "title": "Airstrike on Iran's capital, Tehran, appears to have hit the compound of the former U.S. Embassy there",
+          "title_ko": "테헤란 공습, 구 미국 대사관 단지 타격한 듯",
+          "source": "WTOP News",
+          "url": "https://wtop.com/world/2026/04/airstrike-on-irans-capital-tehran-appears-to-have-hit-the-compound-of-the-former-u-s-embassy-there/",
+          "published_date": "2026-04-01T00:00:00Z",
+          "summary": "An airstrike on Iran's capital Tehran appears to have hit the compound of the former US Embassy, a site controlled by Iran's Revolutionary Guard since the 1979 hostage crisis.",
+          "summary_ko": "이란 수도 테헤란에 대한 공습이 1979년 인질 사태 이후 이란혁명수비대(IRGC)가 관리해온 구 미국 대사관 단지를 타격한 것으로 보인다.",
+          "source_bias": "center",
+          "source_reliability": 80,
+          "relevance_score": 92,
+          "relevance_note": "테헤란 구 미 대사관 공습 보도, 날짜·장소 일치"
+        },
+        {
+          "id": "art-307e5f6",
+          "title": "'Den of Espionage' compound targeted in Tehran strike",
+          "title_ko": "테헤란 공습, '첩보 소굴' 구 미 대사관 단지 타격",
+          "source": "Turkiye Today",
+          "url": "https://www.turkiyetoday.com/region/den-of-espionage-compound-targeted-in-tehran-strike-3217259",
+          "published_date": "2026-04-01T00:00:00Z",
+          "summary": "The compound formerly known as the US Embassy in Tehran — dubbed 'Den of Espionage' by Iran — was targeted in an airstrike. The compound has served as a symbol of the 1979 hostage crisis and Iran's revolutionary ideology.",
+          "summary_ko": "이란이 '첩보 소굴'이라 부르는 테헤란 구 미국 대사관 단지가 공습 표적이 됐다. 이 단지는 1979년 인질 사태와 이란 혁명 이념의 상징으로 여겨져 왔다.",
+          "source_bias": "center",
+          "source_reliability": 70,
+          "relevance_score": 88,
+          "relevance_note": "구 미 대사관 단지 역사적 맥락과 공습 보도, 날짜·장소 일치"
+        }
+      ]
+    },
+    {
+      "event_id": "evt-308",
+      "date": "2026-04-01",
+      "time": "00:00:00Z",
+      "title": "이란, 트럼프 '이란 대통령 휴전 요청' 주장 부인",
+      "summary": "도널드 트럼프 대통령이 이란 대통령이 휴전을 요청했다고 주장한 데 대해 이란 측이 '거짓이며 근거 없다'고 강하게 부인했다.",
+      "importance": "major",
+      "objectivity_avg": 86,
+      "causally_related_to": [],
+      "confirmed_by": [
+        "wikipedia"
+      ],
+      "source_urls": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Timeline_of_the_2026_Iran_war#1_April"
+      },
+      "market_impact": {
+        "W": {
+          "delta_pct": 0.9667,
+          "window_start": "2026-04-01T00:00:00Z",
+          "window_end": "2026-04-01T00:00:00Z"
+        },
+        "C": {
+          "delta_pct": -0.45,
+          "window_start": "2026-04-01T00:00:00Z",
+          "window_end": "2026-04-01T00:00:00Z"
+        },
+        "N": {
+          "delta_pct": 0.0,
+          "window_start": "2026-04-01T00:00:00Z",
+          "window_end": "2026-04-01T00:00:00Z"
+        },
+        "K": {
+          "delta_pct": 4.6722,
+          "window_start": "2026-04-01T00:00:00Z",
+          "window_end": "2026-04-01T00:00:00Z"
+        }
+      },
+      "trump_posts": [
+        {
+          "url": "https://truthsocial.com/@realDonaldTrump",
+          "text": "Iran's New Regime President, much less Radicalized and far more intelligent than his predecessors, has just asked the United States of America for a CEASEFIRE! We will consider when Hormuz Strait is open, free, and clear. Until then, we are blasting Iran into oblivion or, as they say, back to the Stone Ages!!!",
+          "text_ko": "이란의 신 정권 대통령은 전임자들보다 훨씬 과격하지 않고 훨씬 현명하게도, 이제 막 미합중국에 휴전을 요청했습니다! 호르무즈 해협이 자유롭고 투명하게 개방되면 검토할 것입니다. 그 전까지 우리는 이란을 완전히 초토화할 것입니다. 이른바 석기시대로 돌려보내겠습니다!!!",
+          "posted_at": "2026-04-01T00:00:00Z",
+          "relevance_note": "트럼프가 직접 이란 대통령의 휴전 요청을 주장하며 호르무즈 해협 개방을 조건으로 제시한 게시물 - 이 사건의 직접적 발단"
+        }
+      ],
+      "related_articles": [
+        {
+          "id": "art-308a1b2",
+          "title": "Iran denies Trump's claim Iranian president requested ceasefire",
+          "title_ko": "이란, 트럼프의 '이란 대통령 휴전 요청' 주장 부인",
+          "source": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/4/1/iran-denies-trumps-claim-iranian-president-requested-ceasefire",
+          "published_date": "2026-04-01T00:00:00Z",
+          "summary": "Iran's foreign ministry called Trump's ceasefire claim 'false and baseless.' Foreign Minister Abbas Araghchi stated no ceasefire proposal had been made by Iran, while the Revolutionary Guard declared the Strait of Hormuz 'firmly under control.'",
+          "summary_ko": "이란 외무부는 트럼프의 휴전 주장을 '거짓이며 근거 없다'고 반박했다. 아라그치 외무장관은 이란이 어떤 휴전 제안도 하지 않았다고 밝혔으며, 혁명수비대는 호르무즈 해협이 '확고히 통제 하에 있다'고 선언했다.",
+          "source_bias": "center-left",
+          "source_reliability": 80,
+          "relevance_score": 97,
+          "relevance_note": "이란의 공식 휴전 요청 부인 보도, 사건의 핵심 당사자 직접 언급"
+        },
+        {
+          "id": "art-308c3d4",
+          "title": "Trump says Iran's president asked for ceasefire, but U.S. wants Hormuz Strait open first",
+          "title_ko": "트럼프, 이란 대통령 휴전 요청 주장 - 미국은 먼저 호르무즈 개방 요구",
+          "source": "CNBC",
+          "url": "https://www.cnbc.com/2026/04/01/trump-iran-war-ceasefire.html",
+          "published_date": "2026-04-01T00:00:00Z",
+          "summary": "President Trump said Iran's President Pezeshkian asked the U.S. for a ceasefire. Trump said he would consider it only when the Strait of Hormuz is 'open, free, and clear,' otherwise vowing to continue strikes.",
+          "summary_ko": "트럼프 대통령은 이란 페제시키안 대통령이 휴전을 요청했다고 주장했다. 트럼프는 호르무즈 해협이 '자유롭고 투명하게 개방'될 때만 검토하겠다며, 그 전까지는 공습을 계속하겠다고 경고했다.",
+          "source_bias": "center",
+          "source_reliability": 90,
+          "relevance_score": 95,
+          "relevance_note": "트럼프의 휴전 조건부 수용 입장 상세 보도, 날짜·당사자 일치"
+        },
+        {
+          "id": "art-308e5f6",
+          "title": "Iran dismisses Trump's claim that their president wants a ceasefire as 'baseless'",
+          "title_ko": "이란, 트럼프의 '대통령 휴전 요청' 주장을 '근거 없다'고 일축",
+          "source": "PBS News",
+          "url": "https://www.pbs.org/newshour/world/iran-dismisses-trumps-claim-that-their-president-wants-a-ceasefire-as-baseless",
+          "published_date": "2026-04-01T00:00:00Z",
+          "summary": "Iran officially dismissed Trump's ceasefire claim as 'baseless.' A spokesperson for President Pezeshkian stated Iran's position on national defense has not changed, rejecting the notion of any ceasefire request.",
+          "summary_ko": "이란은 트럼프의 휴전 주장을 공식적으로 '근거 없다'고 일축했다. 페제시키안 대통령 대변인은 이란의 국방 입장에 변화가 없다고 밝히며 어떤 휴전 요청도 없었다고 부인했다.",
+          "source_bias": "center",
+          "source_reliability": 88,
+          "relevance_score": 93,
+          "relevance_note": "이란 정부 공식 부인 입장 보도, 날짜·당사자 일치"
+        }
+      ]
+    },
+    {
+      "event_id": "evt-309",
+      "date": "2026-04-01",
+      "time": "00:00:00Z",
+      "title": "이란, 이스파한서 미 MQ-9 2기 격추·전쟁 누계 16기",
+      "summary": "이란이 이스파한 인근에서 미국의 MQ-9 리퍼 드론 2기를 격추했다. 이로써 전쟁 중 손실된 MQ-9 누계는 16기에 달하게 됐다.",
+      "importance": "major",
+      "objectivity_avg": 78,
+      "causally_related_to": [],
+      "confirmed_by": [
+        "wikipedia"
+      ],
+      "source_urls": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Timeline_of_the_2026_Iran_war#1_April"
+      },
+      "market_impact": {
+        "W": {
+          "delta_pct": 0.9667,
+          "window_start": "2026-04-01T00:00:00Z",
+          "window_end": "2026-04-01T00:00:00Z"
+        },
+        "C": {
+          "delta_pct": -0.45,
+          "window_start": "2026-04-01T00:00:00Z",
+          "window_end": "2026-04-01T00:00:00Z"
+        },
+        "N": {
+          "delta_pct": 0.0,
+          "window_start": "2026-04-01T00:00:00Z",
+          "window_end": "2026-04-01T00:00:00Z"
+        },
+        "K": {
+          "delta_pct": 4.6722,
+          "window_start": "2026-04-01T00:00:00Z",
+          "window_end": "2026-04-01T00:00:00Z"
+        }
+      },
+      "trump_posts": [],
+      "related_articles": [
+        {
+          "id": "art-309a1b2",
+          "title": "Iran says it shot down MQ-9 drone near Isfahan",
+          "title_ko": "이란, 이스파한 인근 MQ-9 드론 격추 발표",
+          "source": "Middle East Eye",
+          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/iran-says-it-shot-down-mq-9-drone-near-isfahan",
+          "published_date": "2026-04-01T00:00:00Z",
+          "summary": "Iran's air defence units shot down a US MQ-9 drone near Isfahan. The US has lost 16 MQ-9 Reaper drones since the war on Iran began, including two more near Isfahan.",
+          "summary_ko": "이란 방공 부대가 이스파한 인근에서 미국의 MQ-9 드론을 격추했다. 이란전 개전 이후 미국이 손실한 MQ-9 리퍼 드론은 이스파한 인근 2기 추가로 총 16기에 달한다.",
+          "source_bias": "center-left",
+          "source_reliability": 78,
+          "relevance_score": 93,
+          "relevance_note": "이스파한 인근 MQ-9 격추 보도, 날짜·장소·누계 수치 일치"
+        },
+        {
+          "id": "art-309c3d4",
+          "title": "U.S. military loses 16 MQ-9 Reaper drones in war with Iran: report",
+          "title_ko": "미군, 이란전에서 MQ-9 리퍼 드론 16기 손실",
+          "source": "Xinhua",
+          "url": "https://english.news.cn/20260402/692bcd0b1f8543488d1335d79969b73c/c.html",
+          "published_date": "2026-04-02T00:00:00Z",
+          "summary": "The US military has lost a total of 16 MQ-9 Reaper drones in its war with Iran, including two more downed this week near Isfahan. Each Reaper drone costs approximately $30 million.",
+          "summary_ko": "미군이 이란과의 전쟁에서 MQ-9 리퍼 드론을 총 16기 손실했으며, 이번 주 이스파한 인근에서 2기가 추가로 격추됐다. MQ-9 리퍼 1기당 가격은 약 3천만 달러다.",
+          "source_bias": "center",
+          "source_reliability": 70,
+          "relevance_score": 90,
+          "relevance_note": "이스파한 MQ-9 격추 및 전쟁 누계 16기 확인 보도"
+        },
+        {
+          "id": "art-309e5f6",
+          "title": "MQ-9s Over Iran: Striking, Finding Targets But Taking Some Losses",
+          "title_ko": "이란 상공의 MQ-9: 표적 탐지·공격 중 일부 손실 발생",
+          "source": "Air and Space Forces Magazine",
+          "url": "https://www.airandspaceforces.com/mq-9s-over-iran-striking-and-finding-targets-but-taking-some-losses/",
+          "published_date": "2026-04-01T00:00:00Z",
+          "summary": "An analysis of US MQ-9 Reaper drone operations over Iran, detailing how the drones are used for intelligence, surveillance, reconnaissance, and precision strikes while also facing Iranian air defense losses.",
+          "summary_ko": "이란 상공에서 운용 중인 미국 MQ-9 리퍼 드론 작전 분석 보도. 정보·감시·정찰 및 정밀 타격 임무 수행 중 이란 방공망에 의한 손실 현황을 상세히 다루고 있다.",
+          "source_bias": "center-right",
+          "source_reliability": 85,
+          "relevance_score": 85,
+          "relevance_note": "MQ-9 이란 운용 및 손실 맥락 분석, 이스파한 격추 사건과 관련"
+        }
+      ]
+    },
+    {
+      "event_id": "evt-310",
+      "date": "2026-04-01",
+      "time": "00:00:00Z",
+      "title": "이란 전 외무장관 하라지, 공습으로 중상·부인 사망",
+      "summary": "이란 매체 누르뉴스는 카말 하라지 전 외무장관이 자택을 강타한 공습으로 중상을 입었으며 부인이 숨졌다고 보도했다.",
+      "importance": "major",
+      "objectivity_avg": 79,
+      "causally_related_to": [],
+      "confirmed_by": [
+        "wikipedia"
+      ],
+      "source_urls": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Timeline_of_the_2026_Iran_war#1_April"
+      },
+      "market_impact": {
+        "W": {
+          "delta_pct": 0.9667,
+          "window_start": "2026-04-01T00:00:00Z",
+          "window_end": "2026-04-01T00:00:00Z"
+        },
+        "C": {
+          "delta_pct": -0.45,
+          "window_start": "2026-04-01T00:00:00Z",
+          "window_end": "2026-04-01T00:00:00Z"
+        },
+        "N": {
+          "delta_pct": 0.0,
+          "window_start": "2026-04-01T00:00:00Z",
+          "window_end": "2026-04-01T00:00:00Z"
+        },
+        "K": {
+          "delta_pct": 4.6722,
+          "window_start": "2026-04-01T00:00:00Z",
+          "window_end": "2026-04-01T00:00:00Z"
+        }
+      },
+      "trump_posts": [],
+      "related_articles": [
+        {
+          "id": "art-310a1b2",
+          "title": "Former Iran FM 'seriously injured,' wife killed in Tehran strike",
+          "title_ko": "이란 전 외무장관 하라지 테헤란 공습에 중상, 부인 사망",
+          "source": "Al Arabiya",
+          "url": "https://english.alarabiya.net/News/middle-east/2026/04/01/former-iran-fm-seriously-injured-wife-killed-in-tehran-strike",
+          "published_date": "2026-04-01T00:00:00Z",
+          "summary": "Former Iranian Foreign Minister Kamal Kharazi was seriously injured and his wife was killed in a US-Israeli strike on his residence in Tehran. Kharazi served as foreign minister from 1997-2005 and later as a foreign policy adviser to the supreme leader, reportedly overseeing engagement with Pakistan for possible Iran-US talks.",
+          "summary_ko": "카말 하라지 이란 전 외무장관이 테헤란 자택에 가해진 미국·이스라엘의 공습으로 중상을 입고 부인이 사망했다. 1997-2005년 외무장관을 지낸 하라지는 최고지도자의 외교정책 고문으로 활동하며 파키스탄을 통한 이란·미국 간 협의를 조율하던 것으로 알려졌다.",
+          "source_bias": "center",
+          "source_reliability": 82,
+          "relevance_score": 97,
+          "relevance_note": "하라지 전 외무장관 자택 공습 피격 보도, 날짜·당사자 일치, 외교적 함의 포함"
+        },
+        {
+          "id": "art-310c3d4",
+          "title": "Former Iran foreign minister reportedly badly wounded in strike",
+          "title_ko": "이란 전 외무장관, 공습으로 중상 입은 듯",
+          "source": "The Times of Israel",
+          "url": "https://www.timesofisrael.com/liveblog_entry/former-iran-foreign-minister-reportedly-badly-wounded-in-strike/",
+          "published_date": "2026-04-01T00:00:00Z",
+          "summary": "Former Iranian foreign minister Kamal Kharazi was reportedly badly wounded after his home in Tehran was struck in US-Israeli attacks, according to reports citing the Iranian outlet Nournews. His wife was killed in the strike.",
+          "summary_ko": "이란 매체 누르뉴스를 인용한 보도에 따르면, 카말 하라지 이란 전 외무장관이 테헤란 자택이 미국·이스라엘 공습을 받아 중상을 입은 것으로 전해졌다. 그의 부인은 공습으로 사망했다.",
+          "source_bias": "center-right",
+          "source_reliability": 82,
+          "relevance_score": 93,
+          "relevance_note": "하라지 공습 피격 초기 보도, 날짜·장소·당사자 일치"
+        },
+        {
+          "id": "art-310e5f6",
+          "title": "Former Iranian foreign minister badly wounded in strike",
+          "title_ko": "이란 전 외무장관, 공습으로 중상",
+          "source": "Free Malaysia Today",
+          "url": "https://www.freemalaysiatoday.com/category/highlight/2026/04/02/former-iranian-foreign-minister-badly-wounded-in-strike",
+          "published_date": "2026-04-02T00:00:00Z",
+          "summary": "Kamal Kharazi, Iran's former foreign minister and an influential foreign policy adviser, was seriously wounded in an airstrike on his Tehran residence. Sources indicate Kharazi was reportedly overseeing back-channel engagement with Pakistan for a possible meeting between Iranian officials and US VP JD Vance, and the targeting is viewed as an attempt to derail diplomacy.",
+          "summary_ko": "이란 전 외무장관이자 영향력 있는 외교정책 고문인 카말 하라지가 테헤란 자택 공습으로 중상을 입었다. 소식통에 따르면 하라지는 파키스탄을 통한 이란 관리와 미국 JD 밴스 부통령 간 회동을 위한 막후 접촉을 조율 중이었으며, 그에 대한 타격은 외교를 방해하려는 시도로 해석되고 있다.",
+          "source_bias": "center",
+          "source_reliability": 72,
+          "relevance_score": 88,
+          "relevance_note": "하라지 피격의 외교적 배경 심층 보도, 공습의 전략적 함의 포함"
+        }
+      ]
     }
   ]
 }

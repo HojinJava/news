@@ -1,6 +1,6 @@
 {
-  "merged_at": "2026-04-01T00:00:00Z",
-  "total": 303,
+  "merged_at": "2026-04-01T23:50:00Z",
+  "total": 310,
   "ai_date_resolved": 0,
   "events": [
     {
@@ -7343,6 +7343,154 @@
       "source_urls": {
         "wikipedia": "https://en.wikipedia.org/wiki/Timeline_of_the_2026_Iran_war#1_April"
       }
+    },
+    {
+      "raw_id": "evt-raw-304",
+      "date": "2026-04-01",
+      "time": "00:00:00Z",
+      "title_en": "Iran fires 4 missile barrages at Israel; cluster munitions hit Bnei Brak and Tel Aviv, injuring 14",
+      "title_ko": "이란, 이스라엘에 미사일 4차례 포격·집속탄 부상 14명",
+      "description_en": "Israel reported 4 missile barrages fired from Iran, with impacts of cluster munition reported from Bnei Brak and Tel Aviv, injuring 14 people.",
+      "description_ko": "이스라엘은 이란에서 발사된 4차례의 미사일 포격을 보고했으며, 브네이 브라크와 텔아비브에 집속탄이 떨어져 14명이 부상을 입은 것으로 확인됐다.",
+      "location": "Israel (Bnei Brak, Tel Aviv)",
+      "actors": [
+        "Iran",
+        "Israel"
+      ],
+      "importance": "major",
+      "confirmed_by": [
+        "wikipedia"
+      ],
+      "source_urls": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Timeline_of_the_2026_Iran_war#1_April"
+      }
+    },
+    {
+      "raw_id": "evt-raw-305",
+      "date": "2026-04-01",
+      "time": "00:00:00Z",
+      "title_en": "IDF intercepts Houthi missile",
+      "title_ko": "IDF, 후티 미사일 요격 성공",
+      "description_en": "The IDF reported that a missile launched by Houthi militias was intercepted.",
+      "description_ko": "이스라엘 방위군(IDF)은 후티 민병대가 발사한 미사일 1발을 요격했다고 발표했다.",
+      "location": "Israel",
+      "actors": [
+        "Israel",
+        "Houthis"
+      ],
+      "importance": "minor",
+      "confirmed_by": [
+        "wikipedia"
+      ],
+      "source_urls": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Timeline_of_the_2026_Iran_war#1_April"
+      }
+    },
+    {
+      "raw_id": "evt-raw-306",
+      "date": "2026-04-01",
+      "time": "00:00:00Z",
+      "title_en": "Iranian drone waves hit motor oil factory in Erbil, Iraq, causing major fire",
+      "title_ko": "이란 드론, 이라크 에르빌 윤활유 공장 대화재",
+      "description_en": "Several waves of drones targeted a factory which produced motor oils in Erbil, Iraq, causing a major fire.",
+      "description_ko": "이라크 에르빌의 윤활유 공장이 여러 차례 드론 파상 공세를 받아 대형 화재가 발생했다.",
+      "location": "Erbil, Iraq",
+      "actors": [
+        "Iran",
+        "Iraq"
+      ],
+      "importance": "major",
+      "confirmed_by": [
+        "wikipedia"
+      ],
+      "source_urls": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Timeline_of_the_2026_Iran_war#1_April"
+      }
+    },
+    {
+      "raw_id": "evt-raw-307",
+      "date": "2026-04-01",
+      "time": "00:00:00Z",
+      "title_en": "US strike in Tehran damages former US embassy, now a museum",
+      "title_ko": "미군 공습, 테헤란 구 미대사관 박물관 피격",
+      "description_en": "A US strike in Tehran reportedly damaged the former US embassy, which was converted into a museum following its takeover during the Iranian Revolution.",
+      "description_ko": "미군의 테헤란 공습으로 이란 혁명 당시 점거된 후 박물관으로 전용된 구 미국 대사관 건물이 피해를 입은 것으로 전해졌다.",
+      "location": "Tehran, Iran",
+      "actors": [
+        "US",
+        "Iran"
+      ],
+      "importance": "major",
+      "confirmed_by": [
+        "wikipedia"
+      ],
+      "source_urls": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Timeline_of_the_2026_Iran_war#1_April"
+      }
+    },
+    {
+      "raw_id": "evt-raw-308",
+      "date": "2026-04-01",
+      "time": "00:00:00Z",
+      "title_en": "Iran rejects Trump claim that Iranian president sought ceasefire",
+      "title_ko": "이란, 트럼프 \"이란 대통령 휴전 요청\" 주장 부인",
+      "description_en": "A claim by Donald Trump that the Iranian president asked for a ceasefire was rejected by Iran as 'false and baseless'.",
+      "description_ko": "도널드 트럼프 대통령이 이란 대통령이 휴전을 요청했다고 주장한 데 대해 이란 측이 \"거짓이며 근거 없다\"고 강하게 부인했다.",
+      "location": "",
+      "actors": [
+        "Iran",
+        "US",
+        "Donald Trump"
+      ],
+      "importance": "major",
+      "confirmed_by": [
+        "wikipedia"
+      ],
+      "source_urls": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Timeline_of_the_2026_Iran_war#1_April"
+      }
+    },
+    {
+      "raw_id": "evt-raw-309",
+      "date": "2026-04-01",
+      "time": "00:00:00Z",
+      "title_en": "Two US MQ-9 Reaper drones shot down by Iran near Isfahan; total losses reach 16",
+      "title_ko": "이란, 이스파한서 미 MQ-9 2기 격추·전쟁 누계 16기",
+      "description_en": "Two US MQ-9 Reaper drones were shot down by Iran near Isfahan, bringing the total number of MQ-9s lost during the war to 16.",
+      "description_ko": "이란이 이스파한 인근에서 미국의 MQ-9 리퍼 드론 2기를 격추했다. 이로써 전쟁 중 손실된 MQ-9 누계는 16기에 달하게 됐다.",
+      "location": "Isfahan, Iran",
+      "actors": [
+        "Iran",
+        "US"
+      ],
+      "importance": "major",
+      "confirmed_by": [
+        "wikipedia"
+      ],
+      "source_urls": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Timeline_of_the_2026_Iran_war#1_April"
+      }
+    },
+    {
+      "raw_id": "evt-raw-310",
+      "date": "2026-04-01",
+      "time": "00:00:00Z",
+      "title_en": "Former Iranian FM Kamal Kharazi seriously injured, wife killed in airstrike on his residence",
+      "title_ko": "이란 전 외무장관 하라지, 공습으로 중상·부인 사망",
+      "description_en": "Iranian outlet Nournews reported that former foreign minister Kamal Kharazi was seriously injured and his wife was killed in an airstrike which hit his residence.",
+      "description_ko": "이란 매체 누르뉴스는 카말 하라지 전 외무장관이 자택을 강타한 공습으로 중상을 입었으며 부인이 숨졌다고 보도했다.",
+      "location": "Iran",
+      "actors": [
+        "Iran"
+      ],
+      "importance": "major",
+      "confirmed_by": [
+        "wikipedia"
+      ],
+      "source_urls": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Timeline_of_the_2026_Iran_war#1_April"
+      }
     }
-  ]
+  ],
+  "skipped_duplicates": 1
 }

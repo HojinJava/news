@@ -765,19 +765,12 @@ function chartPane(evt, date) {
     const td = MKT.tickers?.[m.ticker];
     if (!td) return '';
 
-    // 10분봉 우선 (fetch_market.py에서 사전 집계된 bars10 사용)
-    const hasRealTime = evt.time && evt.time !== '00:00:00Z';
+    // 분봉(bars10)만 사용 — 일봉 fallback 없음
     const win = td.windows?.[evt.event_id];
-    if (hasRealTime && win?.bars10?.length) {
+    if (win?.bars10?.length) {
       return `<div style="margin-bottom:8px">${svgLine10(win.bars10, m.label, m.key)}</div>`;
     }
-
-    // fallback: 일봉 ±2일
-    if (!td.daily?.length) return '';
-    const idx = td.daily.findIndex(d => d.date === date);
-    const sl = idx >= 0 ? td.daily.slice(Math.max(0, idx - 2), idx + 3) : td.daily.slice(-5);
-    if (!sl.length) return '';
-    return `<div style="margin-bottom:8px">${svgLineDaily(sl, m.label, m.key)}</div>`;
+    return '';
   }).join('');
   return svgs || '<p class="no-data">당일 데이터 없음</p>';
 }

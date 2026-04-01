@@ -156,7 +156,7 @@ body {
 }
 .evt-card:hover { border-color: var(--accent); box-shadow: 0 2px 10px rgba(107,124,255,.15); }
 .evt-card.open  { border-color: var(--accent); }
-.evt-head { padding: 12px 14px 8px; display: flex; flex-direction: column; gap: 4px; height: 160px; overflow: hidden; }
+.evt-head { padding: 12px 14px 8px; display: flex; flex-direction: column; gap: 4px; min-height: 100px; overflow: visible; }
 .evt-meta { display: flex; align-items: center; gap: 6px; flex-wrap: wrap; }
 .evt-time {
   font-size: 15px; font-weight: 700; color: var(--text);
@@ -304,14 +304,13 @@ body {
   :root { --sidebar-w: 160px; }
   #cat-title { font-size: 18px; }
   #importance-legend { display: none; } /* hide on tablet to save space */
-  .evt-head { height: 150px; }
 }
 
 /* ── Mobile ── */
 @media (max-width: 768px) {
   :root { --header-h: 50px; }
   body { font-size: 15px; }
-  .evt-head { height: calc(100svh - var(--header-h) - 110px); overflow: hidden; }
+  .evt-head { min-height: 80px; overflow: visible; }
   .evt-summary { -webkit-line-clamp: 2; }
   .day-events { scroll-snap-type: y mandatory; overflow-y: scroll; }
   .evt-card   { scroll-snap-align: start; flex-shrink: 0; }

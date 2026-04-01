@@ -128,7 +128,7 @@ body {
 }
 
 /* day column */
-.day-col { width: 304px; min-width: 304px; display: flex; flex-direction: column; padding: 0 10px; flex-shrink: 0; }
+.day-col { width: 320px; min-width: 320px; display: flex; flex-direction: column; padding: 0 10px; flex-shrink: 0; }
 .day-header { padding: 0 0 10px; position: relative; }
 .day-dot {
   width: 10px; height: 10px; background: var(--accent); border-radius: 50%;
@@ -156,7 +156,7 @@ body {
 }
 .evt-card:hover { border-color: var(--accent); box-shadow: 0 2px 10px rgba(107,124,255,.15); }
 .evt-card.open  { border-color: var(--accent); }
-.evt-head { padding: 12px 14px 8px; display: flex; flex-direction: column; gap: 6px; }
+.evt-head { padding: 12px 14px 8px; display: flex; flex-direction: column; gap: 6px; min-height: 110px; max-height: 160px; overflow: hidden; }
 .evt-meta { display: flex; align-items: center; gap: 6px; flex-wrap: wrap; }
 .evt-time {
   font-size: 15px; font-weight: 700; color: var(--text);
@@ -177,7 +177,7 @@ body {
 .imp.major    { background: rgba(255,140,66,.15);   color: var(--major);    border: 1px solid rgba(255,140,66,.3); }
 .imp.minor    { background: rgba(107,124,255,.10);  color: var(--minor);    border: 1px solid rgba(107,124,255,.3); }
 
-.evt-title   { font-size: 16px; font-weight: 600; line-height: 1.4; display: -webkit-box; -webkit-line-clamp: 4; -webkit-box-orient: vertical; overflow: hidden; }
+.evt-title   { font-size: 16px; font-weight: 600; line-height: 1.4; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
 .evt-summary {
   font-size: 15px; color: var(--text-muted); line-height: 1.5;
   display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden;
@@ -674,7 +674,7 @@ function evtCard(evt, date) {
   const title = esc(evt.title || evt.title_ko || '');
   const summary = esc(evt.summary || evt.description_ko || '');
   const imp = esc(evt.importance || 'minor');
-  const t = (evt.time && evt.time !== '00:00:00Z') ? `<span class="evt-time">${ftime(date + 'T' + evt.time)}</span>` : `<span class="evt-time" style="color:var(--text-muted)">시각 미상</span>`;
+  const t = (evt.time && evt.time !== '00:00:00Z') ? `<span class="evt-time">${ftime(date + 'T' + evt.time)}</span>` : '';
 
   return `<div class="evt-card" id="evc-${id}" onclick="toggleCard('${id}')">
     <div class="evt-head">

@@ -769,16 +769,43 @@ function trumpList(posts) {
 }
 
 /* ─── chart ─── */
+function normalizeBars10(win) {
+  // 항상 6슬롯 (-30,-20,-10,0,+10,+20분) 반환. 데이터 없는 슬롯은 baseline_close로 채움.
+  const raw = win.bars10 || [];
+  if (!raw.length) return null;
+  const baseline = win.baseline_close || 0;
+  const evtMs = new Date(win.event_time).getTime();
+  const OFFSETS = [-30, -20, -10, 0, 10, 20];
+  // 기존 bars를 offset bucket으로 매핑
+  const barMap = {};
+  for (const b of raw) {
+    const diffMin = Math.round((new Date(b.time).getTime() - evtMs) / 60000);
+    let best = OFFSETS[0];
+    for (const o of OFFSETS) { if (Math.abs(o - diffMin) < Math.abs(best - diffMin)) best = o; }
+    barMap[best] = b;
+  }
+  // 6슬롯 채우기 — 없는 슬롯은 baseline_close 합성
+  return OFFSETS.map(offset => {
+    if (barMap[offset]) return barMap[offset];
+    const slotMs = evtMs + offset * 60000;
+    const kd = new Date(slotMs + 9 * 3600000); // KST
+    const hh = String(kd.getUTCHours()).padStart(2, '0');
+    const mm = String(kd.getUTCMinutes()).padStart(2, '0');
+    return { open: baseline, high: baseline, low: baseline, close: baseline,
+      time: new Date(slotMs).toISOString().slice(0, 19) + 'Z',
+      label: `${hh}:${mm}`, isEvent: offset === 0, synthetic: true };
+  });
+}
+
 function chartPane(evt, date) {
   if (!MKT || !CFG?.markets?.length) return '<p class="no-data">시장 데이터 없음 (fetch_market.py 실행 필요)</p>';
   const svgs = CFG.markets.map(m => {
     const td = MKT.tickers?.[m.ticker];
     if (!td) return '';
-
-    // 분봉(bars10)만 사용 — 일봉 fallback 없음
     const win = td.windows?.[evt.event_id];
     if (win?.bars10?.length) {
-      return `<div style="margin-bottom:8px">${svgLine10(win.bars10, m.label, m.key)}</div>`;
+      const bars = normalizeBars10(win);
+      if (bars) return `<div style="margin-bottom:8px">${svgLine10(bars, m.label, m.key)}</div>`;
     }
     return '';
   }).join('');
@@ -790,10 +817,12 @@ function svgLine10(bars, label, key) {
   const cw = W-PL-PR, ch = H-PT-PB;
   const prices = bars.flatMap(b => [b.high, b.low]);
   const mn = Math.min(...prices), mx = Math.max(...prices), rng = mx - mn || 1;
-  const xs = i => PL + i * (cw / Math.max(bars.length - 1, 1));
+  const xs = i => PL + i * (cw / 5); // 항상 6점(0~5) 고정 간격
   const ys = v => PT + ch - ((v - mn) / rng) * ch;
   const pts = bars.map((b, i) => `${xs(i)},${ys(b.close)}`).join(' ');
-  const color = bars[bars.length-1].close >= bars[0].close ? '#44cc88' : '#ff4455';
+  // 합성 구간 제외하고 색상 판단
+  const realBars = bars.filter(b => !b.synthetic);
+  const color = (realBars.length >= 2 && realBars[realBars.length-1].close >= realBars[0].close) ? '#44cc88' : '#ff4455';
   const fp = v => v >= 10000 ? v.toFixed(0) : v >= 100 ? v.toFixed(1) : v.toFixed(2);
   const ticks = [0, 0.25, 0.5, 0.75, 1].map(r => mn + r * rng);
   const yTicks = ticks.map(v => `
@@ -806,7 +835,22 @@ function svgLine10(bars, label, key) {
     ? `<line x1="${xs(evtIdx)}" y1="${PT}" x2="${xs(evtIdx)}" y2="${PT+ch}" stroke="#ff4455" stroke-width="2" stroke-dasharray="5,3" opacity=".9"/>
        <text x="${xs(evtIdx)}" y="${PT-6}" font-size="11" fill="#ff6677" text-anchor="middle" font-weight="700">${esc(evtShort)}</text>`
     : '';
-  const areaTop = `${PL},${PT+ch} ` + bars.map((b,i) => `${xs(i)},${ys(b.close)}`).join(' ') + ` ${xs(bars.length-1)},${PT+ch}`;
+  const areaTop = `${PL},${PT+ch} ` + bars.map((b,i) => `${xs(i)},${ys(b.close)}`).join(' ') + ` ${xs(5)},${PT+ch}`;
+  // synthetic 구간 점선 / real 구간 실선 분리
+  const lineSegs = (() => {
+    const segs = []; let cur = null;
+    bars.forEach((b, i) => {
+      const t = b.synthetic ? 'syn' : 'real';
+      if (!cur || cur.t !== t) {
+        if (cur) cur.pts.push(`${xs(i)},${ys(b.close)}`); // 연결점
+        cur = {t, pts: [`${xs(i)},${ys(b.close)}`]}; segs.push(cur);
+      } else { cur.pts.push(`${xs(i)},${ys(b.close)}`); }
+    });
+    return segs;
+  })();
+  const linesSvg = lineSegs.map(s =>
+    `<polyline points="${s.pts.join(' ')}" fill="none" stroke="${s.t==='syn'?'#4a4a6a':color}" stroke-width="${s.t==='syn'?1.5:2.5}" stroke-dasharray="${s.t==='syn'?'4,3':''}" stroke-linejoin="round" stroke-linecap="round" opacity="${s.t==='syn'?0.5:1}"/>`
+  ).join('');
   return `<svg viewBox="0 0 ${W} ${H}" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:${H}px;display:block;background:#0e0e18;border-radius:8px">
     <defs><linearGradient id="ag-${key}" x1="0" y1="0" x2="0" y2="1">
       <stop offset="0%" stop-color="${color}" stop-opacity="0.18"/>
@@ -815,8 +859,8 @@ function svgLine10(bars, label, key) {
     <text x="${PL}" y="18" font-size="14" font-weight="700" fill="#c0c8e8">${esc(key)} ${esc(label)}</text>
     ${yTicks}${evtLine}
     <polygon points="${areaTop}" fill="url(#ag-${key})"/>
-    <polyline points="${pts}" fill="none" stroke="${color}" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round"/>
-    ${bars.map((b,i) => `<text x="${xs(i)}" y="${H-10}" font-size="12" fill="${b.isEvent?'#ff6677':'#6670a0'}" text-anchor="middle" ${b.isEvent?'font-weight="700"':''}>${esc(b.label)}</text>`).join('')}
+    ${linesSvg}
+    ${bars.map((b,i) => `<text x="${xs(i)}" y="${H-10}" font-size="12" fill="${b.isEvent?'#ff6677':b.synthetic?'#3a3a5a':'#6670a0'}" text-anchor="middle" ${b.isEvent?'font-weight="700"':''}>${esc(b.label)}</text>`).join('')}
   </svg>`;
 }
 

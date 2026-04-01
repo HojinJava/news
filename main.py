@@ -1,159 +1,92 @@
 #!/usr/bin/env python3
-"""War News Agent — 파이프라인 오케스트레이터 + CLI."""
+"""News-Market Agent — 파이프라인 오케스트레이터 + CLI."""
+from __future__ import annotations
 
 import argparse
 import json
 import sys
+from datetime import datetime, timezone
 from pathlib import Path
 
-import yaml
-
-from agents.collector import collect_articles
-from agents.verifier import verify_articles
-from agents.bias_analyst import analyze_bias
-from agents.timeline_builder import build_timeline
-from utils.merge import merge_timelines, load_timeline, save_timeline
+from agents.orchestrator import run_pipeline_for_category
 
 
-def load_config(path: str = "config.yaml") -> dict:
-    with open(path, "r", encoding="utf-8") as f:
-        return yaml.safe_load(f)
+def _update_registry(slug: str, name: str) -> None:
+    reg_path = Path("data/registry.json")
+    reg_path.parent.mkdir(parents=True, exist_ok=True)
+
+    if reg_path.exists():
+        reg = json.loads(reg_path.read_text(encoding="utf-8"))
+    else:
+        reg = {"categories": []}
+
+    existing_slugs = [c["slug"] for c in reg["categories"]]
+    now = datetime.now(timezone.utc).isoformat()
+    if slug not in existing_slugs:
+        reg["categories"].append({"slug": slug, "name": name, "created_at": now, "last_updated": now})
+    else:
+        for c in reg["categories"]:
+            if c["slug"] == slug:
+                c["last_updated"] = now
+
+    reg_path.write_text(json.dumps(reg, ensure_ascii=False, indent=2), encoding="utf-8")
 
 
-def save_debug(data, name: str, debug_dir: Path):
-    debug_dir.mkdir(parents=True, exist_ok=True)
-    out = debug_dir / f"{name}.json"
-    with open(out, "w", encoding="utf-8") as f:
-        json.dump(
-            [item.to_dict() if hasattr(item, "to_dict") else item for item in data],
-            f,
-            ensure_ascii=False,
-            indent=2,
-        )
-    print(f"  [debug] {out}")
-
-
-def run_pipeline(topic: str, config: dict, debug: bool = False):
-    debug_dir = Path("debug")
-
-    # Step 1: 수집
-    print("\n[1/4] 뉴스 수집 중...")
-    raw_articles = collect_articles(topic, config)
-    print(f"  → {len(raw_articles)}건 수집 완료")
-    if debug:
-        save_debug(raw_articles, "01_collected", debug_dir)
-
-    if not raw_articles:
-        print("수집된 기사가 없습니다. 종료합니다.")
+def _get_last_updated(slug: str) -> str | None:
+    news_path = Path("data") / slug / "news.json"
+    if not news_path.exists():
         return None
-
-    # Step 2: 검증
-    print("\n[2/4] 교차 검증 중...")
-    verified_articles = verify_articles(raw_articles, config)
-    verified_count = sum(1 for a in verified_articles if a.verification_status == "verified")
-    flagged_count = sum(1 for a in verified_articles if a.verification_status == "flagged")
-    print(f"  → {len(verified_articles)}건 검증 완료 (verified: {verified_count}, flagged: {flagged_count})")
-    if debug:
-        save_debug(verified_articles, "02_verified", debug_dir)
-
-    # Step 3: 편향 분석
-    print("\n[3/4] 편향 분석 중...")
-    analyzed_articles = analyze_bias(verified_articles, config)
-    avg_obj = (
-        sum(a.objectivity_score for a in analyzed_articles) // len(analyzed_articles)
-        if analyzed_articles
-        else 0
-    )
-    print(f"  → {len(analyzed_articles)}건 분석 완료 (평균 객관도: {avg_obj})")
-    if debug:
-        save_debug(analyzed_articles, "03_analyzed", debug_dir)
-
-    # Step 4: 타임라인 구축
-    print("\n[4/4] 타임라인 구축 중...")
-    timeline = build_timeline(analyzed_articles, topic)
-    print(f"  → {timeline.total_events}개 사건, {timeline.total_articles}건 기사")
-    if debug:
-        debug_dir.mkdir(parents=True, exist_ok=True)
-        with open(debug_dir / "04_timeline.json", "w", encoding="utf-8") as f:
-            f.write(timeline.to_json())
-        print(f"  [debug] {debug_dir / '04_timeline.json'}")
-
-    return timeline
+    data = json.loads(news_path.read_text(encoding="utf-8"))
+    return data.get("last_updated") or data.get("generated_at")
 
 
-def main():
-    parser = argparse.ArgumentParser(
-        description="War News Agent — 전쟁/분쟁 뉴스 수집·검증·분석·타임라인 파이프라인",
-    )
-    parser.add_argument(
-        "--topic",
-        type=str,
-        help="분석할 주제 (예: '이란 이스라엘 미국 전쟁')",
-    )
-    parser.add_argument(
-        "--debug",
-        action="store_true",
-        help="디버그 모드 — debug/ 폴더에 중간 결과 저장",
-    )
-    parser.add_argument(
-        "--merge",
-        type=str,
-        metavar="FILE",
-        help="기존 JSON 파일과 머지",
-    )
-    parser.add_argument(
-        "--config",
-        type=str,
-        default="config.yaml",
-        help="설정 파일 경로 (기본: config.yaml)",
-    )
-    parser.add_argument(
-        "--output",
-        type=str,
-        help="출력 파일 경로 (기본: config의 pipeline.output_path)",
-    )
-
+def main() -> None:
+    parser = argparse.ArgumentParser(description="News-Market Agent")
+    parser.add_argument("--category", required=True, help="카테고리 슬러그 (예: iran-war)")
+    parser.add_argument("--topic",    help="검색 주제 (신규 카테고리 시 필수)")
+    parser.add_argument("--date-from", dest="date_from", help="수집 시작 날짜 YYYY-MM-DD")
+    parser.add_argument("--update",  action="store_true", help="last_updated 이후 증분 업데이트")
+    parser.add_argument("--name",    help="카테고리 표시 이름")
+    parser.add_argument("--debug",   action="store_true")
     args = parser.parse_args()
 
-    if not args.topic and not args.merge:
-        parser.error("--topic 또는 --merge 중 하나는 필요합니다.")
+    slug = args.category
+    cat_dir = Path("data") / slug
 
-    config = load_config(args.config)
-    output_path = args.output or config.get("pipeline", {}).get("output_path", "output/result.json")
-    debug = args.debug or config.get("pipeline", {}).get("debug_mode", False)
-
-    timeline = None
-
-    # 파이프라인 실행
-    if args.topic:
-        print(f"=== War News Agent ===")
-        print(f"주제: {args.topic}")
-        print(f"출력: {output_path}")
-        timeline = run_pipeline(args.topic, config, debug=debug)
-
-    # 머지
-    if args.merge:
-        other = load_timeline(args.merge)
-        if timeline is None:
-            if not Path(output_path).exists():
-                print(f"오류: {output_path} 파일이 없습니다. --topic과 함께 사용하세요.")
-                sys.exit(1)
-            timeline = load_timeline(output_path)
-        print(f"\n머지 중: {args.merge}")
-        timeline = merge_timelines(timeline, other)
-        print(f"  → 머지 완료: {timeline.total_events}개 사건, {timeline.total_articles}건 기사")
-
-    # 저장
-    if timeline:
-        out = Path(output_path)
-        out.parent.mkdir(parents=True, exist_ok=True)
-        save_timeline(timeline, str(out))
-        print(f"\n=== 완료 ===")
-        print(f"결과 저장: {out}")
-        print(f"총 {timeline.total_events}개 사건 / {timeline.total_articles}건 기사")
+    if args.update:
+        last = _get_last_updated(slug)
+        if not last:
+            print(f"오류: {slug} 카테고리 news.json 없음. --date-from으로 신규 수집하세요.")
+            sys.exit(1)
+        date_from = last[:10]
+        config_path = cat_dir / "config.json"
+        if not config_path.exists():
+            print(f"오류: {cat_dir}/config.json 없음.")
+            sys.exit(1)
+        topic = json.loads(config_path.read_text(encoding="utf-8"))["topic"]
+        print(f"=== 업데이트 모드: {slug} ({date_from} 이후) ===")
     else:
-        print("결과가 없습니다.")
-        sys.exit(1)
+        if not args.topic:
+            parser.error("신규 카테고리는 --topic이 필요합니다.")
+        if not args.date_from:
+            parser.error("신규 크롤링은 --date-from이 필요합니다.")
+        date_from = args.date_from
+        topic = args.topic
+        name = args.name or slug
+        cat_dir.mkdir(parents=True, exist_ok=True)
+        _update_registry(slug, name)
+        print(f"=== 신규 크롤링: {slug} ({date_from} ~ 오늘) ===")
+
+    run_pipeline_for_category(
+        category_slug=slug,
+        topic=topic,
+        date_from=date_from,
+        debug=args.debug,
+    )
+
+    _update_registry(slug, args.name or slug)
+    print(f"\n=== 완료 ===")
+    print(f"다음 단계: python fetch_market.py --category {slug}")
 
 
 if __name__ == "__main__":

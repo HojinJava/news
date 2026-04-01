@@ -60,6 +60,9 @@ def _aggregate_10min(bars: list[dict], event_time_iso: str) -> list[dict]:
             "label": kst_dt.strftime("%H:%M"),
             "isEvent": k == 0,
         })
+    # isEvent bar가 없으면 (거래시간 미겹침 or 시간 미상) 중간 bar 마킹
+    if result and not any(r["isEvent"] for r in result):
+        result[len(result) // 2]["isEvent"] = True
     return result
 
 
@@ -122,8 +125,9 @@ def _fetch_minute_window(ticker: str, event_time: str) -> list[dict]:
 
     bars = []
     for ts, row in df.iterrows():
+        utc_ts = ts.astimezone(timezone.utc)
         bars.append({
-            "time": ts.strftime("%Y-%m-%dT%H:%M:%SZ"),
+            "time": utc_ts.strftime("%Y-%m-%dT%H:%M:%SZ"),
             "open": round(float(row["Open"]), 4),
             "high": round(float(row["High"]), 4),
             "low": round(float(row["Low"]), 4),

@@ -523,10 +523,7 @@ function dailyMkt(date) {
     const td = MKT.tickers?.[m.ticker];
     const day = td?.daily?.find(d => d.date === date);
     if (!day) return [{ key: m.key, delta: null }];
-    const prev = td.daily.filter(d => d.date < date).slice(-1)[0];
-    const base = prev?.close ?? day.open;
-    const delta = base ? (day.close - base) / base * 100 : 0;
-    return [{ key: m.key, delta }];
+    return [{ key: m.key, delta: day.delta_pct ?? null }];
   });
 }
 
@@ -554,11 +551,11 @@ function renderTimeline() {
   const tl = document.getElementById('timeline');
   if (!NEWS?.events?.length) { tl.innerHTML = '<div class="empty" style="padding:40px">이벤트 없음</div>'; return; }
 
-  const byDate = {};
-  for (const e of NEWS.events) {
-    const d = (e.date || '').slice(0, 10);
-    (byDate[d] = byDate[d] || []).push(e);
-  }
+  // by_date는 build_timeline.py에서 사전 구성 (news.json). 없으면 fallback.
+  const evtMap = Object.fromEntries(NEWS.events.map(e => [e.event_id, e]));
+  const byDate = NEWS.by_date
+    ? Object.fromEntries(Object.entries(NEWS.by_date).map(([d, ids]) => [d, ids.map(id => evtMap[id]).filter(Boolean)]))
+    : (() => { const m = {}; for (const e of NEWS.events) { const d = (e.date||'').slice(0,10); (m[d]=m[d]||[]).push(e); } return m; })();
   const dates = Object.keys(byDate).sort().reverse();
 
   tl.innerHTML = dates.map(date => {
@@ -673,42 +670,16 @@ function trumpList(posts) {
 }
 
 /* ─── chart ─── */
-function aggregate10min(bars, eventTimeStr) {
-  if (!bars || !bars.length) return [];
-  const evtMs = new Date(eventTimeStr).getTime();
-  const buckets = new Map();
-  for (const b of bars) {
-    const diffMin = (new Date(b.time).getTime() - evtMs) / 60000;
-    const bucket = Math.floor(diffMin / 10) * 10;
-    if (!buckets.has(bucket)) {
-      buckets.set(bucket, { open: b.open, high: b.high, low: b.low, close: b.close, time: b.time });
-    } else {
-      const cur = buckets.get(bucket);
-      cur.high  = Math.max(cur.high, b.high);
-      cur.low   = Math.min(cur.low,  b.low);
-      cur.close = b.close;
-    }
-  }
-  return [...buckets.entries()]
-    .sort((a, b) => a[0] - b[0])
-    .map(([k, v]) => ({
-      ...v,
-      label: new Date(v.time).toLocaleTimeString('ko-KR', { hour: '2-digit', minute: '2-digit', timeZone: 'Asia/Seoul', hour12: false }),
-      isEvent: k === 0,
-    }));
-}
-
 function chartPane(evt, date) {
   if (!MKT || !CFG?.markets?.length) return '<p class="no-data">시장 데이터 없음 (fetch_market.py 실행 필요)</p>';
   const svgs = CFG.markets.map(m => {
     const td = MKT.tickers?.[m.ticker];
     if (!td) return '';
 
-    // 10분봉 우선 (분봉 데이터 있을 때)
+    // 10분봉 우선 (fetch_market.py에서 사전 집계된 bars10 사용)
     const win = td.windows?.[evt.event_id];
-    if (win?.bars?.length) {
-      const bars10 = aggregate10min(win.bars, win.event_time);
-      if (bars10.length) return `<div style="margin-bottom:8px">${svgLine10(bars10, m.label, m.key, evt.title_ko || evt.title)}</div>`;
+    if (win?.bars10?.length) {
+      return `<div style="margin-bottom:8px">${svgLine10(win.bars10, m.label, m.key, evt.title_ko || evt.title)}</div>`;
     }
 
     // fallback: 일봉 ±2일

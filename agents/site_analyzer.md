@@ -36,7 +36,10 @@ authoritative_sources 각 사이트를 분석해 파싱 전략을 수립하고, 
 **"이 전략으로 파싱하겠습니다. 진행할까요?"** — 사용자가 OK하면 다음 단계로.
 
 ### 3. config.json에 파싱 전략 저장
-`data/{slug}/config.json`의 각 authoritative_source에 `parse_config` 추가:
+`data/{slug}/config.json`의 각 authoritative_source에 `parse_config` 추가.
+
+**`parse_config`는 `fetch_sites.py`(Python BeautifulSoup)가 그대로 사용하므로
+CSS 셀렉터를 실제 HTML 구조에 맞게 정확히 작성해야 한다.**
 
 ```json
 {
@@ -48,10 +51,13 @@ authoritative_sources 각 사이트를 분석해 파싱 전략을 수립하고, 
         "method": "subpages",
         "subpage_pattern": "https://iranwarlive.com/recaps/day-{N}.html",
         "subpage_range": "auto",
-        "time_field": "event-time",
-        "time_format": "HH:MMZ",
-        "time_timezone": "UTC",
-        "available_fields": ["date", "time", "title", "type", "location", "description"]
+        "page_date_selector": "h1.day-title",
+        "event_selector": "div.event-item",
+        "time_selector": "span.event-time",
+        "title_selector": "h3.event-title",
+        "description_selector": "p.event-desc",
+        "time_format": "HH:MM",
+        "time_timezone": "UTC"
       }
     },
     {
@@ -59,15 +65,28 @@ authoritative_sources 각 사이트를 분석해 파싱 전략을 수립하고, 
       "url": "https://en.wikipedia.org/wiki/Timeline_of_the_2026_Iran_war",
       "parse_config": {
         "method": "single_page",
-        "section_pattern": "## {Month} {Day}",
-        "anchor_pattern": "#Month_Day",
-        "time_field": null,
-        "available_fields": ["date", "title", "description"]
+        "section_heading_selector": "h2, h3",
+        "event_selector": "li",
+        "time_selector": null,
+        "title_selector": null,
+        "description_selector": null
       }
     }
   ]
 }
 ```
+
+**parse_config 필드 설명:**
+- `method`: `"subpages"` (Day별 서브페이지) 또는 `"single_page"` (단일 페이지)
+- `subpage_pattern`: `{N}`을 1부터 증가시켜 URL 생성
+- `event_selector`: 이벤트 한 건을 감싸는 CSS 셀렉터
+- `time_selector`: 시간 텍스트 CSS 셀렉터 (없으면 null)
+- `title_selector`: 제목 CSS 셀렉터 (없으면 이벤트 전체 텍스트 사용)
+- `page_date_selector`: 페이지 단위 날짜 CSS 셀렉터 (서브페이지에서 날짜를 표시하는 요소)
+- `section_heading_selector`: 날짜 섹션 헤딩 셀렉터 (single_page 전용)
+
+**중요**: 실제 HTML을 WebFetch로 확인 후 셀렉터를 작성할 것.
+셀렉터가 틀리면 Python이 날짜를 못 찾아 `needs_ai_date=true`가 대량 발생한다.
 
 ## 출력
 - config.json 업데이트 (parse_config 추가)

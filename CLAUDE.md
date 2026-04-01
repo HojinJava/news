@@ -122,13 +122,17 @@ viewer.html이 연산 없이 바로 렌더링할 수 있도록, 모든 계산은
 - 결과를 사용자에게 보고하고 확인받은 후 config.json에 저장
 - **사용자 확인 전까지 Step 1 진행 금지**
 
-### Step 1: Site-Fetcher 서브에이전트
+### Step 1: Site-Fetcher (Python)
+```bash
+python fetch_sites.py --category {slug} --date-from {date_from} --date-to {date_to}
 ```
-역할: agents/site_fetcher.md
-입력: config.json (parse_config 포함), date_from, date_to
-출력: pipeline/{slug}/01_site_events.json
-```
-parse_config에 정의된 전략대로 파싱. 서브페이지 순회, 시간 추출 포함.
+- `parse_config` CSS 셀렉터 기반으로 HTML 파싱 (BeautifulSoup)
+- 날짜 추출 실패 시 `needs_ai_date: true` 마킹 → Event-Merger가 AI로 처리
+- 번역 없음 (EN 필드만 저장) → Event-Merger가 번역
+- 출력: `pipeline/{slug}/01_site_events.json`
+
+**에이전트 불필요 — Python 직접 실행.**
+AI 개입은 Event-Merger 단계에서만 (날짜 보정 + 번역 + 중요도 분류).
 
 ### Step 2: Event-Merger 서브에이전트
 ```
@@ -183,7 +187,11 @@ json.dump(reg, open('data/registry.json','w'), ensure_ascii=False, indent=2)
 
 1. `data/{slug}/news.json`의 `last_updated` 읽기 → 이것이 date_from
    - 반드시 news.json에서 읽을 것 (이전 크롤링의 실제 종료 시각)
-2. date_from = last_updated, date_to = 오늘로 Step 1~4 실행
+   - **전체 재파싱 금지** — date_from ~ 오늘 범위만 수집
+2. Step 1~3 실행 (date_from ~ date_to)
+   ```bash
+   python fetch_sites.py --category {slug} --date-from {date_from} --date-to {date_to}
+   ```
 3. `python build_timeline.py --category {slug} --merge`
 4. `python fetch_market.py --category {slug} --incremental`
 5. registry.json의 last_updated 현재 시각으로 갱신 (Step 6)

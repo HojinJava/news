@@ -1,6 +1,15 @@
-# Site-Fetcher Agent — 역할 계약
+# Site-Fetcher Agent — ⚠ DEPRECATED
 
-## 역할
+> **이 에이전트는 더 이상 사용하지 않는다.**
+> Step 1은 `fetch_sites.py` (Python)으로 대체되었다.
+> ```bash
+> python fetch_sites.py --category {slug} --date-from {YYYY-MM-DD} --date-to {YYYY-MM-DD}
+> ```
+> 아래 내용은 참고용으로만 보존한다.
+
+---
+
+## 역할 (구버전)
 Site-Analyzer가 수립한 파싱 전략(`parse_config`)을 기반으로 authoritative_sources에서 사건 목록을 추출한다.
 **parse_config 없이 실행 금지 — Site-Analyzer가 먼저 실행되어야 한다.**
 

@@ -166,8 +166,13 @@ def fetch_category_market(category_slug: str, incremental: bool = False) -> None
             if evt_id in windows and incremental:
                 continue
 
-            print(f"    [{ticker}] 이벤트 {evt_id} 분봉 수집 중...")
-            bars = _fetch_minute_window(ticker, evt_time)
+            # 시간 미상(00:00:00Z) 이벤트는 분봉 불필요 — 자정 UTC 기준 bars10은 의미 없음
+            evt_has_time = evt.get("time") and evt["time"] != "00:00:00Z"
+            if not evt_has_time:
+                bars = []
+            else:
+                print(f"    [{ticker}] 이벤트 {evt_id} 분봉 수집 중...")
+                bars = _fetch_minute_window(ticker, evt_time)
 
             baseline_close = 0.0
             if daily:

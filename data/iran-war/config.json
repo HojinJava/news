@@ -13,13 +13,35 @@
       "name": "Wikipedia",
       "label": "Wikipedia 타임라인",
       "url": "https://en.wikipedia.org/wiki/Timeline_of_the_2026_Iran_war",
-      "logo": "https://en.wikipedia.org/static/images/icons/wikipedia.png"
+      "logo": "https://en.wikipedia.org/static/images/icons/wikipedia.png",
+      "parse_config": {
+        "method": "single_page",
+        "main_content_selector": "#mw-content-text",
+        "section_heading_selector": "div.mw-heading2",
+        "event_selector": "li",
+        "time_selector": null,
+        "time_pattern": "(\\d{1,2}:\\d{2})\\s*UTC",
+        "time_format": "HH:MM",
+        "time_timezone": "UTC"
+      }
     },
     {
       "name": "IranWarLive",
       "label": "Iran War Live",
       "url": "https://iranwarlive.com/recap",
-      "logo": "https://iranwarlive.com/favicon.ico"
+      "logo": "https://iranwarlive.com/favicon.ico",
+      "parse_config": {
+        "method": "subpages",
+        "subpage_pattern": "https://iranwarlive.com/recaps/day-{N}.html",
+        "subpage_range": "auto",
+        "page_date_selector": ".sitrep-date",
+        "event_selector": "div.timeline-event",
+        "time_selector": ".event-time",
+        "time_format": "HH:MMZ",
+        "time_timezone": "UTC",
+        "title_selector": "h3.event-title",
+        "description_selector": "div.seo-payload"
+      }
     }
   ],
   "enrichment_sources": {

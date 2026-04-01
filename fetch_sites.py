@@ -18,9 +18,18 @@ from bs4 import BeautifulSoup
 
 HEADERS = {"User-Agent": "Mozilla/5.0 (compatible; news-fetcher/1.0)"}
 MONTHS = {
-    "january": 1, "february": 2, "march": 3, "april": 4,
-    "may": 5, "june": 6, "july": 7, "august": 8,
-    "september": 9, "october": 10, "november": 11, "december": 12,
+    "january": 1, "jan": 1,
+    "february": 2, "feb": 2,
+    "march": 3, "mar": 3,
+    "april": 4, "apr": 4,
+    "may": 5,
+    "june": 6, "jun": 6,
+    "july": 7, "jul": 7,
+    "august": 8, "aug": 8,
+    "september": 9, "sep": 9, "sept": 9,
+    "october": 10, "oct": 10,
+    "november": 11, "nov": 11,
+    "december": 12, "dec": 12,
 }
 
 
@@ -68,6 +77,7 @@ def _parse_time(raw: str) -> str:
 
 def _build_event(item: BeautifulSoup, source: dict, url: str, page_date: str | None) -> dict | None:
     pc = source["parse_config"]
+    full_text = item.get_text(separator=" ", strip=True)
 
     # 제목
     title = ""
@@ -75,7 +85,7 @@ def _build_event(item: BeautifulSoup, source: dict, url: str, page_date: str | N
         el = item.select_one(pc["title_selector"])
         title = el.get_text(strip=True) if el else ""
     if not title:
-        title = item.get_text(separator=" ", strip=True)[:150]
+        title = full_text[:150]
     if not title:
         return None
 
@@ -85,13 +95,18 @@ def _build_event(item: BeautifulSoup, source: dict, url: str, page_date: str | N
         el = item.select_one(pc["description_selector"])
         desc = el.get_text(strip=True) if el else ""
 
-    # 시간
+    # 시간: CSS 셀렉터 우선, 없으면 time_pattern(정규식)으로 전체 텍스트에서 추출
     time_str = "00:00:00Z"
     time_raw = ""
     if pc.get("time_selector"):
         el = item.select_one(pc["time_selector"])
         if el:
             time_raw = el.get_text(strip=True)
+            time_str = _parse_time(time_raw)
+    if time_str == "00:00:00Z" and pc.get("time_pattern"):
+        m = re.search(pc["time_pattern"], full_text)
+        if m:
+            time_raw = m.group(1)
             time_str = _parse_time(time_raw)
 
     # 날짜: 이벤트 요소 내부 → page_date 순으로 시도
@@ -185,10 +200,16 @@ def _parse_single_page(source: dict, date_from: str, date_to: str) -> list[dict]
     soup = _get(url)
     events: list[dict] = []
 
+    # 파싱 범위를 main_content_selector로 제한 (TOC, infobox 등 제외)
+    if pc.get("main_content_selector"):
+        root = soup.select_one(pc["main_content_selector"]) or soup
+    else:
+        root = soup
+
     heading_sel = pc.get("section_heading_selector", "h2, h3")
     event_sel = pc.get("event_selector", "li")
 
-    for heading in soup.select(heading_sel):
+    for heading in root.select(heading_sel):
         heading_text = heading.get_text(strip=True)
         date = _parse_date(heading_text)
         if not date:
@@ -196,12 +217,27 @@ def _parse_single_page(source: dict, date_from: str, date_to: str) -> list[dict]
         if date < date_from or date > date_to:
             continue
 
-        # heading 다음 형제 노드에서 이벤트 수집
-        sibling = heading.next_sibling
+        # 헤딩 요소 기준으로 pivot 설정:
+        # - span.mw-headline → 부모 h2/h3로 이동
+        # - div.mw-heading* (Wikipedia 새 레이아웃) → 그대로 사용
+        # - h2/h3 직접 → 그대로 사용
+        pivot = heading
+        if pivot.parent and pivot.parent.name in ("h2", "h3"):
+            pivot = pivot.parent
+
+        # 내부 h2/h3의 id를 anchor로 사용
+        inner_h = pivot.find(["h2", "h3"]) if pivot.name not in ("h2", "h3") else pivot
+        anchor = (inner_h or pivot).get("id", "")
+
         section_items: list[BeautifulSoup] = []
+        sibling = pivot.next_sibling
         while sibling:
             tag = getattr(sibling, "name", None)
+            cls = sibling.get("class", []) if tag else []
+            # h2/h3 직접이거나 mw-heading wrapper div → 다음 섹션 시작
             if tag in ("h2", "h3"):
+                break
+            if tag == "div" and any("mw-heading" in c for c in cls):
                 break
             if tag:
                 section_items.extend(sibling.select(event_sel))
@@ -209,7 +245,7 @@ def _parse_single_page(source: dict, date_from: str, date_to: str) -> list[dict]
 
         page_events = []
         for item in section_items:
-            e = _build_event(item, source, url + f"#{heading.get('id','')}", date)
+            e = _build_event(item, source, url + (f"#{anchor}" if anchor else ""), date)
             if e:
                 page_events.append(e)
 

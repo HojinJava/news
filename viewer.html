@@ -216,6 +216,7 @@ body {
 .art-list { display: flex; flex-direction: column; gap: 8px; }
 .art-card { background: var(--surface2); border: 1px solid var(--border); border-radius: 6px; padding: 10px 12px; }
 .art-top { display: flex; justify-content: space-between; align-items: center; margin-bottom: 4px; gap: 6px; }
+.art-time { font-size: 15px; font-weight: 700; color: var(--text); white-space: nowrap; flex-shrink: 0; }
 .art-source { font-size: 14px; font-weight: 600; color: var(--accent); }
 .art-meta { font-size: 13px; color: var(--text-muted); white-space: nowrap; }
 .art-title { font-size: 15px; font-weight: 600; margin-bottom: 4px; line-height: 1.4; }
@@ -729,8 +730,9 @@ function artList(articles) {
     const rel  = a.source_reliability ? ` · 신뢰 ${a.source_reliability}` : '';
     return `<div class="art-card">
       <div class="art-top">
+        <span class="art-time">${ftime(a.published_date) || '시간미상'}</span>
         <span class="art-source">${esc(a.source)}</span>
-        <span class="art-meta">${ftime(a.published_date)}${bias}${rel}</span>
+        <span class="art-meta">${bias}${rel}</span>
       </div>
       <div class="art-title">${esc(a.title_ko || a.title)}</div>
       <div class="art-summary">${esc(a.summary_ko || '')}</div>

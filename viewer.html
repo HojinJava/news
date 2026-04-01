@@ -205,7 +205,8 @@ const ftime = s => {
   if (!s) return '';
   return new Date(s).toLocaleTimeString('ko-KR', { hour:'2-digit', minute:'2-digit', timeZone:'Asia/Seoul' });
 };
-const esc = s => (s||'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
+const esc = s => (s||'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/'/g,'&#39;').replace(/"/g,'&quot;');
+const safeUrl = u => (u && (u.startsWith('https://') || u.startsWith('http://'))) ? u : '#';
 
 /* data loading */
 async function jfetch(p) {
@@ -347,7 +348,7 @@ function srcList(articles) {
       <div class="src-summary">${esc(a.summary_ko||a.summary||'')}</div>
       <div class="src-foot">
         <span class="src-views">${fviews(a.view_count)}</span>
-        <a class="src-link" href="${esc(a.url)}" target="_blank" rel="noopener">원문 →</a>
+        <a class="src-link" href="${safeUrl(a.url)}" target="_blank" rel="noopener">원문 →</a>
       </div>
     </div>`).join('')}</div>`;
 }

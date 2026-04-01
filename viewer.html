@@ -755,9 +755,10 @@ function chartPane(evt, date) {
     if (!td) return '';
 
     // 10분봉 우선 (fetch_market.py에서 사전 집계된 bars10 사용)
+    const hasRealTime = evt.time && evt.time !== '00:00:00Z';
     const win = td.windows?.[evt.event_id];
-    if (win?.bars10?.length) {
-      return `<div style="margin-bottom:8px">${svgLine10(win.bars10, m.label, m.key, evt.title_ko || evt.title)}</div>`;
+    if (hasRealTime && win?.bars10?.length) {
+      return `<div style="margin-bottom:8px">${svgLine10(win.bars10, m.label, m.key)}</div>`;
     }
 
     // fallback: 일봉 ±2일
@@ -770,7 +771,7 @@ function chartPane(evt, date) {
   return svgs || '<p class="no-data">당일 데이터 없음</p>';
 }
 
-function svgLine10(bars, label, key, evtLabel) {
+function svgLine10(bars, label, key) {
   const W=580, H=220, PT=28, PR=12, PB=36, PL=68;
   const cw = W-PL-PR, ch = H-PT-PB;
   const prices = bars.flatMap(b => [b.high, b.low]);
@@ -786,7 +787,7 @@ function svgLine10(bars, label, key, evtLabel) {
     <text x="${PL-6}" y="${ys(v)+5}" font-size="12" fill="#7780bb" text-anchor="end">${fp(v)}</text>
   `).join('');
   const evtIdx = bars.findIndex(b => b.isEvent);
-  const evtShort = evtLabel ? (evtLabel.length > 14 ? evtLabel.slice(0, 13) + '…' : evtLabel) : '이벤트';
+  const evtShort = '[이벤트시점]';
   const evtLine = evtIdx >= 0
     ? `<line x1="${xs(evtIdx)}" y1="${PT}" x2="${xs(evtIdx)}" y2="${PT+ch}" stroke="#ff4455" stroke-width="2" stroke-dasharray="5,3" opacity=".9"/>
        <text x="${xs(evtIdx)}" y="${PT-6}" font-size="11" fill="#ff6677" text-anchor="middle" font-weight="700">${esc(evtShort)}</text>`

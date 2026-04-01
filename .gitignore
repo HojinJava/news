@@ -9,8 +9,8 @@ agents/
 CLAUDE.md
 AGENTS.md
 
-# Debug / intermediate files
-debug/
+# Pipeline intermediate files (카테고리별 중간 산출물)
+pipeline/
 output/
 docs/
 

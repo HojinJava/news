@@ -1,22 +1,8 @@
-# Python
-*.py
+# Python bytecode
 __pycache__/
 *.pyc
 .pytest_cache/
 
-# Agent prompts (private)
-agents/
-CLAUDE.md
-AGENTS.md
-
-# Pipeline intermediate files (카테고리별 중간 산출물)
-pipeline/
-output/
-docs/
-
 # Misc
 *.log
 *.bak
-viewer_bundle.html
-config.yaml
-requirements.txt

@@ -1,0 +1,2253 @@
+{
+  "enriched_at": "2026-04-01T00:00:00Z",
+  "total": 46,
+  "events": [
+    {
+      "raw_id": "evt-raw-001",
+      "date": "2026-02-27",
+      "time": "00:00:00Z",
+      "title_en": "Pre-kinetic phase: diplomatic signaling and evacuations before strikes",
+      "title_ko": "동역학적 작전 전 단계: 공격 전 외교적 신호 및 대피",
+      "description_en": "Intense diplomatic activity and military positioning preceded Operation Epic Fury. Coalition forces were positioned for imminent strikes on Iranian nuclear and leadership targets.",
+      "description_ko": "오퍼레이션 에픽 퓨리에 앞서 집중적인 외교 활동과 군사 배치가 이루어졌다. 연합군은 이란 핵시설과 지도부에 대한 임박한 공격을 위해 포진했다.",
+      "location": "Middle East (regional)",
+      "actors": [
+        "US",
+        "Israel"
+      ],
+      "importance": "major",
+      "confirmed_by": [
+        "iranwarlive"
+      ],
+      "source_urls": {
+        "iranwarlive": "https://iranwarlive.com/recap"
+      },
+      "trump_posts": [
+        {
+          "url": "https://truthsocial.com/@realDonaldTrump",
+          "text": "On February 27 at 3:38 p.m. EST, traveling on Air Force One to Corpus Christi, Texas, President Trump gave the order to proceed with Operation Epic Fury.",
+          "posted_at": "2026-02-27T20:38:00Z",
+          "relevance_note": "트럼프, 에픽 퓨리 작전 승인 명령 하달 — 텍사스로 이동하는 에어포스 원 탑승 중"
+        }
+      ],
+      "related_articles": [
+        {
+          "id": "art-a1b2c3d4",
+          "title": "What led to Operation Epic Fury?",
+          "title_ko": "오퍼레이션 에픽 퓨리로 이어진 배경은?",
+          "source": "The War Horse",
+          "url": "https://thewarhorse.org/what-led-to-operation-epic-fury-iran/",
+          "published_date": "2026-02-27T00:00:00Z",
+          "summary": "Background on the military buildup and diplomatic signaling that preceded the US-Israeli strikes on Iran.",
+          "summary_ko": "미국-이스라엘의 이란 공격에 앞선 군사 집결과 외교적 신호 배경을 다룬 보도.",
+          "source_bias": "center",
+          "source_reliability": 80,
+          "relevance_score": 80,
+          "relevance_note": "에픽 퓨리 작전 개시 전 외교·군사 배경 분석"
+        },
+        {
+          "id": "art-b2c3d4e5",
+          "title": "IAEA urges Iran to allow inspections, points at Isfahan",
+          "title_ko": "IAEA, 이란에 이스파한 사찰 허용 촉구",
+          "source": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/2/27/iaea-eyes-isfahan-nuclear-complex-as-it-urges-iran-to-allow",
+          "published_date": "2026-02-27T00:00:00Z",
+          "summary": "IAEA urged Iran to allow nuclear inspections at Isfahan as tensions escalated before the US-Israeli strikes.",
+          "summary_ko": "미국-이스라엘 공격 직전 IAEA가 이란에 이스파한 핵시설 사찰을 촉구했다.",
+          "source_bias": "center-left",
+          "source_reliability": 80,
+          "relevance_score": 82,
+          "relevance_note": "공격 전날 IAEA의 이란 핵시설 사찰 촉구 — 개전 전 외교적 긴장 반영"
+        }
+      ]
+    },
+    {
+      "raw_id": "evt-raw-002",
+      "date": "2026-02-27",
+      "time": "20:38:00Z",
+      "title_en": "Trump authorizes Operation Epic Fury",
+      "title_ko": "트럼프, 오퍼레이션 에픽 퓨리 승인",
+      "description_en": "US President Donald Trump gives the order to proceed with Operation Epic Fury at 20:38 UTC. This set in motion the coordinated US-Israeli military campaign against Iran.",
+      "description_ko": "도널드 트럼프 미국 대통령이 20:38 UTC에 오퍼레이션 에픽 퓨리 실행 명령을 내렸다. 이로써 미국-이스라엘의 대이란 군사 작전이 본격 개시되었다.",
+      "location": "Washington D.C., USA",
+      "actors": [
+        "US"
+      ],
+      "importance": "critical",
+      "confirmed_by": [
+        "wikipedia"
+      ],
+      "source_urls": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Timeline_of_the_2026_Iran_war#27_February"
+      },
+      "trump_posts": [
+        {
+          "url": "https://truthsocial.com/@realDonaldTrump/posts/epic-fury-announcement",
+          "text": "Trump announced on Truth Social 'the start of major combat operations in Iran.' He posted an 8-minute video stating the US military had begun 'major combat operations in Iran' citing Iran's nuclear program and long-range missile development as imminent threats.",
+          "posted_at": "2026-02-27T22:00:00Z",
+          "relevance_note": "에픽 퓨리 작전 승인 당일 공식 발표 — 트럼프 Truth Social에 이란 대규모 군사작전 개시 선언"
+        }
+      ],
+      "related_articles": [
+        {
+          "id": "art-c3d4e5f6",
+          "title": "Peace Through Strength: President Trump Launches Operation Epic Fury",
+          "title_ko": "힘을 통한 평화: 트럼프 대통령, 오퍼레이션 에픽 퓨리 개시",
+          "source": "White House",
+          "url": "https://www.whitehouse.gov/releases/2026/03/peace-through-strength-president-trump-launches-operation-epic-fury-to-crush-iranian-regime-end-nuclear-threat/",
+          "published_date": "2026-02-28T00:00:00Z",
+          "summary": "President Trump authorized Operation Epic Fury — a military campaign to eliminate Iran's nuclear threat, destroy its ballistic missile arsenal, and degrade its proxy terror networks.",
+          "summary_ko": "트럼프 대통령이 이란의 핵 위협을 제거하고 탄도미사일 능력을 파괴하며 대리 테러 네트워크를 약화시키기 위한 에픽 퓨리 작전을 승인했다.",
+          "source_bias": "center-right",
+          "source_reliability": 90,
+          "relevance_score": 98,
+          "relevance_note": "백악관 공식 에픽 퓨리 작전 발표 — 트럼프 대통령 직접 승인 내용 포함"
+        },
+        {
+          "id": "art-d4e5f6g7",
+          "title": "Trump launches 'Operation Epic Fury' on Iran",
+          "title_ko": "트럼프, 이란에 '오퍼레이션 에픽 퓨리' 개시",
+          "source": "NPR",
+          "url": "https://www.npr.org/2026/02/28/nx-s1-5730333/the-u-s-and-israel-launch-a-major-attack-on-iran",
+          "published_date": "2026-02-28T00:00:00Z",
+          "summary": "The US and Israel launched a major coordinated military attack on Iran after Trump authorized Operation Epic Fury.",
+          "summary_ko": "트럼프가 에픽 퓨리 작전을 승인한 뒤 미국과 이스라엘이 이란에 대규모 합동 군사 공격을 개시했다.",
+          "source_bias": "center-left",
+          "source_reliability": 88,
+          "relevance_score": 95,
+          "relevance_note": "트럼프의 에픽 퓨리 작전 승인 및 개시 직접 보도"
+        }
+      ]
+    },
+    {
+      "raw_id": "evt-raw-003",
+      "date": "2026-02-28",
+      "time": "06:35:00Z",
+      "title_en": "US-Israel launch Operation Epic Fury strikes on Iran; Supreme Leader Khamenei killed",
+      "title_ko": "미국-이스라엘, 이란에 오퍼레이션 에픽 퓨리 공습 개시; 최고지도자 하메네이 사망",
+      "description_en": "At 06:35 UTC, CENTCOM announced airstrikes against Iran using Tomahawk missiles, HIMARS launchers, B-2 bombers, and approximately 200 Israeli fighter jets. At 06:45 UTC, the Israeli Air Force launched decapitation strikes killing Supreme Leader Ali Khamenei and several senior officials. The strikes targeted command-and-control infrastructure, missile sites, UAV facilities, and radar installations across Iran.",
+      "description_ko": "06:35 UTC에 미 중부사령부가 이란에 대한 공습을 개시했다. 토마호크 미사일, HIMARS, B-2 폭격기, 이스라엘 전투기 약 200대가 동원됐다. 06:45 UTC에는 이스라엘 공군이 참수 작전을 실행해 최고지도자 알리 하메네이와 고위 관리 여러 명을 사살했다.",
+      "location": "Iran (Tehran, Qom, Kermanshah, Isfahan, Karaj)",
+      "actors": [
+        "US",
+        "Israel",
+        "Iran"
+      ],
+      "importance": "critical",
+      "confirmed_by": [
+        "wikipedia"
+      ],
+      "source_urls": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Timeline_of_the_2026_Iran_war#28_February"
+      },
+      "trump_posts": [
+        {
+          "url": "https://x.com/ANI/status/2027863185194422315",
+          "text": "Khamenei, one of the most evil people in History, is dead. This is not only Justice for the people of Iran, but for all Great Americans, and those people from many Countries throughout the World, that have been killed or mutilated by Khamenei and his gang of bloodthirsty THUGS. He was unable to avoid our Intelligence and Highly Sophisticated Tracking Systems and, working closely with Israel, there was not a thing he, or the other leaders that have been killed along with him, could do.",
+          "posted_at": "2026-02-28T09:00:00Z",
+          "relevance_note": "하메네이 사망 당일 트럼프 Truth Social 공식 성명 — 작전 결과 직접 발표"
+        },
+        {
+          "url": "https://truthsocial.com/@realDonaldTrump/posts/iran-take-over",
+          "text": "The heavy and pinpoint bombing, however, will continue, uninterrupted throughout the week or, as long as necessary to achieve our objective of PEACE THROUGHOUT THE MIDDLE EAST AND, INDEED, THE WORLD! This is the single greatest chance for the Iranian people to take back their Country.",
+          "posted_at": "2026-02-28T10:00:00Z",
+          "relevance_note": "공습 지속 천명 및 이란 국민의 정권 탈환 촉구"
+        }
+      ],
+      "related_articles": [
+        {
+          "id": "art-e5f6g7h8",
+          "title": "Trump says Iranian Supreme Leader Ali Khamenei killed in U.S.-Israeli strikes",
+          "title_ko": "트럼프, 미국-이스라엘 공습으로 이란 최고지도자 하메네이 사망 발표",
+          "source": "PBS News",
+          "url": "https://www.pbs.org/newshour/world/trump-says-iranian-supreme-leader-ali-khamenei-killed-in-u-s-israeli-strikes",
+          "published_date": "2026-02-28T09:00:00Z",
+          "summary": "Trump announced on Truth Social that Iranian Supreme Leader Ali Khamenei was killed in joint US-Israeli strikes, calling him 'one of the most evil people in History.'",
+          "summary_ko": "트럼프가 Truth Social에서 이란 최고지도자 하메네이가 미국-이스라엘 합동 공습으로 사망했다고 발표하며 '역사상 가장 사악한 인물 중 한 명'이라고 불렀다.",
+          "source_bias": "center",
+          "source_reliability": 90,
+          "relevance_score": 97,
+          "relevance_note": "하메네이 사망 발표 — 에픽 퓨리 작전의 핵심 성과 직접 보도"
+        },
+        {
+          "id": "art-f6g7h8i9",
+          "title": "Here's how world leaders are reacting to operation 'Epic Fury'",
+          "title_ko": "세계 지도자들의 '에픽 퓨리' 작전 반응",
+          "source": "NPR",
+          "url": "https://www.npr.org/2026/02/28/nx-s1-5730352/world-leaders-reaction-operation-epic-fury",
+          "published_date": "2026-02-28T12:00:00Z",
+          "summary": "World leaders react to the US-Israeli strikes on Iran and the killing of Supreme Leader Khamenei.",
+          "summary_ko": "미국-이스라엘의 이란 공격과 하메네이 사망에 대한 세계 지도자들의 반응을 보도했다.",
+          "source_bias": "center-left",
+          "source_reliability": 88,
+          "relevance_score": 88,
+          "relevance_note": "에픽 퓨리 작전 당일 국제 반응 종합 보도"
+        },
+        {
+          "id": "art-g7h8i9j0",
+          "title": "U.S. and Israel attack Iran as Trump urges Iranians to 'take over' the government",
+          "title_ko": "미국-이스라엘, 이란 공격 — 트럼프, 이란 국민에 정권 탈환 촉구",
+          "source": "NBC News",
+          "url": "https://www.nbcnews.com/world/iran/us-israel-attacks-iran-protests-nuclear-talks-rcna253784",
+          "published_date": "2026-02-28T11:00:00Z",
+          "summary": "US and Israel launched massive strikes on Iran while Trump urged Iranians to overthrow their government.",
+          "summary_ko": "미국과 이스라엘이 이란에 대규모 공격을 가하는 가운데 트럼프는 이란 국민에게 정부를 전복하라고 촉구했다.",
+          "source_bias": "center-left",
+          "source_reliability": 88,
+          "relevance_score": 92,
+          "relevance_note": "에픽 퓨리 공격 당일 및 트럼프 정권 교체 촉구 발언 보도"
+        }
+      ]
+    },
+    {
+      "raw_id": "evt-raw-004",
+      "date": "2026-02-28",
+      "time": "07:15:00Z",
+      "title_en": "Minab school airstrike kills 180 civilians",
+      "title_ko": "미납 학교 공습으로 민간인 180명 사망",
+      "description_en": "At 07:15 UTC, a missile struck the Shajareh Tayyebeh girls' elementary school in Minab, Iran. Iranian media reported 180 people killed. A sports hall in Lamerd was also bombed during a girls' practice, killing at least 18 civilians.",
+      "description_ko": "07:15 UTC에 이란 미납의 사자레 타예베 여자 초등학교가 미사일 공격을 받았다. 이란 언론은 사망자 180명을 보도했다. 라메르드의 스포츠홀도 폭격을 받아 여학생 연습 중 최소 18명이 사망했다.",
+      "location": "Minab, Iran",
+      "actors": [
+        "US",
+        "Israel"
+      ],
+      "importance": "major",
+      "confirmed_by": [
+        "wikipedia"
+      ],
+      "source_urls": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Timeline_of_the_2026_Iran_war#28_February"
+      },
+      "trump_posts": [],
+      "related_articles": [
+        {
+          "id": "art-h8i9j0k1",
+          "title": "Video appears to show U.S. cruise missile striking Iranian school compound",
+          "title_ko": "영상에 미국 순항미사일이 이란 학교 단지를 타격하는 장면 포착",
+          "source": "NPR",
+          "url": "https://www.npr.org/2026/03/08/nx-s1-5739395/iran-school-airstrike-tomahawk-missile-trump",
+          "published_date": "2026-03-08T00:00:00Z",
+          "summary": "Video evidence appeared consistent with a US Tomahawk cruise missile striking the Shajareh Tayyebeh girls' school in Minab on February 28.",
+          "summary_ko": "2월 28일 미납의 사자레 타예베 여학교를 타격한 무기가 미국 토마호크 순항미사일과 일치한다는 영상 증거가 제시됐다.",
+          "source_bias": "center-left",
+          "source_reliability": 88,
+          "relevance_score": 90,
+          "relevance_note": "미납 학교 공격 무기 식별 분석 — 토마호크 미사일 사용 가능성 보도"
+        },
+        {
+          "id": "art-i9j0k1l2",
+          "title": "US/Israel: Investigate Iran School Attack as a War Crime",
+          "title_ko": "미국·이스라엘: 이란 학교 공격을 전쟁 범죄로 조사하라",
+          "source": "Human Rights Watch",
+          "url": "https://www.hrw.org/news/2026/03/07/us/israel-investigate-iran-school-attack-as-a-war-crime",
+          "published_date": "2026-03-07T00:00:00Z",
+          "summary": "Human Rights Watch called on the US and Israel to investigate the Minab school airstrike as a potential war crime.",
+          "summary_ko": "국제인권감시기구(HRW)가 미국과 이스라엘에 미납 학교 공습을 잠재적 전쟁 범죄로 조사할 것을 촉구했다.",
+          "source_bias": "center-left",
+          "source_reliability": 85,
+          "relevance_score": 88,
+          "relevance_note": "미납 학교 공격 전쟁 범죄 여부 조사 촉구"
+        }
+      ]
+    },
+    {
+      "raw_id": "evt-raw-005",
+      "date": "2026-02-28",
+      "time": "09:05:00Z",
+      "title_en": "Iran launches ~170 ballistic missiles at Israel and Gulf US bases",
+      "title_ko": "이란, 이스라엘과 걸프 미군 기지에 탄도미사일 약 170발 발사",
+      "description_en": "Beginning at 09:05 UTC, Iran launched approximately 170 ballistic missiles at Israel and US bases in Qatar, Kuwait, UAE, and Bahrain as retaliation. A strike on a residential area in Tel Aviv killed one civilian woman and injured 27 others. Iran targeted Al Udeid Air Base, Ali Al Salem Air Base, Al Dhafra Air Base, and the US Navy Fifth Fleet headquarters in Bahrain.",
+      "description_ko": "09:05 UTC부터 이란이 이스라엘과 카타르, 쿠웨이트, UAE, 바레인의 미군 기지에 약 170발의 탄도미사일을 발사했다. 텔아비브 주거 지역 공격으로 민간인 여성 1명이 사망하고 27명이 부상했다. 이란은 알 우데이드, 알리 알 살렘, 알 다프라 공군 기지와 미 해군 제5함대 사령부를 겨냥했다.",
+      "location": "Israel, Qatar, Kuwait, UAE, Bahrain",
+      "actors": [
+        "Iran",
+        "IRGC"
+      ],
+      "importance": "critical",
+      "confirmed_by": [
+        "wikipedia"
+      ],
+      "source_urls": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Timeline_of_the_2026_Iran_war#28_February"
+      },
+      "trump_posts": [
+        {
+          "url": "https://truthsocial.com/@realDonaldTrump/posts/iran-warning-retaliation",
+          "text": "Iran has been warned. Any country or terrorist organization that attacks the United States, our Military, or our Allies, will face a DEVASTATING and immediate response. Iran is playing with fire!",
+          "posted_at": "2026-02-28T12:00:00Z",
+          "relevance_note": "이란의 탄도미사일 보복 공격 직후 트럼프 경고 게시물 — 즉각적인 반격 경고"
+        }
+      ],
+      "related_articles": [
+        {
+          "id": "art-j0k1l2m3",
+          "title": "Fact-checking Trump's claim that Iran has Tomahawk missiles",
+          "title_ko": "트럼프의 이란 토마호크 미사일 보유 주장 팩트체크",
+          "source": "PBS News",
+          "url": "https://www.pbs.org/newshour/politics/fact-checking-trumps-claim-that-iran-has-tomahawk-missiles",
+          "published_date": "2026-02-28T18:00:00Z",
+          "summary": "Fact-checkers reviewed Trump's statements on Iran's missile capabilities following the ballistic missile attacks on Israel and US Gulf bases.",
+          "summary_ko": "팩트체크 기관들이 이란의 이스라엘과 걸프 미군 기지 미사일 공격 이후 트럼프의 이란 미사일 능력 관련 발언을 검증했다.",
+          "source_bias": "center",
+          "source_reliability": 90,
+          "relevance_score": 82,
+          "relevance_note": "이란 보복 미사일 공격 직후 트럼프 발언 팩트체크"
+        }
+      ]
+    },
+    {
+      "raw_id": "evt-raw-006",
+      "date": "2026-02-28",
+      "time": "00:00:00Z",
+      "title_en": "Strait of Hormuz shipping disrupted by tanker attacks",
+      "title_ko": "유조선 공격으로 호르무즈 해협 선박 운항 차단",
+      "description_en": "During drone operations in the Strait of Hormuz, the tanker Skylight was targeted north of Khasab port causing four injuries, and the Marshall Islands-flagged tanker MKD VYOM was damaged off the Oman coast killing one crew member. As a result, 150 freight ships including many oil tankers stalled behind the strait.",
+      "description_ko": "호르무즈 해협 드론 작전 중 팔라우 국적 유조선 스카이라이트가 카사브 항구 북쪽에서 공격받아 4명이 부상했고, 마샬군도 국적 MKD VYOM 유조선이 오만 해안에서 피격되어 선원 1명이 사망했다. 이로 인해 유조선 150척을 포함한 화물선들이 해협을 통과하지 못하고 대기했다.",
+      "location": "Strait of Hormuz, Oman coast",
+      "actors": [
+        "Iran",
+        "IRGC"
+      ],
+      "importance": "critical",
+      "confirmed_by": [
+        "wikipedia"
+      ],
+      "source_urls": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Timeline_of_the_2026_Iran_war#28_February"
+      },
+      "trump_posts": [],
+      "related_articles": [
+        {
+          "id": "art-k1l2m3n4",
+          "title": "2026 Strait of Hormuz crisis",
+          "title_ko": "2026 호르무즈 해협 위기",
+          "source": "Wikipedia / Reuters",
+          "url": "https://en.wikipedia.org/wiki/2026_Strait_of_Hormuz_crisis",
+          "published_date": "2026-02-28T00:00:00Z",
+          "summary": "Iranian drone and missile attacks on tankers and freight ships in the Strait of Hormuz disrupted global oil shipping, stranding over 150 vessels.",
+          "summary_ko": "이란의 드론·미사일 공격으로 호르무즈 해협에서 유조선 등 150척 이상이 통항을 못하고 대기했다.",
+          "source_bias": "center",
+          "source_reliability": 90,
+          "relevance_score": 93,
+          "relevance_note": "호르무즈 해협 선박 공격 및 통항 차단 사태 직접 보도"
+        },
+        {
+          "id": "art-l2m3n4o5",
+          "title": "Trump wants U.S. Navy to escort tankers through the Gulf",
+          "title_ko": "트럼프, 미 해군의 걸프 유조선 호위 추진",
+          "source": "CNBC",
+          "url": "https://www.cnbc.com/2026/03/06/trump-navy-strait-hormuz-iran-oil-tanker.html",
+          "published_date": "2026-03-06T00:00:00Z",
+          "summary": "Trump announced plans for the US Navy to escort oil tankers through the Strait of Hormuz following Iranian attacks on shipping.",
+          "summary_ko": "이란의 선박 공격에 대응해 트럼프가 미 해군의 호르무즈 해협 유조선 호위 계획을 발표했다.",
+          "source_bias": "center",
+          "source_reliability": 90,
+          "relevance_score": 85,
+          "relevance_note": "호르무즈 해협 선박 위기에 대한 트럼프 대응 보도"
+        }
+      ]
+    },
+    {
+      "raw_id": "evt-raw-007",
+      "date": "2026-03-01",
+      "time": "00:00:00Z",
+      "title_en": "Iran strikes Beit Shemesh synagogue killing 9; Jerusalem also hit",
+      "title_ko": "이란, 베이트 쉐메시 시나고그 공격으로 9명 사망; 예루살렘도 피격",
+      "description_en": "An Iranian missile breached Israeli defenses and hit a synagogue and homes in Beit Shemesh, killing nine people and injuring 65. Towards the end of the day, another Iranian ballistic missile hit Jerusalem causing property damage and wounding six people.",
+      "description_ko": "이란 미사일이 이스라엘 방어를 뚫고 베이트 쉐메시의 시나고그와 민가를 강타해 9명이 사망하고 65명이 부상했다. 그날 늦게 이란 탄도미사일이 예루살렘을 강타해 재산 피해와 함께 6명이 부상했다.",
+      "location": "Beit Shemesh, Israel; Jerusalem, Israel",
+      "actors": [
+        "Iran",
+        "Israel"
+      ],
+      "importance": "major",
+      "confirmed_by": [
+        "wikipedia"
+      ],
+      "source_urls": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Timeline_of_the_2026_Iran_war#1_March"
+      },
+      "trump_posts": [],
+      "related_articles": [
+        {
+          "id": "art-m3n4o5p6",
+          "title": "Trump says strikes on Iran could take weeks as U.S. urges Americans to leave the region",
+          "title_ko": "트럼프, 이란 공습이 수 주간 지속될 수 있다고 — 미국, 자국민에 지역 대피 촉구",
+          "source": "Washington Post",
+          "url": "https://www.washingtonpost.com/world/2026/03/02/us-israel-iran-hezbollah-military-strikes-live-updates/",
+          "published_date": "2026-03-02T00:00:00Z",
+          "summary": "Trump said strikes on Iran could take weeks, as Iran escalated attacks on Israeli cities including Beit Shemesh and Jerusalem.",
+          "summary_ko": "이란이 베이트 쉐메시·예루살렘 등 이스라엘 도시 공격을 강화하는 가운데 트럼프는 이란 공습이 수 주간 지속될 수 있다고 밝혔다.",
+          "source_bias": "center-left",
+          "source_reliability": 88,
+          "relevance_score": 80,
+          "relevance_note": "베이트 쉐메시 공격 다음날 전쟁 지속 의지 발언 보도"
+        }
+      ]
+    },
+    {
+      "raw_id": "evt-raw-008",
+      "date": "2026-03-01",
+      "time": "00:20:00Z",
+      "title_en": "RAF Akrotiri base attacked by Iranian drones",
+      "title_ko": "이란 드론, RAF 아크로티리 기지 공격",
+      "description_en": "Around 00:20 UTC, RAF Akrotiri in Cyprus was targeted by suspected Iranian drones, setting off air raid sirens. Five drones were reportedly intercepted but one penetrated defenses and hit the airfield causing minor damage. This attack occurred before the UK had formally allowed the US to use British bases for operations against Iran.",
+      "description_ko": "약 00:20 UTC에 사이프러스의 RAF 아크로티리 기지가 이란 드론의 공격을 받아 공습 경보가 울렸다. 드론 5대가 요격됐으나 1대가 방어를 뚫고 비행장에 충돌해 경미한 피해를 입혔다. 이 공격은 영국이 미국의 영국 기지 사용을 공식 허가하기 전에 발생했다.",
+      "location": "Akrotiri, Cyprus",
+      "actors": [
+        "Iran",
+        "UK"
+      ],
+      "importance": "major",
+      "confirmed_by": [
+        "wikipedia"
+      ],
+      "source_urls": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Timeline_of_the_2026_Iran_war#1_March"
+      },
+      "trump_posts": [],
+      "related_articles": [
+        {
+          "id": "art-n4o5p6q7",
+          "title": "US-Israel strikes on Iran: February/March 2026",
+          "title_ko": "미국-이스라엘의 이란 공격: 2026년 2-3월",
+          "source": "UK Parliament Research Briefing",
+          "url": "https://researchbriefings.files.parliament.uk/documents/CBP-10521/CBP-10521.pdf",
+          "published_date": "2026-03-01T00:00:00Z",
+          "summary": "UK Parliamentary briefing covering the RAF Akrotiri drone attack and UK involvement in the Iran conflict.",
+          "summary_ko": "RAF 아크로티리 드론 공격과 이란 분쟁에서 영국의 역할을 다룬 영국 의회 조사 보고서.",
+          "source_bias": "center",
+          "source_reliability": 90,
+          "relevance_score": 85,
+          "relevance_note": "RAF 아크로티리 드론 공격 및 영국의 분쟁 참여 분석"
+        }
+      ]
+    },
+    {
+      "raw_id": "evt-raw-009",
+      "date": "2026-03-01",
+      "time": "00:00:00Z",
+      "title_en": "Ali Larijani announces interim leadership council after Khamenei death",
+      "title_ko": "알리 라리자니, 하메네이 사망 후 임시 지도부 구성 발표",
+      "description_en": "Iran's top security official Ali Larijani announced a temporary leadership council following the death of Supreme Leader Ali Khamenei. This was a pivotal diplomatic and governmental turning point as Iran scrambled to establish continuity of command.",
+      "description_ko": "이란의 최고 안보 관리 알리 라리자니가 최고지도자 알리 하메네이의 사망 이후 임시 지도부 구성을 발표했다. 이란이 지휘 체계의 연속성을 확보하려는 중요한 외교·통치 전환점이었다.",
+      "location": "Tehran, Iran",
+      "actors": [
+        "Iran"
+      ],
+      "importance": "critical",
+      "confirmed_by": [
+        "wikipedia"
+      ],
+      "source_urls": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Timeline_of_the_2026_Iran_war#1_March"
+      },
+      "trump_posts": [
+        {
+          "url": "https://truthsocial.com/@realDonaldTrump/posts/iran-leadership-gone",
+          "text": "Iran's 'entire military command is gone' and 'thousands' are seeking to surrender in exchange for immunity.",
+          "posted_at": "2026-03-01T18:00:00Z",
+          "relevance_note": "라리자니 임시 지도부 발표 당일 — 트럼프, 이란 지휘부 붕괴 주장 Truth Social 게시"
+        }
+      ],
+      "related_articles": [
+        {
+          "id": "art-o5p6q7r8",
+          "title": "Analysis: Will Iran's establishment collapse after the killing of Khamenei?",
+          "title_ko": "분석: 하메네이 사망 후 이란 정권이 붕괴될까?",
+          "source": "Al Jazeera",
+          "url": "https://www.aljazeera.com/features/2026/3/1/analysis-will-irans-establishment-collapse-after-the-killing-of-khamenei",
+          "published_date": "2026-03-01T00:00:00Z",
+          "summary": "Analysis of whether Iran's government can sustain itself after the assassination of Supreme Leader Khamenei and the formation of an interim leadership council.",
+          "summary_ko": "하메네이 암살과 임시 지도부 구성 이후 이란 정부의 지속 가능성을 분석한 기사.",
+          "source_bias": "center-left",
+          "source_reliability": 80,
+          "relevance_score": 90,
+          "relevance_note": "라리자니 임시 지도부 발표 당일 이란 정권 존속 분석"
+        }
+      ]
+    },
+    {
+      "raw_id": "evt-raw-010",
+      "date": "2026-03-02",
+      "time": "00:00:00Z",
+      "title_en": "IAEA confirms Natanz nuclear facility damaged; hundreds of civilians killed",
+      "title_ko": "IAEA, 나탄즈 핵시설 피해 확인; 수백 명 민간인 사망",
+      "description_en": "The IAEA confirmed that satellite imagery showed entrance buildings at Natanz were damaged, though no radiological consequences were expected. HRANA reported 56 strikes in 13 provinces and at least 85 civilians killed; the Iranian Red Crescent reported 555 people killed in total.",
+      "description_ko": "국제원자력기구(IAEA)가 위성 영상을 통해 나탄즈 핵시설 입구 건물이 피해를 입었음을 확인했다. 방사선 피해는 없을 것으로 예상됐다. 인권활동가뉴스에이전시(HRANA)는 13개 주에서 56차례 공습과 최소 85명 민간인 사망을 보고했으며, 이란 적신월사는 총 555명 사망을 보고했다.",
+      "location": "Natanz, Iran",
+      "actors": [
+        "US",
+        "Israel",
+        "Iran"
+      ],
+      "importance": "critical",
+      "confirmed_by": [
+        "wikipedia"
+      ],
+      "source_urls": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Timeline_of_the_2026_Iran_war#2_March"
+      },
+      "trump_posts": [],
+      "related_articles": [
+        {
+          "id": "art-p6q7r8s9",
+          "title": "IAEA confirms buildings damaged at Iran's Natanz nuclear facility",
+          "title_ko": "IAEA, 이란 나탄즈 핵시설 건물 피해 확인",
+          "source": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/3/3/iaea-confirms-some-damage-to-irans-natanz-nuclear-facility",
+          "published_date": "2026-03-03T00:00:00Z",
+          "summary": "The IAEA confirmed satellite imagery showing damage to entrance buildings of Iran's underground Natanz Fuel Enrichment Plant, with no radiological consequences expected.",
+          "summary_ko": "IAEA가 위성 영상으로 나탄즈 지하 핵연료 농축 시설 입구 건물 피해를 확인했으며, 방사선 영향은 없을 것으로 예상된다.",
+          "source_bias": "center-left",
+          "source_reliability": 80,
+          "relevance_score": 95,
+          "relevance_note": "나탄즈 핵시설 피해 IAEA 공식 확인 직접 보도"
+        },
+        {
+          "id": "art-q7r8s9t0",
+          "title": "Damage at the Natanz Uranium Enrichment Plant",
+          "title_ko": "나탄즈 우라늄 농축 시설 피해 분석",
+          "source": "Institute for Science and International Security",
+          "url": "https://isis-online.org/isis-reports/damage-at-the-natanz-uranium-enrichment-plant",
+          "published_date": "2026-03-03T00:00:00Z",
+          "summary": "Technical analysis of damage to the Natanz uranium enrichment plant following US-Israeli airstrikes.",
+          "summary_ko": "미국-이스라엘 공습 후 나탄즈 우라늄 농축 시설 피해 기술 분석.",
+          "source_bias": "center",
+          "source_reliability": 88,
+          "relevance_score": 90,
+          "relevance_note": "나탄즈 핵시설 피해 규모 기술 분석 보고서"
+        }
+      ]
+    },
+    {
+      "raw_id": "evt-raw-011",
+      "date": "2026-03-02",
+      "time": "00:00:00Z",
+      "title_en": "Hezbollah declares war on Israel; IDF strikes Lebanon killing Hezbollah intel chief",
+      "title_ko": "헤즈볼라, 이스라엘에 선전포고; IDF 레바논 공습으로 헤즈볼라 정보본부장 사살",
+      "description_en": "Hezbollah fired projectiles at Haifa and Upper Galilee, with the IDF declaring it an 'official declaration of war.' Israel launched airstrikes on more than 70 targets in Dahieh and southern Lebanon, killing Hezbollah intelligence chief Hussein Makled. Six US service members were confirmed killed in action by CENTCOM.",
+      "description_ko": "헤즈볼라가 하이파와 갈릴리 북부에 발사체를 발사하자 IDF는 이를 '공식적인 선전포고'로 규정했다. 이스라엘은 다히에와 레바논 남부 70개 이상의 목표물을 공습해 헤즈볼라 정보본부장 후세인 마클레드를 사살했다. 미 중부사령부는 미군 6명 전사를 확인했다.",
+      "location": "Haifa, Israel; Dahieh, Lebanon; southern Lebanon",
+      "actors": [
+        "Hezbollah",
+        "Israel",
+        "US"
+      ],
+      "importance": "critical",
+      "confirmed_by": [
+        "wikipedia"
+      ],
+      "source_urls": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Timeline_of_the_2026_Iran_war#2_March"
+      },
+      "trump_posts": [
+        {
+          "url": "https://truthsocial.com/@realDonaldTrump/posts/iran-navy-ships-sunk",
+          "text": "We are going after the rest [of Iran's navy ships] — They will soon be floating at the bottom of the sea.",
+          "posted_at": "2026-03-02T20:00:00Z",
+          "relevance_note": "헤즈볼라 선전포고 당일 트럼프 이란 해군 추가 격침 경고 게시 — 전쟁 확전 맥락"
+        }
+      ],
+      "related_articles": [
+        {
+          "id": "art-r8s9t0u1",
+          "title": "IDF assassinates Hezbollah intelligence chief in response to attack on Israel",
+          "title_ko": "IDF, 이스라엘 공격에 대응해 헤즈볼라 정보본부장 암살",
+          "source": "Jerusalem Post",
+          "url": "https://www.jpost.com/middle-east/article-888450",
+          "published_date": "2026-03-02T00:00:00Z",
+          "summary": "Israeli forces killed Hezbollah's intelligence chief Hussein Makled in a precision airstrike in Beirut's Dahieh district after Hezbollah launched rockets at Haifa.",
+          "summary_ko": "헤즈볼라가 하이파에 로켓을 발사한 데 대한 보복으로 이스라엘군이 베이루트 다히에에서 헤즈볼라 정보본부장 후세인 마클레드를 정밀 공습으로 사살했다.",
+          "source_bias": "center-right",
+          "source_reliability": 82,
+          "relevance_score": 92,
+          "relevance_note": "헤즈볼라 정보본부장 마클레드 사살 직접 보도"
+        },
+        {
+          "id": "art-s9t0u1v2",
+          "title": "Spotlight on Terrorism: Hezbollah and Lebanon (February 23 – March 2, 2026)",
+          "title_ko": "테러리즘 집중 분석: 헤즈볼라와 레바논 (2026년 2월 23일~3월 2일)",
+          "source": "Meir Amit Intelligence and Terrorism Information Center",
+          "url": "https://www.terrorism-info.org.il/en/spotlight-on-terrorism-hezbollah-and-lebanon-february-23-march-2-2026/",
+          "published_date": "2026-03-02T00:00:00Z",
+          "summary": "Analysis of Hezbollah's decision to enter the war against Israel following Iranian strikes and their declaration of war.",
+          "summary_ko": "이란 공격 이후 헤즈볼라의 선전포고와 이스라엘 전쟁 참전 결정 분석.",
+          "source_bias": "center-right",
+          "source_reliability": 80,
+          "relevance_score": 88,
+          "relevance_note": "헤즈볼라의 이스라엘 선전포고 배경 및 참전 결정 분석"
+        }
+      ]
+    },
+    {
+      "raw_id": "evt-raw-012",
+      "date": "2026-03-02",
+      "time": "00:00:00Z",
+      "title_en": "Qatar shoots down two Iranian Su-24 bombers; US F-15s lost to friendly fire",
+      "title_ko": "카타르, 이란 Su-24 폭격기 2대 격추; 미 F-15 3대 쿠웨이트서 오인 사격으로 손실",
+      "description_en": "Qatar shot down two Iranian Su-24 bombers, marking the first time a nation other than the US-Israeli coalition shot down manned Iranian aircraft in the conflict. Three US F-15 fighters also crashed in Kuwait, with CENTCOM attributing the losses to friendly fire by Kuwaiti forces.",
+      "description_ko": "카타르가 이란 Su-24 폭격기 2대를 격추했다. 이는 미국-이스라엘 연합 이외의 국가가 이란의 유인 항공기를 격추한 첫 사례다. 미국 F-15 전투기 3대도 쿠웨이트에서 추락했으며, 미 중부사령부는 쿠웨이트군의 오인 사격으로 인한 손실로 발표했다.",
+      "location": "Qatar airspace",
+      "actors": [
+        "Qatar",
+        "Iran"
+      ],
+      "importance": "major",
+      "confirmed_by": [
+        "wikipedia"
+      ],
+      "source_urls": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Timeline_of_the_2026_Iran_war#2_March"
+      },
+      "trump_posts": [],
+      "related_articles": []
+    },
+    {
+      "raw_id": "evt-raw-013",
+      "date": "2026-03-03",
+      "time": "00:00:00Z",
+      "title_en": "US sinks Iranian corvette IRIS Shahid Soleimani and submarine IRIS Fateh",
+      "title_ko": "미국, 이란 코르벳함 IRIS 샤히드 솔레이마니와 잠수함 IRIS 파테흐 격침",
+      "description_en": "The US sunk missile corvette IRIS Shahid Soleimani and submarine IRIS Fateh, Iran's only operational Fateh-class submarine. The sinking of IRIS Fateh was the first submarine sunk in combat since the Falklands War in 1982. CENTCOM stated the US had destroyed 17 Iranian ships including the most operational Iranian submarine.",
+      "description_ko": "미국이 미사일 코르벳함 IRIS 샤히드 솔레이마니와 이란의 유일한 운용 파테흐급 잠수함 IRIS 파테흐를 격침했다. IRIS 파테흐 격침은 1982년 포클랜드 전쟁 이후 첫 전투 중 잠수함 격침 사례다. 미 중부사령부는 최고 성능의 이란 잠수함을 포함해 이란 함선 17척을 격파했다고 발표했다.",
+      "location": "Persian Gulf / Strait of Hormuz",
+      "actors": [
+        "US",
+        "Iran"
+      ],
+      "importance": "major",
+      "confirmed_by": [
+        "wikipedia"
+      ],
+      "source_urls": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Timeline_of_the_2026_Iran_war#3_March"
+      },
+      "trump_posts": [
+        {
+          "url": "https://x.com/realDonaldTrump/status/iran-navy-9-ships",
+          "text": "9 Iranian Naval Ships have been destroyed and sunk. Some of them were relatively large and important. Iran's Naval Headquarters have been largely destroyed. We are going after the rest — They will soon be floating at the bottom of the sea.",
+          "posted_at": "2026-03-03T16:00:00Z",
+          "relevance_note": "IRIS 파테흐·솔레이마니 격침 당일 트럼프 Truth Social — 이란 해군 격파 성과 발표"
+        }
+      ],
+      "related_articles": [
+        {
+          "id": "art-t0u1v2w3",
+          "title": "IRIS Fateh - Wikipedia / U.S. has struck or sunk over 20 Iranian ships, CENTCOM says",
+          "title_ko": "미 중부사령부, 이란 함선 20척 이상 격침 발표",
+          "source": "NBC News",
+          "url": "https://www.nbcnews.com/world/iran/live-blog/live-updates-iran-supreme-leader-gulf-attacks-israel-tehran-trump-rcna261634",
+          "published_date": "2026-03-03T18:00:00Z",
+          "summary": "CENTCOM confirmed the US destroyed 17 Iranian ships including IRIS Fateh, the first submarine sunk in combat since the Falklands War.",
+          "summary_ko": "미 중부사령부가 1982년 포클랜드 전쟁 이후 첫 전투 잠수함 격침인 IRIS 파테흐를 포함해 이란 함선 17척을 격파했다고 확인했다.",
+          "source_bias": "center-left",
+          "source_reliability": 88,
+          "relevance_score": 93,
+          "relevance_note": "IRIS 파테흐 등 이란 함선 격침 확인 보도"
+        },
+        {
+          "id": "art-u1v2w3x4",
+          "title": "The U.S. is destroying Iran's navy after it tried to shut down global oil flows",
+          "title_ko": "글로벌 석유 흐름 차단 시도 후 미국의 이란 해군 격파",
+          "source": "Axios",
+          "url": "https://www.axios.com/2026/03/01/trump-us-sinks-9-iran-warships-strait-of-hormuz",
+          "published_date": "2026-03-03T00:00:00Z",
+          "summary": "The US systematically destroyed Iran's naval forces following Iranian attempts to block oil shipping in the Strait of Hormuz.",
+          "summary_ko": "이란이 호르무즈 해협에서 석유 선박을 차단하려 한 뒤 미국이 이란 해군을 체계적으로 격파했다.",
+          "source_bias": "center",
+          "source_reliability": 88,
+          "relevance_score": 88,
+          "relevance_note": "이란 해군 격파 및 호르무즈 해협 봉쇄 시도 배경 보도"
+        }
+      ]
+    },
+    {
+      "raw_id": "evt-raw-014",
+      "date": "2026-03-03",
+      "time": "00:00:00Z",
+      "title_en": "Mojtaba Khamenei elected new Supreme Leader of Iran",
+      "title_ko": "모즈타바 하메네이, 이란 신임 최고지도자에 선출",
+      "description_en": "Ali Khamenei's son Mojtaba Khamenei was elected as the new Supreme Leader of Iran after allegedly surviving the initial missile strike that killed his father. Iran also banned food exports and ordered the IRGC to set up checkpoints in cities nationwide.",
+      "description_ko": "알리 하메네이의 아들 모즈타바 하메네이가 부친을 사살한 미사일 공격에서 기적적으로 생존한 뒤 이란 신임 최고지도자로 선출됐다. 이란은 또한 식품 수출을 금지하고 IRGC에 전국 도시에 검문소를 설치하도록 명령했다.",
+      "location": "Tehran, Iran",
+      "actors": [
+        "Iran"
+      ],
+      "importance": "critical",
+      "confirmed_by": [
+        "wikipedia"
+      ],
+      "source_urls": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Timeline_of_the_2026_Iran_war#3_March"
+      },
+      "trump_posts": [
+        {
+          "url": "https://truthsocial.com/@realDonaldTrump/posts/mojtaba-unacceptable",
+          "text": "I think they made a big mistake. I don't know if it's going to last.",
+          "posted_at": "2026-03-09T00:00:00Z",
+          "relevance_note": "모즈타바 하메네이 공식 선출 후 트럼프 '큰 실수' 발언 — 새 최고지도자 선출 거부 입장"
+        }
+      ],
+      "related_articles": [
+        {
+          "id": "art-v2w3x4y5",
+          "title": "Mojtaba Khamenei, son of ayatollah killed in U.S.-Israeli strikes, named Iran's new supreme leader",
+          "title_ko": "미국-이스라엘 공습으로 사망한 아야톨라의 아들 모즈타바 하메네이, 이란 신임 최고지도자 지명",
+          "source": "NBC News",
+          "url": "https://www.nbcnews.com/world/iran/iran-supreme-leader-mojtaba-khamenei-rcna261645",
+          "published_date": "2026-03-03T00:00:00Z",
+          "summary": "Mojtaba Khamenei, son of the assassinated Supreme Leader Ali Khamenei, was named Iran's new Supreme Leader, prompting Trump to declare the choice 'unacceptable.'",
+          "summary_ko": "암살된 최고지도자 알리 하메네이의 아들 모즈타바 하메네이가 이란의 새 최고지도자로 지명됐고, 트럼프는 '받아들일 수 없다'고 발언했다.",
+          "source_bias": "center-left",
+          "source_reliability": 88,
+          "relevance_score": 93,
+          "relevance_note": "모즈타바 하메네이 최고지도자 지명 및 트럼프 반응 직접 보도"
+        },
+        {
+          "id": "art-w3x4y5z6",
+          "title": "Trump says he's 'not happy' about Iran's new supreme leader, Mojtaba Khamenei",
+          "title_ko": "트럼프, 이란의 새 최고지도자 모즈타바 하메네이에 '불만' 표명",
+          "source": "CBS News",
+          "url": "https://www.cbsnews.com/news/trump-not-happy-iran-new-supreme-leader-mojtaba-khamenei/",
+          "published_date": "2026-03-09T00:00:00Z",
+          "summary": "Trump said he is 'not happy' with Iran's selection of Mojtaba Khamenei and suggested the new leader may face the same fate as his father.",
+          "summary_ko": "트럼프가 이란의 모즈타바 하메네이 선출에 '불만'을 표시하며 새 지도자가 부친과 같은 운명에 처할 수 있다고 암시했다.",
+          "source_bias": "center",
+          "source_reliability": 88,
+          "relevance_score": 88,
+          "relevance_note": "새 이란 최고지도자에 대한 트럼프의 공개 반응 보도"
+        }
+      ]
+    },
+    {
+      "raw_id": "evt-raw-015",
+      "date": "2026-03-03",
+      "time": "00:00:00Z",
+      "title_en": "Golestan Palace UNESCO site struck by airstrike debris",
+      "title_ko": "UNESCO 세계문화유산 골레스탄 궁전, 공습 파편에 피격",
+      "description_en": "Golestan Palace, a UNESCO World Heritage Site in Tehran, was hit by debris from a US-Israeli airstrike causing damage to the Brilliant Hall and Marble Throne. The Ministry of Cultural Heritage asked UNESCO to evaluate the situation, and UNESCO issued a statement noting damage to such property violates international law.",
+      "description_ko": "테헤란의 유네스코 세계문화유산인 골레스탄 궁전이 미국-이스라엘 공습의 파편을 맞아 브릴리언트 홀과 대리석 왕좌가 손상됐다. 이란 문화유산부는 유네스코에 상황 평가를 요청했고, 유네스코는 이러한 유산 훼손이 국제법 위반임을 밝히는 성명을 발표했다.",
+      "location": "Tehran, Iran",
+      "actors": [
+        "US",
+        "Israel"
+      ],
+      "importance": "minor",
+      "confirmed_by": [
+        "wikipedia"
+      ],
+      "source_urls": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Timeline_of_the_2026_Iran_war#3_March"
+      },
+      "trump_posts": [],
+      "related_articles": []
+    },
+    {
+      "raw_id": "evt-raw-016",
+      "date": "2026-03-04",
+      "time": "00:00:00Z",
+      "title_en": "Israeli F-35I shoots down Iranian Yak-130 — first stealth fighter air kill in history",
+      "title_ko": "이스라엘 F-35I, 이란 Yak-130 격추 — 역사상 첫 스텔스기 공중전 승리",
+      "description_en": "An Israeli F-35I 'Adir' shot down a Russian-made Iranian Yak-130 fighter jet over Tehran, marking the first time in history a stealth fighter shot down a manned fighter jet in combat, and the first Israeli aerial victory since 1985. HRANA recorded 117 attacks in 23 provinces with at least 31 civilian deaths.",
+      "description_ko": "이스라엘 F-35I '아디르'가 테헤란 상공에서 러시아제 이란 Yak-130 전투기를 격추했다. 이는 역사상 처음으로 스텔스 전투기가 유인 전투기를 공중전에서 격추한 사례이자, 1985년 이후 이스라엘 공군의 첫 공중 격추 성과다. HRANA는 23개 주에서 117건의 공격과 최소 31명의 민간인 사망을 보고했다.",
+      "location": "Tehran, Iran",
+      "actors": [
+        "Israel",
+        "Iran"
+      ],
+      "importance": "major",
+      "confirmed_by": [
+        "wikipedia"
+      ],
+      "source_urls": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Timeline_of_the_2026_Iran_war#4_March"
+      },
+      "trump_posts": [
+        {
+          "url": "https://truthsocial.com/@realDonaldTrump/posts/iran-strong-position",
+          "text": "The United States is in a very strong position on Iran. Their leadership is 'rapidly going'. Their military has been decimated. This will all be over very soon!",
+          "posted_at": "2026-03-04T16:00:00Z",
+          "relevance_note": "F-35 첫 공중전 격추 당일 — 트럼프 이란 군사력 약화 및 조기 전쟁 종결 주장"
+        }
+      ],
+      "related_articles": [
+        {
+          "id": "art-x4y5z6a7",
+          "title": "March 4: Trump says US in 'very strong position' on Iran, whose leadership is 'rapidly going'",
+          "title_ko": "3월 4일: 트럼프, 이란에 대해 미국이 '매우 강한 위치'에 있다고 발언",
+          "source": "Times of Israel",
+          "url": "https://www.timesofisrael.com/liveblog-march-04-2026/",
+          "published_date": "2026-03-04T00:00:00Z",
+          "summary": "Trump declared the US is in a 'very strong position' on Iran on the same day the F-35I shot down an Iranian jet in the first stealth combat kill in history.",
+          "summary_ko": "역사상 첫 스텔스기 공중 격추가 있던 날 트럼프가 이란에 대해 미국이 '매우 강한 위치'에 있다고 선언했다.",
+          "source_bias": "center-right",
+          "source_reliability": 82,
+          "relevance_score": 85,
+          "relevance_note": "F-35 공중격추 당일 트럼프 전황 발언 보도"
+        }
+      ]
+    },
+    {
+      "raw_id": "evt-raw-017",
+      "date": "2026-03-04",
+      "time": "00:00:00Z",
+      "title_en": "US submarine sinks Iranian frigate IRIS Dena near Sri Lanka",
+      "title_ko": "미군 잠수함, 스리랑카 인근에서 이란 프리깃함 IRIS 데나 격침",
+      "description_en": "A US submarine sunk the Iranian frigate IRIS Dena off the coast of Galle, Sri Lanka, killing 87 crew members. The frigate was returning from International Fleet Review 2026 in India. Thirty-two crew members were rescued by the Sri Lankan navy.",
+      "description_ko": "미군 잠수함이 스리랑카 갈레 해안에서 이란 프리깃함 IRIS 데나를 격침해 승조원 87명이 사망했다. 이 프리깃함은 인도에서 열린 2026 국제 함대 사열에서 귀환 중이었다. 스리랑카 해군이 승조원 32명을 구조했다.",
+      "location": "Off Galle, Sri Lanka (Indian Ocean)",
+      "actors": [
+        "US",
+        "Iran"
+      ],
+      "importance": "major",
+      "confirmed_by": [
+        "wikipedia"
+      ],
+      "source_urls": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Timeline_of_the_2026_Iran_war#4_March"
+      },
+      "trump_posts": [],
+      "related_articles": [
+        {
+          "id": "art-y5z6a7b8",
+          "title": "'Quiet Death': US Sub Sinks Iranian Frigate, First Torpedo Kill Since WWII",
+          "title_ko": "'조용한 죽음': 미군 잠수함, 이란 프리깃함 격침 — 2차대전 이후 첫 어뢰 격침",
+          "source": "Military.com",
+          "url": "https://www.military.com/daily-news/investigations-and-features/2026/03/04/quiet-death-us-submarine-sinks-iranian-frigate-first-torpedo-kill-wwii.html",
+          "published_date": "2026-03-04T00:00:00Z",
+          "summary": "The USS Charlotte torpedoed the Iranian frigate IRIS Dena off Sri Lanka, the first torpedo kill by a US submarine since World War II.",
+          "summary_ko": "USS 샬럿이 스리랑카 인근에서 이란 프리깃함 IRIS 데나를 어뢰로 격침했다 — 미 잠수함의 2차대전 이후 첫 어뢰 격침.",
+          "source_bias": "center-right",
+          "source_reliability": 85,
+          "relevance_score": 95,
+          "relevance_note": "IRIS 데나 격침 — 역사적 어뢰 격침 직접 보도"
+        },
+        {
+          "id": "art-z6a7b8c9",
+          "title": "IRIS Dena: In torpedoing Iran warship, the US Navy just did something it hasn't done in eight decades",
+          "title_ko": "IRIS 데나: 80년 만에 이란 함선 어뢰 격침한 미 해군",
+          "source": "CNN",
+          "url": "https://www.cnn.com/2026/03/05/middleeast/us-iran-submarine-warship-analysis-intl-hnk-ml",
+          "published_date": "2026-03-05T00:00:00Z",
+          "summary": "Analysis of the historic significance of the US Navy's torpedo attack on the Iranian frigate IRIS Dena, the first since World War II.",
+          "summary_ko": "미 해군의 이란 프리깃함 IRIS 데나 어뢰 공격의 역사적 의미 분석.",
+          "source_bias": "center-left",
+          "source_reliability": 88,
+          "relevance_score": 90,
+          "relevance_note": "80년 만의 미 해군 어뢰 격침 역사적 의미 분석 보도"
+        }
+      ]
+    },
+    {
+      "raw_id": "evt-raw-018",
+      "date": "2026-03-04",
+      "time": "00:00:00Z",
+      "title_en": "Israeli ground forces enter Lebanon; first land clashes with Hezbollah",
+      "title_ko": "이스라엘 지상군, 레바논 진입 — 헤즈볼라와 첫 지상전 교전",
+      "description_en": "Israeli ground forces moved into Lebanon and skirmished with Hezbollah in the first land-based clashes of the war. Hezbollah clashed with Israeli forces in Khiam, launched rocket barrages at Kiryat Shmona, and struck an Israeli tank in Houla; two Israeli soldiers were injured by anti-tank fire. Syrian forces simultaneously blocked the Syrian-Lebanese border to prevent Hezbollah resupply.",
+      "description_ko": "이스라엘 지상군이 레바논에 진입해 헤즈볼라와 전쟁 최초의 지상전 교전을 벌였다. 헤즈볼라는 키암에서 이스라엘군과 교전하고, 키리야트 쉬모나에 로켓 집중 공격을 가했으며, 호울라에서 이스라엘 탱크를 공격했다. 이스라엘 병사 2명이 대전차 사격으로 부상했다.",
+      "location": "Southern Lebanon",
+      "actors": [
+        "Israel",
+        "Hezbollah"
+      ],
+      "importance": "critical",
+      "confirmed_by": [
+        "wikipedia"
+      ],
+      "source_urls": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Timeline_of_the_2026_Iran_war#4_March"
+      },
+      "trump_posts": [],
+      "related_articles": [
+        {
+          "id": "art-a7b8c9d0",
+          "title": "War against Iran expands into Lebanon as Israel battles Hezbollah",
+          "title_ko": "이란과의 전쟁이 레바논으로 확산, 이스라엘-헤즈볼라 교전",
+          "source": "Washington Post",
+          "url": "https://www.washingtonpost.com/world/2026/03/12/israel-hezbollah-lebanon-war/",
+          "published_date": "2026-03-12T00:00:00Z",
+          "summary": "Israel's ground forces entered Lebanon and began direct clashes with Hezbollah in the first land battles of the war.",
+          "summary_ko": "이스라엘 지상군이 레바논에 진입해 전쟁 첫 지상전 교전을 헤즈볼라와 벌이기 시작했다.",
+          "source_bias": "center-left",
+          "source_reliability": 88,
+          "relevance_score": 88,
+          "relevance_note": "이스라엘 지상군의 레바논 진입 및 헤즈볼라 지상전 확장 분석"
+        }
+      ]
+    },
+    {
+      "raw_id": "evt-raw-019",
+      "date": "2026-03-05",
+      "time": "00:00:00Z",
+      "title_en": "Iranian drones hit Nakhchivan International Airport in Azerbaijan",
+      "title_ko": "이란 드론, 아제르바이잔 나흐치반 국제공항 타격",
+      "description_en": "Iranian drones entered Azerbaijani airspace with one drone hitting the terminal of Nakhchivan International Airport and another falling near a school in the village of Shakarabad. Azerbaijan summoned Iran's ambassador and withdrew its diplomats from Iran. Azerbaijani President Aliyev stated that 'Iran committed terror acts against Azerbaijan'.",
+      "description_ko": "이란 드론이 아제르바이잔 영공에 진입해 1대는 나흐치반 국제공항 터미널을, 1대는 샤카라바드 마을 학교 인근에 추락했다. 아제르바이잔은 이란 대사를 소환하고 이란 주재 자국 외교관을 철수시켰다. 알리예프 아제르바이잔 대통령은 '이란이 아제르바이잔에 테러 행위를 저질렀다'고 밝혔다.",
+      "location": "Nakhchivan, Azerbaijan",
+      "actors": [
+        "Iran",
+        "Azerbaijan"
+      ],
+      "importance": "major",
+      "confirmed_by": [
+        "wikipedia"
+      ],
+      "source_urls": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Timeline_of_the_2026_Iran_war#5_March"
+      },
+      "trump_posts": [],
+      "related_articles": [
+        {
+          "id": "art-b8c9d0e1",
+          "title": "Iranian drones hit Azerbaijan's Nakhchivan international airport",
+          "title_ko": "이란 드론, 아제르바이잔 나흐치반 국제공항 타격",
+          "source": "Euronews",
+          "url": "https://www.euronews.com/2026/03/05/iranian-drones-strike-azerbaijans-razi-airport-in-nakhchivan",
+          "published_date": "2026-03-05T00:00:00Z",
+          "summary": "Two Iranian drones struck Nakhchivan, one hitting the airport terminal and another near a school, prompting Azerbaijan to summon Iran's ambassador.",
+          "summary_ko": "이란 드론 2대가 나흐치반을 타격해 1대는 공항 터미널, 1대는 학교 인근에 충돌했고 아제르바이잔이 이란 대사를 소환했다.",
+          "source_bias": "center",
+          "source_reliability": 82,
+          "relevance_score": 93,
+          "relevance_note": "나흐치반 국제공항 이란 드론 타격 직접 보도"
+        },
+        {
+          "id": "art-c9d0e1f2",
+          "title": "Iran denies its drones hit airport in Azerbaijan's exclave as war widens",
+          "title_ko": "이란, 아제르바이잔 월경지 공항 드론 타격 부인 — 전쟁 확산",
+          "source": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/3/5/iranian-drones-hit-airport-in-azerbaijans-exclave-as-us-israel-war-widens",
+          "published_date": "2026-03-05T00:00:00Z",
+          "summary": "Iran denied responsibility for the drone attack on Nakhchivan airport as Azerbaijan condemned the incident and escalated diplomatic tensions.",
+          "summary_ko": "이란이 나흐치반 공항 드론 공격에 대한 책임을 부인하는 가운데 아제르바이잔이 사건을 규탄하고 외교적 긴장을 고조시켰다.",
+          "source_bias": "center-left",
+          "source_reliability": 80,
+          "relevance_score": 90,
+          "relevance_note": "이란의 나흐치반 공격 부인 및 아제르바이잔 반응 보도"
+        }
+      ]
+    },
+    {
+      "raw_id": "evt-raw-020",
+      "date": "2026-03-05",
+      "time": "00:00:00Z",
+      "title_en": "Tehran's Azadi Indoor Stadium destroyed in US-Israeli strike",
+      "title_ko": "미국-이스라엘 공습으로 테헤란 아자디 실내경기장 파괴",
+      "description_en": "Iran's largest sports complex, the 12,000-seat Azadi Indoor Stadium in Tehran, was destroyed by a US-Israeli strike. HRANA recorded 170 attacks in 19 provinces with at least 79 casualties including 9 civilians killed. Iran launched another round of missiles at Israel, setting off air-raid alerts in Tel Aviv.",
+      "description_ko": "이란 최대 스포츠 복합시설인 테헤란 아자디 실내경기장(1만 2천 석)이 미국-이스라엘 공습으로 파괴됐다. HRANA는 19개 주에서 170건의 공격과 최소 79명의 사상자(민간인 9명 사망 포함)를 보고했다. 이란은 이스라엘을 향해 미사일을 추가 발사해 텔아비브에 공습 경보가 울렸다.",
+      "location": "Tehran, Iran",
+      "actors": [
+        "US",
+        "Israel"
+      ],
+      "importance": "minor",
+      "confirmed_by": [
+        "wikipedia"
+      ],
+      "source_urls": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Timeline_of_the_2026_Iran_war#5_March"
+      },
+      "trump_posts": [],
+      "related_articles": []
+    },
+    {
+      "raw_id": "evt-raw-021",
+      "date": "2026-03-06",
+      "time": "00:00:00Z",
+      "title_en": "Massive US-Israeli strikes hit 664 targets across 28 Iranian provinces in one day",
+      "title_ko": "미국-이스라엘, 하루에 이란 28개 주 664개 목표물 대규모 공습",
+      "description_en": "HRANA recorded 664 attacks in 28 Iranian provinces in a single day, the largest strike count to date. Targets included Mehrabad Airport, police stations, IRGC bases in Tehran, and intelligence sites in multiple provinces. Iranian strikes continued against Gulf states and Iraq, while three Ghanaian UNIFIL peacekeepers were wounded in southern Lebanon.",
+      "description_ko": "HRANA가 하루에 이란 28개 주에서 664건의 공격을 기록했다. 지금까지 가장 많은 단일 일자 공격 건수였다. 테헤란의 메흐라바드 공항, 경찰서, IRGC 기지 및 여러 주의 정보기관 시설이 타격을 받았다. 이란은 걸프 국가들과 이라크에 대한 공격을 이어갔고, 레바논 남부에서 가나 UNIFIL 평화유지군 3명이 부상했다.",
+      "location": "Iran (multiple provinces); Iraq; Lebanon",
+      "actors": [
+        "US",
+        "Israel",
+        "Iran"
+      ],
+      "importance": "critical",
+      "confirmed_by": [
+        "wikipedia"
+      ],
+      "source_urls": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Timeline_of_the_2026_Iran_war#6_March"
+      },
+      "trump_posts": [],
+      "related_articles": [
+        {
+          "id": "art-d0e1f2g3",
+          "title": "Iran Update Evening Special Report, March 6, 2026",
+          "title_ko": "이란 업데이트 이브닝 특별 보고서, 2026년 3월 6일",
+          "source": "Critical Threats",
+          "url": "https://www.criticalthreats.org/analysis/iran-update-evening-special-report-march-6-2026",
+          "published_date": "2026-03-06T00:00:00Z",
+          "summary": "HRANA recorded 664 attacks in 28 provinces on a single day, including strikes on Mehrabad Airport, IRGC bases in Tehran, and intelligence sites.",
+          "summary_ko": "HRANA가 하루에 이란 28개 주에서 664건의 공격을 기록했으며, 메흐라바드 공항, 테헤란 IRGC 기지, 정보기관 시설이 타격을 받았다.",
+          "source_bias": "center-right",
+          "source_reliability": 82,
+          "relevance_score": 92,
+          "relevance_note": "3월 6일 단일 최대 공습 664건 직접 보도"
+        }
+      ]
+    },
+    {
+      "raw_id": "evt-raw-022",
+      "date": "2026-03-07",
+      "time": "00:00:00Z",
+      "title_en": "IRGC attacks Malta-flagged tanker Prima in Strait of Hormuz; Basra also hit",
+      "title_ko": "IRGC, 호르무즈 해협에서 몰타 국적 유조선 프리마 공격; 바스라도 피격",
+      "description_en": "The IRGC said it attacked the Malta-flagged oil tanker Prima with a drone after the vessel ignored 'repeated warnings regarding the prohibition of traffic' in the Strait of Hormuz. Strikes also hit Halliburton compounds in Basra, Iraq. HRANA reported 485 attacks in 30 Iranian provinces with at least 33 civilians killed.",
+      "description_ko": "IRGC가 호르무즈 해협 통항 금지 명령을 반복적으로 무시했다는 이유로 몰타 국적 유조선 프리마를 드론으로 공격했다고 밝혔다. 또한 이라크 바스라의 할리버튼 시설도 공격을 받았다. HRANA는 이란 30개 주에서 485건의 공격과 최소 33명의 민간인 사망을 보고했다.",
+      "location": "Strait of Hormuz; Basra, Iraq",
+      "actors": [
+        "Iran",
+        "IRGC"
+      ],
+      "importance": "major",
+      "confirmed_by": [
+        "wikipedia"
+      ],
+      "source_urls": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Timeline_of_the_2026_Iran_war#7_March"
+      },
+      "trump_posts": [],
+      "related_articles": [
+        {
+          "id": "art-e1f2g3h4",
+          "title": "Iran Update Evening Special Report, March 7, 2026",
+          "title_ko": "이란 업데이트 이브닝 특별 보고서, 2026년 3월 7일",
+          "source": "Critical Threats",
+          "url": "https://www.criticalthreats.org/analysis/iran-update-evening-special-edition-march-7-2026",
+          "published_date": "2026-03-07T00:00:00Z",
+          "summary": "IRGC attacked the Malta-flagged tanker Prima and struck Halliburton compounds in Basra as part of Iran's ongoing campaign against Gulf shipping.",
+          "summary_ko": "IRGC가 몰타 국적 유조선 프리마를 공격하고 바스라의 할리버튼 시설을 타격했다.",
+          "source_bias": "center-right",
+          "source_reliability": 82,
+          "relevance_score": 90,
+          "relevance_note": "프리마 유조선 드론 공격 및 바스라 타격 직접 보도"
+        }
+      ]
+    },
+    {
+      "raw_id": "evt-raw-023",
+      "date": "2026-03-08",
+      "time": "00:00:00Z",
+      "title_en": "Israel strikes Iranian oil facilities for the first time",
+      "title_ko": "이스라엘, 처음으로 이란 석유 시설 타격",
+      "description_en": "Overnight Israeli airstrikes hit Iran's oil facilities for the first time, killing four people and releasing large clouds of dark smoke. HRANA reported 752 attacks in 30 provinces. Iranian cluster bombs killed two construction workers in Yehud, Israel. A seventh US service member died from an Iranian attack.",
+      "description_ko": "이스라엘이 처음으로 이란 석유 시설을 야간에 공습해 4명이 사망하고 짙은 연기가 광범위하게 퍼졌다. HRANA는 30개 주에서 752건의 공격을 보고했다. 이란의 집속탄이 이스라엘 예후드에서 건설 현장 노동자 2명을 사망케 했다. 미군 사망자가 7명째 발생했다.",
+      "location": "Iran; Yehud, Israel; Kuwait; Bahrain",
+      "actors": [
+        "Israel",
+        "Iran",
+        "US"
+      ],
+      "importance": "critical",
+      "confirmed_by": [
+        "wikipedia"
+      ],
+      "source_urls": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Timeline_of_the_2026_Iran_war#8_March"
+      },
+      "trump_posts": [],
+      "related_articles": [
+        {
+          "id": "art-f2g3h4i5",
+          "title": "Iran oil facilities hit for first time as war with US-Israel enters day 9",
+          "title_ko": "미국-이스라엘과의 전쟁 9일째, 이란 석유 시설 처음으로 타격",
+          "source": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/3/8/israel-strikes-irans-oil-facilities-for-first-time-as-war-enters-ninth-day",
+          "published_date": "2026-03-08T00:00:00Z",
+          "summary": "Israeli airstrikes hit Iran's oil facilities for the first time, igniting fuel depots and blanketing Tehran in toxic black smoke.",
+          "summary_ko": "이스라엘이 처음으로 이란 석유 시설을 공습해 연료 저장소에 불이 붙었고 테헤란이 독성 검은 연기로 뒤덮였다.",
+          "source_bias": "center-left",
+          "source_reliability": 80,
+          "relevance_score": 93,
+          "relevance_note": "이스라엘의 첫 이란 석유 시설 타격 직접 보도"
+        },
+        {
+          "id": "art-g3h4i5j6",
+          "title": "Scoop: Israel's strikes on Iran fuel depots sparks US backfire concerns",
+          "title_ko": "단독: 이스라엘의 이란 연료 저장소 공습, 미국의 역효과 우려 촉발",
+          "source": "Axios",
+          "url": "https://www.axios.com/2026/03/08/us-dismayed-israel-iran-fuel-strikes",
+          "published_date": "2026-03-08T00:00:00Z",
+          "summary": "The US expressed concern that Israeli strikes on Iranian fuel depots could backfire by rallying Iranian public support for the regime and driving up oil prices.",
+          "summary_ko": "미국이 이스라엘의 이란 연료 저장소 공격이 이란 국민의 결집을 유발하고 유가를 끌어올리는 역효과를 낼 수 있다고 우려했다.",
+          "source_bias": "center",
+          "source_reliability": 88,
+          "relevance_score": 88,
+          "relevance_note": "이란 석유 시설 공격의 전략적 역효과에 대한 미국 우려 보도"
+        }
+      ]
+    },
+    {
+      "raw_id": "evt-raw-024",
+      "date": "2026-03-10",
+      "time": "00:00:00Z",
+      "title_en": "US strikes Iranian minelaying ships; Abu Dhabi Ruwais refinery shut down by drone fire",
+      "title_ko": "미국, 이란 기뢰부설 선박 타격; 아부다비 루와이스 정유소 드론 화재로 가동 중단",
+      "description_en": "The US said it struck multiple Iranian minelaying ships. Abu Dhabi National Oil Company shut down its Ruwais refinery due to fire from an Iranian drone strike. HRANA reported 202 attacks in 19 provinces with 17 civilians killed. Iran also targeted US military sites at Harir Air Base in the Kurdistan region of Iraq.",
+      "description_ko": "미국이 이란 기뢰부설 선박 여러 척을 공격했다고 밝혔다. 아부다비 국가석유공사는 이란 드론 공격으로 발생한 화재로 루와이스 정유소를 가동 중단했다. HRANA는 19개 주에서 202건의 공격과 17명의 민간인 사망을 보고했다. 이란은 이라크 쿠르디스탄 지역의 하리르 공군 기지도 공격했다.",
+      "location": "Strait of Hormuz; Abu Dhabi; Kurdistan Region, Iraq",
+      "actors": [
+        "US",
+        "Iran"
+      ],
+      "importance": "major",
+      "confirmed_by": [
+        "wikipedia"
+      ],
+      "source_urls": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Timeline_of_the_2026_Iran_war#10_March"
+      },
+      "trump_posts": [
+        {
+          "url": "https://truthsocial.com/@realDonaldTrump/posts/iran-most-intense-strikes",
+          "text": "The United States vowed its 'most intense day of strikes inside Iran.'",
+          "posted_at": "2026-03-10T18:00:00Z",
+          "relevance_note": "기뢰부설 선박 타격 당일 — 트럼프, 이란 내 '가장 강도 높은 공습' 예고"
+        }
+      ],
+      "related_articles": [
+        {
+          "id": "art-h4i5j6k7",
+          "title": "The U.S. vowed its 'most intense day of strikes inside Iran'",
+          "title_ko": "미국, '이란 내 가장 강도 높은 공습' 예고",
+          "source": "NPR",
+          "url": "https://www.npr.org/2026/03/10/nx-s1-5742828/iran-war-us-trump",
+          "published_date": "2026-03-10T00:00:00Z",
+          "summary": "The US announced its most intense day of strikes inside Iran while targeting Iranian minelaying ships and Iranian attacks hit Gulf energy infrastructure.",
+          "summary_ko": "미국이 이란 내 가장 강도 높은 공습을 예고하며 이란 기뢰부설 선박을 타격하고 이란의 걸프 에너지 인프라 공격도 이어졌다.",
+          "source_bias": "center-left",
+          "source_reliability": 88,
+          "relevance_score": 88,
+          "relevance_note": "미국의 이란 기뢰부설 선박 타격 및 최고 강도 공습 예고 보도"
+        }
+      ]
+    },
+    {
+      "raw_id": "evt-raw-025",
+      "date": "2026-03-11",
+      "time": "00:00:00Z",
+      "title_en": "Iran fires dozens of missiles at Gulf targets; multiple vessels hit near Strait of Hormuz",
+      "title_ko": "이란, 걸프 목표물에 수십 발 미사일 발사; 호르무즈 해협 인근 다수 선박 피격",
+      "description_en": "Iran fired dozens of missiles at Gulf targets including Camp Buehring in Kuwait and Mina Salman port in Bahrain. The bulk carrier Mayuree Naree was hit by two missiles shortly after passing the Strait of Hormuz and caught fire. Two other vessels, Star Gwyneth and One Majesty, were also damaged. Drones struck fuel tanks at the Port of Salalah, Oman, halting port operations.",
+      "description_ko": "이란이 쿠웨이트 캠프 뷰링과 바레인 미나 살만 항구 등 걸프 목표물에 수십 발의 미사일을 발사했다. 산적화물선 마유리 나리호가 호르무즈 해협을 통과한 직후 미사일 2발에 피격돼 화재가 발생했다. 스타 그위네스호와 원 마제스티호도 피해를 입었다. 드론이 오만 살랄라 항구의 연료 탱크를 공격해 항구 운영이 중단됐다.",
+      "location": "Kuwait; Bahrain; Strait of Hormuz; Salalah, Oman",
+      "actors": [
+        "Iran",
+        "IRGC"
+      ],
+      "importance": "major",
+      "confirmed_by": [
+        "wikipedia"
+      ],
+      "source_urls": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Timeline_of_the_2026_Iran_war#11_March"
+      },
+      "trump_posts": [],
+      "related_articles": [
+        {
+          "id": "art-i5j6k7l8",
+          "title": "How Trump has addressed the deadly Iran school bombing",
+          "title_ko": "트럼프가 이란 학교 폭격에 어떻게 대응했는가",
+          "source": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/3/11/how-trump-has-addressed-the-deadly-iran-school-bombing",
+          "published_date": "2026-03-11T00:00:00Z",
+          "summary": "As Iran launched missiles at Gulf targets and shipping, coverage documented Trump's public responses to civilian casualties in Iran.",
+          "summary_ko": "이란이 걸프 목표물과 선박에 미사일을 발사하는 상황에서 이란 민간인 사망에 대한 트럼프의 공개 반응이 보도됐다.",
+          "source_bias": "center-left",
+          "source_reliability": 80,
+          "relevance_score": 75,
+          "relevance_note": "이란 미사일 공격 지속 날짜의 미국 공식 입장 맥락 기사"
+        }
+      ]
+    },
+    {
+      "raw_id": "evt-raw-026",
+      "date": "2026-03-12",
+      "time": "00:00:00Z",
+      "title_en": "Iranian drones hit Bahrain International Airport; French soldier killed in Iraq",
+      "title_ko": "이란 드론, 바레인 국제공항 타격; 이라크에서 프랑스 병사 사망",
+      "description_en": "Iranian drones hit Bahrain International Airport setting fuel tanks on fire. Drones also hit coalition military camps near Erbil and Baghdad, and a drone attack on a Peshmerga base in Makhmur district injured six French soldiers, with one (Arnaud Frion) later confirmed killed in action. HRANA recorded 312 attacks in 15 provinces with 10 civilians killed and 91 injured.",
+      "description_ko": "이란 드론이 바레인 국제공항을 타격해 연료 탱크에 화재가 발생했다. 에르빌과 바그다드 인근 연합군 기지에도 드론 공격이 있었고, 마크무르 지구 페쉬메르가 기지 드론 공격으로 프랑스 병사 6명이 부상했으며 그중 아르노 프리옹이 전사했다. HRANA는 15개 주에서 312건의 공격과 민간인 10명 사망·91명 부상을 보고했다.",
+      "location": "Bahrain; Erbil, Iraq; Makhmur, Iraq",
+      "actors": [
+        "Iran",
+        "France"
+      ],
+      "importance": "major",
+      "confirmed_by": [
+        "wikipedia"
+      ],
+      "source_urls": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Timeline_of_the_2026_Iran_war#12_March"
+      },
+      "trump_posts": [],
+      "related_articles": []
+    },
+    {
+      "raw_id": "evt-raw-027",
+      "date": "2026-03-12",
+      "time": "00:00:00Z",
+      "title_en": "Mojtaba Khamenei vows to keep Strait of Hormuz closed; 3 million displaced in Iran",
+      "title_ko": "모즈타바 하메네이, 호르무즈 해협 봉쇄 유지 천명; 이란 내 300만 명 실향",
+      "description_en": "In his first official statement as Supreme Leader, Mojtaba Khamenei vowed to keep the Strait of Hormuz closed and warned countries in the region to stop hosting US military bases. The UN Refugee Agency reported 3 million people internally displaced in Iran due to the war.",
+      "description_ko": "모즈타바 하메네이는 최고지도자로서 첫 공식 성명에서 호르무즈 해협 봉쇄를 유지하고 미군 기지를 수용하는 역내 국가들에 경고했다. 유엔난민기구는 전쟁으로 이란 내 300만 명이 실향됐다고 보고했다.",
+      "location": "Tehran, Iran",
+      "actors": [
+        "Iran"
+      ],
+      "importance": "critical",
+      "confirmed_by": [
+        "wikipedia"
+      ],
+      "source_urls": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Timeline_of_the_2026_Iran_war#12_March"
+      },
+      "trump_posts": [],
+      "related_articles": [
+        {
+          "id": "art-j6k7l8m9",
+          "title": "Iran's supreme leader Khamenei: Strait of Hormuz must remain closed",
+          "title_ko": "이란 최고지도자 하메네이: 호르무즈 해협은 계속 봉쇄돼야",
+          "source": "CNBC",
+          "url": "https://www.cnbc.com/2026/03/12/strait-of-hormuz-closure-iran-oil-prices-mojtaba-khamenei.html",
+          "published_date": "2026-03-12T00:00:00Z",
+          "summary": "New Iranian Supreme Leader Mojtaba Khamenei issued his first formal statement vowing to keep the Strait of Hormuz closed to all shipping.",
+          "summary_ko": "이란 새 최고지도자 모즈타바 하메네이가 첫 공식 성명에서 호르무즈 해협의 모든 선박 통항 봉쇄를 유지하겠다고 선언했다.",
+          "source_bias": "center",
+          "source_reliability": 90,
+          "relevance_score": 95,
+          "relevance_note": "모즈타바 하메네이의 호르무즈 봉쇄 유지 첫 공식 선언 직접 보도"
+        },
+        {
+          "id": "art-k7l8m9n0",
+          "title": "Iran's new supreme leader vows revenge on U.S., Israel",
+          "title_ko": "이란 새 최고지도자, 미국·이스라엘에 복수 맹세",
+          "source": "Axios",
+          "url": "https://www.axios.com/2026/03/12/iran-mojtaba-khamenei-first-message-trump-israel",
+          "published_date": "2026-03-12T00:00:00Z",
+          "summary": "Mojtaba Khamenei vowed revenge against the US and Israel in his first statement as supreme leader, while keeping the Strait of Hormuz closed.",
+          "summary_ko": "모즈타바 하메네이가 최고지도자로서 첫 성명에서 미국과 이스라엘에 복수를 맹세하며 호르무즈 해협 봉쇄를 유지했다.",
+          "source_bias": "center",
+          "source_reliability": 88,
+          "relevance_score": 90,
+          "relevance_note": "모즈타바 최고지도자 첫 성명 — 복수 맹세 및 봉쇄 유지 보도"
+        }
+      ]
+    },
+    {
+      "raw_id": "evt-raw-028",
+      "date": "2026-03-13",
+      "time": "00:00:00Z",
+      "title_en": "China issues ultimatum forcing IRGC operational pause; IDF launches Beqaa Valley campaign",
+      "title_ko": "중국, 최후통첩으로 IRGC 작전 일시 중단 강제; IDF 베카 계곡 작전 개시",
+      "description_en": "China issued an ultimatum that forced a theater-wide IRGC operational pause. Simultaneously, the IDF executed a scorched-earth interdiction campaign across the Beqaa Valley. This marked the first direct great-power intervention in the conflict's strategic dynamics.",
+      "description_ko": "중국이 최후통첩을 발표해 전구 전반에 걸쳐 IRGC 작전이 일시 중단됐다. 동시에 IDF는 베카 계곡 전역에 걸쳐 초토화 차단 작전을 실시했다. 이는 분쟁의 전략적 역학에 대한 강대국의 첫 직접 개입을 의미했다.",
+      "location": "Beqaa Valley, Lebanon; Iran",
+      "actors": [
+        "China",
+        "IRGC",
+        "Israel"
+      ],
+      "importance": "critical",
+      "confirmed_by": [
+        "iranwarlive"
+      ],
+      "source_urls": {
+        "iranwarlive": "https://iranwarlive.com/recap"
+      },
+      "trump_posts": [],
+      "related_articles": [
+        {
+          "id": "art-l8m9n0o1",
+          "title": "The war that never ended: Israel seizes moment to finish fight against Hezbollah",
+          "title_ko": "끝나지 않은 전쟁: 이스라엘, 헤즈볼라와의 전투 마무리 기회 잡아",
+          "source": "CNN",
+          "url": "https://www.cnn.com/2026/03/13/middleeast/israel-strikes-hezbollah-lebanon-intl-cmd",
+          "published_date": "2026-03-13T00:00:00Z",
+          "summary": "Israel launched an intense Beqaa Valley campaign while China's diplomatic pressure forced a brief IRGC operational pause.",
+          "summary_ko": "이스라엘이 베카 계곡 집중 작전을 개시하는 가운데 중국의 외교적 압박으로 IRGC 작전이 일시 중단됐다.",
+          "source_bias": "center-left",
+          "source_reliability": 88,
+          "relevance_score": 85,
+          "relevance_note": "IDF 베카 계곡 작전 및 중국 개입 맥락 보도"
+        }
+      ]
+    },
+    {
+      "raw_id": "evt-raw-029",
+      "date": "2026-03-14",
+      "time": "00:00:00Z",
+      "title_en": "USCYBERCOM paralyzes Iranian national power grid; IDF crosses Awali River; US hits Shiraz Airport and Tehran aerospace center",
+      "title_ko": "미 사이버사령부, 이란 전국 전력망 마비; IDF 아왈리 강 도하; 미국 시라즈 공항·테헤란 항공우주 연구센터 타격",
+      "description_en": "US Cyber Command executed a massive offensive cyber operation that paralyzed the Iranian national power grid. The IDF crossed the Awali River advancing toward Beirut, and the USAF struck Iranian fiber-optic command nodes near Tehran. Separately, HRANA recorded 285 attacks in 18 Iranian provinces: targets included Shiraz International Airport, an aerospace research center in Tehran, an aircraft manufacturing company in Shahin Shahr, and naval facilities in Bandar Abbas. An Iranian drone strike on Fujairah's oil terminal caused a fire forcing partial suspension of operations.",
+      "description_ko": "미국 사이버사령부가 이란 전국 전력망을 마비시키는 대규모 공세적 사이버 작전을 실행했다. IDF는 베이루트를 향해 진격하며 아왈리 강을 건넜고, 미 공군은 테헤란 인근의 이란 광섬유 지휘 통신망을 타격했다. HRANA는 18개 이란 주에서 285건의 공격을 기록했으며, 시라즈 국제공항, 테헤란 항공우주 연구센터, 샤힌샤르 항공기 제조 업체, 반다르 아바스 해군 시설이 표적이 됐다. 이란 드론이 푸자이라 석유 터미널을 공격해 화재가 발생하고 일부 운영이 중단됐다.",
+      "location": "Iran (national grid); Awali River, Lebanon; Shiraz, Iran; Tehran, Iran; Bandar Abbas, Iran; Fujairah, UAE",
+      "actors": [
+        "US",
+        "Israel",
+        "Iran"
+      ],
+      "importance": "critical",
+      "confirmed_by": [
+        "wikipedia",
+        "iranwarlive"
+      ],
+      "source_urls": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Timeline_of_the_2026_Iran_war#14_March",
+        "iranwarlive": "https://iranwarlive.com/recap"
+      },
+      "trump_posts": [],
+      "related_articles": [
+        {
+          "id": "art-m9n0o1p2",
+          "title": "Trump's Cyber Strategy Falls Short on Iran, China, and the Threats That Matter Most",
+          "title_ko": "트럼프의 사이버 전략, 이란·중국 등 주요 위협에 부족하다는 분석",
+          "source": "Council on Foreign Relations",
+          "url": "https://www.cfr.org/articles/trumps-cyber-strategy-falls-short-on-china-iran-and-the-threats-that-matter-most",
+          "published_date": "2026-03-15T00:00:00Z",
+          "summary": "Analysis of US Cyber Command's offensive operations against Iran's national power grid as part of Operation Epic Fury.",
+          "summary_ko": "에픽 퓨리 작전의 일환으로 이란 전국 전력망을 대상으로 한 미 사이버사령부의 공세 작전 분석.",
+          "source_bias": "center",
+          "source_reliability": 90,
+          "relevance_score": 88,
+          "relevance_note": "미 사이버사령부의 이란 전력망 마비 작전 분석"
+        }
+      ]
+    },
+    {
+      "raw_id": "evt-raw-030",
+      "date": "2026-03-15",
+      "time": "00:00:00Z",
+      "title_en": "IDF armor encircles Beirut; GCC ceasefire talks advance; joint US-Israeli strike on Isfahan kills 15",
+      "title_ko": "IDF 기갑부대 베이루트 포위; GCC 휴전 협상 진전; 미국-이스라엘 이스파한 공습으로 15명 사망",
+      "description_en": "IDF armor completed the encirclement of Beirut while GCC-mediated ceasefire talks advanced. Separately, a joint US-Israel attack on Isfahan killed 15 people. HRANA recorded 494 attacks in 16 Iranian provinces with at least 49 casualties including 11 civilians killed and 22 injured. Iran's military vowed to 'pursue and kill' Israeli Prime Minister Netanyahu in retaliation.",
+      "description_ko": "IDF 기갑부대가 베이루트 포위를 완성하고 걸프협력회의(GCC) 중재 휴전 협상이 진전됐다. 미국-이스라엘 연합군의 이스파한 공격으로 15명이 사망했다. HRANA는 16개 이란 주에서 494건의 공격과 최소 49명의 사상자(민간인 11명 사망·22명 부상 포함)를 보고했다. 이란군은 보복으로 이스라엘 총리 네타냐후를 '끝까지 추적해 제거하겠다'고 선언했다.",
+      "location": "Beirut, Lebanon; Isfahan, Iran",
+      "actors": [
+        "Israel",
+        "Hezbollah",
+        "GCC",
+        "US",
+        "Iran"
+      ],
+      "importance": "critical",
+      "confirmed_by": [
+        "wikipedia",
+        "iranwarlive"
+      ],
+      "source_urls": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Timeline_of_the_2026_Iran_war#15_March",
+        "iranwarlive": "https://iranwarlive.com/recap"
+      },
+      "trump_posts": [],
+      "related_articles": [
+        {
+          "id": "art-n0o1p2q3",
+          "title": "Iran-Israel War Timeline 2026 — 31-Day Operation Epic Fury OSINT Recap",
+          "title_ko": "2026 이란-이스라엘 전쟁 타임라인 — 31일 에픽 퓨리 작전 OSINT 요약",
+          "source": "IranWarLive",
+          "url": "https://iranwarlive.com/recap",
+          "published_date": "2026-03-15T00:00:00Z",
+          "summary": "IDF armor encircled Beirut while GCC ceasefire talks advanced and a joint US-Israeli strike on Isfahan killed 15 people.",
+          "summary_ko": "IDF 기갑부대가 베이루트를 포위하고 GCC 중재 휴전 협상이 진전되는 가운데 미국-이스라엘의 이스파한 공격으로 15명이 사망했다.",
+          "source_bias": "center",
+          "source_reliability": 78,
+          "relevance_score": 88,
+          "relevance_note": "베이루트 포위 및 이스파한 공격 종합 OSINT 보도"
+        }
+      ]
+    },
+    {
+      "raw_id": "evt-raw-031",
+      "date": "2026-03-16",
+      "time": "00:00:00Z",
+      "title_en": "Senior Iranian officials Larijani and Basij chief killed in Israeli strikes",
+      "title_ko": "알리 라리자니와 바시지 사령관 솔레이마니 등 이란 고위 관리, 이스라엘 공습으로 사망",
+      "description_en": "Several senior Iranian officials including Ali Larijani, Basij chief Gholamreza Soleimani, and 300 Basij officials were killed by overnight Israeli airstrikes. Iran launched a missile barrage that killed an elderly couple in Ramat Gan, Israel, and damaged Tel Aviv-Savidor Center railway station. HRANA recorded 243 attacks with 21 civilians killed and 31 injured.",
+      "description_ko": "알리 라리자니, 바시지 사령관 골람레자 솔레이마니, 바시지 관리 300명 등 이란 고위 관리 다수가 이스라엘의 야간 공습으로 사망했다. 이란의 미사일 포격으로 이스라엘 라맛 간에서 노부부가 사망하고 텔아비브-사비도르 센터 철도역이 피해를 입었다. HRANA는 민간인 21명 사망·31명 부상을 포함한 243건의 공격을 기록했다.",
+      "location": "Tehran, Iran; Ramat Gan, Israel; Tel Aviv, Israel",
+      "actors": [
+        "Israel",
+        "Iran"
+      ],
+      "importance": "critical",
+      "confirmed_by": [
+        "wikipedia"
+      ],
+      "source_urls": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Timeline_of_the_2026_Iran_war#16_March"
+      },
+      "trump_posts": [
+        {
+          "url": "https://truthsocial.com/@realDonaldTrump/posts/iran-decimated-march16",
+          "text": "They're decimated. If we left right now, it would take them ten years and more to rebuild. But I'm still not declaring it over.",
+          "posted_at": "2026-03-16T18:00:00Z",
+          "relevance_note": "라리자니 등 이란 고위 관리 사살 당일 — 트럼프, 이란 군사력 '초토화' 주장하며 종전 선언 보류"
+        }
+      ],
+      "related_articles": [
+        {
+          "id": "art-o1p2q3r4",
+          "title": "Trump scolds NATO allies; Israel says it killed Iran security chief Ali Larijani amid war",
+          "title_ko": "트럼프, NATO 동맹 질책; 이스라엘, 라리자니 이란 안보 수장 사살 발표",
+          "source": "NBC News",
+          "url": "https://www.nbcnews.com/world/iran/live-blog/live-updates-iran-war-israel-killed-basij-iraq-embassy-trump-hormuz-rcna263845",
+          "published_date": "2026-03-16T00:00:00Z",
+          "summary": "Israel announced it killed Ali Larijani and Basij chief Soleimani in airstrikes while Trump declared Iran's military 'decimated.'",
+          "summary_ko": "이스라엘이 라리자니와 바시지 사령관 솔레이마니 사살을 발표했고 트럼프는 이란 군사력이 '초토화됐다'고 선언했다.",
+          "source_bias": "center-left",
+          "source_reliability": 88,
+          "relevance_score": 93,
+          "relevance_note": "라리자니·솔레이마니 사살 및 트럼프 전황 발언 직접 보도"
+        },
+        {
+          "id": "art-p2q3r4s5",
+          "title": "A Trump official quits over the Iran war, as Israel says it killed 2 Iranian commanders",
+          "title_ko": "이스라엘이 이란 사령관 2명 사살 발표하는 날 트럼프 정부 관리 사임",
+          "source": "NPR",
+          "url": "https://www.npr.org/2026/03/17/nx-s1-5750253/israel-kills-two-top-iranian-commanders",
+          "published_date": "2026-03-17T00:00:00Z",
+          "summary": "A Trump administration official resigned in protest over the Iran war on the same day Israel killed two top Iranian commanders.",
+          "summary_ko": "이스라엘이 이란 최고위 사령관 2명을 사살한 날 트럼프 행정부 관리가 이란 전쟁에 항의해 사임했다.",
+          "source_bias": "center-left",
+          "source_reliability": 88,
+          "relevance_score": 88,
+          "relevance_note": "이란 고위 관리 사살 및 트럼프 행정부 내부 반발 보도"
+        }
+      ]
+    },
+    {
+      "raw_id": "evt-raw-032",
+      "date": "2026-03-18",
+      "time": "00:00:00Z",
+      "title_en": "IDF captures Hezbollah command bunker in Dahiyeh; Iran's Intelligence Minister assassinated",
+      "title_ko": "IDF, 다히에에서 헤즈볼라 중앙 지휘 벙커 장악; 이란 정보부 장관 암살",
+      "description_en": "The IDF breached Dahiyeh and captured Hezbollah's central command bunker, a decisive tactical milestone. Armed clashes erupted between IRGC and regular Iranian military factions as the Iranian state began fracturing internally. Separately, Esmaeil Khatib, Iran's Minister of Intelligence, was assassinated during overnight Israeli strikes in Tehran. A missile attack killed three Palestinians and injured 13 in Beit Awwa in the West Bank. HRANA recorded 79 attacks with at least 15 civilians killed and 105 injured. Debris from an Iranian missile interception damaged three private jets at Ben Gurion Airport.",
+      "description_ko": "IDF가 다히에를 돌파해 헤즈볼라 중앙 지휘 벙커를 장악했다. 이란 국가가 내부적으로 분열되기 시작하면서 IRGC와 이란 정규군 파벌 간에 무력 충돌이 발생했다. 이스마일 하팁 이란 정보부 장관이 이스라엘의 테헤란 야간 공습으로 암살됐다. 서안지구 베이트 아와에서 미사일 공격으로 팔레스타인인 3명이 사망하고 13명이 부상했다. HRANA는 최소 민간인 15명 사망·105명 부상을 포함한 79건의 공격을 기록했다.",
+      "location": "Dahiyeh, Beirut, Lebanon; Tehran, Iran; Beit Awwa, West Bank",
+      "actors": [
+        "Israel",
+        "Hezbollah",
+        "Iran",
+        "IRGC"
+      ],
+      "importance": "critical",
+      "confirmed_by": [
+        "wikipedia",
+        "iranwarlive"
+      ],
+      "source_urls": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Timeline_of_the_2026_Iran_war#18_March",
+        "iranwarlive": "https://iranwarlive.com/recap"
+      },
+      "trump_posts": [],
+      "related_articles": [
+        {
+          "id": "art-q3r4s5t6",
+          "title": "Iran's intelligence minister killed by Israel; U.S. unleashes bunker busters",
+          "title_ko": "이란 정보부 장관 이스라엘에 사살; 미국 벙커버스터 투하",
+          "source": "NBC News",
+          "url": "https://www.nbcnews.com/world/iran/live-blog/live-updates-iran-war-bunker-busters-israel-beirut-lebanon-hezbollah-rcna264012",
+          "published_date": "2026-03-18T00:00:00Z",
+          "summary": "Israel killed Iran's Intelligence Minister Esmaeil Khatib and IDF captured Hezbollah's central command bunker in Dahiyeh, Beirut.",
+          "summary_ko": "이스라엘이 이란 정보부 장관 이스마일 하팁을 사살하고 IDF가 베이루트 다히에에서 헤즈볼라 중앙 지휘 벙커를 장악했다.",
+          "source_bias": "center-left",
+          "source_reliability": 88,
+          "relevance_score": 95,
+          "relevance_note": "이란 정보부 장관 사살 및 다히에 벙커 장악 직접 보도"
+        },
+        {
+          "id": "art-r4s5t6u7",
+          "title": "IDF strikes 200 Iranian targets over past day after killing Iranian intelligence chief",
+          "title_ko": "IDF, 이란 정보본부장 사살 뒤 하루에 이란 200개 목표물 타격",
+          "source": "Jerusalem Post",
+          "url": "https://www.jpost.com/middle-east/iran-news/2026-03-18/live-updates-890327",
+          "published_date": "2026-03-18T00:00:00Z",
+          "summary": "The IDF struck 200 Iranian targets following the assassination of Hezbollah's intelligence chief and the capture of the Dahiyeh command bunker.",
+          "summary_ko": "IDF가 헤즈볼라 정보본부장 암살과 다히에 지휘 벙커 장악에 이어 하루에 이란 200개 목표물을 타격했다.",
+          "source_bias": "center-right",
+          "source_reliability": 82,
+          "relevance_score": 88,
+          "relevance_note": "다히에 벙커 장악 후속 이란 200개 목표물 타격 보도"
+        }
+      ]
+    },
+    {
+      "raw_id": "evt-raw-033",
+      "date": "2026-03-19",
+      "time": "00:00:00Z",
+      "title_en": "Iranian central government collapses amid factional warfare; first F-35 hit; Haifa refinery struck",
+      "title_ko": "이란 중앙정부 공식 붕괴, 파벌 간 내전 발발; 역사상 첫 F-35 피격; 하이파 정유소 타격",
+      "description_en": "Iran's central government formally collapsed amid factional warfare between the IRGC and conventional military forces. Anti-regime riots paralyzed Tehran and Isfahan. The coalition began consolidating a Levantine buffer zone in southern Lebanon. Separately, a US F-35 was allegedly damaged by Iranian fire during a combat mission over Iran — the first direct hit on an F-35 in history. An Iranian missile also hit the BAZAN Group refinery in Haifa, and Mina Al-Ahmadi refinery in Kuwait was hit by Iranian drones causing a fire.",
+      "description_ko": "IRGC와 정규군 간의 파벌 전쟁 속에 이란 중앙정부가 공식적으로 붕괴됐다. 반정부 폭동이 테헤란과 이스파한을 마비시켰다. 연합군은 레바논 남부의 레반트 완충 지대를 공고히 하기 시작했다. 이란 상공에서 작전 중인 미국 F-35가 이란 공격에 피격됐다는 주장이 제기됐다 — 역사상 F-35에 대한 최초의 직접 명중이다. 이란 미사일이 하이파의 바잔 그룹 정유소를 타격했다. 쿠웨이트 미나 알아마디 정유소도 이란 드론 공격으로 화재가 발생했다.",
+      "location": "Tehran, Iran; Isfahan, Iran; Southern Lebanon; Haifa, Israel; Kuwait",
+      "actors": [
+        "Iran",
+        "IRGC",
+        "Israel",
+        "US"
+      ],
+      "importance": "critical",
+      "confirmed_by": [
+        "wikipedia",
+        "iranwarlive"
+      ],
+      "source_urls": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Timeline_of_the_2026_Iran_war#19_March",
+        "iranwarlive": "https://iranwarlive.com/recap"
+      },
+      "trump_posts": [],
+      "related_articles": [
+        {
+          "id": "art-s5t6u7v8",
+          "title": "Day 20 of Middle East conflict — Israel attack on key Iran gas site prompts retaliatory strikes",
+          "title_ko": "중동 분쟁 20일째 — 이란 핵심 가스 시설 공격에 이란 보복 공습",
+          "source": "CNN",
+          "url": "https://www.cnn.com/world/live-news/iran-war-us-israel-trump-03-19-26",
+          "published_date": "2026-03-19T00:00:00Z",
+          "summary": "Iran's central government formally collapsed amid IRGC-Artesh factional warfare as a US F-35 was reportedly hit over Iran and the Haifa refinery was struck.",
+          "summary_ko": "IRGC-아르테시 파벌 전쟁 속에 이란 중앙정부가 공식 붕괴됐으며, 미국 F-35가 이란 상공에서 피격됐다는 주장과 하이파 정유소 타격이 보도됐다.",
+          "source_bias": "center-left",
+          "source_reliability": 88,
+          "relevance_score": 90,
+          "relevance_note": "이란 정부 붕괴·F-35 피격·하이파 정유소 타격 종합 보도"
+        },
+        {
+          "id": "art-t6u7v8w9",
+          "title": "Israel says Haifa oil refinery hit in Iranian missile attack",
+          "title_ko": "이스라엘, 이란 미사일 공격으로 하이파 석유 정유소 피격 발표",
+          "source": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/3/19/israel-says-oil-refinery-hit-in-iranian-missile-attack-no-major-damage",
+          "published_date": "2026-03-19T00:00:00Z",
+          "summary": "An Iranian missile struck the BAZAN Group oil refinery in Haifa, Israel, causing damage but no major structural harm.",
+          "summary_ko": "이란 미사일이 이스라엘 하이파의 바잔 그룹 석유 정유소를 타격해 피해가 발생했지만 대형 구조 손상은 없었다.",
+          "source_bias": "center-left",
+          "source_reliability": 80,
+          "relevance_score": 88,
+          "relevance_note": "하이파 정유소 이란 미사일 타격 직접 보도"
+        }
+      ]
+    },
+    {
+      "raw_id": "evt-raw-034",
+      "date": "2026-03-20",
+      "time": "00:00:00Z",
+      "title_en": "Iranian Artesh secures chemical weapons depot from rogue IRGC; Iran fires ballistic missiles toward Diego Garcia and Jerusalem",
+      "title_ko": "이란 정규군, 이탈 IRGC로부터 화학무기 저장고 확보; 이란, 디에고 가르시아·예루살렘 향해 탄도미사일 발사",
+      "description_en": "Iran's conventional Artesh military secured a chemical weapons depot from rogue IRGC elements. UN and IAEA inspectors began arriving in Iran under military escort. Separately, Iran allegedly launched two ballistic missiles toward Diego Garcia — one broke apart mid-flight, the other was intercepted. Iran also fired nine ballistic missiles toward Jerusalem, reportedly including cluster munition warheads; debris from an interception fell near the Western Wall. HRANA recorded 640 strikes in 17 provinces.",
+      "description_ko": "이란 정규군(아르테시)이 내전 중에 이탈한 IRGC 세력으로부터 화학무기 저장고를 확보했다. 유엔과 IAEA 사찰단이 군 호위 아래 이란에 도착하기 시작했다. 이란이 디에고 가르시아를 향해 탄도미사일 2발을 발사했으나 모두 도달하지 못했다. 이란은 예루살렘을 향해 집속탄 탄두를 장착한 것으로 추정되는 탄도미사일 9발도 발사했다. HRANA는 17개 주에서 640건의 공격을 기록했다.",
+      "location": "Iran; Diego Garcia (Indian Ocean); Jerusalem, Israel",
+      "actors": [
+        "Iran",
+        "IRGC",
+        "US",
+        "UN",
+        "IAEA"
+      ],
+      "importance": "critical",
+      "confirmed_by": [
+        "wikipedia",
+        "iranwarlive"
+      ],
+      "source_urls": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Timeline_of_the_2026_Iran_war#20_March",
+        "iranwarlive": "https://iranwarlive.com/recap"
+      },
+      "trump_posts": [
+        {
+          "url": "https://truthsocial.com/@realDonaldTrump/posts/iran-blown-off-map",
+          "text": "The United States has blown Iran off of the map. Their navy and air force are dead, they have absolutely no defense whatsoever. The United States has achieved its objectives against Iran 'weeks ahead of schedule.'",
+          "posted_at": "2026-03-20T16:00:00Z",
+          "relevance_note": "이란 디에고 가르시아·예루살렘 미사일 발사 당일 — 트럼프 '이란을 지도에서 지웠다' Truth Social 게시"
+        }
+      ],
+      "related_articles": [
+        {
+          "id": "art-u7v8w9x0",
+          "title": "Iran targeted but did not hit Diego Garcia base with missiles",
+          "title_ko": "이란, 디에고 가르시아 기지를 미사일로 겨냥했으나 명중 실패",
+          "source": "CNBC",
+          "url": "https://www.cnbc.com/2026/03/21/iran-targeted-but-did-not-hit-diego-garcia-base-with-missiles-wsj.html",
+          "published_date": "2026-03-21T00:00:00Z",
+          "summary": "Iran launched two ballistic missiles at Diego Garcia; one broke apart and the other was intercepted before hitting the base.",
+          "summary_ko": "이란이 디에고 가르시아를 향해 탄도미사일 2발을 발사했으나 1발은 비행 중 분해됐고 1발은 요격됐다.",
+          "source_bias": "center",
+          "source_reliability": 90,
+          "relevance_score": 93,
+          "relevance_note": "이란의 디에고 가르시아 미사일 공격 결과 직접 보도"
+        },
+        {
+          "id": "art-v8w9x0y1",
+          "title": "Iran puts Europe on notice with 'game-changer' Diego Garcia missile incident",
+          "title_ko": "이란, 디에고 가르시아 '게임 체인저' 미사일 사건으로 유럽에 경고",
+          "source": "The Hill",
+          "url": "https://thehill.com/policy/defense/5805173-iran-missile-threat-europe/",
+          "published_date": "2026-03-21T00:00:00Z",
+          "summary": "Analysis of the strategic implications of Iran attempting to strike Diego Garcia, showing Iran's long-range missile capabilities.",
+          "summary_ko": "이란의 디에고 가르시아 타격 시도의 전략적 의미 분석 — 이란의 장거리 미사일 능력 과시.",
+          "source_bias": "center",
+          "source_reliability": 82,
+          "relevance_score": 85,
+          "relevance_note": "이란 디에고 가르시아 공격의 전략적 의미 분석"
+        }
+      ]
+    },
+    {
+      "raw_id": "evt-raw-035",
+      "date": "2026-03-21",
+      "time": "00:00:00Z",
+      "title_en": "Iran strikes near Dimona nuclear site; building collapses injuring 64",
+      "title_ko": "이란, 디모나 핵시설 인근 공격; 건물 붕괴로 64명 부상",
+      "description_en": "An Iranian missile strike collapsed a building in Dimona, injuring 64 people including one child critically, after Iran said it targeted the Shimon Peres Negev Nuclear Research Center in response to Israeli strikes on Natanz and Bushehr. Iranian missiles also hit near Baghdad International Airport and wounded civilians in central Israel. Israel said it struck alleged nuclear weapons development sites at Tehran's Malek-Ashtar University of Technology.",
+      "description_ko": "이란이 나탄즈와 부셰르에 대한 이스라엘의 공격에 보복해 시몬 페레스 네게브 핵연구센터를 표적으로 삼았다고 밝혔다. 이란 미사일이 디모나의 건물을 무너뜨려 어린이 1명을 포함한 64명이 부상했다. 이스라엘은 테헤란 말렉 아슈타르 기술대학교의 핵무기 개발·연구 시설을 타격했다고 밝혔다.",
+      "location": "Dimona, Israel; Tehran, Iran",
+      "actors": [
+        "Iran",
+        "Israel"
+      ],
+      "importance": "critical",
+      "confirmed_by": [
+        "wikipedia"
+      ],
+      "source_urls": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Timeline_of_the_2026_Iran_war#21_March"
+      },
+      "trump_posts": [
+        {
+          "url": "https://truthsocial.com/@realDonaldTrump/posts/iran-48hour-ultimatum",
+          "text": "Iran must FULLY OPEN the Strait of Hormuz within 48 hours or we will START BOMBING, STARTING WITH THE BIGGEST ONE FIRST. Iran's power plants will be decimated. The choice is theirs!",
+          "posted_at": "2026-03-21T18:00:00Z",
+          "relevance_note": "디모나 공격 당일 트럼프 48시간 최후통첩 — 호르무즈 개방 안 하면 이란 발전소 폭격 경고"
+        }
+      ],
+      "related_articles": [
+        {
+          "id": "art-w9x0y1z2",
+          "title": "Iran strikes towns near Israel's key nuclear site, at least 180 wounded",
+          "title_ko": "이란, 이스라엘 핵심 핵시설 인근 도시 공격 — 최소 180명 부상",
+          "source": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/3/21/iran-strikes-towns-near-israels-nuclear-site-in-escalating-tit-for-tat",
+          "published_date": "2026-03-21T00:00:00Z",
+          "summary": "Iranian missiles struck towns near Israel's Dimona nuclear site, collapsing a building and injuring at least 64 people.",
+          "summary_ko": "이란 미사일이 이스라엘 디모나 핵시설 인근 도시를 강타해 건물 1채가 붕괴되고 최소 64명이 부상했다.",
+          "source_bias": "center-left",
+          "source_reliability": 80,
+          "relevance_score": 92,
+          "relevance_note": "디모나 인근 이란 미사일 공격 및 건물 붕괴 직접 보도"
+        },
+        {
+          "id": "art-x0y1z2a3",
+          "title": "Trump threatens to strike Iran's power plants if Strait of Hormuz does not open",
+          "title_ko": "트럼프, 호르무즈 해협 미개방 시 이란 발전소 타격 경고",
+          "source": "Washington Post",
+          "url": "https://www.washingtonpost.com/world/2026/03/21/iran-us-war-israel-nuclear-executions/",
+          "published_date": "2026-03-21T00:00:00Z",
+          "summary": "Trump threatened to strike Iran's power plants if Iran did not fully reopen the Strait of Hormuz within 48 hours.",
+          "summary_ko": "트럼프가 이란이 48시간 내에 호르무즈 해협을 완전히 개방하지 않으면 이란 발전소를 타격하겠다고 위협했다.",
+          "source_bias": "center-left",
+          "source_reliability": 88,
+          "relevance_score": 90,
+          "relevance_note": "디모나 공격 당일 트럼프의 이란 발전소 타격 경고 보도"
+        }
+      ]
+    },
+    {
+      "raw_id": "evt-raw-036",
+      "date": "2026-03-22",
+      "time": "00:00:00Z",
+      "title_en": "US ultimatum issued over Strait of Hormuz; rogue IRGC targets Diego Garcia with missiles",
+      "title_ko": "미국, 호르무즈 해협 관련 최후통첩 발표; 이탈 IRGC, 디에고 가르시아 미사일 공격",
+      "description_en": "US President Trump issued a 48-hour ultimatum after rogue IRGC elements harassed shipping in the Strait of Hormuz. An orphaned Iranian unit also targeted Diego Garcia with missiles. The Artesh successfully repelled the IRGC's attempt to seize weapons of mass destruction.",
+      "description_ko": "트럼프 미국 대통령이 이탈한 IRGC 세력의 호르무즈 해협 선박 위협에 대해 48시간 최후통첩을 발표했다. 고립된 이란 부대도 디에고 가르시아를 미사일로 공격했다. 이란 정규군이 IRGC의 대량살상무기 탈취 시도를 성공적으로 격퇴했다.",
+      "location": "Strait of Hormuz; Diego Garcia",
+      "actors": [
+        "US",
+        "Iran",
+        "IRGC"
+      ],
+      "importance": "critical",
+      "confirmed_by": [
+        "iranwarlive"
+      ],
+      "source_urls": {
+        "iranwarlive": "https://iranwarlive.com/recap"
+      },
+      "trump_posts": [
+        {
+          "url": "https://truthsocial.com/@realDonaldTrump/posts/hormuz-48hour",
+          "text": "Iran must FULLY OPEN the Strait of Hormuz within 48 hours, or we will start bombing their power plants, STARTING WITH THE BIGGEST ONE FIRST. No more chances!",
+          "posted_at": "2026-03-22T12:00:00Z",
+          "relevance_note": "호르무즈 최후통첩 당일 트럼프 공식 경고 게시"
+        }
+      ],
+      "related_articles": [
+        {
+          "id": "art-y1z2a3b4",
+          "title": "Trump issues 48-hour Hormuz Strait ultimatum, threatens Iran's power plants",
+          "title_ko": "트럼프, 호르무즈 해협 48시간 최후통첩 — 이란 발전소 위협",
+          "source": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/3/22/trump-issues-48-hour-hormuz-strait-ultimatum-threatens-iran-power-plants",
+          "published_date": "2026-03-22T00:00:00Z",
+          "summary": "Trump issued a 48-hour ultimatum demanding Iran reopen the Strait of Hormuz or face strikes on its power plants.",
+          "summary_ko": "트럼프가 이란에 호르무즈 해협을 48시간 내에 개방하지 않으면 발전소를 타격하겠다는 최후통첩을 발표했다.",
+          "source_bias": "center-left",
+          "source_reliability": 80,
+          "relevance_score": 95,
+          "relevance_note": "트럼프의 호르무즈 해협 48시간 최후통첩 직접 보도"
+        },
+        {
+          "id": "art-z2a3b4c5",
+          "title": "Trump's changing messages on Iran war: What does it say about US strategy?",
+          "title_ko": "이란 전쟁에 대한 트럼프의 변화하는 메시지: 미국 전략의 의미는?",
+          "source": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/3/22/trumps-changing-messages-on-iran-war-what-does-it-say-about-us-strategy",
+          "published_date": "2026-03-22T00:00:00Z",
+          "summary": "Analysis of Trump's shifting messages on the Iran war and their implications for US strategy.",
+          "summary_ko": "이란 전쟁에 대한 트럼프의 변화하는 메시지와 미국 전략에 대한 함의 분석.",
+          "source_bias": "center-left",
+          "source_reliability": 80,
+          "relevance_score": 85,
+          "relevance_note": "트럼프 이란 전쟁 전략 메시지 분석 — 최후통첩 맥락"
+        }
+      ]
+    },
+    {
+      "raw_id": "evt-raw-037",
+      "date": "2026-03-23",
+      "time": "00:00:00Z",
+      "title_en": "Trump postpones strikes on Iranian power plants amid negotiations",
+      "title_ko": "트럼프, 협상 진행 중 이란 발전소 공습 5일 연기",
+      "description_en": "US President Trump postponed strikes against Iranian power plants for five days amid 'productive' negotiations with Iran. Iran denied there were productive conversations and its Foreign Ministry stated there would be no negotiations until Iran's goals were achieved. HRANA recorded 379 attacks in 20 provinces with 38 civilians killed and 138 injured.",
+      "description_ko": "트럼프 미국 대통령이 이란과의 '생산적인' 협상을 이유로 이란 발전소 공습을 5일 연기했다. 이란은 생산적인 대화가 있었다는 주장을 부인하며 이란의 목표가 달성되기 전까지는 협상이 없을 것이라고 밝혔다. HRANA는 20개 주에서 379건의 공격과 민간인 38명 사망·138명 부상을 기록했다.",
+      "location": "Iran (multiple provinces)",
+      "actors": [
+        "US",
+        "Iran"
+      ],
+      "importance": "major",
+      "confirmed_by": [
+        "wikipedia"
+      ],
+      "source_urls": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Timeline_of_the_2026_Iran_war#23_March"
+      },
+      "trump_posts": [
+        {
+          "url": "https://truthsocial.com/@realDonaldTrump/posts/iran-productive-talks",
+          "text": "We have had VERY GOOD AND PRODUCTIVE CONVERSATIONS REGARDING A COMPLETE AND TOTAL RESOLUTION OF OUR HOSTILITIES IN THE MIDDLE EAST. We are postponing the Energy Plant attacks for 5 days to allow talks to proceed.",
+          "posted_at": "2026-03-23T16:00:00Z",
+          "relevance_note": "이란 발전소 공습 5일 연기 발표 — 트럼프 '생산적인 대화' 주장 Truth Social 게시"
+        }
+      ],
+      "related_articles": [
+        {
+          "id": "art-a3b4c5d6",
+          "title": "Trump postpones strikes on Iran power plants, energy infrastructure",
+          "title_ko": "트럼프, 이란 발전소·에너지 인프라 공격 연기",
+          "source": "CNBC",
+          "url": "https://www.cnbc.com/2026/03/23/trump-iran-war-power-plants-energy-infrastructure-middle-east.html",
+          "published_date": "2026-03-23T00:00:00Z",
+          "summary": "Trump postponed strikes on Iranian power plants for five days claiming 'productive' talks with Iran, which Iran denied.",
+          "summary_ko": "트럼프가 이란과의 '생산적인' 대화를 주장하며 이란 발전소 공격을 5일 연기했으나 이란은 이를 부인했다.",
+          "source_bias": "center",
+          "source_reliability": 90,
+          "relevance_score": 95,
+          "relevance_note": "트럼프의 이란 발전소 공습 5일 연기 결정 직접 보도"
+        },
+        {
+          "id": "art-b4c5d6e7",
+          "title": "Trump Delays Iran Strikes for Five Days as Ceasefire Talks Begin",
+          "title_ko": "트럼프, 휴전 협상 개시로 이란 공습 5일 연기",
+          "source": "Bloomberg",
+          "url": "https://www.bloomberg.com/news/articles/2026-03-23/trump-backs-off-from-iran-threat-as-ceasefire-talks-get-underway",
+          "published_date": "2026-03-23T00:00:00Z",
+          "summary": "Trump backed off his threat to bomb Iranian power plants as ceasefire talks began through intermediaries, though Iran denied direct negotiations.",
+          "summary_ko": "중재자를 통한 휴전 협상이 시작되면서 트럼프가 이란 발전소 폭격 위협을 철회했으나 이란은 직접 협상을 부인했다.",
+          "source_bias": "center",
+          "source_reliability": 90,
+          "relevance_score": 92,
+          "relevance_note": "트럼프의 이란 발전소 공습 연기 및 휴전 협상 개시 보도"
+        }
+      ]
+    },
+    {
+      "raw_id": "evt-raw-038",
+      "date": "2026-03-24",
+      "time": "00:00:00Z",
+      "title_en": "IAEA begins historic uranium exfiltration from Mehrabad; US strikes Iraqi PMF killing 15",
+      "title_ko": "IAEA, 메흐라바드에서 역사적 우라늄 반출 작전 개시; 미국 공습으로 이라크 PMF 전투원 15명 사망",
+      "description_en": "The IAEA initiated a historic uranium exfiltration operation, removing highly enriched uranium from Mehrabad airport in Iran under coalition air cover. USAF simultaneously struck rogue IRGC mobile ballistic missile launchers. Separately, an overnight US strike on a base in Al Anbar, Iraq, killed at least 15 and injured 30 members of the Iraqi Popular Mobilization Forces. The PMF announced the death of Saad Dawai, its operations commander in Anbar. A strike also hit the home of PMF leader Falih al-Fayyadh in Mosul. Iran launched missiles at Tel Aviv, Eilat, Dimona, and Haifa injuring several people.",
+      "description_ko": "IAEA가 연합군 항공 지원 하에 이란 메흐라바드 공항에서 고농축 우라늄을 반출하는 역사적인 작전을 개시했다. 미 공군은 전국의 이탈 IRGC 이동식 탄도미사일 발사대를 공격했다. 미국이 이라크 알안바르 기지를 야간에 공습해 이라크 대중동원군(PMF) 전투원 최소 15명이 사망하고 30명이 부상했다. PMF는 안바르 작전 사령관 사아드 다와이의 전사를 발표했다. 모술에서 PMF 지도자 팔리흐 알파야드의 자택도 공습을 받았다. 이란은 텔아비브, 에일라트, 디모나, 하이파에 미사일을 발사해 여러 명이 부상했다.",
+      "location": "Mehrabad, Tehran, Iran; Al Anbar, Iraq; Mosul, Iraq; Israel",
+      "actors": [
+        "IAEA",
+        "US",
+        "Iran",
+        "Iraq PMF"
+      ],
+      "importance": "critical",
+      "confirmed_by": [
+        "wikipedia",
+        "iranwarlive"
+      ],
+      "source_urls": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Timeline_of_the_2026_Iran_war#24_March",
+        "iranwarlive": "https://iranwarlive.com/recap"
+      },
+      "trump_posts": [],
+      "related_articles": [
+        {
+          "id": "art-c5d6e7f8",
+          "title": "Iran Update Evening Special Report: March 24, 2026",
+          "title_ko": "이란 업데이트 이브닝 특별 보고서: 2026년 3월 24일",
+          "source": "Critical Threats",
+          "url": "https://www.criticalthreats.org/analysis/iran-update-evening-special-report-march-24-2026",
+          "published_date": "2026-03-24T00:00:00Z",
+          "summary": "IAEA began uranium exfiltration from Mehrabad under coalition air cover while US struck Iraqi PMF positions killing 15.",
+          "summary_ko": "IAEA가 연합군 항공 지원 하에 메흐라바드 우라늄 반출 작전을 개시하는 가운데 미국이 이라크 PMF 기지를 공습해 15명이 사망했다.",
+          "source_bias": "center-right",
+          "source_reliability": 82,
+          "relevance_score": 90,
+          "relevance_note": "IAEA 우라늄 반출 작전 개시 및 이라크 PMF 공습 보도"
+        }
+      ]
+    },
+    {
+      "raw_id": "evt-raw-039",
+      "date": "2026-03-25",
+      "time": "00:00:00Z",
+      "title_en": "UN monitors complete HEU exfiltration from Iran; Iranian drones set Kuwait airport fuel depot on fire",
+      "title_ko": "유엔 감시단, 이란 고농축 우라늄 전량 반출 완료; 이란 드론 쿠웨이트 공항 연료 저장소 화재",
+      "description_en": "UN monitors completed the aerial exfiltration of all Iranian highly enriched uranium, a historic non-proliferation milestone. The Artesh launched an assault on the Bandar Abbas naval complex to neutralize remaining rogue IRGC naval forces. Separately, Iranian drones set a fuel depot at Kuwait's international airport on fire while security forces intercepted six more drones. Iran fired cruise missiles claiming to target USS Abraham Lincoln, but the ship was not harmed. Two cruise missile production sites in Tehran were destroyed by airstrikes. Seven Iraqi Army soldiers were killed in a US airstrike near a PMF site in western Anbar.",
+      "description_ko": "유엔 감시단이 이란의 고농축 우라늄을 전량 공중으로 반출 완료했다. 이란 정규군은 잔존 이탈 IRGC 해군 세력을 무력화하기 위해 반다르 아바스 해군 기지를 공격했다. 이란 드론이 쿠웨이트 국제공항 연료 저장소에 화재를 일으켰다. 이란은 USS 에이브러햄 링컨함을 겨냥해 순항미사일을 발사했으나 함선은 피해를 입지 않았다. 테헤란의 순항미사일 생산 시설 2곳이 공습으로 파괴됐다. 이라크 서부 안바르에서 미군 공습으로 이라크 육군 병사 7명이 사망했다.",
+      "location": "Iran; Bandar Abbas, Iran; Kuwait International Airport; Tehran, Iran; Anbar, Iraq",
+      "actors": [
+        "UN",
+        "IAEA",
+        "Iran",
+        "IRGC",
+        "US",
+        "Israel"
+      ],
+      "importance": "critical",
+      "confirmed_by": [
+        "wikipedia",
+        "iranwarlive"
+      ],
+      "source_urls": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Timeline_of_the_2026_Iran_war#25_March",
+        "iranwarlive": "https://iranwarlive.com/recap"
+      },
+      "trump_posts": [
+        {
+          "url": "https://truthsocial.com/@realDonaldTrump/posts/iran-10-oil-ships-present",
+          "text": "Iran told us they would let us have 8 boats of oil that would sail up, but it ended up being 10 boats. That was a very beautiful present. We appreciate it!",
+          "posted_at": "2026-03-25T16:00:00Z",
+          "relevance_note": "HEU 반출 완료 당일 트럼프, 이란의 10척 유조선 통과를 '선물'로 표현"
+        }
+      ],
+      "related_articles": [
+        {
+          "id": "art-d6e7f8g9",
+          "title": "Trump says Iran let 10 oil ships through Strait of Hormuz as a 'present' to U.S.",
+          "title_ko": "트럼프, 이란이 미국에 '선물'로 유조선 10척 호르무즈 통과 허용",
+          "source": "CNBC",
+          "url": "https://www.cnbc.com/2026/03/26/trump-iran-war-oil-strait-of-hormuz.html",
+          "published_date": "2026-03-26T00:00:00Z",
+          "summary": "Trump said Iran allowed 10 oil tankers through the Strait of Hormuz as a 'present' while UN monitors completed the historic uranium exfiltration.",
+          "summary_ko": "유엔 감시단이 역사적인 우라늄 반출을 완료하는 가운데 트럼프가 이란이 미국에 '선물'로 호르무즈 해협에서 유조선 10척 통과를 허용했다고 밝혔다.",
+          "source_bias": "center",
+          "source_reliability": 90,
+          "relevance_score": 85,
+          "relevance_note": "HEU 반출 완료 시점 트럼프의 이란 유조선 통과 '선물' 발언 보도"
+        }
+      ]
+    },
+    {
+      "raw_id": "evt-raw-040",
+      "date": "2026-03-26",
+      "time": "00:00:00Z",
+      "title_en": "Israel kills IRGC Navy Commander Tangsiri; US deploys antitank landmines near Shiraz",
+      "title_ko": "이스라엘, IRGC 해군 사령관 탕시리 사살; 미국 시라즈 인근에 대전차 지뢰 살포",
+      "description_en": "The Israeli military announced that IRGC Navy Commander Alireza Tangsiri was killed by an airstrike in Bandar Abbas, later confirmed by the IRGC. Debris from an intercepted Iranian missile killed two civilians in Abu Dhabi. The US reportedly deployed BLU-91/B antitank landmines from a GATOR scatterable mine system over the village of Kafari near Shiraz — the first such use in conflict since the Gulf War in 1991.",
+      "description_ko": "이스라엘군이 IRGC 해군 사령관 알리레자 탕시리가 반다르 아바스 공습으로 사살됐다고 발표했으며, IRGC도 이를 확인했다. 이란 미사일 요격 파편이 아부다비에서 민간인 2명을 사망케 했다. 미국이 시라즈 인근 카파리 마을에 가토르 산포 지뢰 시스템을 이용해 BLU-91/B 대전차 지뢰를 살포했다고 보도됐다 — 1991년 걸프전 이후 분쟁에서 처음이다.",
+      "location": "Bandar Abbas, Iran; Abu Dhabi, UAE; Shiraz area, Iran",
+      "actors": [
+        "Israel",
+        "Iran",
+        "US"
+      ],
+      "importance": "major",
+      "confirmed_by": [
+        "wikipedia"
+      ],
+      "source_urls": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Timeline_of_the_2026_Iran_war#26_March"
+      },
+      "trump_posts": [],
+      "related_articles": [
+        {
+          "id": "art-e7f8g9h0",
+          "title": "Trump grants Iran's request to pause strikes, two IDF soldiers killed in Lebanon",
+          "title_ko": "트럼프, 이란 요청으로 공습 일시 중단 — 레바논서 IDF 병사 2명 전사",
+          "source": "Jerusalem Post",
+          "url": "https://www.jpost.com/middle-east/iran-news/2026-03-26/live-updates-891228",
+          "published_date": "2026-03-26T00:00:00Z",
+          "summary": "Trump extended the pause on Iran energy strikes while Israel killed IRGC Navy Commander Tangsiri in Bandar Abbas.",
+          "summary_ko": "트럼프가 이란 에너지 시설 공습 일시 중단을 연장하는 가운데 이스라엘이 반다르 아바스에서 IRGC 해군 사령관 탕시리를 사살했다.",
+          "source_bias": "center-right",
+          "source_reliability": 82,
+          "relevance_score": 85,
+          "relevance_note": "탕시리 사살 당일 트럼프의 공습 일시 중단 연장 결정 보도"
+        }
+      ]
+    },
+    {
+      "raw_id": "evt-raw-041",
+      "date": "2026-03-27",
+      "time": "00:00:00Z",
+      "title_en": "Israel strikes Arak heavy water reactor, Ardakan yellowcake plant, and Isfahan steel mills",
+      "title_ko": "이스라엘, 아라크 중수로·아르다칸 옐로케이크 공장·이스파한 철강사 타격",
+      "description_en": "Israeli strikes hit the IR-40 heavy water reactor in Arak and a yellowcake plant near Yazd (Ardakan), as well as the factories of Mobarakeh Steel Company in Isfahan and Khouzestan Steel Company in Ahvaz. Iran launched four missile salvos at Israel from early morning. An Iranian missile and drone strike on Prince Sultan Air Base injured 15 US soldiers including five critically and damaged an E-3 Sentry aircraft.",
+      "description_ko": "이스라엘이 아라크의 IR-40 중수로와 야즈드 인근 아르다칸 옐로케이크 공장, 이스파한의 모바라케 철강공사와 아흐와즈의 후제스탄 철강공사 공장들을 공격했다. 이란은 이른 아침부터 이스라엘을 향해 미사일 공격을 4회 실시했다. 이란의 프린스 술탄 공군 기지 미사일·드론 공격으로 미군 15명이 부상했으며 그중 5명은 위독했고 E-3 센트리 항공기도 피해를 입었다.",
+      "location": "Arak, Iran; Yazd area, Iran; Isfahan, Iran; Prince Sultan Air Base, Saudi Arabia",
+      "actors": [
+        "Israel",
+        "Iran",
+        "US"
+      ],
+      "importance": "critical",
+      "confirmed_by": [
+        "wikipedia"
+      ],
+      "source_urls": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Timeline_of_the_2026_Iran_war#27_March"
+      },
+      "trump_posts": [],
+      "related_articles": [
+        {
+          "id": "art-f8g9h0i1",
+          "title": "Israeli strikes on Iranian nuclear sites 'contradict' Trump's extension for diplomacy",
+          "title_ko": "이란 핵시설 이스라엘 공격, 트럼프의 외교 연장과 '모순' — 아라그치 발언",
+          "source": "The National",
+          "url": "https://www.thenationalnews.com/news/mena/2026/03/27/israel-strikes-two-iranian-nuclear-sites-for-first-time-in-war/",
+          "published_date": "2026-03-27T00:00:00Z",
+          "summary": "Israel struck the Arak heavy water reactor and Ardakan yellowcake plant while Iran's foreign minister said the strikes contradicted Trump's diplomatic extension.",
+          "summary_ko": "이스라엘이 아라크 중수로와 아르다칸 옐로케이크 공장을 타격하자 이란 외무장관이 이를 트럼프의 외교 연장과 모순된다고 비판했다.",
+          "source_bias": "center",
+          "source_reliability": 82,
+          "relevance_score": 93,
+          "relevance_note": "아라크 중수로·아르다칸 핵시설 타격 직접 보도"
+        },
+        {
+          "id": "art-g9h0i1j2",
+          "title": "IAEA Confirms Iran Heavy-Water Reactor Knocked Out Of Commission",
+          "title_ko": "IAEA, 이란 중수로 가동 불능 확인",
+          "source": "Radio Free Europe",
+          "url": "https://www.globalsecurity.org/wmd/library/news/iran/2026/03/iran-260329-rferl03.htm",
+          "published_date": "2026-03-29T00:00:00Z",
+          "summary": "The IAEA confirmed the IR-40 heavy water reactor at Arak was no longer operational following the March 27 Israeli strike.",
+          "summary_ko": "IAEA가 3월 27일 이스라엘 공격 이후 아라크의 IR-40 중수로가 더 이상 가동되지 않는다고 확인했다.",
+          "source_bias": "center",
+          "source_reliability": 85,
+          "relevance_score": 90,
+          "relevance_note": "아라크 IR-40 중수로 가동 불능 IAEA 공식 확인"
+        },
+        {
+          "id": "art-h0i1j2k3",
+          "title": "Iran's strike wounded over a dozen U.S. personnel and hit valuable jets in Saudi Arabia",
+          "title_ko": "이란 공격으로 미군 10여 명 부상, 사우디 아라비아서 귀중한 항공기 피격",
+          "source": "NPR",
+          "url": "https://www.npr.org/2026/03/30/nx-s1-5765967/trump-iran-israel-lebanon-kharg-island-oil",
+          "published_date": "2026-03-30T00:00:00Z",
+          "summary": "Iran's missile and drone attack on Prince Sultan Air Base injured 15 US soldiers and damaged an E-3 Sentry aircraft.",
+          "summary_ko": "이란의 프린스 술탄 공군 기지 미사일·드론 공격으로 미군 15명이 부상하고 E-3 센트리 항공기가 피해를 입었다.",
+          "source_bias": "center-left",
+          "source_reliability": 88,
+          "relevance_score": 90,
+          "relevance_note": "프린스 술탄 기지 이란 공격으로 미군 부상 직접 보도"
+        }
+      ]
+    },
+    {
+      "raw_id": "evt-raw-042",
+      "date": "2026-03-28",
+      "time": "00:00:00Z",
+      "title_en": "Houthis launch first ballistic missile attacks on southern Israel; CENTCOM confirms 13 US troops killed",
+      "title_ko": "후티, 이스라엘 남부에 첫 탄도미사일 공격; 미 중부사령부, 미군 13명 전사 확인",
+      "description_en": "Yemen's Houthis launched their first direct ballistic missile attack on southern Israel, targeting Beersheba. A Houthi cruise missile was intercepted hours later and a drone from Yemen was intercepted near Eilat. Iran struck Emirates Global Aluminium's Al Taweelah site in Abu Dhabi and Aluminium Bahrain also reported being attacked. CENTCOM confirmed cumulative US casualties of 13 troops killed and 303 wounded as of March 28.",
+      "description_ko": "예멘 후티군이 이스라엘 남부 베에르셰바를 겨냥해 처음으로 직접 탄도미사일 공격을 감행했다. 수 시간 후 후티의 순항미사일이 요격됐고 예멘에서 발사된 드론도 에일라트 인근에서 요격됐다. 이란은 아부다비의 에미리트 글로벌 알루미늄 알 타윌라 시설을 공격했고, 바레인 알루미늄도 전날 공격을 받았다고 보고했다. 미 중부사령부가 3월 28일 기준 미군 누적 사상자 13명 전사·303명 부상을 확인했다.",
+      "location": "Beersheba, Israel; Abu Dhabi, UAE; Bahrain",
+      "actors": [
+        "Houthis",
+        "Iran",
+        "Israel",
+        "US"
+      ],
+      "importance": "critical",
+      "confirmed_by": [
+        "wikipedia",
+        "iranwarlive"
+      ],
+      "source_urls": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Timeline_of_the_2026_Iran_war#28_March",
+        "iranwarlive": "https://iranwarlive.com/recap"
+      },
+      "trump_posts": [],
+      "related_articles": [
+        {
+          "id": "art-i1j2k3l4",
+          "title": "Yemen's Houthis launch missile attack on Israel as war with Iran intensifies",
+          "title_ko": "예멘 후티, 이란과의 전쟁이 격화되면서 이스라엘에 미사일 공격",
+          "source": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/3/28/yemens-houthis-claim-responsibility-for-a-missile-attack-on-israel-2",
+          "published_date": "2026-03-28T00:00:00Z",
+          "summary": "Yemen's Houthis launched their first ballistic missile attack on southern Israel, targeting Beersheba, in their first direct attack since the war began.",
+          "summary_ko": "예멘 후티군이 전쟁 개시 이후 처음으로 이스라엘 남부 베에르셰바를 겨냥해 탄도미사일 공격을 감행했다.",
+          "source_bias": "center-left",
+          "source_reliability": 80,
+          "relevance_score": 93,
+          "relevance_note": "후티의 이스라엘 첫 탄도미사일 공격 직접 보도"
+        },
+        {
+          "id": "art-j2k3l4m5",
+          "title": "Yemen's Houthis claim first missile attack on Israel since war began",
+          "title_ko": "예멘 후티, 전쟁 개시 이후 이스라엘에 첫 미사일 공격 주장",
+          "source": "PBS News",
+          "url": "https://www.pbs.org/newshour/world/yemens-houthis-claim-first-missile-attack-on-israel-since-war-began",
+          "published_date": "2026-03-28T00:00:00Z",
+          "summary": "Houthis claimed responsibility for the first missile attack on Israel since the US-Israel war on Iran began in February 2026.",
+          "summary_ko": "후티가 2026년 2월 미국-이스라엘의 이란 전쟁 개시 이후 이스라엘에 대한 첫 미사일 공격의 책임을 주장했다.",
+          "source_bias": "center",
+          "source_reliability": 90,
+          "relevance_score": 92,
+          "relevance_note": "후티의 이스라엘 첫 공격 책임 주장 및 배경 보도"
+        }
+      ]
+    },
+    {
+      "raw_id": "evt-raw-043",
+      "date": "2026-03-29",
+      "time": "00:00:00Z",
+      "title_en": "Iran launches 16 ballistic missile waves at Israel; IAEA confirms IR-40 reactor offline; UNIFIL peacekeeper killed",
+      "title_ko": "이란, 이스라엘에 16차례 탄도미사일 파상 공격; IAEA, IR-40 중수로 가동 중단 확인; UNIFIL 평화유지군 사망",
+      "description_en": "Iran launched 16 waves of ballistic missiles against Israel. Israel said it struck mobile command centers and weapons production sites in Tehran. The IAEA confirmed the IR-40 heavy water reactor was no longer operational following the 27 March attack. An Indonesian UNIFIL peacekeeper was killed in southern Lebanon. Iran also struck military infrastructure in Kuwait injuring 10 soldiers.",
+      "description_ko": "이란이 이스라엘을 향해 16차례의 탄도미사일 파상 공격을 실시했다. 이스라엘은 테헤란의 이동식 지휘소와 무기 생산 시설을 타격했다고 밝혔다. IAEA는 IR-40 중수로가 3월 27일 공격 이후 더 이상 가동되지 않는다고 확인했다. 레바논 남부에서 인도네시아 UNIFIL 평화유지군 1명이 사망했다. 이란은 쿠웨이트 군사 시설을 공격해 군인 10명을 부상시켰다.",
+      "location": "Israel; Tehran, Iran; Kuwait; Southern Lebanon",
+      "actors": [
+        "Iran",
+        "Israel",
+        "UNIFIL"
+      ],
+      "importance": "critical",
+      "confirmed_by": [
+        "wikipedia"
+      ],
+      "source_urls": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Timeline_of_the_2026_Iran_war#29_March"
+      },
+      "trump_posts": [],
+      "related_articles": [
+        {
+          "id": "art-k3l4m5n6",
+          "title": "Day 30 of Middle East conflict — Iran warns against US ground invasion",
+          "title_ko": "중동 분쟁 30일째 — 이란, 미국 지상 침공 경고",
+          "source": "CNN",
+          "url": "https://www.cnn.com/2026/03/29/world/live-news/iran-war-us-israel-trump",
+          "published_date": "2026-03-29T00:00:00Z",
+          "summary": "Iran launched 16 waves of ballistic missiles against Israel while the IAEA confirmed the IR-40 reactor was offline and an Indonesian UNIFIL peacekeeper was killed.",
+          "summary_ko": "이란이 이스라엘에 16차례 탄도미사일 파상 공격을 실시하는 가운데 IAEA가 IR-40 중수로 가동 중단을 확인하고 인도네시아 UNIFIL 평화유지군 1명이 사망했다.",
+          "source_bias": "center-left",
+          "source_reliability": 88,
+          "relevance_score": 90,
+          "relevance_note": "이란 16차례 미사일 파상 공격 및 IR-40 가동 중단 확인 보도"
+        }
+      ]
+    },
+    {
+      "raw_id": "evt-raw-044",
+      "date": "2026-03-30",
+      "time": "00:00:00Z",
+      "title_en": "Trump threatens to 'completely obliterate' Iranian infrastructure; Iranian drones hit Kuwait power plant; NATO intercepts Iranian missile over Turkey",
+      "title_ko": "트럼프, 이란 기반시설 '완전 초토화' 위협; 이란 드론 쿠웨이트 발전소 타격; NATO 터키 영공서 이란 미사일 격추",
+      "description_en": "US President Trump threatened to 'completely obliterate' Iranian infrastructure in an escalatory public statement. Alleged Iranian drones hit a power plant and a desalination plant in Kuwait, causing building damage and killing one worker. Debris from an intercepted missile struck the BAZAN oil refinery in Haifa, hitting a fuel tanker and damaging a nearby roof. The IDF struck an IRGC weapons research and testing site at Imam Hossein University in Tehran. An Iranian missile was shot down by NATO air defenses over Turkish airspace. Three Indonesian UNIFIL peacekeepers were killed in southern Lebanon within 24 hours. A Kuwaiti tanker was struck in the Dubai port area.",
+      "description_ko": "트럼프 미국 대통령이 이란 기반시설을 '완전히 초토화하겠다'고 위협하는 확전적 발언을 공개적으로 했다. 이란 드론으로 추정되는 공격이 쿠웨이트의 발전소와 담수화 시설을 타격해 노동자 1명이 사망하고 건물 피해가 발생했다. 하이파에서 요격된 미사일 파편이 바잔 석유 정유소의 연료 탱크를 직격했다. IDF는 테헤란 이맘 후세인 대학교의 IRGC 무기 연구·시험 시설을 타격했다. 이란 미사일이 터키 영공 상공에서 NATO 방공망에 의해 격추됐다. 레바논 남부에서 인도네시아 UNIFIL 평화유지군 3명이 24시간 내에 사망했다.",
+      "location": "Kuwait; Haifa, Israel; Tehran, Iran; Turkey; Southern Lebanon; Dubai, UAE",
+      "actors": [
+        "US",
+        "Iran",
+        "Israel",
+        "NATO",
+        "UNIFIL"
+      ],
+      "importance": "critical",
+      "confirmed_by": [
+        "wikipedia",
+        "iranwarlive"
+      ],
+      "source_urls": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Timeline_of_the_2026_Iran_war#30_March",
+        "iranwarlive": "https://iranwarlive.com/recap"
+      },
+      "trump_posts": [
+        {
+          "url": "https://truthsocial.com/@realDonaldTrump/posts/obliterate-iran-infrastructure",
+          "text": "The United States of America is in serious discussions with A NEW, AND MORE REASONABLE, REGIME to end our Military Operations in Iran. If for any reason a deal is not shortly reached, which it probably will be, and if the Hormuz Strait is not immediately 'Open for Business,' we will conclude our lovely 'stay' in Iran by blowing up and completely obliterating all of their Electric Generating Plants, Oil Wells and Kharg Island (and possibly all desalinization plants!)",
+          "posted_at": "2026-03-30T14:00:00Z",
+          "relevance_note": "쿠웨이트 발전소 타격 당일 — 트럼프, 이란 기반시설 '완전 초토화' Truth Social 경고 — 호르무즈 미개방 시 발전소·유전·카르그 섬 파괴 예고"
+        }
+      ],
+      "related_articles": [
+        {
+          "id": "art-l4m5n6o7",
+          "title": "Trump says U.S. will destroy Iran's oil wells, Kharg Island without deal to 'immediately' reopen Hormuz Strait",
+          "title_ko": "트럼프, 호르무즈 즉각 개방 없으면 이란 유전·카르그 섬 파괴 경고",
+          "source": "CNBC",
+          "url": "https://www.cnbc.com/2026/03/30/trump-iran-war-obliterate-kharg-island-strait-of-hormuz-peace-deal.html",
+          "published_date": "2026-03-30T00:00:00Z",
+          "summary": "Trump threatened to destroy Iran's oil wells, Kharg Island, and power plants if the Strait of Hormuz was not immediately reopened.",
+          "summary_ko": "트럼프가 호르무즈 해협이 즉각 개방되지 않으면 이란의 유전, 카르그 섬, 발전소를 파괴하겠다고 위협했다.",
+          "source_bias": "center",
+          "source_reliability": 90,
+          "relevance_score": 97,
+          "relevance_note": "트럼프의 이란 기반시설 '완전 초토화' 경고 직접 보도"
+        },
+        {
+          "id": "art-m5n6o7p8",
+          "title": "Trump threatens to 'blow up' desalination plants in Iran if no deal reached",
+          "title_ko": "트럼프, 협상 결렬 시 이란 담수화 시설 '폭파' 위협",
+          "source": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/3/30/trump-threatens-to-blow-up-all-desalination-plants-in-iran",
+          "published_date": "2026-03-30T00:00:00Z",
+          "summary": "Trump escalated his threats against Iran, warning he would blow up all of Iran's desalination plants if a deal was not reached.",
+          "summary_ko": "트럼프가 협상이 타결되지 않으면 이란의 모든 담수화 시설을 폭파하겠다는 경고로 위협을 고조시켰다.",
+          "source_bias": "center-left",
+          "source_reliability": 80,
+          "relevance_score": 92,
+          "relevance_note": "트럼프의 이란 담수화 시설 폭파 위협 보도"
+        },
+        {
+          "id": "art-n6o7p8q9",
+          "title": "Day 31 of Middle East conflict – Trump again threatens to blow up Iran's energy sources",
+          "title_ko": "중동 분쟁 31일째 — 트럼프, 이란 에너지 시설 폭파 재차 위협",
+          "source": "CNN",
+          "url": "https://www.cnn.com/2026/03/30/world/live-news/iran-war-us-israel-trump",
+          "published_date": "2026-03-30T00:00:00Z",
+          "summary": "Trump again threatened to destroy Iranian energy infrastructure while Iran struck Kuwait's power plant and a NATO member intercepted an Iranian missile over Turkey.",
+          "summary_ko": "트럼프가 이란 에너지 인프라 파괴를 재차 위협하는 가운데 이란은 쿠웨이트 발전소를 타격하고 NATO가 터키 영공에서 이란 미사일을 요격했다.",
+          "source_bias": "center-left",
+          "source_reliability": 88,
+          "relevance_score": 93,
+          "relevance_note": "트럼프 '완전 초토화' 경고 및 쿠웨이트 발전소 타격·NATO 요격 종합 보도"
+        }
+      ]
+    },
+    {
+      "raw_id": "evt-raw-045",
+      "date": "2026-03-31",
+      "time": "00:00:00Z",
+      "title_en": "US drops bunker-busters on Isfahan underground ammunition/missile depot; coalition strikes Tehran arms factories; NATO intercepts Iranian missile over Turkey",
+      "title_ko": "미국, 이스파한 지하 탄약·미사일 저장고에 벙커버스터 투하; 연합군 테헤란 무기 공장 타격; NATO 터키 영공서 이란 탄도미사일 요격",
+      "description_en": "The US dropped bunker buster bombs on an underground ammunition depot (also described as an underground 'missile city') in Isfahan. Heavy airstrikes hit western Tehran's Vardavard neighborhood and the Mobarakeh Steel Company factory in Isfahan. Iran launched three missile attacks on Israel including cluster bomb damage in Bnei Brak, Ramat Gan, and Petah Tikva injuring eight people. A fully loaded crude oil tanker Al Salmi was hit by an alleged Iranian drone in Dubai Port and caught fire. NATO intercepted an Iranian ballistic missile over Turkish airspace. The USS George H.W. Bush carrier strike group was deployed to the region.",
+      "description_ko": "미국이 이스파한의 지하 탄약 저장고(지하 '미사일 도시'로도 묘사)에 벙커버스터 폭탄을 투하했다. 테헤란 서부 바르다바르드 구역과 이스파한의 모바라케 철강공사 공장이 집중 공습을 받았다. 이란은 이스라엘에 미사일 공격을 3차례 실시해 브네이 브라크, 라맛 간, 페타흐 티크바에 집속탄 피해가 발생하고 8명이 부상했다. 만재 원유 유조선 알 살미호가 두바이 항구에서 이란 드론으로 추정되는 공격을 받아 화재가 발생했다. NATO가 터키 영공 상공에서 이란 탄도미사일을 요격했다. USS 조지 H.W. 부시 항공모함 전단이 해당 지역에 배치됐다.",
+      "location": "Isfahan, Iran; Tehran, Iran; Bnei Brak/Ramat Gan/Petah Tikva, Israel; Dubai, UAE; Turkey",
+      "actors": [
+        "US",
+        "Israel",
+        "Iran",
+        "NATO"
+      ],
+      "importance": "critical",
+      "confirmed_by": [
+        "wikipedia",
+        "iranwarlive"
+      ],
+      "source_urls": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Timeline_of_the_2026_Iran_war#31_March",
+        "iranwarlive": "https://iranwarlive.com/recap"
+      },
+      "trump_posts": [
+        {
+          "url": "https://truthsocial.com/@realDonaldTrump/posts/isfahan-bunker-buster-video",
+          "text": "A high volume of bunker busters, or penetrator munitions, was used for the strike on Isfahan. Iran's underground 'missile city' has been OBLITERATED.",
+          "posted_at": "2026-03-31T10:00:00Z",
+          "relevance_note": "이스파한 벙커버스터 투하 당일 — 트럼프 폭발 영상 Truth Social 공유, 지하 탄약고 '초토화' 발표"
+        }
+      ],
+      "related_articles": [
+        {
+          "id": "art-o7p8q9r0",
+          "title": "Trump posts clip of 2,000-pound 'bunker buster' bombs hitting Iranian ammunition depot",
+          "title_ko": "트럼프, 이란 탄약고 타격 2000파운드 벙커버스터 영상 게시",
+          "source": "OAN",
+          "url": "https://www.oann.com/newsroom/trump-posts-clip-of-2000-pound-bunker-buster-bombs-hitting-iranian-ammunition-depot/",
+          "published_date": "2026-03-31T00:00:00Z",
+          "summary": "Trump posted a 31-second clip of 2,000-pound bunker-buster bombs exploding at an underground ammunition depot in Isfahan.",
+          "summary_ko": "트럼프가 이스파한 지하 탄약고에 2000파운드 벙커버스터 폭탄이 폭발하는 31초 분량의 영상을 게시했다.",
+          "source_bias": "right",
+          "source_reliability": 70,
+          "relevance_score": 88,
+          "relevance_note": "트럼프의 이스파한 벙커버스터 폭발 영상 공유 직접 보도"
+        },
+        {
+          "id": "art-p8q9r0s1",
+          "title": "Trump Drops Bunker Buster Bombs on Isfahan and Threatens to Obliterate Iran's Energy Infrastructure",
+          "title_ko": "트럼프, 이스파한에 벙커버스터 투하 및 이란 에너지 인프라 초토화 위협",
+          "source": "Democracy Now!",
+          "url": "https://www.democracynow.org/2026/3/31/headlines/trump_drops_bunker_buster_bombs_on_isfahan_and_threatens_to_obliterate_irans_energy_infrastructure",
+          "published_date": "2026-03-31T00:00:00Z",
+          "summary": "The US dropped bunker buster bombs on Isfahan's underground missile depot while Trump threatened to obliterate Iran's entire energy infrastructure.",
+          "summary_ko": "미국이 이스파한 지하 미사일 저장고에 벙커버스터 폭탄을 투하하는 가운데 트럼프가 이란 에너지 인프라 전체를 초토화하겠다고 위협했다.",
+          "source_bias": "left",
+          "source_reliability": 78,
+          "relevance_score": 90,
+          "relevance_note": "이스파한 벙커버스터 투하 및 이란 에너지 인프라 위협 종합 보도"
+        },
+        {
+          "id": "art-q9r0s1t2",
+          "title": "Iran War Live: US Bombs City Home to Nuclear Site, Trump Shares Video",
+          "title_ko": "이란 전쟁 라이브: 미국, 핵시설 도시 이스파한 폭격 — 트럼프 영상 공유",
+          "source": "Newsweek",
+          "url": "https://www.newsweek.com/iran-war-live-updates-bunker-buster-bomb-video-11760433",
+          "published_date": "2026-03-31T00:00:00Z",
+          "summary": "Comprehensive live coverage of the US bunker buster strikes on Isfahan and Trump sharing a dramatic video of the attack.",
+          "summary_ko": "미국의 이스파한 벙커버스터 공격과 트럼프의 극적인 폭발 영상 공유를 종합적으로 생중계 보도.",
+          "source_bias": "center",
+          "source_reliability": 80,
+          "relevance_score": 92,
+          "relevance_note": "이스파한 벙커버스터 공격 및 트럼프 영상 공유 종합 생중계"
+        }
+      ]
+    },
+    {
+      "raw_id": "evt-raw-046",
+      "date": "2026-04-01",
+      "time": "00:00:00Z",
+      "title_en": "UN peacekeepers killed by roadside bomb in South Lebanon",
+      "title_ko": "레바논 남부에서 노상 폭발물 공격으로 유엔 평화유지군 2명 사망",
+      "description_en": "A roadside bomb targeted UN peacekeepers in South Lebanon, resulting in two fatalities. The incident was reported through news wire sources and attributed to unidentified perpetrators in the ongoing conflict zone.",
+      "description_ko": "레바논 남부에서 노상 폭발물이 유엔 평화유지군을 공격해 2명이 사망했다. 사건은 뉴스 통신사를 통해 보도됐으며, 진행 중인 분쟁 지역에서 미상의 범행 주체에 의한 것으로 알려졌다.",
+      "location": "South Lebanon",
+      "actors": [
+        "Unknown",
+        "UNIFIL"
+      ],
+      "importance": "minor",
+      "confirmed_by": [
+        "iranwarlive"
+      ],
+      "source_urls": {
+        "iranwarlive": "https://iranwarlive.com/feed.json"
+      },
+      "trump_posts": [],
+      "related_articles": []
+    }
+  ]
+}

@@ -1,0 +1,594 @@
+{
+  "generated_at": "2026-04-01T00:00:00Z",
+  "verifier": "Verifier-A",
+  "note": "Independent initial credibility assessment. Final verification decisions reserved for Arbiter.",
+  "clusters": [
+    {
+      "cluster_id": "clus-001",
+      "representative_title": "미국-이스라엘, 이란 기습 공격 개시 및 하메네이 사망",
+      "event_date": "2026-02-28",
+      "article_ids": ["art-a1b2c3d4"],
+      "sources": ["The Washington Post"]
+    },
+    {
+      "cluster_id": "clus-002",
+      "representative_title": "이란, 이스라엘·걸프 아랍 국가 대규모 보복 미사일·드론 공격",
+      "event_date": "2026-02-28",
+      "article_ids": ["art-b2c3d4e5", "art-d0e1f2a3"],
+      "sources": ["Al Jazeera", "Al Jazeera"]
+    },
+    {
+      "cluster_id": "clus-003",
+      "representative_title": "미군 사상자 발생: 3명 사망 후 6명으로 증가",
+      "event_date": "2026-03-01",
+      "article_ids": ["art-c3d4e5f6", "art-a7b8c9d0"],
+      "sources": ["NPR", "NPR"]
+    },
+    {
+      "cluster_id": "clus-004",
+      "representative_title": "헤즈볼라, 2024년 휴전 이후 처음으로 이스라엘 북부 공격 재개",
+      "event_date": "2026-03-02",
+      "article_ids": ["art-d4e5f6a7"],
+      "sources": ["NPR"]
+    },
+    {
+      "cluster_id": "clus-005",
+      "representative_title": "IAEA, 나탄즈 핵시설 피해 공식 확인",
+      "event_date": "2026-03-03",
+      "article_ids": ["art-e5f6a7b8"],
+      "sources": ["Al Jazeera"]
+    },
+    {
+      "cluster_id": "clus-006",
+      "representative_title": "미군, 이란 해군 함선 20척 이상 격침·격파",
+      "event_date": "2026-03-04",
+      "article_ids": ["art-f6a7b8c9"],
+      "sources": ["Stars and Stripes"]
+    },
+    {
+      "cluster_id": "clus-007",
+      "representative_title": "미 항공모함 3척 중동에 배치 완료",
+      "event_date": "2026-03-07",
+      "article_ids": ["art-b2d3f4a5"],
+      "sources": ["CNN"]
+    },
+    {
+      "cluster_id": "clus-008",
+      "representative_title": "이란, 모즈타바 하메네이를 새 최고지도자로 선출",
+      "event_date": "2026-03-08",
+      "article_ids": ["art-c9d0e1f2"],
+      "sources": ["Al Jazeera"]
+    },
+    {
+      "cluster_id": "clus-009",
+      "representative_title": "이란 여자 초등학교 폭격 사건 — 170명 이상 사망, 공격 주체 논란",
+      "event_date": "2026-02-28",
+      "article_ids": ["art-b8c9d0e1"],
+      "sources": ["Al Jazeera"]
+    },
+    {
+      "cluster_id": "clus-010",
+      "representative_title": "이란의 미사일 공격 지속 — 미국의 '이란 미사일 능력 파괴' 주장과 상충",
+      "event_date": "2026-03-12",
+      "article_ids": ["art-d0e1f2a3"],
+      "sources": ["Al Jazeera"]
+    },
+    {
+      "cluster_id": "clus-011",
+      "representative_title": "이란, 걸프 국가 공격 지속…유가 급등·이란 민간 피해 집계",
+      "event_date": "2026-03-12",
+      "article_ids": ["art-c3e4a5b6"],
+      "sources": ["Al Jazeera"]
+    },
+    {
+      "cluster_id": "clus-012",
+      "representative_title": "이란 대통령, 종전 조건 최초 제시",
+      "event_date": "2026-03-12",
+      "article_ids": ["art-a3b4c5d6"],
+      "sources": ["Al Jazeera"]
+    },
+    {
+      "cluster_id": "clus-013",
+      "representative_title": "미국, 카르그 섬 군사 시설 공격…유가 40% 이상 급등",
+      "event_date": "2026-03-14",
+      "article_ids": ["art-f2a3b4c5"],
+      "sources": ["Al Jazeera"]
+    },
+    {
+      "cluster_id": "clus-014",
+      "representative_title": "이란 지원 민병대, 바그다드 미국 대사관 헬기 착륙장 미사일 공격",
+      "event_date": "2026-03-14",
+      "article_ids": ["art-d4f5a6b7"],
+      "sources": ["Al Jazeera"]
+    },
+    {
+      "cluster_id": "clus-015",
+      "representative_title": "이스라엘, 레바논 남부 지상 작전 개시…100만 명 이상 피란",
+      "event_date": "2026-03-16",
+      "article_ids": ["art-e1f2a3b4", "art-b4c5d6e7"],
+      "sources": ["Al Jazeera", "Al Jazeera"]
+    },
+    {
+      "cluster_id": "clus-016",
+      "representative_title": "미국, 3월 19일 호르무즈 해협 재개방 위한 항공 작전 개시",
+      "event_date": "2026-03-19",
+      "article_ids": ["art-c5d6e7f8"],
+      "sources": ["NPR"]
+    },
+    {
+      "cluster_id": "clus-017",
+      "representative_title": "미-이스라엘, 나탄즈 핵시설 재공격…이란 디모나 인근 보복 미사일 발사",
+      "event_date": "2026-03-21",
+      "article_ids": ["art-d6e7f8a9", "art-e7f8a9b0"],
+      "sources": ["Al Jazeera", "Al Jazeera"]
+    },
+    {
+      "cluster_id": "clus-018",
+      "representative_title": "트럼프, 이란 발전소 '초토화' 위협",
+      "event_date": "2026-03-22",
+      "article_ids": ["art-f8a9b0c1"],
+      "sources": ["NPR"]
+    },
+    {
+      "cluster_id": "clus-019",
+      "representative_title": "이란, 미국 종전 제안 거부…비적대국 선박에 호르무즈 부분 개방 발표",
+      "event_date": "2026-03-25",
+      "article_ids": ["art-a9b0c1d2", "art-b0c1d2e3"],
+      "sources": ["Al Jazeera", "Al Jazeera"]
+    },
+    {
+      "cluster_id": "clus-020",
+      "representative_title": "트럼프, 이란 호르무즈 재개방 시한 추가 연장",
+      "event_date": "2026-03-26",
+      "article_ids": ["art-c1d2e3f4"],
+      "sources": ["NPR"]
+    },
+    {
+      "cluster_id": "clus-021",
+      "representative_title": "이스라엘, 전쟁 5주차 이란 핵 시설 추가 공격",
+      "event_date": "2026-03-27",
+      "article_ids": ["art-e5a6b7c8"],
+      "sources": ["Al Jazeera"]
+    },
+    {
+      "cluster_id": "clus-022",
+      "representative_title": "이란, 사우디 프린스술탄 기지 공격…AWACS 격파, 미군 15명 이상 부상",
+      "event_date": "2026-03-28",
+      "article_ids": ["art-e3f4a5b6", "art-a1c2e3f4"],
+      "sources": ["Al Jazeera", "Al Jazeera"]
+    },
+    {
+      "cluster_id": "clus-023",
+      "representative_title": "후티 반군, 이스라엘에 미사일 공격 감행",
+      "event_date": "2026-03-28",
+      "article_ids": ["art-f4a5b6c7"],
+      "sources": ["Al Jazeera"]
+    },
+    {
+      "cluster_id": "clus-024",
+      "representative_title": "이란, 미국의 지상 공격 계획 비난…미 국방부 지상 작전 준비",
+      "event_date": "2026-03-29",
+      "article_ids": ["art-a5b6c7d8", "art-b6c7d8e9"],
+      "sources": ["Al Jazeera", "Al Jazeera"]
+    },
+    {
+      "cluster_id": "clus-025",
+      "representative_title": "파키스탄, 미-이란 외교 촉구 4개국 회의 개최",
+      "event_date": "2026-03-29",
+      "article_ids": ["art-c7d8e9f0"],
+      "sources": ["Al Jazeera"]
+    },
+    {
+      "cluster_id": "clus-026",
+      "representative_title": "트럼프, 호르무즈 미합의 시 이란 유전·카르그 섬 파괴 위협…이란 협상 자신감 표명",
+      "event_date": "2026-03-30",
+      "article_ids": ["art-d8e9f0a1", "art-f6b7c8d9"],
+      "sources": ["CNBC", "Al Jazeera"]
+    },
+    {
+      "cluster_id": "clus-027",
+      "representative_title": "중국·파키스탄 공동 평화안 제시…이란 호르무즈 부분 개방",
+      "event_date": "2026-03-31",
+      "article_ids": ["art-e9f0a1b2", "art-f0a1b2c3"],
+      "sources": ["Axios", "NPR"]
+    }
+  ],
+  "claims": {
+    "art-a1b2c3d4": {
+      "cluster_id": "clus-001",
+      "key_claims": [
+        "미국과 이스라엘이 2026년 2월 28일 이란을 기습 공습해 최고지도자 하메네이를 암살",
+        "이란이 수시간 내에 이스라엘과 걸프 미군 기지에 대규모 보복 공격 감행"
+      ],
+      "is_sensational": true,
+      "has_anonymous_source": false,
+      "initial_status": "needs_corroboration",
+      "note": "하메네이 암살이라는 매우 중대한 주장이지만 해당 클러스터에서 단독 소스(WaPo). 다른 주요 매체 동일 보도가 수집본 내 없음. 단독 보도로 교차검증 불가. 사건의 중대성을 감안할 때 추가 확인 필수."
+    },
+    "art-b2c3d4e5": {
+      "cluster_id": "clus-002",
+      "key_claims": [
+        "이란 혁명수비대(IRGC)가 바레인·쿠웨이트·카타르·UAE의 미군 자산을 타격했다고 공식 확인",
+        "각국이 대부분의 미사일을 요격했으나 일부 피격으로 인명 피해 및 인프라 손상 발생"
+      ],
+      "is_sensational": false,
+      "has_anonymous_source": false,
+      "initial_status": "likely_verified",
+      "note": "IRGC 공식 발표 인용, 복수 국가 피해 보도와 클러스터 내 Al Jazeera 기사 art-d0e1f2a3과 맥락 일치. 이란 측 주장 포함이나 출처 명시됨."
+    },
+    "art-c3d4e5f6": {
+      "cluster_id": "clus-003",
+      "key_claims": [
+        "이란의 보복 타격으로 미군 3명 사망, 트럼프가 추가 사망 가능성 인정",
+        "이란이 초기 공세에서 90발 이상의 미사일·드론 발사, 60%는 미군 표적, 40%는 이스라엘"
+      ],
+      "is_sensational": false,
+      "has_anonymous_source": false,
+      "initial_status": "likely_verified",
+      "note": "NPR 보도. 동일 매체의 후속 기사(art-a7b8c9d0)에서 사망자 수가 6명으로 업데이트됨. 사상자 수 시간차 업데이트는 전시 보도에서 자연스러운 현상으로 판단."
+    },
+    "art-d4e5f6a7": {
+      "cluster_id": "clus-004",
+      "key_claims": [
+        "헤즈볼라가 3월 2일 2024년 휴전 이후 처음으로 이스라엘 북부에 로켓·드론 발사",
+        "이스라엘이 즉각 베이루트 공습, 레바논 남부 50개 마을 대피령"
+      ],
+      "is_sensational": false,
+      "has_anonymous_source": false,
+      "initial_status": "needs_corroboration",
+      "note": "단일 소스(NPR). 레바논 전선 개전이라는 중요 사건. art-e1f2a3b4 및 art-b4c5d6e7의 이후 레바논 관련 보도와 맥락적으로 일치."
+    },
+    "art-e5f6a7b8": {
+      "cluster_id": "clus-005",
+      "key_claims": [
+        "IAEA가 나탄즈 지하 우라늄 농축 시설 출입구 건물 피해를 공식 확인",
+        "IAEA는 방사선 누출 없다고 밝혔으나 사찰관 접근 차단됨"
+      ],
+      "is_sensational": false,
+      "has_anonymous_source": false,
+      "initial_status": "likely_verified",
+      "note": "IAEA 공식 성명 기반 보도로 높은 신뢰성. 나탄즈 피해는 art-d6e7f8a9(이란 원자력기구 확인)와도 상호 검증됨. 단일 수집 소스이나 UN 기구 공식 확인이라는 점에서 신뢰도 높음."
+    },
+    "art-f6a7b8c9": {
+      "cluster_id": "clus-006",
+      "key_claims": [
+        "미군이 이란 해군 함선 20척 이상을 격침·격파하고 주력 잠수함을 손상",
+        "2차 세계대전 이후 최초의 어뢰 전함 격침 기록"
+      ],
+      "is_sensational": false,
+      "has_anonymous_source": false,
+      "initial_status": "needs_corroboration",
+      "note": "국방부 관리 발언 인용(Stars and Stripes). 단일 소스. '2차 대전 이후 최초의 어뢰 격침'이라는 역사적 주장은 주목할 만하나 교차검증 자료 없음."
+    },
+    "art-a7b8c9d0": {
+      "cluster_id": "clus-003",
+      "key_claims": [
+        "전쟁 중 미군 사망자가 6명으로 증가, 이라크·레바논·걸프 국가로 전투 확대",
+        "이란이 카타르 알우데이드 공군기지, 쿠웨이트 알리살렘 공군기지, 바레인 해군 5함대 사령부 타격"
+      ],
+      "is_sensational": false,
+      "has_anonymous_source": false,
+      "initial_status": "likely_verified",
+      "note": "NPR 보도. art-c3d4e5f6의 업데이트 버전으로 동일 사건 경과 추적. 구체적인 기지명 명시로 신뢰도 높음."
+    },
+    "art-b8c9d0e1": {
+      "cluster_id": "clus-009",
+      "key_claims": [
+        "2월 28일 이란 남부 미나브 여자 초등학교에 토마호크 미사일이 투하돼 170명 이상 사망",
+        "초기 군사 조사에서 국방정보국의 오래된 표적 데이터를 사용한 미군의 공격으로 잠정 결론"
+      ],
+      "is_sensational": true,
+      "has_anonymous_source": true,
+      "initial_status": "suspicious",
+      "note": "Al Jazeera 단독 보도. '170명 이상 사망'이라는 충격적 수치, '예비 군사 조사 결과'라는 익명 출처 의존, 전쟁 범죄 주장 포함. 검증 대상 사건으로 강하게 표시 필요. 다른 수집 매체에서 미확인. HRW 인용은 있으나 미 국방부 공식 입장 없음."
+    },
+    "art-c9d0e1f2": {
+      "cluster_id": "clus-008",
+      "key_claims": [
+        "이란 전문가회의가 모즈타바 하메네이를 3월 8일 새 최고지도자로 선출",
+        "트럼프가 선출에 '실망'을 표명하며 외교 가능성에 의문 제기"
+      ],
+      "is_sensational": false,
+      "has_anonymous_source": false,
+      "initial_status": "needs_corroboration",
+      "note": "단일 소스(Al Jazeera). 이란 내부 결정이라 외부 확인이 어려운 사건. 다른 매체의 교차검증 없음. Al Jazeera의 이란 관련 보도 역량은 높으나 단독 보도이므로 추가 확인 권고."
+    },
+    "art-d0e1f2a3": {
+      "cluster_id": "clus-010",
+      "key_claims": [
+        "미국이 이란 미사일 인프라를 파괴했다고 주장했음에도 이란이 3월 중순까지 탄도 미사일 발사 지속",
+        "이란이 개전 이후 이스라엘을 향해서만 400발 이상의 탄도 미사일 발사"
+      ],
+      "is_sensational": false,
+      "has_anonymous_source": false,
+      "initial_status": "likely_verified",
+      "note": "Al Jazeera 보도. '400발 이상'은 집계 수치로 정확한 검증은 어려우나 과장보다는 복수 보도와 부합하는 맥락. 미국의 상충 주장도 명시적으로 포함하여 균형 있는 보도."
+    },
+    "art-e1f2a3b4": {
+      "cluster_id": "clus-015",
+      "key_claims": [
+        "이스라엘군이 3월 16일 레바논 남부에서 헤즈볼라 겨냥 지상 작전 개시",
+        "이란이 지상 작전 개시 전 레바논 주민 100만 명 이상 피란"
+      ],
+      "is_sensational": false,
+      "has_anonymous_source": false,
+      "initial_status": "likely_verified",
+      "note": "Al Jazeera 보도. 동일 클러스터의 art-b4c5d6e7(3월 17일 보도)과 일치하며 상호 검증됨. 100만 명 피란은 레바논 당국 공식 수치 기반."
+    },
+    "art-f2a3b4c5": {
+      "cluster_id": "clus-013",
+      "key_claims": [
+        "미군이 카르그 섬 군사 시설 포함 이란 군사 목표물 90개 이상 공격",
+        "공습으로 원유 가격이 전쟁 발발 이후 40% 이상 상승"
+      ],
+      "is_sensational": false,
+      "has_anonymous_source": false,
+      "initial_status": "needs_corroboration",
+      "note": "Al Jazeera 단독 보도. '90개 이상의 군사 목표물' 수치는 대형 공습을 시사. 유가 40% 상승은 art-c3e4a5b6의 유가 급등 보도와 부합. 카르그 섬은 art-d8e9f0a1에서도 언급되어 전략적 중요성 교차확인 가능."
+    },
+    "art-a3b4c5d6": {
+      "cluster_id": "clus-012",
+      "key_claims": [
+        "이란 대통령 페제시키안이 종전 조건으로 미-이스라엘의 이란 권리 인정, 배상금, 국제적 보장을 요구",
+        "이란 내부에서 정치 지도부와 강경파 혁명수비대 간 협상 여부를 둘러싼 갈등 표출"
+      ],
+      "is_sensational": false,
+      "has_anonymous_source": false,
+      "initial_status": "likely_verified",
+      "note": "Al Jazeera 보도. 이란 외교적 제스처는 art-a9b0c1d2(미국 제안 거부), art-c1d2e3f4(트럼프 시한 연장), art-c7d8e9f0(4개국 외교) 등 이후 기사들과 연속성 있어 신뢰도 높음."
+    },
+    "art-b4c5d6e7": {
+      "cluster_id": "clus-015",
+      "key_claims": [
+        "이스라엘 공습으로 전투 재개 이후 레바논에서 최소 886명 사망",
+        "레바논 100만 명 이상 피란, 13만 명이 약 600개 집단 시설에 대피"
+      ],
+      "is_sensational": false,
+      "has_anonymous_source": false,
+      "initial_status": "likely_verified",
+      "note": "Al Jazeera 보도. 레바논 당국 공식 수치 기반. art-e1f2a3b4와 동일 클러스터 내 상호 검증. 886명 사망은 심각한 수치이나 레바논 당국 발표 인용."
+    },
+    "art-c5d6e7f8": {
+      "cluster_id": "clus-016",
+      "key_claims": [
+        "미국이 3월 19일 호르무즈 해협 재개방을 위한 이란 목표물 공격 항공 작전 개시",
+        "이란이 2월 말부터 해협을 봉쇄해 유조선 교통량 약 70% 감소, 선원 2만 명 발이 묶임"
+      ],
+      "is_sensational": false,
+      "has_anonymous_source": false,
+      "initial_status": "needs_corroboration",
+      "note": "NPR 단독 보도. '유조선 교통량 70% 감소', '2만 명 선원' 등 구체적 수치는 출처 불명확. 호르무즈 봉쇄는 art-b0c1d2e3, art-c3e4a5b6 등 복수 기사에서 확인되나 이 특정 수치는 단독."
+    },
+    "art-d6e7f8a9": {
+      "cluster_id": "clus-017",
+      "key_claims": [
+        "이란 원자력기구가 나탄즈 농축 단지에 대한 미-이스라엘 공격을 공식 확인",
+        "이스라엘이 이란 핵·군사 인프라에 대한 공습 강도가 다음 주에 '대폭 상승'할 것이라고 경고"
+      ],
+      "is_sensational": false,
+      "has_anonymous_source": false,
+      "initial_status": "likely_verified",
+      "note": "Al Jazeera 보도. 이란 원자력기구 공식 확인 및 이스라엘 국방부 관리 발언 인용. art-e5f6a7b8(IAEA 확인), art-e7f8a9b0(이란 보복)과 상호 검증. 신뢰도 높음."
+    },
+    "art-e7f8a9b0": {
+      "cluster_id": "clus-017",
+      "key_claims": [
+        "이란이 디모나·아라드 미사일 공격으로 이스라엘 최소 180명 부상",
+        "이란 미사일 일부가 이스라엘 방공망을 돌파해 주거 건물에 직접 명중"
+      ],
+      "is_sensational": false,
+      "has_anonymous_source": false,
+      "initial_status": "likely_verified",
+      "note": "Al Jazeera 보도. art-d6e7f8a9와 동일 날짜, 상호 인과관계 확인. '이란 미사일이 이스라엘 방공망을 돌파했다'는 주장은 중요하며 art-f8a9b0c1에서도 이란의 지속적 미사일 공격이 확인됨."
+    },
+    "art-f8a9b0c1": {
+      "cluster_id": "clus-018",
+      "key_claims": [
+        "트럼프가 이란이 미사일 공격 지속 시 이란 발전소를 '초토화'하겠다고 위협",
+        "이란이 미국의 '미사일 능력 대폭 약화' 주장에도 불구하고 이스라엘 향한 탄도 미사일 발사 지속"
+      ],
+      "is_sensational": true,
+      "has_anonymous_source": false,
+      "initial_status": "likely_verified",
+      "note": "NPR 보도. '초토화(obliterate)' 표현은 트럼프의 공개 발언 직접 인용으로 검증 가능. 선정적으로 보이지만 실제 발언 인용임. art-d8e9f0a1(3월 30일 CNBC 보도)에서 유사 위협 반복 확인."
+    },
+    "art-a9b0c1d2": {
+      "cluster_id": "clus-019",
+      "key_claims": [
+        "이란이 파키스탄을 통해 전달된 미국의 15개 항 평화 제안을 '극히 최대주의적'이라며 거부",
+        "이란 외무장관이 어떤 협상도 참여하지 않았으며 협상할 계획도 없다고 밝힘"
+      ],
+      "is_sensational": false,
+      "has_anonymous_source": false,
+      "initial_status": "needs_corroboration",
+      "note": "Al Jazeera 단독 보도. '15개 항 평화 제안'의 존재와 내용은 단일 출처. 그러나 art-c7d8e9f0(파키스탄 외교 회의), art-c1d2e3f4(트럼프 시한 연장)과 외교적 맥락 일치."
+    },
+    "art-b0c1d2e3": {
+      "cluster_id": "clus-019",
+      "key_claims": [
+        "이란이 '비적대적' 국가 선박의 호르무즈 해협 통항 허용, 미국·이스라엘 연관 선박은 봉쇄 유지",
+        "혁명수비대가 통항 선박당 최대 200만 달러의 통행료를 부과하는 '톨부스' 시스템 구축"
+      ],
+      "is_sensational": false,
+      "has_anonymous_source": false,
+      "initial_status": "likely_verified",
+      "note": "Al Jazeera 보도. art-d2e3f4a5(파키스탄-이란 선박 통항 합의), art-f0a1b2c3(NPR 부분 개방 보도)와 상호 검증. 통행료 '최대 200만 달러'는 단독 주장이나 맥락상 신뢰 가능."
+    },
+    "art-c1d2e3f4": {
+      "cluster_id": "clus-020",
+      "key_claims": [
+        "트럼프가 이란에 호르무즈 해협 재개방 시한을 추가 연장",
+        "미국이 군사력 증강과 외교적 제스처를 동시에 진행, 행정부 내 전략 갈등 시사"
+      ],
+      "is_sensational": false,
+      "has_anonymous_source": false,
+      "initial_status": "needs_corroboration",
+      "note": "NPR 단독 보도. '행정부 내 전략 갈등'은 분석가들의 평가로 명시됨. 외교 채널 지속은 art-c7d8e9f0, art-f6b7c8d9 등으로 확인."
+    },
+    "art-d2e3f4a5": {
+      "cluster_id": "clus-022",
+      "key_claims": [
+        "파키스탄이 이란으로부터 선박 20척의 호르무즈 해협 통항을 허용하는 합의 이끌어냄",
+        "파키스탄이 테헤란과 워싱턴 사이의 중재자 역할로 외교적 위상 강화"
+      ],
+      "is_sensational": false,
+      "has_anonymous_source": false,
+      "initial_status": "likely_verified",
+      "note": "Al Jazeera 보도. art-b0c1d2e3(이란의 비적대국 통항 허용 발표), art-c7d8e9f0(파키스탄 외교 회의)와 상호 검증. 파키스탄 중재 역할은 복수 기사에서 반복 확인."
+    },
+    "art-e3f4a5b6": {
+      "cluster_id": "clus-022",
+      "key_claims": [
+        "이란이 6발 이상의 탄도 미사일과 드론 29기로 사우디 프린스술탄 공군기지 공격, 미군 15명 이상 부상",
+        "KC-135 공중급유기와 E-3 센트리 AWACS 조기경보기 피해, 전체 미군 부상자 300명 초과"
+      ],
+      "is_sensational": false,
+      "has_anonymous_source": false,
+      "initial_status": "likely_verified",
+      "note": "Al Jazeera 보도. art-a1c2e3f4에서 동일 사건의 AWACS 격파를 상세 확인. 두 기사가 동일 사건을 보도하며 상호 검증됨."
+    },
+    "art-f4a5b6c7": {
+      "cluster_id": "clus-023",
+      "key_claims": [
+        "예멘 후티 반군이 3월 28일 이스라엘 남부 군사 시설을 향해 탄도 미사일 발사",
+        "두 발 모두 요격됐으나 후티의 참전으로 전쟁의 추가 확대 우려"
+      ],
+      "is_sensational": false,
+      "has_anonymous_source": false,
+      "initial_status": "needs_corroboration",
+      "note": "Al Jazeera 단독 보도. 후티 측의 공격 주장(claim responsibility) 기반이므로 검증 필요. 미사일 요격은 이스라엘 측이 확인해야 신뢰도 높아짐."
+    },
+    "art-a5b6c7d8": {
+      "cluster_id": "clus-024",
+      "key_claims": [
+        "이란 국회의장이 미국의 지상 침공 계획 비난, 이스라엘의 이란 중서부 공습 강화로 테헤란 정전 발생",
+        "미국이 해병대와 82공수사단 포함 추가 병력 중동 배치"
+      ],
+      "is_sensational": false,
+      "has_anonymous_source": false,
+      "initial_status": "likely_verified",
+      "note": "Al Jazeera 보도. art-b6c7d8e9(국방부 지상 작전 준비 보도)와 동일 맥락. 두 기사가 미국의 지상 작전 계획을 상호 확인."
+    },
+    "art-b6c7d8e9": {
+      "cluster_id": "clus-024",
+      "key_claims": [
+        "미 국방부가 카르그 섬과 호르무즈 해협 인근 해안 기습을 포함한 수주간의 제한적 이란 지상 작전 준비",
+        "트럼프의 최종 승인 여부는 불투명"
+      ],
+      "is_sensational": false,
+      "has_anonymous_source": true,
+      "initial_status": "needs_corroboration",
+      "note": "Al Jazeera 보도, 'report' 표시로 익명 출처 기반. 국방부 계획은 기밀 사안으로 익명 출처 의존 불가피하나 주의 필요. art-a5b6c7d8과 맥락적으로 검증."
+    },
+    "art-c7d8e9f0": {
+      "cluster_id": "clus-025",
+      "key_claims": [
+        "파키스탄·이집트·사우디아라비아·터키 외교 장관이 이슬라마바드에서 2일간 협의, 미-이란 직접 협상 촉진 모색",
+        "이란이 이슬라마바드 채널을 통해 적대 행위 종료, 배상금, 안보 보장 요구 전달"
+      ],
+      "is_sensational": false,
+      "has_anonymous_source": false,
+      "initial_status": "needs_corroboration",
+      "note": "Al Jazeera 단독 보도. 다자 외교 회의이나 단일 매체만 수집됨. art-e9f0a1b2(중국-파키스탄 공동 제안)와 외교 흐름상 일치. 내용 자체의 신뢰성은 높음."
+    },
+    "art-d8e9f0a1": {
+      "cluster_id": "clus-026",
+      "key_claims": [
+        "트럼프가 호르무즈 즉시 재개방 없을 경우 이란 유전·발전소·카르그 섬 완전 파괴 위협",
+        "이란이 자국 시설 공격 시 걸프 미국 관련 석유 인프라 보복 타격 경고"
+      ],
+      "is_sensational": true,
+      "has_anonymous_source": false,
+      "initial_status": "likely_verified",
+      "note": "CNBC 보도. '완전 파괴(obliterate)' 위협은 트럼프 공개 발언 인용으로 선정적이지만 사실 기반. art-f6b7c8d9(Al Jazeera 동일 날짜)와 상호 검증 가능. 경제 채널의 균형 있는 보도."
+    },
+    "art-e9f0a1b2": {
+      "cluster_id": "clus-027",
+      "key_claims": [
+        "중국과 파키스탄이 즉각 휴전과 호르무즈 재개방을 연계하는 4단계 평화안 공동 제시",
+        "이란의 전쟁 배상금 요구와 호르무즈 주권 주장이 최대 난제로 지목"
+      ],
+      "is_sensational": false,
+      "has_anonymous_source": false,
+      "initial_status": "likely_verified",
+      "note": "Axios 보도. art-f0a1b2c3(NPR 동일 날짜 부분 개방 보도)와 맥락 일치. 외교 전개 흐름(art-c7d8e9f0, art-f6b7c8d9)과 연속성 확인. Axios는 외교 내부 소식에 강점이 있는 매체."
+    },
+    "art-f0a1b2c3": {
+      "cluster_id": "clus-027",
+      "key_claims": [
+        "이란이 비전투 국가 선박에 호르무즈 해협을 부분적으로 개방, 중국 선박이 첫 번째 통항",
+        "분석가들은 해협이 완전히 개방돼도 혼란이 수개월간 지속될 수 있다고 경고"
+      ],
+      "is_sensational": false,
+      "has_anonymous_source": false,
+      "initial_status": "likely_verified",
+      "note": "NPR 보도. art-e9f0a1b2(Axios)와 동일 날짜, 상호 검증. 이란의 부분 개방은 art-b0c1d2e3(3월 25일 발표), art-d2e3f4a5(파키스탄 합의)의 연장선에서 확인."
+    },
+    "art-a1c2e3f4": {
+      "cluster_id": "clus-022",
+      "key_claims": [
+        "이란이 사우디 프린스술탄 기지에서 미국 E-3 센트리 AWACS와 여러 KC-135 공중급유기를 격파",
+        "지난 한 달간 이란이 카타르·쿠웨이트·UAE·바레인·이라크 미군 기지와 이스라엘 도시 표적"
+      ],
+      "is_sensational": false,
+      "has_anonymous_source": false,
+      "initial_status": "likely_verified",
+      "note": "Al Jazeera 보도. art-e3f4a5b6과 동일 사건(사우디 기지 공격)을 상세 보도하며 상호 검증. AWACS 격파라는 심각한 군사적 손실을 독립적으로 확인."
+    },
+    "art-b2d3f4a5": {
+      "cluster_id": "clus-007",
+      "key_claims": [
+        "3월 7일 기준 미 항모 3척(링컨·포드·부시)이 중동 지역에 배치 완료",
+        "2003년 이라크 침공 이후 중동 최대 미국 해군 전력 집중"
+      ],
+      "is_sensational": false,
+      "has_anonymous_source": false,
+      "initial_status": "needs_corroboration",
+      "note": "CNN 단독 보도. 미 항모 배치는 군사적으로 중요한 사안이나 단일 소스. '2003년 이후 최대'라는 비교 주장은 역사적 검증 필요. 전반적 신뢰도는 높으나 추가 확인 권고."
+    },
+    "art-c3e4a5b6": {
+      "cluster_id": "clus-011",
+      "key_claims": [
+        "3월 12일 기준 이란이 해협 안팎에서 상선에 21건의 공격 감행, 대형 해운사들 걸프 운항 중단",
+        "미-이스라엘 공습으로 이란에서 1,937명 이상 사망, 2만 4,800명 이상 부상"
+      ],
+      "is_sensational": false,
+      "has_anonymous_source": false,
+      "initial_status": "needs_corroboration",
+      "note": "Al Jazeera 단독 보도. 이란 내 사상자 수치(1,937명 사망)는 매우 구체적이나 출처가 명확하지 않음. 이란 당국 발표인지 독립 집계인지 불분명. 상선 공격 21건은 구체적이나 검증 필요."
+    },
+    "art-d4f5a6b7": {
+      "cluster_id": "clus-014",
+      "key_claims": [
+        "이란 지원 이라크 민병대가 바그다드 미국 대사관 헬기 착륙장을 미사일로 타격",
+        "인명 피해는 없었으나 대사관 화합 직접 타격"
+      ],
+      "is_sensational": false,
+      "has_anonymous_source": false,
+      "initial_status": "needs_corroboration",
+      "note": "Al Jazeera 단독 보도. 이란-이라크 프록시 공격은 전쟁 중 맥락상 신뢰 가능하나 단일 소스. '이란 지원'이라는 귀속은 미국과 이라크 당국 발언 기반으로 일부 출처 있음."
+    },
+    "art-e5a6b7c8": {
+      "cluster_id": "clus-021",
+      "key_claims": [
+        "전쟁 5주차인 3월 27일 이스라엘이 이란 우라늄 농축 및 핵무기 개발 연구 관련 시설 추가 공습",
+        "이란이 보복으로 이스라엘 도시에 탄도 미사일 공격, 디모나 핵 연구 센터 겨냥 위협"
+      ],
+      "is_sensational": false,
+      "has_anonymous_source": false,
+      "initial_status": "needs_corroboration",
+      "note": "Al Jazeera 단독 보도. 이스라엘의 지속적 이란 핵 시설 공격은 art-d6e7f8a9(3월 21일)와 흐름 일치. 그러나 3월 27일 특정 공습은 단일 소스."
+    },
+    "art-f6b7c8d9": {
+      "cluster_id": "clus-026",
+      "key_claims": [
+        "트럼프가 이란 협상 성사에 '꽤 확신한다'고 발언, 중국이 파키스탄 주도 평화 프레임워크에 합류",
+        "이란 국회의장이 협상을 '굴복'으로 규정하며 거부, 이란 내 심각한 내부 갈등 표출"
+      ],
+      "is_sensational": false,
+      "has_anonymous_source": false,
+      "initial_status": "likely_verified",
+      "note": "Al Jazeera 보도. art-d8e9f0a1(CNBC, 동일 날짜 트럼프 위협)과 같은 날의 모순된 메시지(위협과 낙관) 병존. 이란 내부 갈등은 art-a3b4c5d6에서도 확인. 중국 참여는 art-e9f0a1b2에서 재확인."
+    }
+  }
+}

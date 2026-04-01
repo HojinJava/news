@@ -19,32 +19,80 @@
   --up: #44cc88;
   --down: #ff4455;
   --flat: #8888aa;
+  --trump: #e8b84b;
   --sidebar-w: 220px;
-  --header-h: 52px;
+  --header-h: 56px;
 }
 * { box-sizing: border-box; margin: 0; padding: 0; }
 body {
   background: var(--bg); color: var(--text);
   font-family: 'Pretendard', 'Apple SD Gothic Neo', 'Noto Sans KR', sans-serif;
   height: 100vh; overflow: hidden;
-  display: flex; flex-direction: column; font-size: 14px;
+  display: flex; flex-direction: column; font-size: 18px;
 }
+
 /* header */
 #header {
   height: var(--header-h); background: var(--surface);
   border-bottom: 1px solid var(--border);
   display: flex; align-items: center; padding: 0 20px; gap: 14px; flex-shrink: 0; z-index: 100;
 }
-#cat-title { font-size: 15px; font-weight: 700; white-space: nowrap; }
-#market-legend { display: flex; gap: 8px; flex-wrap: wrap; }
-.legend-item {
-  font-size: 11px; color: var(--text-muted);
-  background: var(--surface2); border: 1px solid var(--border);
-  padding: 2px 8px; border-radius: 4px;
+#cat-title { font-size: 22px; font-weight: 700; white-space: nowrap; color: var(--text); }
+#source-badges { display: flex; gap: 6px; align-items: center; }
+.source-badge {
+  display: flex; align-items: center; gap: 5px;
+  font-size: 14px; color: var(--text);
+  background: var(--surface2); border: 1px solid rgba(107,124,255,.5);
+  padding: 3px 10px 3px 8px; border-radius: 20px;
+  text-decoration: none; transition: border-color .15s, background .15s;
 }
-.legend-key { color: var(--accent); font-weight: 700; }
+.source-badge:hover { border-color: var(--accent); background: rgba(107,124,255,.12); }
+.source-badge-dot {
+  width: 7px; height: 7px; border-radius: 50%; background: var(--accent); flex-shrink: 0;
+}
+/* legend toggle */
+#legend-toggle-btn {
+  display: flex; align-items: center; gap: 5px;
+  background: none; border: 1px solid var(--border); border-radius: 6px;
+  color: var(--text-muted); font-size: 13px; padding: 4px 10px; cursor: pointer;
+  transition: all .15s; white-space: nowrap;
+}
+#legend-toggle-btn:hover { border-color: var(--accent); color: var(--text); }
+#legend-toggle-btn .arrow { font-size: 10px; transition: transform .2s; }
+#legend-toggle-btn.open .arrow { transform: rotate(180deg); }
+#legend-panel {
+  display: none; position: absolute; top: var(--header-h); left: 0; right: 0;
+  background: var(--surface); border-bottom: 1px solid var(--border);
+  padding: 16px 24px; z-index: 99;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 16px;
+}
+#legend-panel.open { display: grid; }
+.lp-section { display: flex; flex-direction: column; gap: 8px; }
+.lp-title { font-size: 11px; font-weight: 700; color: var(--text-muted); text-transform: uppercase; letter-spacing: .08em; margin-bottom: 2px; }
+.lp-row { display: flex; align-items: flex-start; gap: 8px; }
+.lp-badge { flex-shrink: 0; font-size: 11px; font-weight: 700; padding: 2px 7px; border-radius: 3px; text-transform: uppercase; letter-spacing: .04em; margin-top: 1px; }
+.lp-badge.critical { background: rgba(255,68,85,.15);   color: var(--critical); border: 1px solid rgba(255,68,85,.3); }
+.lp-badge.major    { background: rgba(255,140,66,.15);  color: var(--major);    border: 1px solid rgba(255,140,66,.3); }
+.lp-badge.minor    { background: rgba(107,124,255,.10); color: var(--minor);    border: 1px solid rgba(107,124,255,.3); }
+.lp-badge.verified   { background: rgba(68,204,136,.12);  color: var(--up);         border: 1px solid rgba(68,204,136,.3); }
+.lp-badge.unverified { background: rgba(232,184,75,.10);  color: var(--trump);      border: 1px solid rgba(232,184,75,.3); }
+.lp-badge.flagged    { background: rgba(255,68,85,.12);   color: var(--critical);   border: 1px solid rgba(255,68,85,.3); }
+.lp-badge.both  { background: rgba(68,204,136,.12); color: var(--up);    border: 1px solid rgba(68,204,136,.3); font-size: 11px; }
+.lp-badge.wiki  { background: rgba(107,124,255,.12); color: var(--accent); border: 1px solid rgba(107,124,255,.3); font-size: 11px; }
+.lp-desc { font-size: 12px; color: var(--text-muted); line-height: 1.5; }
+
+#header-divider { width: 1px; height: 22px; background: var(--border); }
+#market-legend { display: flex; gap: 6px; flex-wrap: wrap; }
+.legend-item {
+  font-size: 13px; color: var(--text);
+  background: var(--surface2); border: 1px solid rgba(107,124,255,.4);
+  padding: 3px 10px; border-radius: 4px; font-weight: 500;
+}
+.legend-key { color: #a0abff; font-weight: 800; margin-right: 3px; }
+
 /* layout */
 #body-wrap { display: flex; flex: 1; overflow: hidden; }
+
 /* sidebar */
 #sidebar {
   width: var(--sidebar-w); background: var(--surface);
@@ -52,18 +100,20 @@ body {
   flex-shrink: 0; padding: 14px 0;
 }
 #sidebar-title {
-  font-size: 10px; font-weight: 600; color: var(--text-muted);
+  font-size: 12px; font-weight: 600; color: var(--text-muted);
   text-transform: uppercase; letter-spacing: .08em; padding: 0 14px 8px;
 }
 .cat-btn {
   display: block; width: 100%; padding: 9px 14px;
   background: none; border: none; border-left: 3px solid transparent;
-  color: var(--text-muted); font-size: 13px; text-align: left; cursor: pointer;
+  color: var(--text); font-size: 15px; text-align: left; cursor: pointer;
   transition: all .15s;
 }
 .cat-btn:hover { color: var(--text); background: var(--surface2); }
 .cat-btn.active { color: var(--accent); border-left-color: var(--accent); background: rgba(107,124,255,.08); }
-.cat-date { display: block; font-size: 10px; color: var(--text-muted); margin-top: 2px; }
+.cat-date { display: block; font-size: 12px; color: var(--text-muted); margin-top: 3px; }
+.cat-date-label { font-size: 11px; color: var(--text-muted); opacity: .7; }
+
 /* timeline */
 #tl-wrap { flex: 1; overflow-x: auto; overflow-y: hidden; padding: 20px; }
 #timeline {
@@ -76,99 +126,236 @@ body {
   background: linear-gradient(to right, transparent, var(--border) 40px, var(--border) calc(100% - 40px), transparent);
   pointer-events: none;
 }
+
 /* day column */
-.day-col { width: 296px; min-width: 296px; display: flex; flex-direction: column; padding: 0 10px; flex-shrink: 0; }
+.day-col { width: 304px; min-width: 304px; display: flex; flex-direction: column; padding: 0 10px; flex-shrink: 0; }
 .day-header { padding: 0 0 10px; position: relative; }
 .day-dot {
   width: 10px; height: 10px; background: var(--accent); border-radius: 50%;
   border: 2px solid var(--bg); position: absolute; top: 4px; left: 50%; transform: translateX(-50%);
 }
-.day-label { font-size: 13px; font-weight: 700; text-align: center; padding-top: 20px; }
-.day-market-row { display: flex; flex-wrap: wrap; gap: 4px; justify-content: center; margin-top: 5px; }
+.day-label { font-size: 16px; font-weight: 700; text-align: center; padding-top: 20px; }
+.day-market-row { display: flex; flex-wrap: nowrap; gap: 4px; justify-content: center; margin-top: 5px; }
+
 /* market chip */
 .mkt-chip {
-  font-size: 10px; font-weight: 600; padding: 2px 6px; border-radius: 3px;
+  font-size: 11px; font-weight: 600; padding: 2px 5px; border-radius: 3px;
   background: var(--surface2); border: 1px solid var(--border);
 }
 .mkt-chip.up   { color: var(--up);   border-color: rgba(68,204,136,.3); }
 .mkt-chip.down { color: var(--down); border-color: rgba(255,68,85,.3); }
 .mkt-chip.flat { color: var(--flat); }
+
 /* events stack */
 .day-events { display: flex; flex-direction: column; gap: 8px; overflow-y: auto; flex: 1; padding-bottom: 8px; }
+
 /* event card */
 .evt-card {
   background: var(--surface); border: 1px solid var(--border); border-radius: 8px;
   overflow: hidden; cursor: pointer; transition: border-color .15s, box-shadow .15s;
-  min-height: 108px;
 }
 .evt-card:hover { border-color: var(--accent); box-shadow: 0 2px 10px rgba(107,124,255,.15); }
 .evt-card.open  { border-color: var(--accent); }
 .evt-head { padding: 12px 14px 8px; display: flex; flex-direction: column; gap: 6px; }
-.evt-meta { display: flex; align-items: center; gap: 5px; flex-wrap: wrap; }
-.evt-time { font-size: 11px; color: var(--text-muted); }
-.src-tag {
-  font-size: 10px; padding: 1px 5px; border-radius: 3px;
-  background: var(--surface2); border: 1px solid var(--border); color: var(--text-muted);
+.evt-meta { display: flex; align-items: center; gap: 6px; flex-wrap: wrap; }
+.evt-time {
+  font-size: 15px; font-weight: 700; color: var(--text);
+  background: var(--surface2); border: 1px solid var(--border);
+  padding: 2px 8px; border-radius: 4px;
+  flex-shrink: 0; order: -1;
 }
-.imp { font-size: 10px; font-weight: 700; padding: 1px 5px; border-radius: 3px; text-transform: uppercase; letter-spacing: .04em; }
-.imp.critical { background: rgba(255,68,85,.15); color: var(--critical); border: 1px solid rgba(255,68,85,.3); }
-.imp.major    { background: rgba(255,140,66,.15); color: var(--major);    border: 1px solid rgba(255,140,66,.3); }
-.imp.minor    { background: rgba(107,124,255,.10); color: var(--minor);  border: 1px solid rgba(107,124,255,.3); }
-.evt-title { font-size: 13px; font-weight: 600; line-height: 1.4; }
+
+/* confirmed-by badges */
+.conf-badge {
+  font-size: 12px; padding: 2px 7px; border-radius: 3px; font-weight: 600;
+  background: rgba(107,124,255,.12); color: var(--accent); border: 1px solid rgba(107,124,255,.3);
+}
+.conf-badge.both { background: rgba(68,204,136,.12); color: var(--up); border-color: rgba(68,204,136,.3); }
+
+.imp { font-size: 12px; font-weight: 700; padding: 2px 7px; border-radius: 3px; text-transform: uppercase; letter-spacing: .04em; }
+.imp.critical { background: rgba(255,68,85,.15);    color: var(--critical); border: 1px solid rgba(255,68,85,.3); }
+.imp.major    { background: rgba(255,140,66,.15);   color: var(--major);    border: 1px solid rgba(255,140,66,.3); }
+.imp.minor    { background: rgba(107,124,255,.10);  color: var(--minor);    border: 1px solid rgba(107,124,255,.3); }
+
+.evt-title   { font-size: 16px; font-weight: 600; line-height: 1.4; display: -webkit-box; -webkit-line-clamp: 4; -webkit-box-orient: vertical; overflow: hidden; }
 .evt-summary {
-  font-size: 12px; color: var(--text-muted); line-height: 1.5;
+  font-size: 15px; color: var(--text-muted); line-height: 1.5;
   display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden;
 }
-.evt-chips { display: flex; flex-wrap: wrap; gap: 4px; padding: 0 14px 10px; }
+.evt-chips { display: flex; flex-wrap: nowrap; gap: 4px; padding: 0 14px 10px; }
+
 /* detail */
 .evt-detail { display: none; border-top: 1px solid var(--border); }
 .evt-card.open .evt-detail { display: block; }
 .tabs { display: flex; border-bottom: 1px solid var(--border); }
 .tab {
-  flex: 1; padding: 7px; background: none; border: none; cursor: pointer;
-  font-size: 11px; color: var(--text-muted); border-bottom: 2px solid transparent; transition: all .15s;
+  flex: 1; padding: 8px 4px; background: none; border: none; cursor: pointer;
+  font-size: 13px; color: var(--text-muted); border-bottom: 2px solid transparent; transition: all .15s;
 }
 .tab.on { color: var(--accent); border-bottom-color: var(--accent); }
-.pane { display: none; padding: 12px 14px; }
+.tab.trump-tab.on { color: var(--trump); border-bottom-color: var(--trump); }
+.pane { display: none; padding: 12px 14px; max-height: 300px; overflow-y: auto; }
 .pane.on { display: block; }
-/* source list */
-.src-list { display: flex; flex-direction: column; gap: 8px; }
-.src-card { background: var(--surface2); border: 1px solid var(--border); border-radius: 6px; padding: 10px 12px; }
-.src-top { display: flex; justify-content: space-between; align-items: center; margin-bottom: 4px; }
-.src-name { font-size: 11px; font-weight: 600; color: var(--accent); }
-.src-meta { font-size: 10px; color: var(--text-muted); }
-.src-title { font-size: 12px; font-weight: 600; margin-bottom: 4px; }
-.src-summary { font-size: 11px; color: var(--text-muted); line-height: 1.5; margin-bottom: 6px; }
-.src-foot { display: flex; justify-content: space-between; align-items: center; gap: 4px; }
-.src-views { font-size: 10px; color: var(--text-muted); }
-.src-link {
-  font-size: 10px; color: var(--accent); text-decoration: none;
-  border: 1px solid rgba(107,124,255,.3); padding: 2px 7px; border-radius: 3px;
+
+/* source links (authoritative) */
+.auth-src-row {
+  display: flex; gap: 6px; padding: 8px 14px 0; flex-wrap: wrap;
 }
-.src-link:hover { background: rgba(107,124,255,.1); }
+.auth-src-link {
+  font-size: 12px; color: var(--text-muted); text-decoration: none;
+  border: 1px solid var(--border); padding: 2px 8px; border-radius: 3px; background: var(--surface2);
+}
+.auth-src-link:hover { color: var(--accent); border-color: var(--accent); }
+
+/* article list */
+.art-list { display: flex; flex-direction: column; gap: 8px; }
+.art-card { background: var(--surface2); border: 1px solid var(--border); border-radius: 6px; padding: 10px 12px; }
+.art-top { display: flex; justify-content: space-between; align-items: center; margin-bottom: 4px; gap: 6px; }
+.art-source { font-size: 14px; font-weight: 600; color: var(--accent); }
+.art-meta { font-size: 13px; color: var(--text-muted); white-space: nowrap; }
+.art-title { font-size: 15px; font-weight: 600; margin-bottom: 4px; line-height: 1.4; }
+.art-summary { font-size: 14px; color: var(--text-muted); line-height: 1.5; margin-bottom: 6px; }
+.art-foot { display: flex; justify-content: space-between; align-items: center; }
+.art-rel { font-size: 12px; color: var(--text-muted); font-style: italic; flex: 1; padding-right: 8px; }
+.art-link {
+  font-size: 12px; color: var(--accent); text-decoration: none;
+  border: 1px solid rgba(107,124,255,.3); padding: 2px 7px; border-radius: 3px; white-space: nowrap;
+}
+.art-link:hover { background: rgba(107,124,255,.1); }
+
+/* trump posts */
+.trump-list { display: flex; flex-direction: column; gap: 8px; }
+.trump-card {
+  background: rgba(232,184,75,.06); border: 1px solid rgba(232,184,75,.2);
+  border-radius: 6px; padding: 10px 12px;
+}
+.trump-top { display: flex; justify-content: space-between; align-items: center; margin-bottom: 6px; }
+.trump-name { font-size: 14px; font-weight: 700; color: var(--trump); }
+.trump-time { font-size: 13px; color: var(--text-muted); }
+.trump-text { font-size: 15px; line-height: 1.5; margin-bottom: 6px; }
+.trump-foot { display: flex; justify-content: space-between; align-items: center; }
+.trump-rel { font-size: 12px; color: var(--text-muted); font-style: italic; }
+.trump-link {
+  font-size: 12px; color: var(--trump); text-decoration: none;
+  border: 1px solid rgba(232,184,75,.3); padding: 2px 7px; border-radius: 3px;
+}
+.trump-link:hover { background: rgba(232,184,75,.1); }
+
 /* svg chart */
 .chart-wrap { width: 100%; }
-.chart-wrap svg { width: 100%; height: 140px; display: block; }
+.chart-wrap svg { width: 100%; height: 160px; display: block; }
+
+/* import overlay */
+#import-overlay {
+  position: fixed; inset: 0; background: var(--bg);
+  display: flex; flex-direction: column; align-items: center; justify-content: center;
+  gap: 16px; z-index: 300;
+}
+#import-overlay h2 { font-size: 22px; font-weight: 700; }
+#import-overlay p { font-size: 15px; color: var(--text-muted); text-align: center; line-height: 1.6; }
+#import-drop {
+  width: 360px; border: 2px dashed var(--border); border-radius: 12px;
+  padding: 36px 24px; text-align: center; cursor: pointer;
+  transition: border-color .15s, background .15s;
+}
+#import-drop:hover, #import-drop.drag-over {
+  border-color: var(--accent); background: rgba(107,124,255,.07);
+}
+#import-drop .drop-icon { font-size: 36px; margin-bottom: 10px; }
+#import-drop .drop-label { font-size: 15px; color: var(--text-muted); }
+#import-drop .drop-hint  { font-size: 13px; color: var(--text-muted); opacity: .6; margin-top: 6px; }
+#import-file-input { display: none; }
+#import-btn {
+  background: var(--accent); color: #fff; border: none; border-radius: 8px;
+  padding: 10px 28px; font-size: 15px; font-weight: 600; cursor: pointer;
+}
+#import-btn:hover { opacity: .88; }
+
 /* misc */
 #loading {
   position: fixed; inset: 0; background: var(--bg);
   display: flex; align-items: center; justify-content: center;
-  font-size: 13px; color: var(--text-muted); z-index: 200;
+  font-size: 15px; color: var(--text-muted); z-index: 200;
 }
-.empty { padding: 32px; color: var(--text-muted); font-size: 13px; }
+.empty { color: var(--text-muted); font-size: 14px; padding: 12px 0; }
+.no-data { color: var(--text-muted); font-size: 13px; padding: 8px 0; font-style: italic; }
+
 @media (max-width: 768px) {
   #sidebar { display: none; }
   .day-col { width: calc(100vw - 40px); min-width: calc(100vw - 40px); }
 }
+#side-panel {
+  display: none;
+  position: fixed;
+  width: 616px;
+  max-height: calc(100vh - 80px);
+  overflow-y: auto;
+  background: var(--surface);
+  border: 1px solid var(--accent);
+  border-radius: 10px;
+  box-shadow: 0 8px 32px rgba(0,0,0,.5);
+  z-index: 150;
+}
+#side-panel .evt-detail {
+  display: block !important;
+  border-top: none;
+}
+#side-panel .auth-src-row { padding-top: 12px; }
 </style>
 </head>
 <body>
 
 <div id="loading">데이터 로딩 중…</div>
 
+<div id="import-overlay" style="display:none">
+  <h2>뉴스-시장 타임라인</h2>
+  <p>JSON 파일을 선택하거나 여기로 드래그하세요.<br>
+     <code style="font-size:13px;color:var(--accent)">news.json</code> 은 필수,
+     <code style="font-size:13px;color:var(--accent)">config.json</code>·<code style="font-size:13px;color:var(--accent)">market.json</code> 은 선택입니다.</p>
+  <div id="import-drop" onclick="document.getElementById('import-file-input').click()"
+       ondragover="event.preventDefault();this.classList.add('drag-over')"
+       ondragleave="this.classList.remove('drag-over')"
+       ondrop="handleDrop(event)">
+    <div class="drop-icon">📂</div>
+    <div class="drop-label">파일을 여기로 드래그</div>
+    <div class="drop-hint">또는 클릭하여 선택</div>
+  </div>
+  <input type="file" id="import-file-input" multiple accept=".json" onchange="handleFileInput(event)">
+  <button id="import-btn" onclick="document.getElementById('import-file-input').click()">JSON 파일 선택</button>
+</div>
+
 <div id="header">
   <h1 id="cat-title">뉴스-시장 타임라인</h1>
+  <div id="source-badges"></div>
+  <div id="header-divider"></div>
   <div id="market-legend"></div>
+  <div style="margin-left:auto">
+    <button id="legend-toggle-btn" onclick="toggleLegendPanel()">
+      라벨 안내 <span class="arrow">▼</span>
+    </button>
+  </div>
+</div>
+
+<div id="legend-panel">
+  <div class="lp-section">
+    <div class="lp-title">중요도</div>
+    <div class="lp-row"><span class="lp-badge critical">CRITICAL</span><span class="lp-desc">전략 시설 공습·핵 사용·새 국가 참전·해협 봉쇄 등 전쟁의 흐름을 바꾸는 사건</span></div>
+    <div class="lp-row"><span class="lp-badge major">MAJOR</span><span class="lp-desc">대규모 공격·공식 사상자 확인·주요 외교 결렬/합의·주요 군함 격침 등</span></div>
+    <div class="lp-row"><span class="lp-badge minor">MINOR</span><span class="lp-desc">소규모 교전·외교 성명·부대 이동 등 직접적 전세 변화가 없는 사건</span></div>
+  </div>
+  <div class="lp-section">
+    <div class="lp-title">출처 확인</div>
+    <div class="lp-row"><span class="lp-badge both">✓ 양쪽 확인</span><span class="lp-desc">Wikipedia와 IranWarLive 두 사이트 모두 동일 사건을 독립적으로 보도</span></div>
+    <div class="lp-row"><span class="lp-badge wiki">✓ wikipedia</span><span class="lp-desc">한 사이트에서만 보도. 사실일 가능성은 높으나 교차 확인 미완료</span></div>
+  </div>
+  <div class="lp-section">
+    <div class="lp-title">시장 지표</div>
+    <div id="lp-markets"></div>
+  </div>
+  <div class="lp-section">
+    <div class="lp-title">트럼프 𝕏</div>
+    <div class="lp-row"><span class="lp-badge unverified" style="font-size:12px">𝕏 N</span><span class="lp-desc">해당 사건 날짜 ±2일 이내 트럼프 X(트위터) 게시물 수. 클릭 시 상세보기 탭에서 확인 가능</span></div>
+  </div>
 </div>
 
 <div id="body-wrap">
@@ -184,31 +371,17 @@ body {
 <script>
 'use strict';
 let CFG = null, NEWS = null, MKT = null, SLUG = null;
+let _openCardId = null;
 
 /* utils */
-const fdelta = p => {
-  if (p == null) return null;
-  return (p > 0 ? '+' : '') + p.toFixed(2) + '%';
-};
-const dcls = p => (!p || Math.abs(p) < 0.05) ? 'flat' : p > 0 ? 'up' : 'down';
-const fviews = n => {
-  if (!n || n < 0) return '';
-  if (n >= 1e6) return (n/1e6).toFixed(1) + 'M 뷰';
-  if (n >= 1e3) return (n/1e3).toFixed(0) + 'K 뷰';
-  return n + ' 뷰';
-};
-const fdate = s => {
-  const d = new Date(s + 'T00:00:00Z');
-  return d.toLocaleDateString('ko-KR', { month:'long', day:'numeric', weekday:'short', timeZone:'UTC' });
-};
-const ftime = s => {
-  if (!s) return '';
-  return new Date(s).toLocaleTimeString('ko-KR', { hour:'2-digit', minute:'2-digit', timeZone:'Asia/Seoul' });
-};
 const esc = s => (s||'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/'/g,'&#39;').replace(/"/g,'&quot;');
 const safeUrl = u => (u && (u.startsWith('https://') || u.startsWith('http://'))) ? u : '#';
+const fdelta = p => p == null ? null : (p > 0 ? '+' : '') + p.toFixed(2) + '%';
+const dcls   = p => (!p || Math.abs(p) < 0.05) ? 'flat' : p > 0 ? 'up' : 'down';
+const fdate  = s => new Date(s + 'T00:00:00Z').toLocaleDateString('ko-KR', { month:'long', day:'numeric', weekday:'short', timeZone:'UTC' });
+const ftime  = s => s ? new Date(s).toLocaleTimeString('ko-KR', { hour:'2-digit', minute:'2-digit', timeZone:'UTC', hour12: false }) : '';
+const ftimeKST = s => s ? new Date(s).toLocaleTimeString('ko-KR', { hour:'2-digit', minute:'2-digit', timeZone:'Asia/Seoul' }) + ' KST' : '';
 
-/* data loading */
 async function jfetch(p) {
   const r = await fetch(p);
   if (!r.ok) throw new Error(p + ' ' + r.status);
@@ -224,7 +397,9 @@ async function loadCat(slug) {
       jfetch(`data/${slug}/news.json`),
     ]);
     try { MKT = await jfetch(`data/${slug}/market.json`); } catch { MKT = null; }
-    renderHeader(); renderTimeline(); updateActive(slug);
+    renderHeader();
+    renderTimeline();
+    updateActive(slug);
   } catch(e) {
     document.getElementById('timeline').innerHTML = `<div class="empty">오류: ${esc(e.message)}</div>`;
   } finally {
@@ -233,171 +408,438 @@ async function loadCat(slug) {
 }
 
 async function init() {
+  if (window.location.protocol === 'file:') {
+    document.getElementById('loading').style.display = 'none';
+    document.getElementById('import-overlay').style.display = 'flex';
+    return;
+  }
   let reg;
   try { reg = await jfetch('data/registry.json'); }
   catch { reg = { categories: [{ slug:'iran-war', name:'이란-이스라엘 전쟁', last_updated:'' }] }; }
   renderSidebar(reg.categories);
   if (reg.categories.length) await loadCat(reg.categories[0].slug);
+  document.body.addEventListener('click', e => {
+    if (_openCardId && !e.target.closest('#side-panel') && !e.target.closest('.evt-card')) closePanel();
+  });
 }
 
-/* render */
+function readJsonFile(file) {
+  return new Promise((resolve, reject) => {
+    const reader = new FileReader();
+    reader.onload = e => { try { resolve(JSON.parse(e.target.result)); } catch(err) { reject(err); } };
+    reader.onerror = reject;
+    reader.readAsText(file);
+  });
+}
+
+async function loadFromFiles(files) {
+  const map = {};
+  for (const f of files) map[f.name.toLowerCase()] = f;
+
+  if (!map['news.json']) {
+    alert('news.json 파일이 필요합니다.');
+    return;
+  }
+
+  document.getElementById('import-overlay').style.display = 'none';
+  document.getElementById('loading').style.display = 'flex';
+
+  try {
+    NEWS = await readJsonFile(map['news.json']);
+    CFG  = map['config.json'] ? await readJsonFile(map['config.json']) : {
+      name: NEWS.topic || '타임라인',
+      authoritative_sources: [],
+      markets: [],
+    };
+    MKT  = map['market.json'] ? await readJsonFile(map['market.json']) : null;
+
+    const slug = 'imported';
+    SLUG = slug;
+    renderSidebar([{ slug, name: CFG.name || NEWS.topic || '타임라인', last_updated: NEWS.last_updated || '' }]);
+    updateActive(slug);
+    renderHeader();
+    renderTimeline();
+  } catch(e) {
+    alert('파일 읽기 오류: ' + e.message);
+    document.getElementById('import-overlay').style.display = 'flex';
+  } finally {
+    document.getElementById('loading').style.display = 'none';
+  }
+}
+
+function handleFileInput(e) { loadFromFiles(Array.from(e.target.files)); }
+function handleDrop(e) {
+  e.preventDefault();
+  document.getElementById('import-drop').classList.remove('drag-over');
+  loadFromFiles(Array.from(e.dataTransfer.files));
+}
+
+/* ─── render header ─── */
 function renderHeader() {
   document.getElementById('cat-title').textContent = CFG.name || '타임라인';
+
+  // authoritative source badges
+  const badges = (CFG.authoritative_sources || []).map(s =>
+    `<a class="source-badge" href="${safeUrl(s.url)}" target="_blank" rel="noopener">
+      <span class="source-badge-dot"></span>${esc(s.label || s.name)}
+    </a>`
+  ).join('');
+  document.getElementById('source-badges').innerHTML = badges;
+
+  // market legend
   document.getElementById('market-legend').innerHTML =
     (CFG.markets || []).map(m =>
       `<span class="legend-item"><span class="legend-key">${esc(m.key)}</span> ${esc(m.label)}</span>`
     ).join('');
 }
 
+function fLastUpdated(iso) {
+  if (!iso) return '';
+  const d = new Date(iso);
+  const date = d.toLocaleDateString('ko-KR', { year:'numeric', month:'2-digit', day:'2-digit', timeZone:'Asia/Seoul' });
+  const time = d.toLocaleTimeString('ko-KR', { hour:'2-digit', minute:'2-digit', timeZone:'Asia/Seoul' });
+  return `${date} ${time}`;
+}
+
 function renderSidebar(cats) {
-  document.getElementById('cat-list').innerHTML = cats.map(c =>
-    `<button class="cat-btn" data-slug="${esc(c.slug)}" onclick="loadCat('${esc(c.slug)}')">${esc(c.name)}<span class="cat-date">${c.last_updated ? c.last_updated.slice(0,10) : ''}</span></button>`
-  ).join('');
+  document.getElementById('cat-list').innerHTML = cats.map(c => {
+    const lu = fLastUpdated(c.last_updated);
+    return `<button class="cat-btn" data-slug="${esc(c.slug)}" onclick="loadCat('${esc(c.slug)}')">${esc(c.name)}${lu ? `<span class="cat-date"><span class="cat-date-label">마지막 검색</span> ${esc(lu)}</span>` : ''}</button>`;
+  }).join('');
 }
 
 function updateActive(slug) {
   document.querySelectorAll('.cat-btn').forEach(b => b.classList.toggle('active', b.dataset.slug === slug));
 }
 
+/* ─── market helpers ─── */
 function dailyMkt(date) {
   if (!MKT || !CFG) return [];
   return (CFG.markets || []).flatMap(m => {
     const td = MKT.tickers?.[m.ticker];
     const day = td?.daily?.find(d => d.date === date);
-    if (!day) return [];
+    if (!day) return [{ key: m.key, delta: null }];
     const prev = td.daily.filter(d => d.date < date).slice(-1)[0];
-    const base = prev?.close || day.open;
+    const base = prev?.close ?? day.open;
     const delta = base ? (day.close - base) / base * 100 : 0;
     return [{ key: m.key, delta }];
   });
 }
 
-function evtMkt(evt) {
-  if (!evt.market_impact || !CFG) return [];
-  return (CFG.markets || []).flatMap(m => {
-    const mi = evt.market_impact[m.key];
-    return mi ? [{ key: m.key, delta: mi.delta_pct }] : [];
-  });
+function evtMkt(evt, date) {
+  // prefer market_impact per-event delta, fall back to daily delta
+  const hasMI = evt.market_impact && Object.keys(evt.market_impact).length > 0;
+  if (hasMI && CFG) {
+    return (CFG.markets || []).flatMap(m => {
+      const mi = evt.market_impact[m.key];
+      return mi ? [{ key: m.key, delta: mi.delta_pct }] : [];
+    });
+  }
+  return dailyMkt(date);
 }
 
 function chips(items) {
   return items.map(i => {
     const d = fdelta(i.delta);
-    return `<span class="mkt-chip ${dcls(i.delta)}">${esc(i.key)} ${d || '—'}</span>`;
+    return `<span class="mkt-chip ${dcls(i.delta)}">${esc(i.key)} ${d ?? '0.00%'}</span>`;
   }).join('');
 }
 
+/* ─── timeline render ─── */
 function renderTimeline() {
   const tl = document.getElementById('timeline');
-  if (!NEWS?.events?.length) { tl.innerHTML = '<div class="empty">이벤트 없음</div>'; return; }
+  if (!NEWS?.events?.length) { tl.innerHTML = '<div class="empty" style="padding:40px">이벤트 없음</div>'; return; }
 
   const byDate = {};
-  for (const e of NEWS.events) { const d = e.date.slice(0,10); (byDate[d] = byDate[d]||[]).push(e); }
-  const dates = Object.keys(byDate).sort();
+  for (const e of NEWS.events) {
+    const d = (e.date || '').slice(0, 10);
+    (byDate[d] = byDate[d] || []).push(e);
+  }
+  const dates = Object.keys(byDate).sort().reverse();
 
   tl.innerHTML = dates.map(date => {
     const evts = byDate[date];
+    const dayChips = chips(dailyMkt(date));
     return `<div class="day-col">
       <div class="day-header">
         <div class="day-dot"></div>
         <div class="day-label">${fdate(date)}</div>
-        <div class="day-market-row">${chips(dailyMkt(date))}</div>
+        ${dayChips ? `<div class="day-market-row">${dayChips}</div>` : ''}
       </div>
-      <div class="day-events">${evts.map(e => evtCard(e)).join('')}</div>
+      <div class="day-events">${evts.map(e => evtCard(e, date)).join('')}</div>
     </div>`;
   }).join('');
 }
 
-function evtCard(evt) {
-  const id = esc(evt.event_id);
-  const srcs = [...new Set((evt.articles||[]).map(a=>a.source))].slice(0,3);
-  const t0 = evt.articles?.[0]?.published_date;
-  const mktChips = chips(evtMkt(evt));
+function evtCard(evt, date) {
+  const id = esc(evt.event_id || evt.raw_id || Math.random().toString(36).slice(2));
+  const confirmedBy = evt.confirmed_by || [];
+  const isBoth = confirmedBy.length >= 2;
+  const mktChips = chips(evtMkt(evt, date));
+
+  // confirmed_by badge
+  const confLabel = isBoth ? '✓ 양쪽 확인' : confirmedBy.length === 1 ? `✓ ${confirmedBy[0]}` : '';
+  const confBadge = confLabel
+    ? `<span class="conf-badge ${isBoth ? 'both' : ''}">${esc(confLabel)}</span>` : '';
+
+  // trump count badge
+  const trumpCount = (evt.trump_posts || []).length;
+  const trumpBadge = trumpCount > 0
+    ? `<span class="conf-badge" style="color:var(--trump);background:rgba(232,184,75,.1);border-color:rgba(232,184,75,.3)">𝕏 ${trumpCount}</span>` : '';
+
+  // article count
+  const artCount = (evt.related_articles || evt.articles || []).length;
+  const artBadge = artCount > 0
+    ? `<span class="conf-badge" style="color:var(--text-muted);background:transparent">기사 ${artCount}</span>` : '';
+
+  const title = esc(evt.title || evt.title_ko || '');
+  const summary = esc(evt.summary || evt.description_ko || '');
+  const imp = esc(evt.importance || 'minor');
+  const t = (evt.time && evt.time !== '00:00:00Z') ? `<span class="evt-time">${ftime(date + 'T' + evt.time)}</span>` : `<span class="evt-time" style="color:var(--text-muted)">시각 미상</span>`;
 
   return `<div class="evt-card" id="evc-${id}" onclick="toggleCard('${id}')">
     <div class="evt-head">
       <div class="evt-meta">
-        ${t0 ? `<span class="evt-time">${ftime(t0)}</span>` : ''}
-        ${srcs.map(s=>`<span class="src-tag">${esc(s)}</span>`).join('')}
-        <span class="imp ${esc(evt.importance)}">${esc(evt.importance)}</span>
+        ${t}
+        <span class="imp ${imp}">${imp}</span>
+        ${confBadge}
+        ${trumpBadge}
+        ${artBadge}
       </div>
-      <div class="evt-title">${esc(evt.title)}</div>
-      <div class="evt-summary">${esc(evt.summary)}</div>
+      <div class="evt-title">${title}</div>
+      <div class="evt-summary">${summary}</div>
     </div>
     ${mktChips ? `<div class="evt-chips">${mktChips}</div>` : ''}
-    <div class="evt-detail">
+    <div class="evt-detail" onclick="event.stopPropagation()">
+      ${authSrcRow(evt)}
       <div class="tabs">
-        <button class="tab on" onclick="swTab(event,'${id}','src')">출처 목록</button>
-        <button class="tab"    onclick="swTab(event,'${id}','cht')">차트</button>
+        <button class="tab on"       onclick="swTab(event,'${id}','art')">관련 기사</button>
+        ${trumpCount > 0 ? `<button class="tab trump-tab" onclick="swTab(event,'${id}','trp')">𝕏 트럼프 (${trumpCount})</button>` : ''}
+        <button class="tab"          onclick="swTab(event,'${id}','cht')">차트</button>
       </div>
-      <div class="pane on" id="pane-src-${id}">${srcList(evt.articles||[])}</div>
-      <div class="pane"    id="pane-cht-${id}">${chartPane(evt)}</div>
+      <div class="pane on" id="pane-art-${id}">${artList(evt.related_articles || evt.articles || [])}</div>
+      ${trumpCount > 0 ? `<div class="pane" id="pane-trp-${id}">${trumpList(evt.trump_posts || [])}</div>` : ''}
+      <div class="pane"    id="pane-cht-${id}">${chartPane(evt, date)}</div>
     </div>
   </div>`;
 }
 
-function srcList(articles) {
-  if (!articles.length) return '<p class="empty" style="padding:8px 0">기사 없음</p>';
-  return `<div class="src-list">${articles.map(a => `
-    <div class="src-card">
-      <div class="src-top">
-        <span class="src-name">${esc(a.source)}</span>
-        <span class="src-meta">${ftime(a.published_date)} · ${a.verification_status==='verified'?'✓ 검증':esc(a.verification_status||'')}</span>
+function authSrcRow(evt) {
+  const urls = evt.source_urls || {};
+  const links = Object.entries(urls).map(([k, u]) =>
+    `<a class="auth-src-link" href="${safeUrl(u)}" target="_blank" rel="noopener">${esc(k)} ↗</a>`
+  ).join('');
+  return links ? `<div class="auth-src-row">${links}</div>` : '';
+}
+
+function artList(articles) {
+  if (!articles.length) return '<p class="no-data">관련 기사 없음</p>';
+  return `<div class="art-list">${articles.slice(0, 3).map(a => {
+    const bias = a.source_bias ? ` · ${esc(a.source_bias)}` : '';
+    const rel  = a.source_reliability ? ` · 신뢰 ${a.source_reliability}` : '';
+    return `<div class="art-card">
+      <div class="art-top">
+        <span class="art-source">${esc(a.source)}</span>
+        <span class="art-meta">${ftime(a.published_date)}${bias}${rel}</span>
       </div>
-      <div class="src-title">${esc(a.title_ko||a.title)}</div>
-      <div class="src-summary">${esc(a.summary_ko||a.summary||'')}</div>
-      <div class="src-foot">
-        <span class="src-views">${fviews(a.view_count)}</span>
-        <a class="src-link" href="${safeUrl(a.url)}" target="_blank" rel="noopener">원문 →</a>
+      <div class="art-title">${esc(a.title_ko || a.title)}</div>
+      <div class="art-summary">${esc(a.summary_ko || '')}</div>
+      <div class="art-foot">
+        <span class="art-rel">${esc(a.relevance_note || '')}</span>
+        <a class="art-link" href="${safeUrl(a.url)}" target="_blank" rel="noopener">원문 →</a>
+      </div>
+    </div>`;
+  }).join('')}</div>`;
+}
+
+function trumpList(posts) {
+  if (!posts.length) return '<p class="no-data">트럼프 게시물 없음</p>';
+  return `<div class="trump-list">${posts.map(p => `
+    <div class="trump-card">
+      <div class="trump-top">
+        <span class="trump-name">Donald J. Trump</span>
+        <span class="trump-time">${ftimeKST(p.posted_at)} ${p.posted_at ? p.posted_at.slice(0,10) : ''}</span>
+      </div>
+      <div class="trump-text">${esc(p.text_ko || p.text || '')}</div>
+      <div class="trump-foot">
+        <span class="trump-rel">${esc(p.relevance_note || '')}</span>
+        ${p.url ? `<a class="trump-link" href="${safeUrl(p.url)}" target="_blank" rel="noopener">X에서 보기 →</a>` : ''}
       </div>
     </div>`).join('')}</div>`;
 }
 
-function chartPane(evt) {
-  if (!MKT || !CFG?.markets?.length) return '<p class="empty" style="padding:8px 0">시장 데이터 없음</p>';
-  const m = CFG.markets[0];
-  const td = MKT.tickers?.[m.ticker];
-  if (!td?.daily?.length) return `<p class="empty" style="padding:8px 0">${esc(m.key)} 데이터 없음</p>`;
-  const date = evt.date.slice(0,10);
-  const idx = td.daily.findIndex(d => d.date === date);
-  const sl = idx > 0 ? td.daily.slice(Math.max(0,idx-1), idx+1) : td.daily.slice(0,2);
-  if (!sl.length) return '<p class="empty" style="padding:8px 0">당일 데이터 없음</p>';
-  return `<div class="chart-wrap">${svgChart(sl, m.label)}</div>`;
+/* ─── chart ─── */
+function aggregate10min(bars, eventTimeStr) {
+  if (!bars || !bars.length) return [];
+  const evtMs = new Date(eventTimeStr).getTime();
+  const buckets = new Map();
+  for (const b of bars) {
+    const diffMin = (new Date(b.time).getTime() - evtMs) / 60000;
+    const bucket = Math.floor(diffMin / 10) * 10;
+    if (!buckets.has(bucket)) {
+      buckets.set(bucket, { open: b.open, high: b.high, low: b.low, close: b.close, time: b.time });
+    } else {
+      const cur = buckets.get(bucket);
+      cur.high  = Math.max(cur.high, b.high);
+      cur.low   = Math.min(cur.low,  b.low);
+      cur.close = b.close;
+    }
+  }
+  return [...buckets.entries()]
+    .sort((a, b) => a[0] - b[0])
+    .map(([k, v]) => ({
+      ...v,
+      label: new Date(v.time).toLocaleTimeString('ko-KR', { hour: '2-digit', minute: '2-digit', timeZone: 'Asia/Seoul', hour12: false }),
+      isEvent: k === 0,
+    }));
 }
 
-function svgChart(bars, label) {
-  const W=270, H=120, PT=14, PR=6, PB=22, PL=44;
+function chartPane(evt, date) {
+  if (!MKT || !CFG?.markets?.length) return '<p class="no-data">시장 데이터 없음 (fetch_market.py 실행 필요)</p>';
+  const svgs = CFG.markets.map(m => {
+    const td = MKT.tickers?.[m.ticker];
+    if (!td) return '';
+
+    // 10분봉 우선 (분봉 데이터 있을 때)
+    const win = td.windows?.[evt.event_id];
+    if (win?.bars?.length) {
+      const bars10 = aggregate10min(win.bars, win.event_time);
+      if (bars10.length) return `<div style="margin-bottom:8px">${svgLine10(bars10, m.label, m.key)}</div>`;
+    }
+
+    // fallback: 일봉 ±2일
+    if (!td.daily?.length) return '';
+    const idx = td.daily.findIndex(d => d.date === date);
+    const sl = idx >= 0 ? td.daily.slice(Math.max(0, idx - 2), idx + 3) : td.daily.slice(-5);
+    if (!sl.length) return '';
+    return `<div style="margin-bottom:8px">${svgLineDaily(sl, m.label, m.key)}</div>`;
+  }).join('');
+  return svgs || '<p class="no-data">당일 데이터 없음</p>';
+}
+
+function svgLine10(bars, label, key) {
+  const W=580, H=220, PT=28, PR=12, PB=36, PL=68;
   const cw = W-PL-PR, ch = H-PT-PB;
-  const prices = bars.flatMap(b=>[b.open,b.high,b.low,b.close]);
-  const mn = Math.min(...prices), mx = Math.max(...prices), rng = mx-mn||1;
-  const xs = i => PL + i * (cw / Math.max(bars.length-1,1));
-  const ys = v => PT + ch - ((v-mn)/rng)*ch;
-  const pts = bars.map((b,i)=>`${xs(i)},${ys(b.close)}`).join(' ');
+  const prices = bars.flatMap(b => [b.high, b.low]);
+  const mn = Math.min(...prices), mx = Math.max(...prices), rng = mx - mn || 1;
+  const xs = i => PL + i * (cw / Math.max(bars.length - 1, 1));
+  const ys = v => PT + ch - ((v - mn) / rng) * ch;
+  const pts = bars.map((b, i) => `${xs(i)},${ys(b.close)}`).join(' ');
   const color = bars[bars.length-1].close >= bars[0].close ? '#44cc88' : '#ff4455';
-  const fp = v => v>=1000 ? v.toFixed(0) : v.toFixed(2);
-  return `<svg viewBox="0 0 ${W} ${H}" xmlns="http://www.w3.org/2000/svg" style="background:var(--surface2);border-radius:6px">
-    <text x="3" y="${PT+8}" font-size="9" fill="#8888aa">${esc(label)}</text>
-    <text x="3" y="${PT+ch/2+4}" font-size="8" fill="#8888aa">${fp((mn+mx)/2)}</text>
-    <text x="3" y="${PT+ch}" font-size="8" fill="#8888aa">${fp(mn)}</text>
-    <polyline points="${pts}" fill="none" stroke="${color}" stroke-width="1.5" stroke-linejoin="round"/>
-    ${bars.map((b,i)=>`<text x="${xs(i)}" y="${H-5}" font-size="8" fill="#8888aa" text-anchor="middle">${esc(b.date.slice(5))}</text>`).join('')}
+  const fp = v => v >= 10000 ? v.toFixed(0) : v >= 100 ? v.toFixed(1) : v.toFixed(2);
+  const ticks = [0, 0.25, 0.5, 0.75, 1].map(r => mn + r * rng);
+  const yTicks = ticks.map(v => `
+    <line x1="${PL}" y1="${ys(v)}" x2="${PL+cw}" y2="${ys(v)}" stroke="#252535" stroke-width="1"/>
+    <text x="${PL-6}" y="${ys(v)+5}" font-size="12" fill="#7780bb" text-anchor="end">${fp(v)}</text>
+  `).join('');
+  const evtIdx = bars.findIndex(b => b.isEvent);
+  const evtLine = evtIdx >= 0
+    ? `<line x1="${xs(evtIdx)}" y1="${PT}" x2="${xs(evtIdx)}" y2="${PT+ch}" stroke="#ff4455" stroke-width="2" stroke-dasharray="5,3" opacity=".9"/>
+       <text x="${xs(evtIdx)}" y="${PT-6}" font-size="11" fill="#ff6677" text-anchor="middle" font-weight="700">이벤트</text>`
+    : '';
+  const areaTop = `${PL},${PT+ch} ` + bars.map((b,i) => `${xs(i)},${ys(b.close)}`).join(' ') + ` ${xs(bars.length-1)},${PT+ch}`;
+  return `<svg viewBox="0 0 ${W} ${H}" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:${H}px;display:block;background:#0e0e18;border-radius:8px">
+    <defs><linearGradient id="ag-${key}" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="${color}" stop-opacity="0.18"/>
+      <stop offset="100%" stop-color="${color}" stop-opacity="0"/>
+    </linearGradient></defs>
+    <text x="${PL}" y="18" font-size="14" font-weight="700" fill="#c0c8e8">${esc(key)} ${esc(label)}</text>
+    ${yTicks}${evtLine}
+    <polygon points="${areaTop}" fill="url(#ag-${key})"/>
+    <polyline points="${pts}" fill="none" stroke="${color}" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round"/>
+    ${bars.map((b,i) => `<text x="${xs(i)}" y="${H-10}" font-size="12" fill="${b.isEvent?'#ff6677':'#6670a0'}" text-anchor="middle" ${b.isEvent?'font-weight="700"':''}>${esc(b.label)}</text>`).join('')}
   </svg>`;
 }
 
-/* interactions */
+function svgLineDaily(bars, label, key) {
+  const W=580, H=220, PT=28, PR=12, PB=36, PL=68;
+  const cw = W-PL-PR, ch = H-PT-PB;
+  const prices = bars.flatMap(b => [b.open, b.high, b.low, b.close]);
+  const mn = Math.min(...prices), mx = Math.max(...prices), rng = mx - mn || 1;
+  const xs = i => PL + i * (cw / Math.max(bars.length - 1, 1));
+  const ys = v => PT + ch - ((v - mn) / rng) * ch;
+  const pts = bars.map((b, i) => `${xs(i)},${ys(b.close)}`).join(' ');
+  const color = bars[bars.length-1].close >= bars[0].close ? '#44cc88' : '#ff4455';
+  const fp = v => v >= 10000 ? v.toFixed(0) : v >= 100 ? v.toFixed(1) : v.toFixed(2);
+  const ticks = [0, 0.25, 0.5, 0.75, 1].map(r => mn + r * rng);
+  const yTicks = ticks.map(v => `
+    <line x1="${PL}" y1="${ys(v)}" x2="${PL+cw}" y2="${ys(v)}" stroke="#252535" stroke-width="1"/>
+    <text x="${PL-6}" y="${ys(v)+5}" font-size="12" fill="#7780bb" text-anchor="end">${fp(v)}</text>
+  `).join('');
+  const areaTop = `${PL},${PT+ch} ` + bars.map((b,i) => `${xs(i)},${ys(b.close)}`).join(' ') + ` ${xs(bars.length-1)},${PT+ch}`;
+  return `<svg viewBox="0 0 ${W} ${H}" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:${H}px;display:block;background:#0e0e18;border-radius:8px">
+    <defs><linearGradient id="dg-${key}" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="${color}" stop-opacity="0.18"/>
+      <stop offset="100%" stop-color="${color}" stop-opacity="0"/>
+    </linearGradient></defs>
+    <text x="${PL}" y="18" font-size="14" font-weight="700" fill="#c0c8e8">${esc(key)} ${esc(label)}</text>
+    ${yTicks}
+    <polygon points="${areaTop}" fill="url(#dg-${key})"/>
+    <polyline points="${pts}" fill="none" stroke="${color}" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round"/>
+    ${bars.map((b,i) => `<text x="${xs(i)}" y="${H-10}" font-size="12" fill="#6670a0" text-anchor="middle">${esc(b.date.slice(5))}</text>`).join('')}
+  </svg>`;
+}
+
+function toggleLegendPanel() {
+  const btn = document.getElementById('legend-toggle-btn');
+  const panel = document.getElementById('legend-panel');
+  btn.classList.toggle('open');
+  panel.classList.toggle('open');
+  if (panel.classList.contains('open') && CFG?.markets) {
+    document.getElementById('lp-markets').innerHTML =
+      CFG.markets.map(m =>
+        `<div class="lp-row"><span class="lp-badge wiki" style="font-size:12px;font-weight:800">${esc(m.key)}</span><span class="lp-desc">${esc(m.label)} — 해당 날 종가 기준 전일 대비 등락률</span></div>`
+      ).join('');
+  }
+}
+
+/* ─── interactions ─── */
 function toggleCard(id) {
-  document.getElementById('evc-' + id).classList.toggle('open');
+  if (_openCardId === id) { closePanel(); return; }
+  closePanel();
+  const card = document.getElementById('evc-' + id);
+  card.classList.add('open');
+  _openCardId = id;
+  const detail = card.querySelector('.evt-detail');
+  detail.style.borderTop = 'none';
+  const panel = document.getElementById('side-panel');
+  panel.appendChild(detail);
+  positionPanel(card, panel);
+  panel.style.display = 'block';
+}
+function closePanel() {
+  if (!_openCardId) return;
+  const panel = document.getElementById('side-panel');
+  const card = document.getElementById('evc-' + _openCardId);
+  const detail = panel.querySelector('.evt-detail');
+  if (detail && card) { detail.style.borderTop = ''; card.appendChild(detail); }
+  panel.style.display = 'none';
+  if (card) card.classList.remove('open');
+  _openCardId = null;
+}
+function positionPanel(card, panel) {
+  const rect = card.getBoundingClientRect();
+  const pw = 616;
+  let left = rect.right + 10;
+  if (left + pw > window.innerWidth - 8) left = Math.max(8, rect.left - pw - 10);
+  const top = Math.min(Math.max(60, rect.top), window.innerHeight - 500);
+  panel.style.left = left + 'px';
+  panel.style.top = top + 'px';
 }
 function swTab(e, id, tab) {
   e.stopPropagation();
-  const card = document.getElementById('evc-' + id);
-  card.querySelectorAll('.tab').forEach(b => b.classList.remove('on'));
-  card.querySelectorAll('.pane').forEach(p => p.classList.remove('on'));
-  e.target.classList.add('on');
-  document.getElementById('pane-' + tab + '-' + id).classList.add('on');
+  const panel = document.getElementById('side-panel');
+  const scope = (panel && panel.style.display !== 'none' && panel.querySelector('.evt-detail'))
+    ? panel : document.getElementById('evc-' + id);
+  scope.querySelectorAll('.tab').forEach(b => b.classList.remove('on'));
+  scope.querySelectorAll('.pane').forEach(p => p.classList.remove('on'));
+  e.currentTarget.classList.add('on');
+  const pane = document.getElementById('pane-' + tab + '-' + id);
+  if (pane) pane.classList.add('on');
 }
 
 init();
 </script>
+<div id="side-panel" onclick="event.stopPropagation()"></div>
 </body>
 </html>

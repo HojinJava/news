@@ -1,0 +1,22 @@
+# Python
+*.py
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Agent prompts (private)
+agents/
+CLAUDE.md
+AGENTS.md
+
+# Debug / intermediate files
+debug/
+output/
+docs/
+
+# Misc
+*.log
+*.bak
+viewer_bundle.html
+config.yaml
+requirements.txt

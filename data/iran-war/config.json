@@ -4,8 +4,32 @@
   "markets": [
     { "key": "W", "label": "유가선물(WTI)", "ticker": "CL=F" },
     { "key": "C", "label": "BTC",           "ticker": "BTC-USD" },
-    { "key": "N", "label": "나스닥",         "ticker": "^IXIC" },
+    { "key": "N", "label": "나스닥(QQQ)",     "ticker": "QQQ" },
     { "key": "K", "label": "코스닥",         "ticker": "^KQ11" }
   ],
-  "tags": ["미국", "이란", "이스라엘", "후티", "핵", "미사일", "공습", "드론"]
+  "tags": ["미국", "이란", "이스라엘", "후티", "핵", "미사일", "공습", "드론"],
+  "authoritative_sources": [
+    {
+      "name": "Wikipedia",
+      "label": "Wikipedia 타임라인",
+      "url": "https://en.wikipedia.org/wiki/Timeline_of_the_2026_Iran_war",
+      "logo": "https://en.wikipedia.org/static/images/icons/wikipedia.png"
+    },
+    {
+      "name": "IranWarLive",
+      "label": "Iran War Live",
+      "url": "https://iranwarlive.com/recap",
+      "logo": "https://iranwarlive.com/favicon.ico"
+    }
+  ],
+  "enrichment_sources": {
+    "trump_x": "https://x.com/realDonaldTrump",
+    "news": [
+      { "name": "Reuters",          "search_keyword": "site:reuters.com",   "bias": "center",       "reliability": 95 },
+      { "name": "Associated Press", "search_keyword": "site:apnews.com",    "bias": "center",       "reliability": 95 },
+      { "name": "BBC News",         "search_keyword": "site:bbc.com/news",  "bias": "center-left",  "reliability": 90 },
+      { "name": "The War Zone",     "search_keyword": "site:twz.com",       "bias": "center-right", "reliability": 85 },
+      { "name": "Al Jazeera",       "search_keyword": "site:aljazeera.com", "bias": "center-left",  "reliability": 80 }
+    ]
+  }
 }

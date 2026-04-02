@@ -885,8 +885,14 @@ function chartPane(evt, date) {
 }
 
 function svgCombined(lines) {
-  const W=580, H=260, PT=32, PR=46, PB=36, PL=54;
-  const cw = W-PL-PR, ch = H-PT-PB;
+  const LEGEND_ROWS = lines.length; // 1줄에 1개
+  const W=580, PT=32, PR=46, PL=54;
+  const CHART_H = 168; // 차트 영역 높이
+  const X_AXIS_Y = PT + CHART_H + 18; // x축 레이블 y
+  const LEGEND_Y0 = X_AXIS_Y + 20; // 범례 시작 y
+  const LEGEND_STEP = 17;
+  const H = LEGEND_Y0 + LEGEND_ROWS * LEGEND_STEP + 6;
+  const cw = W-PL-PR, ch = CHART_H;
   const xs = i => PL + i * (cw / 5);
 
   // 각 라인을 첫 번째 bar 종가 기준 % 변화율로 정규화
@@ -955,16 +961,15 @@ function svgCombined(lines) {
   // X축 레이블
   const xLabels = normalized[0].bars.map((b, i) => {
     const isEvt = i === evtIdx;
-    return `<text x="${xs(i)}" y="${H-8}" font-size="11" fill="${isEvt?'#ff6677':'#6670a0'}" text-anchor="middle" ${isEvt?'font-weight="700"':''}>${esc(b.label)}</text>`;
+    return `<text x="${xs(i)}" y="${X_AXIS_Y}" font-size="11" fill="${isEvt?'#ff6677':'#6670a0'}" text-anchor="middle" ${isEvt?'font-weight="700"':''}>${esc(b.label)}</text>`;
   }).join('');
 
-  // 하단 범례
+  // 하단 범례 — 1줄에 1개
   const legendItems = lines.map(({key, label, ticker}, i) => {
     const color = TICKER_COLORS[ticker] || '#aaaacc';
-    const itemW = 130;
-    const lx = PL + i * itemW;
-    return `<circle cx="${lx}" cy="${H-8}" r="4" fill="${color}"/>
-    <text x="${lx+9}" y="${H-4}" font-size="11" fill="#8888aa">${esc(key)} ${esc(label)}</text>`;
+    const ly = LEGEND_Y0 + i * LEGEND_STEP;
+    return `<circle cx="${PL}" cy="${ly-3}" r="4" fill="${color}"/>
+    <text x="${PL+12}" y="${ly}" font-size="12" fill="#9090b0"><tspan font-weight="700" fill="${color}">${esc(key)}</tspan>  ${esc(label)}</text>`;
   }).join('');
 
   return `<svg viewBox="0 0 ${W} ${H}" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:${H}px;display:block;background:#0e0e18;border-radius:8px">

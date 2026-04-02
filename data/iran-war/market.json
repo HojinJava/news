@@ -212,12 +212,12 @@
         },
         {
           "date": "2026-04-01",
-          "open": NaN,
-          "high": NaN,
-          "low": NaN,
-          "close": NaN,
+          "open": null,
+          "high": null,
+          "low": null,
+          "close": null,
           "volume": 4876,
-          "delta_pct": NaN
+          "delta_pct": null
         }
       ],
       "windows": {

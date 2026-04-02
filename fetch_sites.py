@@ -322,7 +322,29 @@ def fetch_category_sites(slug: str, date_from: str, date_to: str) -> None:
 
     out_dir = Path("pipeline") / slug
     out_dir.mkdir(parents=True, exist_ok=True)
-    out_path = out_dir / "01_site_events.json"
+    out_path = out_dir / "raw_events.json"
+
+    # 누적 append: 기존 raw_events.json이 있으면 새 이벤트만 추가
+    if out_path.exists():
+        existing_raw = json.loads(out_path.read_text(encoding="utf-8"))
+        existing_keys = {
+            (e.get("source_site", ""), e.get("date", ""), e.get("title_en", ""))
+            for e in existing_raw.get("events", [])
+        }
+        new_events = [
+            e for e in all_events
+            if (e.get("source_site", ""), e.get("date", ""), e.get("title_en", "")) not in existing_keys
+        ]
+        merged_events = existing_raw.get("events", []) + new_events
+        # date_range 확장
+        all_dates = [e.get("date", "") for e in merged_events if e.get("date")]
+        merged_from = min(all_dates) if all_dates else date_from
+        merged_to   = max(all_dates) if all_dates else date_to
+        all_events = merged_events
+        date_from, date_to = merged_from, merged_to
+        print(f"  [raw_events] 기존 {len(existing_raw.get('events', []))}건 + 신규 {len(new_events)}건 = {len(all_events)}건")
+    else:
+        print(f"  [raw_events] 신규 생성: {len(all_events)}건")
 
     ai_total = sum(1 for e in all_events if e.get("needs_ai_date"))
     result = {

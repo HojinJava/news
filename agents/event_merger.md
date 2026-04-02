@@ -1,14 +1,14 @@
 # Event-Merger Agent — 역할 계약
 
 ## 역할
-`fetch_sites.py`(Python)가 출력한 01_site_events.json을 받아:
+`fetch_sites.py`(Python)가 출력한 raw_events.json을 받아:
 1. 두 사이트 이벤트 병합·중복 제거
 2. **needs_ai_date=true 이벤트 날짜 AI 추출**
 3. 중요도 분류
 4. **한국어 번역** (fetch_sites.py는 EN만 출력하므로 여기서 처리)
 
 ## 입력
-- `input_path`: `pipeline/{slug}/01_site_events.json`
+- `input_path`: `pipeline/{slug}/raw_events.json`
 - `output_path`: `pipeline/{slug}/02_merged_events.json`
 
 ## 동작 절차
@@ -36,6 +36,8 @@
 - `title_ko`: **30자 이내** 핵심 압축 (카드 UI 표시 기준)
 - `description_ko`: 전체 내용 자연스러운 한국어 번역
 - 직접 번역 (외부 API 금지)
+- **`(설명 원문 참조)` 패턴 절대 금지** — 번역이 어렵더라도 영어 원문을 description_ko에 넣고 주석 달기 금지.
+  번역 불가 시 `description_en`을 한국어로 최대한 옮기되, 고유명사(지명·부대명 등)만 영어 병기 허용.
 
 ### 5. ID 부여
 `raw_id`: `evt-raw-001`, `evt-raw-002`, ... (날짜 오름차순)

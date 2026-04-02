@@ -1,0 +1,97 @@
+{
+  "fetched_at": "2026-04-01T23:37:03Z",
+  "date_range": {
+    "from": "2026-04-01",
+    "to": "2026-04-02"
+  },
+  "sources": [
+    {
+      "name": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Timeline_of_the_2026_Iran_war",
+      "events_count": 8,
+      "ai_needed": 0
+    },
+    {
+      "name": "IranWarLive",
+      "url": "https://iranwarlive.com/recap",
+      "events_count": 0,
+      "ai_needed": 0
+    }
+  ],
+  "total": 8,
+  "ai_date_needed": 0,
+  "events": [
+    {
+      "date": "2026-04-01",
+      "time": "00:00:00Z",
+      "title_en": "A fuel storage at Kuwait International Airport was hit by Iranian drones, causing a major fire. [ 595 ]",
+      "description_en": "",
+      "source_site": "wikipedia",
+      "source_url": "https://en.wikipedia.org/wiki/Timeline_of_the_2026_Iran_war#1_April",
+      "raw_id": "wikipedia-001"
+    },
+    {
+      "date": "2026-04-01",
+      "time": "00:00:00Z",
+      "title_en": "Israel reports 4 missile barrages fired from Iran, with impacts of cluster munition reported from Bnei Brak and Tel Aviv, injuring 14 people. [ 596 ]",
+      "description_en": "",
+      "source_site": "wikipedia",
+      "source_url": "https://en.wikipedia.org/wiki/Timeline_of_the_2026_Iran_war#1_April",
+      "raw_id": "wikipedia-002"
+    },
+    {
+      "date": "2026-04-01",
+      "time": "00:00:00Z",
+      "title_en": "IDF reported a missile launched by Houthi militias was intercepted. [ 596 ]",
+      "description_en": "",
+      "source_site": "wikipedia",
+      "source_url": "https://en.wikipedia.org/wiki/Timeline_of_the_2026_Iran_war#1_April",
+      "raw_id": "wikipedia-003"
+    },
+    {
+      "date": "2026-04-01",
+      "time": "00:00:00Z",
+      "title_en": "Several waves of drones targeted a factory which produced motor oils in Erbil Iraq, causing a major fire. [ 597 ]",
+      "description_en": "",
+      "source_site": "wikipedia",
+      "source_url": "https://en.wikipedia.org/wiki/Timeline_of_the_2026_Iran_war#1_April",
+      "raw_id": "wikipedia-004"
+    },
+    {
+      "date": "2026-04-01",
+      "time": "00:00:00Z",
+      "title_en": "A US strike in Tehran reportedly damaged the former US embassy , which was converted into a museum following its takeover during the Iranian Revolutio",
+      "description_en": "",
+      "source_site": "wikipedia",
+      "source_url": "https://en.wikipedia.org/wiki/Timeline_of_the_2026_Iran_war#1_April",
+      "raw_id": "wikipedia-005"
+    },
+    {
+      "date": "2026-04-01",
+      "time": "00:00:00Z",
+      "title_en": "A claim by Donald Trump that the Iranian president asked for a ceasefire was rejected by Iran as \"false and baseless\". [ 600 ]",
+      "description_en": "",
+      "source_site": "wikipedia",
+      "source_url": "https://en.wikipedia.org/wiki/Timeline_of_the_2026_Iran_war#1_April",
+      "raw_id": "wikipedia-006"
+    },
+    {
+      "date": "2026-04-01",
+      "time": "00:00:00Z",
+      "title_en": "Two US MQ-9 Reaper drones were shot down by Iran near Isfahan , bringing the total number of MQ-9s lost during the war to 16. [ 601 ] [ 602 ]",
+      "description_en": "",
+      "source_site": "wikipedia",
+      "source_url": "https://en.wikipedia.org/wiki/Timeline_of_the_2026_Iran_war#1_April",
+      "raw_id": "wikipedia-007"
+    },
+    {
+      "date": "2026-04-01",
+      "time": "00:00:00Z",
+      "title_en": "Iranian outlet Nournews reported that former foreign minister Kamal Kharazi was seriously injured and his wife was killed in an airstrike which hit hi",
+      "description_en": "",
+      "source_site": "wikipedia",
+      "source_url": "https://en.wikipedia.org/wiki/Timeline_of_the_2026_Iran_war#1_April",
+      "raw_id": "wikipedia-008"
+    }
+  ]
+}

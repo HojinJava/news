@@ -29,10 +29,10 @@ agents/
 ├── enricher.md            # 관련 기사 + 트럼프 게시물 연결
 └── timeline_builder.md    # 최종 news.json 구성
 pipeline/
-└── {slug}/                # 카테고리별 파이프라인 중간 산출물
-    ├── 01_site_events.json    ← Site-Fetcher
-    ├── 02_merged_events.json  ← Event-Merger
-    └── 03_enriched_events.json ← Enricher
+└── {slug}/                # 카테고리별 파이프라인 산출물
+    ├── raw_events.json        ← 누적 원본 (크롤링 그대로, EN only, 덮어쓰기 금지)
+    ├── 02_merged_events.json  ← 재생성 가능 중간 산출물 (Event-Merger)
+    └── 03_enriched_events.json ← 재생성 가능 중간 산출물 (Enricher)
 fetch_market.py
 viewer.html
 ```
@@ -124,20 +124,23 @@ viewer.html이 연산 없이 바로 렌더링할 수 있도록, 모든 계산은
 
 ### Step 1: Site-Fetcher (Python)
 ```bash
-python fetch_sites.py --category {slug} --date-from {date_from} --date-to {date_to}
+python3 fetch_sites.py --category {slug} --date-from {date_from} --date-to {date_to}
 ```
 - `parse_config` CSS 셀렉터 기반으로 HTML 파싱 (BeautifulSoup)
 - 날짜 추출 실패 시 `needs_ai_date: true` 마킹 → Event-Merger가 AI로 처리
 - 번역 없음 (EN 필드만 저장) → Event-Merger가 번역
-- 출력: `pipeline/{slug}/01_site_events.json`
+- 출력: `pipeline/{slug}/raw_events.json` (**누적 append** — 기존 파일에 신규 이벤트만 추가, 중복 자동 제거)
 
 **에이전트 불필요 — Python 직접 실행.**
 AI 개입은 Event-Merger 단계에서만 (날짜 보정 + 번역 + 중요도 분류).
 
+> **raw_events.json 보존 원칙**: 크롤링 원본 데이터로, 향후 재번역·재가공 시 재크롤링 없이 재사용.
+> 절대 수동으로 덮어쓰거나 삭제 금지. 재처리 시 Step 2부터 재실행.
+
 ### Step 2: Event-Merger 서브에이전트
 ```
 역할: agents/event_merger.md
-입력: pipeline/{slug}/01_site_events.json
+입력: pipeline/{slug}/raw_events.json
 출력: pipeline/{slug}/02_merged_events.json
 ```
 두 사이트 사건 병합, 중복 제거, importance 분류.
@@ -190,10 +193,10 @@ json.dump(reg, open('data/registry.json','w'), ensure_ascii=False, indent=2)
    - **전체 재파싱 금지** — date_from ~ 오늘 범위만 수집
 2. Step 1~3 실행 (date_from ~ date_to)
    ```bash
-   python fetch_sites.py --category {slug} --date-from {date_from} --date-to {date_to}
+   python3 fetch_sites.py --category {slug} --date-from {date_from} --date-to {date_to}
    ```
-3. `python build_timeline.py --category {slug} --merge`
-4. `python fetch_market.py --category {slug} --incremental`
+3. `python3 build_timeline.py --category {slug} --merge`
+4. `python3 fetch_market.py --category {slug} --incremental`
 5. registry.json의 last_updated 현재 시각으로 갱신 (Step 6)
 
 ---
@@ -211,7 +214,7 @@ viewer.html 코드 수정 불필요 (동적 로딩).
 ```
 authoritative_sources (Wikipedia + IranWarLive)
     ↓ Site-Fetcher
-pipeline/{slug}/01_site_events.json
+pipeline/{slug}/raw_events.json  (누적 원본, 보존)
     ↓ Event-Merger
 pipeline/{slug}/02_merged_events.json
     ↓ Enricher (트럼프 X + 관련 뉴스)

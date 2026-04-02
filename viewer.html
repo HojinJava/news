@@ -4,6 +4,16 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>뉴스-시장 타임라인</title>
+<meta name="description" content="이란-이스라엘 전쟁 뉴스가 글로벌 금융 시장(유가·BTC·나스닥·코스닥)에 미치는 영향을 실시간 타임라인으로 시각화">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="뉴스-시장 타임라인">
+<meta property="og:title" content="뉴스-시장 타임라인">
+<meta property="og:description" content="이란-이스라엘 전쟁 뉴스가 글로벌 금융 시장에 미치는 영향 타임라인">
+<meta property="og:url" content="https://hojinjava.github.io/news/">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="뉴스-시장 타임라인">
+<meta name="twitter:description" content="이란-이스라엘 전쟁 뉴스가 글로벌 금융 시장에 미치는 영향 타임라인">
+<link rel="canonical" href="https://hojinjava.github.io/news/">
 <style>
 :root {
   --bg: #0a0a0f;
@@ -471,6 +481,29 @@ body {
 <script>
 'use strict';
 let CFG = null, NEWS = null, MKT = null, SLUG = null;
+
+/* ─── SEO / URL routing ─── */
+const BASE_URL = 'https://hojinjava.github.io/news/';
+function getUrlParams() {
+  const p = new URLSearchParams(window.location.search);
+  return { cat: p.get('cat'), evt: p.get('evt') };
+}
+function pushUrl(cat, evt) {
+  const p = new URLSearchParams();
+  if (cat) p.set('cat', cat);
+  if (evt) p.set('evt', evt);
+  const qs = p.toString() ? '?' + p.toString() : '';
+  history.pushState({ cat, evt }, '', location.pathname + qs);
+}
+function updateMeta(title, description, url) {
+  document.title = title + ' — 뉴스-시장 타임라인';
+  const fullUrl = url || BASE_URL;
+  document.querySelector('meta[name="description"]')?.setAttribute('content', description);
+  document.querySelector('meta[property="og:title"]')?.setAttribute('content', title);
+  document.querySelector('meta[property="og:description"]')?.setAttribute('content', description);
+  document.querySelector('meta[property="og:url"]')?.setAttribute('content', fullUrl);
+  document.querySelector('link[rel="canonical"]')?.setAttribute('href', fullUrl);
+}
 let _openCardId = null;
 
 /* utils */
@@ -488,8 +521,9 @@ async function jfetch(p) {
   return r.json();
 }
 
-async function loadCat(slug) {
+async function loadCat(slug, { pushHistory = true, openEvt = null } = {}) {
   SLUG = slug;
+  if (pushHistory) pushUrl(slug, null);
   document.getElementById('loading').style.display = 'flex';
   try {
     [CFG, NEWS] = await Promise.all([
@@ -500,6 +534,15 @@ async function loadCat(slug) {
     renderHeader();
     renderTimeline();
     updateActive(slug);
+    const catName = CFG.name || slug;
+    updateMeta(catName, `${catName} 뉴스가 글로벌 금융 시장에 미치는 영향 타임라인`, `${BASE_URL}?cat=${slug}`);
+    if (openEvt) {
+      // 이벤트 카드가 렌더링된 후 열기
+      requestAnimationFrame(() => {
+        const card = document.getElementById('evc-' + openEvt);
+        if (card) toggleCard(openEvt, { pushHistory: false });
+      });
+    }
   } catch(e) {
     document.getElementById('timeline').innerHTML = `<div class="empty">오류: ${esc(e.message)}</div>`;
   } finally {
@@ -517,9 +560,20 @@ async function init() {
   try { reg = await jfetch('data/registry.json'); }
   catch { reg = { categories: [{ slug:'iran-war', name:'이란-이스라엘 전쟁', last_updated:'' }] }; }
   renderSidebar(reg.categories);
-  if (reg.categories.length) await loadCat(reg.categories[0].slug);
+
+  const { cat, evt } = getUrlParams();
+  const defaultSlug = reg.categories[0]?.slug;
+  const targetSlug = cat || defaultSlug;
+  if (targetSlug) await loadCat(targetSlug, { pushHistory: !cat, openEvt: evt });
+
   document.body.addEventListener('click', e => {
     if (_openCardId && !e.target.closest('#side-panel') && !e.target.closest('.evt-card')) closePanel();
+  });
+  window.addEventListener('popstate', e => {
+    const { cat: c, evt: v } = getUrlParams();
+    if (c && c !== SLUG) loadCat(c, { pushHistory: false, openEvt: v });
+    else if (v && v !== _openCardId) toggleCard(v, { pushHistory: false });
+    else if (!v && _openCardId) closePanel({ pushHistory: false });
   });
 }
 
@@ -923,10 +977,11 @@ function toggleLegendPanel() {
 }
 
 /* ─── interactions ─── */
-function toggleCard(id) {
+function toggleCard(id, { pushHistory = true } = {}) {
   if (_openCardId === id) { closePanel(); return; }
-  closePanel();
+  closePanel({ pushHistory: false });
   const card = document.getElementById('evc-' + id);
+  if (!card) return;
   card.classList.add('open');
   _openCardId = id;
   const detail = card.querySelector('.evt-detail');
@@ -935,8 +990,9 @@ function toggleCard(id) {
   panel.appendChild(detail);
   positionPanel(card, panel);
   panel.style.display = 'block';
+  if (pushHistory && SLUG) pushUrl(SLUG, id);
 }
-function closePanel() {
+function closePanel({ pushHistory = true } = {}) {
   if (!_openCardId) return;
   const panel = document.getElementById('side-panel');
   const card = document.getElementById('evc-' + _openCardId);
@@ -945,6 +1001,7 @@ function closePanel() {
   panel.style.display = 'none';
   if (card) card.classList.remove('open');
   _openCardId = null;
+  if (pushHistory && SLUG) pushUrl(SLUG, null);
 }
 function positionPanel(card, panel) {
   const rect = card.getBoundingClientRect();

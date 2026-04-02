@@ -530,7 +530,7 @@ async function loadCat(slug, { pushHistory = true, openEvt = null } = {}) {
       jfetch(`data/${slug}/config.json`),
       jfetch(`data/${slug}/news.json`),
     ]);
-    try { MKT = await jfetch(`data/${slug}/market.json`); } catch { MKT = null; }
+    try { MKT = await jfetch(`data/${slug}/market.json`); } catch(e) { console.error('market.json 로드 실패:', e); MKT = null; }
     renderHeader();
     renderTimeline();
     updateActive(slug);

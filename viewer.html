@@ -921,7 +921,7 @@ function svgCombined(lines) {
     : '';
 
   // 각 라인 렌더
-  const linesSvg = normalized.map(({key, ticker, bars, pcts}) => {
+  const linesSvg = normalized.map(({key, ticker, bars, pcts}, li) => {
     const color = TICKER_COLORS[ticker] || '#aaaacc';
     const ptArr = pcts.map((p, i) => `${xs(i)},${ys(p)}`);
 
@@ -943,9 +943,11 @@ function svgCombined(lines) {
       ? `<circle cx="${xs(evtIdx)}" cy="${ys(pcts[evtIdx])}" r="3.5" fill="${color}" stroke="#0e0e18" stroke-width="1.5"/>`
       : '';
 
-    // 끝 태그
-    const lastY = ys(pcts[5]);
-    const tag = `<text x="${xs(5)+8}" y="${lastY+4}" font-size="12" font-weight="700" fill="${color}">${esc(key)}</text>`;
+    // 라인별 다른 x 위치에 태그 배치 (겹침 방지: 1~4 분산)
+    const tagIdx = li + 1;
+    const tagY = ys(pcts[tagIdx]);
+    const tag = `<rect x="${xs(tagIdx)-10}" y="${tagY-11}" width="18" height="14" rx="3" fill="#0e0e18" opacity=".8"/>
+    <text x="${xs(tagIdx)}" y="${tagY}" font-size="11" font-weight="700" fill="${color}" text-anchor="middle">${esc(key)}</text>`;
 
     return poly + dot + tag;
   }).join('');

@@ -4,10 +4,22 @@ from __future__ import annotations
 
 import argparse
 import json
+import math
 from datetime import datetime, timezone, timedelta
 from pathlib import Path
 
 import yfinance as yf
+
+
+def _sanitize(obj):
+    """NaN/Infinity → None (JSON null). 재귀적으로 처리."""
+    if isinstance(obj, float) and not math.isfinite(obj):
+        return None
+    if isinstance(obj, dict):
+        return {k: _sanitize(v) for k, v in obj.items()}
+    if isinstance(obj, list):
+        return [_sanitize(v) for v in obj]
+    return obj
 
 
 def calc_window_delta(bars: list[dict], baseline: float) -> float:
@@ -204,7 +216,7 @@ def fetch_category_market(category_slug: str, incremental: bool = False) -> None
         tickers_data[ticker] = {"daily": daily, "windows": windows}
 
     market_json = build_market_json(tickers_data, datetime.now(timezone.utc).isoformat())
-    market_path.write_text(json.dumps(market_json, ensure_ascii=False, indent=2), encoding="utf-8")
+    market_path.write_text(json.dumps(_sanitize(market_json), ensure_ascii=False, indent=2), encoding="utf-8")
     print(f"  market.json 저장: {market_path}")
 
     (base / "news.json").write_text(json.dumps(news, ensure_ascii=False, indent=2), encoding="utf-8")

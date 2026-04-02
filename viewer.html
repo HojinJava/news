@@ -889,8 +889,8 @@ function svgCombined(lines) {
   const W=580, PT=32, PR=46, PL=54;
   const CHART_H = 168; // 차트 영역 높이
   const X_AXIS_Y = PT + CHART_H + 18; // x축 레이블 y
-  const LEGEND_Y0 = X_AXIS_Y + 20; // 범례 시작 y
-  const LEGEND_STEP = 17;
+  const LEGEND_Y0 = X_AXIS_Y + 30; // 범례 시작 y (x축과 간격 확보)
+  const LEGEND_STEP = 18;
   const H = LEGEND_Y0 + LEGEND_ROWS * LEGEND_STEP + 6;
   const cw = W-PL-PR, ch = CHART_H;
   const xs = i => PL + i * (cw / 5);
@@ -926,9 +926,18 @@ function svgCombined(lines) {
     ? `<line x1="${xs(evtIdx)}" y1="${PT}" x2="${xs(evtIdx)}" y2="${PT+ch}" stroke="#ff4455" stroke-width="1.5" stroke-dasharray="4,3" opacity=".7"/>`
     : '';
 
+  // 라인별 스타일 (굵기+패턴 조합으로 구분)
+  const LINE_STYLES = [
+    { w: 3,   dash: '' },          // W: 굵은 실선
+    { w: 2.5, dash: '8,4' },       // C: 긴 점선
+    { w: 2,   dash: '3,3' },       // N: 짧은 점선
+    { w: 2,   dash: '8,3,2,3' },   // K: 쇄선(dash-dot)
+  ];
+
   // 각 라인 렌더
   const linesSvg = normalized.map(({key, ticker, bars, pcts}, li) => {
     const color = TICKER_COLORS[ticker] || '#aaaacc';
+    const style = LINE_STYLES[li] || LINE_STYLES[0];
     const ptArr = pcts.map((p, i) => `${xs(i)},${ys(p)}`);
 
     // real/synthetic 구간 분리
@@ -941,7 +950,7 @@ function svgCombined(lines) {
       } else { cur.pts.push(ptArr[i]); }
     });
     const poly = segs.map(s =>
-      `<polyline points="${s.pts.join(' ')}" fill="none" stroke="${s.t==='syn'?'#3a3a5a':color}" stroke-width="${s.t==='syn'?1.5:2.5}" stroke-dasharray="${s.t==='syn'?'4,3':''}" stroke-linejoin="round" stroke-linecap="round" opacity="${s.t==='syn'?0.45:1}"/>`
+      `<polyline points="${s.pts.join(' ')}" fill="none" stroke="${s.t==='syn'?'#3a3a5a':color}" stroke-width="${s.t==='syn'?1.5:style.w}" stroke-dasharray="${s.t==='syn'?'4,3':style.dash}" stroke-linejoin="round" stroke-linecap="round" opacity="${s.t==='syn'?0.45:1}"/>`
     ).join('');
 
     // 이벤트 시각 점
@@ -964,12 +973,14 @@ function svgCombined(lines) {
     return `<text x="${xs(i)}" y="${X_AXIS_Y}" font-size="11" fill="${isEvt?'#ff6677':'#6670a0'}" text-anchor="middle" ${isEvt?'font-weight="700"':''}>${esc(b.label)}</text>`;
   }).join('');
 
-  // 하단 범례 — 1줄에 1개
+  // 하단 범례 — 1줄에 1개, y축 왼쪽 정렬
   const legendItems = lines.map(({key, label, ticker}, i) => {
     const color = TICKER_COLORS[ticker] || '#aaaacc';
+    const style = LINE_STYLES[i] || LINE_STYLES[0];
     const ly = LEGEND_Y0 + i * LEGEND_STEP;
-    return `<circle cx="${PL}" cy="${ly-3}" r="4" fill="${color}"/>
-    <text x="${PL+12}" y="${ly}" font-size="12" fill="#9090b0"><tspan font-weight="700" fill="${color}">${esc(key)}</tspan>  ${esc(label)}</text>`;
+    const lx = 4; // y축 값과 같은 왼쪽 정렬
+    return `<line x1="${lx}" y1="${ly-3}" x2="${lx+18}" y2="${ly-3}" stroke="${color}" stroke-width="${style.w}" stroke-dasharray="${style.dash}" stroke-linecap="round"/>
+    <text x="${lx+24}" y="${ly}" font-size="11" fill="#9090b0"><tspan font-weight="700" fill="${color}">${esc(key)}</tspan>  ${esc(label)}</text>`;
   }).join('');
 
   return `<svg viewBox="0 0 ${W} ${H}" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:${H}px;display:block;background:#0e0e18;border-radius:8px">

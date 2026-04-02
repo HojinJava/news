@@ -163,15 +163,15 @@ def fetch_category_market(category_slug: str, incremental: bool = False) -> None
 
         for evt in events:
             evt_id   = evt["event_id"]
-            articles = evt.get("related_articles") or evt.get("articles") or []
-            times = [a["published_date"] for a in articles if a.get("published_date")]
-            evt_time = sorted(times)[0] if times else evt.get("date", "") + "T00:00:00Z"
+            raw_time = evt.get("time", "")
+            has_real_time = raw_time and raw_time != "00:00:00Z"
+            evt_time = (evt.get("date", "") + "T" + raw_time) if has_real_time else evt.get("date", "") + "T00:00:00Z"
 
             if evt_id in windows and incremental:
                 continue
 
             print(f"    [{ticker}] 이벤트 {evt_id} 분봉 수집 중...")
-            bars = _fetch_minute_window(ticker, evt_time)
+            bars = _fetch_minute_window(ticker, evt_time) if has_real_time else []
 
             baseline_close = 0.0
             if daily:

@@ -675,7 +675,8 @@ function evtCard(evt, date) {
   const id = esc(evt.event_id || evt.raw_id || Math.random().toString(36).slice(2));
   const confirmedBy = evt.confirmed_by || [];
   const isBoth = confirmedBy.length >= 2;
-  const mktChips = chips(evtMkt(evt, date));
+  const hasRealTime = evt.time && evt.time !== '00:00:00Z';
+  const mktChips = hasRealTime ? chips(evtMkt(evt, date)) : '';
 
   // confirmed_by badge
   const confLabel = isBoth ? '✓ 양쪽 확인' : confirmedBy.length === 1 ? `✓ ${confirmedBy[0]}` : '';
@@ -812,10 +813,12 @@ function normalizeBars10(win) {
 
 function chartPane(evt, date) {
   if (!MKT || !CFG?.markets?.length) return '<p class="no-data">시장 데이터 없음 (fetch_market.py 실행 필요)</p>';
+  if (!evt.time || evt.time === '00:00:00Z') return '<p class="no-data">이벤트 발생 시각 미상 — 분봉 차트 없음</p>';
   const svgs = CFG.markets.map(m => {
     const td = MKT.tickers?.[m.ticker];
     if (!td) return '';
     const win = td.windows?.[evt.event_id];
+    if (win?.event_time?.endsWith('T00:00:00Z')) return '';
     if (win?.bars10?.length) {
       const bars = normalizeBars10(win);
       if (bars) return `<div style="margin-bottom:8px">${svgLine10(bars, m.label, m.key)}</div>`;

@@ -813,7 +813,7 @@ function normalizeBars10(win) {
 
 function chartPane(evt, date) {
   if (!MKT || !CFG?.markets?.length) return '<p class="no-data">시장 데이터 없음 (fetch_market.py 실행 필요)</p>';
-  if (!evt.time || evt.time === '00:00:00Z') return '<p class="no-data">이벤트 발생 시각 미상 — 분봉 차트 없음</p>';
+  if (!evt.time || evt.time === '00:00:00Z') return '<p class="no-data">이벤트 시간 확인 불가능으로 미제공</p>';
   const svgs = CFG.markets.map(m => {
     const td = MKT.tickers?.[m.ticker];
     if (!td) return '';

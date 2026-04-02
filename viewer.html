@@ -878,14 +878,14 @@ function chartPane(evt, date) {
     if (!win || win.event_time?.endsWith('T00:00:00Z')) continue;
     if (!win.bars10?.length) continue;
     const bars = normalizeBars10(win);
-    if (bars) lines.push({ key: m.key, ticker: m.ticker, bars });
+    if (bars) lines.push({ key: m.key, label: m.label, ticker: m.ticker, bars });
   }
   if (!lines.length) return '<p class="no-data">당일 데이터 없음</p>';
   return svgCombined(lines);
 }
 
 function svgCombined(lines) {
-  const W=580, H=240, PT=32, PR=46, PB=36, PL=54;
+  const W=580, H=260, PT=32, PR=46, PB=36, PL=54;
   const cw = W-PL-PR, ch = H-PT-PB;
   const xs = i => PL + i * (cw / 5);
 
@@ -958,8 +958,17 @@ function svgCombined(lines) {
     return `<text x="${xs(i)}" y="${H-8}" font-size="11" fill="${isEvt?'#ff6677':'#6670a0'}" text-anchor="middle" ${isEvt?'font-weight="700"':''}>${esc(b.label)}</text>`;
   }).join('');
 
+  // 하단 범례
+  const legendItems = lines.map(({key, label, ticker}, i) => {
+    const color = TICKER_COLORS[ticker] || '#aaaacc';
+    const itemW = 130;
+    const lx = PL + i * itemW;
+    return `<circle cx="${lx}" cy="${H-8}" r="4" fill="${color}"/>
+    <text x="${lx+9}" y="${H-4}" font-size="11" fill="#8888aa">${esc(key)} ${esc(label)}</text>`;
+  }).join('');
+
   return `<svg viewBox="0 0 ${W} ${H}" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:${H}px;display:block;background:#0e0e18;border-radius:8px">
-    ${yTicks}${evtLine}${linesSvg}${xLabels}
+    ${yTicks}${evtLine}${linesSvg}${xLabels}${legendItems}
   </svg>`;
 }
 

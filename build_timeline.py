@@ -66,15 +66,29 @@ def build(enriched_path: Path, output_path: Path, existing_path: Path | None = N
     # 업데이트 모드: 기존 news.json과 머지
     if existing_path and existing_path.exists():
         existing = json.loads(existing_path.read_text(encoding="utf-8"))
+        existing_events = existing.get("events", [])
         existing_ids = {
             (e.get("date", ""), e.get("title", ""))
-            for e in existing.get("events", [])
+            for e in existing_events
         }
-        new_events = [
-            e for e in events_out
-            if (e["date"], e["title"]) not in existing_ids
-        ]
-        merged = existing.get("events", []) + new_events
+        # 기존 최대 ID 번호 계산 → 신규 이벤트는 그 다음 번호부터 채번
+        max_id = 0
+        for e in existing_events:
+            eid = e.get("event_id", "")
+            if eid.startswith("evt-"):
+                try:
+                    max_id = max(max_id, int(eid[4:]))
+                except ValueError:
+                    pass
+        counter = max_id + 1
+        new_events = []
+        for e in events_out:
+            if (e["date"], e["title"]) not in existing_ids:
+                e = dict(e)
+                e["event_id"] = f"evt-{counter:03d}"
+                counter += 1
+                new_events.append(e)
+        merged = existing_events + new_events
         merged.sort(key=lambda e: (e.get("date", ""), e.get("time", "")))
         events_out = merged
 

@@ -1,8 +1,8 @@
 {
   "version": "2.0.0",
   "topic": "",
-  "generated_at": "2026-04-03T13:44:21Z",
-  "last_updated": "2026-04-03T13:44:21Z",
+  "generated_at": "2026-04-03T14:21:14Z",
+  "last_updated": "2026-04-03T14:21:14Z",
   "date_range": {
     "from": "2026-02-27",
     "to": "2026-04-03"
@@ -387,34 +387,34 @@
       "evt-308",
       "evt-309",
       "evt-310",
-      "evt-001",
-      "evt-002",
-      "evt-003",
-      "evt-004",
-      "evt-005",
-      "evt-006",
-      "evt-007",
-      "evt-008"
+      "evt-311",
+      "evt-312",
+      "evt-313",
+      "evt-314",
+      "evt-315",
+      "evt-316",
+      "evt-317",
+      "evt-318"
     ],
     "2026-04-02": [
-      "evt-009",
-      "evt-010",
-      "evt-011",
-      "evt-012",
-      "evt-013",
-      "evt-014",
-      "evt-015",
-      "evt-016",
-      "evt-017",
-      "evt-018",
-      "evt-019"
+      "evt-319",
+      "evt-320",
+      "evt-321",
+      "evt-322",
+      "evt-323",
+      "evt-324",
+      "evt-325",
+      "evt-326",
+      "evt-327",
+      "evt-328",
+      "evt-329"
     ],
     "2026-04-03": [
-      "evt-020",
-      "evt-021",
-      "evt-022",
-      "evt-023",
-      "evt-024"
+      "evt-330",
+      "evt-331",
+      "evt-332",
+      "evt-333",
+      "evt-334"
     ]
   },
   "events": [
@@ -8246,7 +8246,7 @@
       ]
     },
     {
-      "event_id": "evt-001",
+      "event_id": "evt-311",
       "date": "2026-04-01",
       "time": "00:00:00Z",
       "title": "이란 드론, 쿠웨이트 공항 연료 저장고 타격·화재",
@@ -8260,7 +8260,28 @@
       "source_urls": {
         "wikipedia": "https://en.wikipedia.org/wiki/Timeline_of_the_2026_Iran_war#1_April"
       },
-      "market_impact": {},
+      "market_impact": {
+        "W": {
+          "delta_pct": 0.0,
+          "window_start": "2026-04-01T00:00:00Z",
+          "window_end": "2026-04-01T00:00:00Z"
+        },
+        "C": {
+          "delta_pct": 0.0,
+          "window_start": "2026-04-01T00:00:00Z",
+          "window_end": "2026-04-01T00:00:00Z"
+        },
+        "N": {
+          "delta_pct": 0.0,
+          "window_start": "2026-04-01T00:00:00Z",
+          "window_end": "2026-04-01T00:00:00Z"
+        },
+        "K": {
+          "delta_pct": 0.0,
+          "window_start": "2026-04-01T00:00:00Z",
+          "window_end": "2026-04-01T00:00:00Z"
+        }
+      },
       "trump_posts": [],
       "related_articles": [
         {
@@ -8288,7 +8309,7 @@
       ]
     },
     {
-      "event_id": "evt-002",
+      "event_id": "evt-312",
       "date": "2026-04-01",
       "time": "00:00:00Z",
       "title": "이란, 이스라엘에 미사일 4차 포격 — 브네이 브락·텔아비브 집속탄, 14명 부상",
@@ -8302,7 +8323,28 @@
       "source_urls": {
         "wikipedia": "https://en.wikipedia.org/wiki/Timeline_of_the_2026_Iran_war#1_April"
       },
-      "market_impact": {},
+      "market_impact": {
+        "W": {
+          "delta_pct": 0.0,
+          "window_start": "2026-04-01T00:00:00Z",
+          "window_end": "2026-04-01T00:00:00Z"
+        },
+        "C": {
+          "delta_pct": 0.0,
+          "window_start": "2026-04-01T00:00:00Z",
+          "window_end": "2026-04-01T00:00:00Z"
+        },
+        "N": {
+          "delta_pct": 0.0,
+          "window_start": "2026-04-01T00:00:00Z",
+          "window_end": "2026-04-01T00:00:00Z"
+        },
+        "K": {
+          "delta_pct": 0.0,
+          "window_start": "2026-04-01T00:00:00Z",
+          "window_end": "2026-04-01T00:00:00Z"
+        }
+      },
       "trump_posts": [],
       "related_articles": [
         {
@@ -8330,7 +8372,7 @@
       ]
     },
     {
-      "event_id": "evt-003",
+      "event_id": "evt-313",
       "date": "2026-04-01",
       "time": "00:00:00Z",
       "title": "IDF, 후티 발사 미사일 요격 성공",
@@ -8344,7 +8386,28 @@
       "source_urls": {
         "wikipedia": "https://en.wikipedia.org/wiki/Timeline_of_the_2026_Iran_war#1_April"
       },
-      "market_impact": {},
+      "market_impact": {
+        "W": {
+          "delta_pct": 0.0,
+          "window_start": "2026-04-01T00:00:00Z",
+          "window_end": "2026-04-01T00:00:00Z"
+        },
+        "C": {
+          "delta_pct": 0.0,
+          "window_start": "2026-04-01T00:00:00Z",
+          "window_end": "2026-04-01T00:00:00Z"
+        },
+        "N": {
+          "delta_pct": 0.0,
+          "window_start": "2026-04-01T00:00:00Z",
+          "window_end": "2026-04-01T00:00:00Z"
+        },
+        "K": {
+          "delta_pct": 0.0,
+          "window_start": "2026-04-01T00:00:00Z",
+          "window_end": "2026-04-01T00:00:00Z"
+        }
+      },
       "trump_posts": [],
       "related_articles": [
         {
@@ -8361,7 +8424,7 @@
       ]
     },
     {
-      "event_id": "evt-004",
+      "event_id": "evt-314",
       "date": "2026-04-01",
       "time": "00:00:00Z",
       "title": "이라크 에르빌 윤활유 공장, 드론 파상 공격으로 대형 화재",
@@ -8375,7 +8438,28 @@
       "source_urls": {
         "wikipedia": "https://en.wikipedia.org/wiki/Timeline_of_the_2026_Iran_war#1_April"
       },
-      "market_impact": {},
+      "market_impact": {
+        "W": {
+          "delta_pct": 0.0,
+          "window_start": "2026-04-01T00:00:00Z",
+          "window_end": "2026-04-01T00:00:00Z"
+        },
+        "C": {
+          "delta_pct": 0.0,
+          "window_start": "2026-04-01T00:00:00Z",
+          "window_end": "2026-04-01T00:00:00Z"
+        },
+        "N": {
+          "delta_pct": 0.0,
+          "window_start": "2026-04-01T00:00:00Z",
+          "window_end": "2026-04-01T00:00:00Z"
+        },
+        "K": {
+          "delta_pct": 0.0,
+          "window_start": "2026-04-01T00:00:00Z",
+          "window_end": "2026-04-01T00:00:00Z"
+        }
+      },
       "trump_posts": [],
       "related_articles": [
         {
@@ -8403,7 +8487,7 @@
       ]
     },
     {
-      "event_id": "evt-005",
+      "event_id": "evt-315",
       "date": "2026-04-01",
       "time": "00:00:00Z",
       "title": "미군 공습, 테헤란 구 미국대사관(현 박물관) 건물 피격",
@@ -8417,7 +8501,28 @@
       "source_urls": {
         "wikipedia": "https://en.wikipedia.org/wiki/Timeline_of_the_2026_Iran_war#1_April"
       },
-      "market_impact": {},
+      "market_impact": {
+        "W": {
+          "delta_pct": 0.0,
+          "window_start": "2026-04-01T00:00:00Z",
+          "window_end": "2026-04-01T00:00:00Z"
+        },
+        "C": {
+          "delta_pct": 0.0,
+          "window_start": "2026-04-01T00:00:00Z",
+          "window_end": "2026-04-01T00:00:00Z"
+        },
+        "N": {
+          "delta_pct": 0.0,
+          "window_start": "2026-04-01T00:00:00Z",
+          "window_end": "2026-04-01T00:00:00Z"
+        },
+        "K": {
+          "delta_pct": 0.0,
+          "window_start": "2026-04-01T00:00:00Z",
+          "window_end": "2026-04-01T00:00:00Z"
+        }
+      },
       "trump_posts": [],
       "related_articles": [
         {
@@ -8445,7 +8550,7 @@
       ]
     },
     {
-      "event_id": "evt-006",
+      "event_id": "evt-316",
       "date": "2026-04-01",
       "time": "00:00:00Z",
       "title": "트럼프 '이란 대통령 휴전 요청' 주장, 이란 전면 부인",
@@ -8459,7 +8564,28 @@
       "source_urls": {
         "wikipedia": "https://en.wikipedia.org/wiki/Timeline_of_the_2026_Iran_war#1_April"
       },
-      "market_impact": {},
+      "market_impact": {
+        "W": {
+          "delta_pct": 0.0,
+          "window_start": "2026-04-01T00:00:00Z",
+          "window_end": "2026-04-01T00:00:00Z"
+        },
+        "C": {
+          "delta_pct": 0.0,
+          "window_start": "2026-04-01T00:00:00Z",
+          "window_end": "2026-04-01T00:00:00Z"
+        },
+        "N": {
+          "delta_pct": 0.0,
+          "window_start": "2026-04-01T00:00:00Z",
+          "window_end": "2026-04-01T00:00:00Z"
+        },
+        "K": {
+          "delta_pct": 0.0,
+          "window_start": "2026-04-01T00:00:00Z",
+          "window_end": "2026-04-01T00:00:00Z"
+        }
+      },
       "trump_posts": [
         {
           "post_id": "tp-001",
@@ -8497,7 +8623,7 @@
       ]
     },
     {
-      "event_id": "evt-007",
+      "event_id": "evt-317",
       "date": "2026-04-01",
       "time": "00:00:00Z",
       "title": "이란, 이스파한 인근 미 MQ-9 드론 2대 격추 — 전쟁 중 누적 16대 손실",
@@ -8511,7 +8637,28 @@
       "source_urls": {
         "wikipedia": "https://en.wikipedia.org/wiki/Timeline_of_the_2026_Iran_war#1_April"
       },
-      "market_impact": {},
+      "market_impact": {
+        "W": {
+          "delta_pct": 0.0,
+          "window_start": "2026-04-01T00:00:00Z",
+          "window_end": "2026-04-01T00:00:00Z"
+        },
+        "C": {
+          "delta_pct": 0.0,
+          "window_start": "2026-04-01T00:00:00Z",
+          "window_end": "2026-04-01T00:00:00Z"
+        },
+        "N": {
+          "delta_pct": 0.0,
+          "window_start": "2026-04-01T00:00:00Z",
+          "window_end": "2026-04-01T00:00:00Z"
+        },
+        "K": {
+          "delta_pct": 0.0,
+          "window_start": "2026-04-01T00:00:00Z",
+          "window_end": "2026-04-01T00:00:00Z"
+        }
+      },
       "trump_posts": [],
       "related_articles": [
         {
@@ -8539,7 +8686,7 @@
       ]
     },
     {
-      "event_id": "evt-008",
+      "event_id": "evt-318",
       "date": "2026-04-01",
       "time": "00:00:00Z",
       "title": "이란 전 외무장관 카라지 공습으로 중상, 부인 사망",
@@ -8553,7 +8700,28 @@
       "source_urls": {
         "wikipedia": "https://en.wikipedia.org/wiki/Timeline_of_the_2026_Iran_war#1_April"
       },
-      "market_impact": {},
+      "market_impact": {
+        "W": {
+          "delta_pct": 0.0,
+          "window_start": "2026-04-01T00:00:00Z",
+          "window_end": "2026-04-01T00:00:00Z"
+        },
+        "C": {
+          "delta_pct": 0.0,
+          "window_start": "2026-04-01T00:00:00Z",
+          "window_end": "2026-04-01T00:00:00Z"
+        },
+        "N": {
+          "delta_pct": 0.0,
+          "window_start": "2026-04-01T00:00:00Z",
+          "window_end": "2026-04-01T00:00:00Z"
+        },
+        "K": {
+          "delta_pct": 0.0,
+          "window_start": "2026-04-01T00:00:00Z",
+          "window_end": "2026-04-01T00:00:00Z"
+        }
+      },
       "trump_posts": [],
       "related_articles": [
         {
@@ -8581,7 +8749,7 @@
       ]
     },
     {
-      "event_id": "evt-009",
+      "event_id": "evt-319",
       "date": "2026-04-02",
       "time": "00:00:00Z",
       "title": "걸프 국가들, 호르무즈 우회 대체 파이프라인 검토",
@@ -8595,7 +8763,28 @@
       "source_urls": {
         "wikipedia": "https://en.wikipedia.org/wiki/Timeline_of_the_2026_Iran_war#2_April"
       },
-      "market_impact": {},
+      "market_impact": {
+        "W": {
+          "delta_pct": 0.0,
+          "window_start": "2026-04-02T00:00:00Z",
+          "window_end": "2026-04-02T00:00:00Z"
+        },
+        "C": {
+          "delta_pct": 0.0,
+          "window_start": "2026-04-02T00:00:00Z",
+          "window_end": "2026-04-02T00:00:00Z"
+        },
+        "N": {
+          "delta_pct": 0.0,
+          "window_start": "2026-04-02T00:00:00Z",
+          "window_end": "2026-04-02T00:00:00Z"
+        },
+        "K": {
+          "delta_pct": 0.0,
+          "window_start": "2026-04-02T00:00:00Z",
+          "window_end": "2026-04-02T00:00:00Z"
+        }
+      },
       "trump_posts": [],
       "related_articles": [
         {
@@ -8623,7 +8812,7 @@
       ]
     },
     {
-      "event_id": "evt-010",
+      "event_id": "evt-320",
       "date": "2026-04-02",
       "time": "00:00:00Z",
       "title": "이란 파스퇴르 연구소 건물, 공습으로 파괴",
@@ -8637,7 +8826,28 @@
       "source_urls": {
         "wikipedia": "https://en.wikipedia.org/wiki/Timeline_of_the_2026_Iran_war#2_April"
       },
-      "market_impact": {},
+      "market_impact": {
+        "W": {
+          "delta_pct": 0.0,
+          "window_start": "2026-04-02T00:00:00Z",
+          "window_end": "2026-04-02T00:00:00Z"
+        },
+        "C": {
+          "delta_pct": 0.0,
+          "window_start": "2026-04-02T00:00:00Z",
+          "window_end": "2026-04-02T00:00:00Z"
+        },
+        "N": {
+          "delta_pct": 0.0,
+          "window_start": "2026-04-02T00:00:00Z",
+          "window_end": "2026-04-02T00:00:00Z"
+        },
+        "K": {
+          "delta_pct": 0.0,
+          "window_start": "2026-04-02T00:00:00Z",
+          "window_end": "2026-04-02T00:00:00Z"
+        }
+      },
       "trump_posts": [],
       "related_articles": [
         {
@@ -8665,7 +8875,7 @@
       ]
     },
     {
-      "event_id": "evt-011",
+      "event_id": "evt-321",
       "date": "2026-04-02",
       "time": "00:00:00Z",
       "title": "마샤드 공항 인근 연료 탱크 피격·화재",
@@ -8679,7 +8889,28 @@
       "source_urls": {
         "wikipedia": "https://en.wikipedia.org/wiki/Timeline_of_the_2026_Iran_war#2_April"
       },
-      "market_impact": {},
+      "market_impact": {
+        "W": {
+          "delta_pct": 0.0,
+          "window_start": "2026-04-02T00:00:00Z",
+          "window_end": "2026-04-02T00:00:00Z"
+        },
+        "C": {
+          "delta_pct": 0.0,
+          "window_start": "2026-04-02T00:00:00Z",
+          "window_end": "2026-04-02T00:00:00Z"
+        },
+        "N": {
+          "delta_pct": 0.0,
+          "window_start": "2026-04-02T00:00:00Z",
+          "window_end": "2026-04-02T00:00:00Z"
+        },
+        "K": {
+          "delta_pct": 0.0,
+          "window_start": "2026-04-02T00:00:00Z",
+          "window_end": "2026-04-02T00:00:00Z"
+        }
+      },
       "trump_posts": [],
       "related_articles": [
         {
@@ -8696,7 +8927,7 @@
       ]
     },
     {
-      "event_id": "evt-012",
+      "event_id": "evt-322",
       "date": "2026-04-02",
       "time": "00:00:00Z",
       "title": "이란, 바레인 아마존 클라우드 시설 타격·요르단 상공 미 전투기 공격",
@@ -8710,7 +8941,28 @@
       "source_urls": {
         "wikipedia": "https://en.wikipedia.org/wiki/Timeline_of_the_2026_Iran_war#2_April"
       },
-      "market_impact": {},
+      "market_impact": {
+        "W": {
+          "delta_pct": 0.0,
+          "window_start": "2026-04-02T00:00:00Z",
+          "window_end": "2026-04-02T00:00:00Z"
+        },
+        "C": {
+          "delta_pct": 0.0,
+          "window_start": "2026-04-02T00:00:00Z",
+          "window_end": "2026-04-02T00:00:00Z"
+        },
+        "N": {
+          "delta_pct": 0.0,
+          "window_start": "2026-04-02T00:00:00Z",
+          "window_end": "2026-04-02T00:00:00Z"
+        },
+        "K": {
+          "delta_pct": 0.0,
+          "window_start": "2026-04-02T00:00:00Z",
+          "window_end": "2026-04-02T00:00:00Z"
+        }
+      },
       "trump_posts": [],
       "related_articles": [
         {
@@ -8738,7 +8990,7 @@
       ]
     },
     {
-      "event_id": "evt-013",
+      "event_id": "evt-323",
       "date": "2026-04-02",
       "time": "02:00:00Z",
       "title": "연합군, 테헤란 IRGC 지상군 기지·이동 지휘소 및 카라지 B1 교량 공습",
@@ -8754,7 +9006,28 @@
         "wikipedia": "https://en.wikipedia.org/wiki/Timeline_of_the_2026_Iran_war#2_April",
         "iranwarlive": "https://iranwarlive.com/recaps/day-35.html"
       },
-      "market_impact": {},
+      "market_impact": {
+        "W": {
+          "delta_pct": 4.0052,
+          "window_start": "2026-04-02T02:00:00Z",
+          "window_end": "2026-04-02T02:00:00Z"
+        },
+        "C": {
+          "delta_pct": -1.7244,
+          "window_start": "2026-04-02T02:00:00Z",
+          "window_end": "2026-04-02T02:00:00Z"
+        },
+        "N": {
+          "delta_pct": 0.0,
+          "window_start": "2026-04-02T02:00:00Z",
+          "window_end": "2026-04-02T02:00:00Z"
+        },
+        "K": {
+          "delta_pct": -4.2672,
+          "window_start": "2026-04-02T02:00:00Z",
+          "window_end": "2026-04-02T02:00:00Z"
+        }
+      },
       "trump_posts": [
         {
           "post_id": "tp-002",
@@ -8792,7 +9065,7 @@
       ]
     },
     {
-      "event_id": "evt-014",
+      "event_id": "evt-324",
       "date": "2026-04-02",
       "time": "04:30:00Z",
       "title": "이란, 텔아비브·예루살렘 미사일 공격 — 성도 첫 표적, 민간인 4명 부상",
@@ -8806,7 +9079,28 @@
       "source_urls": {
         "iranwarlive": "https://iranwarlive.com/recaps/day-35.html"
       },
-      "market_impact": {},
+      "market_impact": {
+        "W": {
+          "delta_pct": 4.5545,
+          "window_start": "2026-04-02T04:30:00Z",
+          "window_end": "2026-04-02T04:30:00Z"
+        },
+        "C": {
+          "delta_pct": -2.5857,
+          "window_start": "2026-04-02T04:30:00Z",
+          "window_end": "2026-04-02T04:30:00Z"
+        },
+        "N": {
+          "delta_pct": 0.0,
+          "window_start": "2026-04-02T04:30:00Z",
+          "window_end": "2026-04-02T04:30:00Z"
+        },
+        "K": {
+          "delta_pct": -4.7,
+          "window_start": "2026-04-02T04:30:00Z",
+          "window_end": "2026-04-02T04:30:00Z"
+        }
+      },
       "trump_posts": [],
       "related_articles": [
         {
@@ -8834,7 +9128,7 @@
       ]
     },
     {
-      "event_id": "evt-015",
+      "event_id": "evt-325",
       "date": "2026-04-02",
       "time": "08:00:00Z",
       "title": "사우디 이란 드론 4대 이상 요격, 쿠웨이트도 격퇴 — 바레인 경보·미 5함대 위협",
@@ -8848,7 +9142,28 @@
       "source_urls": {
         "iranwarlive": "https://iranwarlive.com/recaps/day-35.html"
       },
-      "market_impact": {},
+      "market_impact": {
+        "W": {
+          "delta_pct": 6.6121,
+          "window_start": "2026-04-02T08:00:00Z",
+          "window_end": "2026-04-02T08:00:00Z"
+        },
+        "C": {
+          "delta_pct": -2.1499,
+          "window_start": "2026-04-02T08:00:00Z",
+          "window_end": "2026-04-02T08:00:00Z"
+        },
+        "N": {
+          "delta_pct": 0.0,
+          "window_start": "2026-04-02T08:00:00Z",
+          "window_end": "2026-04-02T08:00:00Z"
+        },
+        "K": {
+          "delta_pct": 0.0,
+          "window_start": "2026-04-02T08:00:00Z",
+          "window_end": "2026-04-02T08:00:00Z"
+        }
+      },
       "trump_posts": [],
       "related_articles": [
         {
@@ -8876,7 +9191,7 @@
       ]
     },
     {
-      "event_id": "evt-016",
+      "event_id": "evt-326",
       "date": "2026-04-02",
       "time": "12:00:00Z",
       "title": "트럼프 '이란군 궤멸' 주장, 합의 없으면 2~3주 내 '석기시대' 폭격 위협",
@@ -8890,7 +9205,28 @@
       "source_urls": {
         "iranwarlive": "https://iranwarlive.com/recaps/day-35.html"
       },
-      "market_impact": {},
+      "market_impact": {
+        "W": {
+          "delta_pct": 9.9581,
+          "window_start": "2026-04-02T12:00:00Z",
+          "window_end": "2026-04-02T12:00:00Z"
+        },
+        "C": {
+          "delta_pct": -2.8741,
+          "window_start": "2026-04-02T12:00:00Z",
+          "window_end": "2026-04-02T12:00:00Z"
+        },
+        "N": {
+          "delta_pct": 0.0,
+          "window_start": "2026-04-02T12:00:00Z",
+          "window_end": "2026-04-02T12:00:00Z"
+        },
+        "K": {
+          "delta_pct": 0.0,
+          "window_start": "2026-04-02T12:00:00Z",
+          "window_end": "2026-04-02T12:00:00Z"
+        }
+      },
       "trump_posts": [
         {
           "post_id": "tp-003",
@@ -8928,7 +9264,7 @@
       ]
     },
     {
-      "event_id": "evt-017",
+      "event_id": "evt-327",
       "date": "2026-04-02",
       "time": "14:00:00Z",
       "title": "이란 '더 광범위하고 파괴적인 보복' 선언, 궤멸 주장 반박",
@@ -8944,7 +9280,28 @@
       "source_urls": {
         "iranwarlive": "https://iranwarlive.com/recaps/day-35.html"
       },
-      "market_impact": {},
+      "market_impact": {
+        "W": {
+          "delta_pct": 10.9868,
+          "window_start": "2026-04-02T14:00:00Z",
+          "window_end": "2026-04-02T14:00:00Z"
+        },
+        "C": {
+          "delta_pct": -2.701,
+          "window_start": "2026-04-02T14:00:00Z",
+          "window_end": "2026-04-02T14:00:00Z"
+        },
+        "N": {
+          "delta_pct": -0.9789,
+          "window_start": "2026-04-02T14:00:00Z",
+          "window_end": "2026-04-02T14:00:00Z"
+        },
+        "K": {
+          "delta_pct": 0.0,
+          "window_start": "2026-04-02T14:00:00Z",
+          "window_end": "2026-04-02T14:00:00Z"
+        }
+      },
       "trump_posts": [],
       "related_articles": [
         {
@@ -8972,7 +9329,7 @@
       ]
     },
     {
-      "event_id": "evt-018",
+      "event_id": "evt-328",
       "date": "2026-04-02",
       "time": "16:30:00Z",
       "title": "파키스탄, 4개국 지지 속 중재 의사 표명 — 함정 20척 호르무즈 통과",
@@ -8986,7 +9343,28 @@
       "source_urls": {
         "iranwarlive": "https://iranwarlive.com/recaps/day-35.html"
       },
-      "market_impact": {},
+      "market_impact": {
+        "W": {
+          "delta_pct": 11.2265,
+          "window_start": "2026-04-02T16:30:00Z",
+          "window_end": "2026-04-02T16:30:00Z"
+        },
+        "C": {
+          "delta_pct": -1.4311,
+          "window_start": "2026-04-02T16:30:00Z",
+          "window_end": "2026-04-02T16:30:00Z"
+        },
+        "N": {
+          "delta_pct": -0.3842,
+          "window_start": "2026-04-02T16:30:00Z",
+          "window_end": "2026-04-02T16:30:00Z"
+        },
+        "K": {
+          "delta_pct": 0.0,
+          "window_start": "2026-04-02T16:30:00Z",
+          "window_end": "2026-04-02T16:30:00Z"
+        }
+      },
       "trump_posts": [],
       "related_articles": [
         {
@@ -9014,7 +9392,7 @@
       ]
     },
     {
-      "event_id": "evt-019",
+      "event_id": "evt-329",
       "date": "2026-04-02",
       "time": "19:00:00Z",
       "title": "영국, 40개국 소집해 호르무즈 즉각 개방 촉구 — 미국 제외 G7 전원 참석",
@@ -9028,7 +9406,28 @@
       "source_urls": {
         "iranwarlive": "https://iranwarlive.com/recaps/day-35.html"
       },
-      "market_impact": {},
+      "market_impact": {
+        "W": {
+          "delta_pct": 11.3064,
+          "window_start": "2026-04-02T19:00:00Z",
+          "window_end": "2026-04-02T19:00:00Z"
+        },
+        "C": {
+          "delta_pct": -1.5504,
+          "window_start": "2026-04-02T19:00:00Z",
+          "window_end": "2026-04-02T19:00:00Z"
+        },
+        "N": {
+          "delta_pct": -0.19,
+          "window_start": "2026-04-02T19:00:00Z",
+          "window_end": "2026-04-02T19:00:00Z"
+        },
+        "K": {
+          "delta_pct": 0.0,
+          "window_start": "2026-04-02T19:00:00Z",
+          "window_end": "2026-04-02T19:00:00Z"
+        }
+      },
       "trump_posts": [],
       "related_articles": [
         {
@@ -9056,7 +9455,7 @@
       ]
     },
     {
-      "event_id": "evt-020",
+      "event_id": "evt-330",
       "date": "2026-04-03",
       "time": "00:00:00Z",
       "title": "이란 드론, 쿠웨이트 미나 알아흐마디 정유소 다발 화재",
@@ -9070,7 +9469,28 @@
       "source_urls": {
         "wikipedia": "https://en.wikipedia.org/wiki/Timeline_of_the_2026_Iran_war#3_April"
       },
-      "market_impact": {},
+      "market_impact": {
+        "W": {
+          "delta_pct": 0.0,
+          "window_start": "2026-04-03T00:00:00Z",
+          "window_end": "2026-04-03T00:00:00Z"
+        },
+        "C": {
+          "delta_pct": 0.0,
+          "window_start": "2026-04-03T00:00:00Z",
+          "window_end": "2026-04-03T00:00:00Z"
+        },
+        "N": {
+          "delta_pct": 0.0,
+          "window_start": "2026-04-03T00:00:00Z",
+          "window_end": "2026-04-03T00:00:00Z"
+        },
+        "K": {
+          "delta_pct": 0.0,
+          "window_start": "2026-04-03T00:00:00Z",
+          "window_end": "2026-04-03T00:00:00Z"
+        }
+      },
       "trump_posts": [],
       "related_articles": [
         {
@@ -9098,7 +9518,7 @@
       ]
     },
     {
-      "event_id": "evt-021",
+      "event_id": "evt-331",
       "date": "2026-04-03",
       "time": "00:00:00Z",
       "title": "이란 전역 동시다발 폭발 — 알보르즈·부셰르·파르스 등 6개 지역",
@@ -9112,7 +9532,28 @@
       "source_urls": {
         "wikipedia": "https://en.wikipedia.org/wiki/Timeline_of_the_2026_Iran_war#3_April"
       },
-      "market_impact": {},
+      "market_impact": {
+        "W": {
+          "delta_pct": 0.0,
+          "window_start": "2026-04-03T00:00:00Z",
+          "window_end": "2026-04-03T00:00:00Z"
+        },
+        "C": {
+          "delta_pct": 0.0,
+          "window_start": "2026-04-03T00:00:00Z",
+          "window_end": "2026-04-03T00:00:00Z"
+        },
+        "N": {
+          "delta_pct": 0.0,
+          "window_start": "2026-04-03T00:00:00Z",
+          "window_end": "2026-04-03T00:00:00Z"
+        },
+        "K": {
+          "delta_pct": 0.0,
+          "window_start": "2026-04-03T00:00:00Z",
+          "window_end": "2026-04-03T00:00:00Z"
+        }
+      },
       "trump_posts": [],
       "related_articles": [
         {
@@ -9140,7 +9581,7 @@
       ]
     },
     {
-      "event_id": "evt-022",
+      "event_id": "evt-332",
       "date": "2026-04-03",
       "time": "00:00:00Z",
       "title": "이란 드론, 쿠웨이트 해수담수화 시설 피해",
@@ -9154,7 +9595,28 @@
       "source_urls": {
         "wikipedia": "https://en.wikipedia.org/wiki/Timeline_of_the_2026_Iran_war#3_April"
       },
-      "market_impact": {},
+      "market_impact": {
+        "W": {
+          "delta_pct": 0.0,
+          "window_start": "2026-04-03T00:00:00Z",
+          "window_end": "2026-04-03T00:00:00Z"
+        },
+        "C": {
+          "delta_pct": 0.0,
+          "window_start": "2026-04-03T00:00:00Z",
+          "window_end": "2026-04-03T00:00:00Z"
+        },
+        "N": {
+          "delta_pct": 0.0,
+          "window_start": "2026-04-03T00:00:00Z",
+          "window_end": "2026-04-03T00:00:00Z"
+        },
+        "K": {
+          "delta_pct": 0.0,
+          "window_start": "2026-04-03T00:00:00Z",
+          "window_end": "2026-04-03T00:00:00Z"
+        }
+      },
       "trump_posts": [],
       "related_articles": [
         {
@@ -9182,7 +9644,7 @@
       ]
     },
     {
-      "event_id": "evt-023",
+      "event_id": "evt-333",
       "date": "2026-04-03",
       "time": "00:00:00Z",
       "title": "아부다비 하브샨 가스 시설, 요격 파편 낙하로 화재",
@@ -9196,7 +9658,28 @@
       "source_urls": {
         "wikipedia": "https://en.wikipedia.org/wiki/Timeline_of_the_2026_Iran_war#3_April"
       },
-      "market_impact": {},
+      "market_impact": {
+        "W": {
+          "delta_pct": 0.0,
+          "window_start": "2026-04-03T00:00:00Z",
+          "window_end": "2026-04-03T00:00:00Z"
+        },
+        "C": {
+          "delta_pct": 0.0,
+          "window_start": "2026-04-03T00:00:00Z",
+          "window_end": "2026-04-03T00:00:00Z"
+        },
+        "N": {
+          "delta_pct": 0.0,
+          "window_start": "2026-04-03T00:00:00Z",
+          "window_end": "2026-04-03T00:00:00Z"
+        },
+        "K": {
+          "delta_pct": 0.0,
+          "window_start": "2026-04-03T00:00:00Z",
+          "window_end": "2026-04-03T00:00:00Z"
+        }
+      },
       "trump_posts": [],
       "related_articles": [
         {
@@ -9224,7 +9707,7 @@
       ]
     },
     {
-      "event_id": "evt-024",
+      "event_id": "evt-334",
       "date": "2026-04-03",
       "time": "00:00:00Z",
       "title": "이란, 미 F-35 2번째 격추 주장 — 조종사 생존 '희박'",
@@ -9238,7 +9721,28 @@
       "source_urls": {
         "wikipedia": "https://en.wikipedia.org/wiki/Timeline_of_the_2026_Iran_war#3_April"
       },
-      "market_impact": {},
+      "market_impact": {
+        "W": {
+          "delta_pct": 0.0,
+          "window_start": "2026-04-03T00:00:00Z",
+          "window_end": "2026-04-03T00:00:00Z"
+        },
+        "C": {
+          "delta_pct": 0.0,
+          "window_start": "2026-04-03T00:00:00Z",
+          "window_end": "2026-04-03T00:00:00Z"
+        },
+        "N": {
+          "delta_pct": 0.0,
+          "window_start": "2026-04-03T00:00:00Z",
+          "window_end": "2026-04-03T00:00:00Z"
+        },
+        "K": {
+          "delta_pct": 0.0,
+          "window_start": "2026-04-03T00:00:00Z",
+          "window_end": "2026-04-03T00:00:00Z"
+        }
+      },
       "trump_posts": [],
       "related_articles": [
         {

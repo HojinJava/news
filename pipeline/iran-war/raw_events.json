@@ -1,24 +1,24 @@
 {
-  "fetched_at": "2026-04-01T23:37:03Z",
+  "fetched_at": "2026-04-03T13:12:26Z",
   "date_range": {
     "from": "2026-04-01",
-    "to": "2026-04-02"
+    "to": "2026-04-03"
   },
   "sources": [
     {
       "name": "Wikipedia",
       "url": "https://en.wikipedia.org/wiki/Timeline_of_the_2026_Iran_war",
-      "events_count": 8,
+      "events_count": 10,
       "ai_needed": 0
     },
     {
       "name": "IranWarLive",
       "url": "https://iranwarlive.com/recap",
-      "events_count": 0,
+      "events_count": 7,
       "ai_needed": 0
     }
   ],
-  "total": 8,
+  "total": 25,
   "ai_date_needed": 0,
   "events": [
     {
@@ -92,6 +92,159 @@
       "source_site": "wikipedia",
       "source_url": "https://en.wikipedia.org/wiki/Timeline_of_the_2026_Iran_war#1_April",
       "raw_id": "wikipedia-008"
+    },
+    {
+      "date": "2026-04-02",
+      "time": "00:00:00Z",
+      "title_en": "The IDF said that it struck an IRGC Ground Forces base and mobile command centers in Tehran. [ 612 ] Two US strikes on the B1 bridge between Tehran an",
+      "description_en": "",
+      "source_site": "wikipedia",
+      "source_url": "https://en.wikipedia.org/wiki/Timeline_of_the_2026_Iran_war#2_April",
+      "raw_id": "wikipedia-001"
+    },
+    {
+      "date": "2026-04-02",
+      "time": "00:00:00Z",
+      "title_en": "It was reported that Gulf states are considering alternative pipelines to bypass the Strait of Hormuz, including routes to the Mediterranean via Haifa",
+      "description_en": "",
+      "source_site": "wikipedia",
+      "source_url": "https://en.wikipedia.org/wiki/Timeline_of_the_2026_Iran_war#2_April",
+      "raw_id": "wikipedia-002"
+    },
+    {
+      "date": "2026-04-02",
+      "time": "00:00:00Z",
+      "title_en": "Buildings of the Pasteur Institute of Iran were destroyed by an air attack. [ 616 ]",
+      "description_en": "",
+      "source_site": "wikipedia",
+      "source_url": "https://en.wikipedia.org/wiki/Timeline_of_the_2026_Iran_war#2_April",
+      "raw_id": "wikipedia-003"
+    },
+    {
+      "date": "2026-04-02",
+      "time": "00:00:00Z",
+      "title_en": "A fuel tank near Mashhad International Airport was struck by a projectile, sparking a fire. [ 617 ]",
+      "description_en": "",
+      "source_site": "wikipedia",
+      "source_url": "https://en.wikipedia.org/wiki/Timeline_of_the_2026_Iran_war#2_April",
+      "raw_id": "wikipedia-004"
+    },
+    {
+      "date": "2026-04-02",
+      "time": "00:00:00Z",
+      "title_en": "An Iranian strike targeted an Amazon cloud computing facility in Bahrain, causing a fire. [ 618 ] Iran also said it attacked US fighter jets at Jordan",
+      "description_en": "",
+      "source_site": "wikipedia",
+      "source_url": "https://en.wikipedia.org/wiki/Timeline_of_the_2026_Iran_war#2_April",
+      "raw_id": "wikipedia-005"
+    },
+    {
+      "date": "2026-04-03",
+      "time": "00:00:00Z",
+      "title_en": "Iranian drones hit the Mina Al-Ahmadi refinery in Kuwait and set it on fire in multiple locations. [ 622 ]",
+      "description_en": "",
+      "source_site": "wikipedia",
+      "source_url": "https://en.wikipedia.org/wiki/Timeline_of_the_2026_Iran_war#3_April",
+      "raw_id": "wikipedia-006"
+    },
+    {
+      "date": "2026-04-03",
+      "time": "00:00:00Z",
+      "title_en": "Explosions were reported in many places across Iran, including Alborz, Bushehr, Fars, Isfahan, Khuzestan, and Tehran. [ 623 ]",
+      "description_en": "",
+      "source_site": "wikipedia",
+      "source_url": "https://en.wikipedia.org/wiki/Timeline_of_the_2026_Iran_war#3_April",
+      "raw_id": "wikipedia-007"
+    },
+    {
+      "date": "2026-04-03",
+      "time": "00:00:00Z",
+      "title_en": "Kuwait authorities reported Iranian drones damaged a desalination plant. [ 624 ]",
+      "description_en": "",
+      "source_site": "wikipedia",
+      "source_url": "https://en.wikipedia.org/wiki/Timeline_of_the_2026_Iran_war#3_April",
+      "raw_id": "wikipedia-008"
+    },
+    {
+      "date": "2026-04-03",
+      "time": "00:00:00Z",
+      "title_en": "Abu Dhabi media office reported debris from an interception caused a fire in the Habshan gas facility. [ 624 ]",
+      "description_en": "",
+      "source_site": "wikipedia",
+      "source_url": "https://en.wikipedia.org/wiki/Timeline_of_the_2026_Iran_war#3_April",
+      "raw_id": "wikipedia-009"
+    },
+    {
+      "date": "2026-04-03",
+      "time": "00:00:00Z",
+      "title_en": "Iran said it shot down a second US F-35 fighter jet and that the pilot's survival is \"unlikely\". According to Iran's Revolutionary Guard , the inciden",
+      "description_en": "",
+      "source_site": "wikipedia",
+      "source_url": "https://en.wikipedia.org/wiki/Timeline_of_the_2026_Iran_war#3_April",
+      "raw_id": "wikipedia-010"
+    },
+    {
+      "date": "2026-04-02",
+      "time": "02:00:00Z",
+      "title_en": "Coalition Strikes IRGC Facilities in Tehran and B1 Bridge in Karaj â Civilian Casualty Reports Unconfirmed, IHL Concerns Raised",
+      "description_en": "",
+      "source_site": "iranwarlive",
+      "source_url": "https://iranwarlive.com/recaps/day-35.html",
+      "raw_id": "iranwarlive-011"
+    },
+    {
+      "date": "2026-04-02",
+      "time": "04:30:00Z",
+      "title_en": "Iran Fires Missiles at Tel Aviv and Jerusalem â Holy City Targeted for First Time; 4 Civilians Wounded; Bnei Brak Water Infrastructure Damaged",
+      "description_en": "",
+      "source_site": "iranwarlive",
+      "source_url": "https://iranwarlive.com/recaps/day-35.html",
+      "raw_id": "iranwarlive-012"
+    },
+    {
+      "date": "2026-04-02",
+      "time": "08:00:00Z",
+      "title_en": "Saudi Arabia Intercepts 4+ Iranian Drones; Kuwait Repels Drones and Missiles; Sirens Sound in Bahrain â US 5th Fleet at Risk",
+      "description_en": "",
+      "source_site": "iranwarlive",
+      "source_url": "https://iranwarlive.com/recaps/day-35.html",
+      "raw_id": "iranwarlive-013"
+    },
+    {
+      "date": "2026-04-02",
+      "time": "12:00:00Z",
+      "title_en": "Trump Claims Iran's Military Decimated; Threatens Stone Age Bombing in 2â3 Weeks if No Deal; Briefed on 1,000-Pound HEU Airlift Plan",
+      "description_en": "",
+      "source_site": "iranwarlive",
+      "source_url": "https://iranwarlive.com/recaps/day-35.html",
+      "raw_id": "iranwarlive-014"
+    },
+    {
+      "date": "2026-04-02",
+      "time": "14:00:00Z",
+      "title_en": "Iran Vows \"Crushing, Broader and More Destructive\" Response â Rejects Decimation Claims; Cites Hidden Stockpiles Outside Coalition Reach",
+      "description_en": "",
+      "source_site": "iranwarlive",
+      "source_url": "https://iranwarlive.com/recaps/day-35.html",
+      "raw_id": "iranwarlive-015"
+    },
+    {
+      "date": "2026-04-02",
+      "time": "16:30:00Z",
+      "title_en": "Pakistan Confirms Mediation Readiness with Saudi, Turkish, Egyptian and Kuwaiti Backing â 20 Pakistani Ships Transited Hormuz as Confidence Measure",
+      "description_en": "",
+      "source_site": "iranwarlive",
+      "source_url": "https://iranwarlive.com/recaps/day-35.html",
+      "raw_id": "iranwarlive-016"
+    },
+    {
+      "date": "2026-04-02",
+      "time": "19:00:00Z",
+      "title_en": "UK Foreign Secretary Cooper Convenes 40 Nations to Demand Immediate Hormuz Reopening â All G7 Minus US Present, Alongside UAE and Bahrain",
+      "description_en": "",
+      "source_site": "iranwarlive",
+      "source_url": "https://iranwarlive.com/recaps/day-35.html",
+      "raw_id": "iranwarlive-017"
     }
   ]
 }

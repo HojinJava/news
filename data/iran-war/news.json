@@ -1,14 +1,14 @@
 {
   "version": "2.0.0",
   "topic": "",
-  "generated_at": "2026-04-02T01:56:25Z",
-  "last_updated": "2026-04-02T01:56:25Z",
+  "generated_at": "2026-04-03T13:44:21Z",
+  "last_updated": "2026-04-03T13:44:21Z",
   "date_range": {
     "from": "2026-02-27",
-    "to": "2026-04-01"
+    "to": "2026-04-03"
   },
-  "total_events": 310,
-  "total_articles": 121,
+  "total_events": 334,
+  "total_articles": 167,
   "by_date": {
     "2026-02-27": [
       "evt-001",
@@ -386,7 +386,35 @@
       "evt-307",
       "evt-308",
       "evt-309",
-      "evt-310"
+      "evt-310",
+      "evt-001",
+      "evt-002",
+      "evt-003",
+      "evt-004",
+      "evt-005",
+      "evt-006",
+      "evt-007",
+      "evt-008"
+    ],
+    "2026-04-02": [
+      "evt-009",
+      "evt-010",
+      "evt-011",
+      "evt-012",
+      "evt-013",
+      "evt-014",
+      "evt-015",
+      "evt-016",
+      "evt-017",
+      "evt-018",
+      "evt-019"
+    ],
+    "2026-04-03": [
+      "evt-020",
+      "evt-021",
+      "evt-022",
+      "evt-023",
+      "evt-024"
     ]
   },
   "events": [
@@ -8214,6 +8242,1026 @@
           "source_reliability": 72,
           "relevance_score": 88,
           "relevance_note": "하라지 피격의 외교적 배경 심층 보도, 공습의 전략적 함의 포함"
+        }
+      ]
+    },
+    {
+      "event_id": "evt-001",
+      "date": "2026-04-01",
+      "time": "00:00:00Z",
+      "title": "이란 드론, 쿠웨이트 공항 연료 저장고 타격·화재",
+      "summary": "이란 드론이 쿠웨이트 국제공항의 연료 저장 시설을 타격해 대형 화재가 발생했다.",
+      "importance": "major",
+      "objectivity_avg": null,
+      "causally_related_to": [],
+      "confirmed_by": [
+        "wikipedia"
+      ],
+      "source_urls": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Timeline_of_the_2026_Iran_war#1_April"
+      },
+      "market_impact": {},
+      "trump_posts": [],
+      "related_articles": [
+        {
+          "article_id": "art-a1b2c3d4",
+          "url": "https://english.alarabiya.net/News/gulf/2026/04/01/drone-attack-targets-kuwait-airport-fuel-tanks-on-fire-aviation-agency",
+          "title_en": "Drone attack targets Kuwait airport, fuel tanks on fire: Aviation agency",
+          "title_ko": "쿠웨이트 공항 드론 공격, 연료 탱크 화재 — 항공 당국 발표",
+          "summary_en": "Kuwait's civil aviation authority confirmed an Iranian drone attack on fuel tanks near Kuwait International Airport, causing a large fire visible from surrounding areas. Firefighters brought the blaze under control with no casualties reported.",
+          "summary_ko": "쿠웨이트 민간항공국은 이란 드론이 쿠웨이트 국제공항 인근 연료 탱크를 공격해 주변에서 보일 정도의 대형 화재가 발생했다고 확인했다. 소방대가 화재를 진압했으며 인명 피해는 없었다.",
+          "published_date": "2026-04-01",
+          "source": "Al Arabiya",
+          "relevance_note": "공습 당일 쿠웨이트 항공 당국의 공식 발표를 직접 인용한 기사"
+        },
+        {
+          "article_id": "art-b2c3d4e5",
+          "url": "https://gulfnews.com/world/gulf/kuwait/major-fire-breaks-out-in-kuwait-international-airport-after-iranian-drone-attacks-1.500492703",
+          "title_en": "Major fire breaks out in Kuwait International Airport after Iranian drone attacks",
+          "title_ko": "이란 드론 공격으로 쿠웨이트 국제공항 대형 화재 발생",
+          "summary_en": "A major fire erupted at Kuwait International Airport following Iranian drone strikes on the fuel storage area. The attack compounded damage from earlier strikes in February and March that had already disrupted commercial operations.",
+          "summary_ko": "이란 드론이 연료 저장 구역을 타격한 후 쿠웨이트 국제공항에서 대형 화재가 발생했다. 이번 공격은 이미 공항 상업 운항을 방해한 2월·3월 공습에 추가 피해를 더했다.",
+          "published_date": "2026-04-01",
+          "source": "Gulf News",
+          "relevance_note": "해당 공습의 규모와 배경을 구체적으로 다룬 걸프 지역 언론 보도"
+        }
+      ]
+    },
+    {
+      "event_id": "evt-002",
+      "date": "2026-04-01",
+      "time": "00:00:00Z",
+      "title": "이란, 이스라엘에 미사일 4차 포격 — 브네이 브락·텔아비브 집속탄, 14명 부상",
+      "summary": "이스라엘은 이란으로부터 4차례의 미사일 포격이 가해졌다고 보고했다. Bnei Brak(브네이 브락)와 텔아비브 주거 지역에 집속탄이 낙하해 최소 14명이 부상을 입었다.",
+      "importance": "major",
+      "objectivity_avg": null,
+      "causally_related_to": [],
+      "confirmed_by": [
+        "wikipedia"
+      ],
+      "source_urls": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Timeline_of_the_2026_Iran_war#1_April"
+      },
+      "market_impact": {},
+      "trump_posts": [],
+      "related_articles": [
+        {
+          "article_id": "art-c3d4e5f6",
+          "url": "https://www.euronews.com/2026/04/01/iran-launches-biggest-salvo-of-missiles-in-three-weeks-at-israel-military-officials-say",
+          "title_en": "Iran launches biggest salvo of missiles in three weeks at Israel, military officials say",
+          "title_ko": "이란, 3주 만에 최대 규모 미사일 공격 — 이스라엘 군 당국",
+          "summary_en": "Iranian forces launched their largest missile salvo in three weeks against Israel on April 1. About 30 missiles were tracked crossing into Israel, including cluster munitions that struck residential areas in Bnei Brak and Tel Aviv, wounding 14 people including children.",
+          "summary_ko": "이란군이 4월 1일 3주 만에 최대 규모의 미사일 공격을 이스라엘에 가했다. 이스라엘로 진입한 약 30발의 미사일이 추적됐으며, 브네이 브락과 텔아비브 주거 지역에 집속탄이 낙하해 어린이를 포함한 14명이 부상을 입었다.",
+          "published_date": "2026-04-01",
+          "source": "Euronews",
+          "relevance_note": "해당 포격 당일 이스라엘 군 당국의 발표를 토대로 한 직접 관련 보도"
+        },
+        {
+          "article_id": "art-d4e5f6a7",
+          "url": "https://www.haaretz.com/israel-news/israel-security/2026-04-02/ty-article-live/trump-on-iran-were-going-to-hit-them-extremely-hard-over-next-two-three-weeks/0000019d-4be3-d759-ab9d-7bfb298f0000",
+          "title_en": "Waves of Iranian, Houthi Missile Attacks Target Central Israel, Five Wounded",
+          "title_ko": "이란·후티 미사일 파상 공격, 이스라엘 중부 표적 — 5명 부상",
+          "summary_en": "Haaretz live coverage documented waves of Iranian and Houthi missile attacks on central Israel around April 1-2, with casualties including 14 wounded near Tel Aviv. The IDF reported identifying around 30 incoming missiles over the course of the day.",
+          "summary_ko": "하레츠 실시간 보도는 4월 1~2일에 걸친 이란·후티의 이스라엘 중부 미사일 파상 공격을 다뤘다. 텔아비브 인근에서 14명이 부상을 입었으며, IDF는 당일 약 30발의 미사일이 진입했다고 밝혔다.",
+          "published_date": "2026-04-02",
+          "source": "Haaretz",
+          "relevance_note": "이스라엘 내 언론의 사건 당일 실시간 보도"
+        }
+      ]
+    },
+    {
+      "event_id": "evt-003",
+      "date": "2026-04-01",
+      "time": "00:00:00Z",
+      "title": "IDF, 후티 발사 미사일 요격 성공",
+      "summary": "이스라엘 방위군(IDF)은 후티 민병대가 발사한 미사일 1발을 요격했다고 발표했다.",
+      "importance": "minor",
+      "objectivity_avg": null,
+      "causally_related_to": [],
+      "confirmed_by": [
+        "wikipedia"
+      ],
+      "source_urls": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Timeline_of_the_2026_Iran_war#1_April"
+      },
+      "market_impact": {},
+      "trump_posts": [],
+      "related_articles": [
+        {
+          "article_id": "art-e5f6a7b8",
+          "url": "https://www.axios.com/2026/03/28/houthis-iran-war-israel-missile",
+          "title_en": "Houthis join the Iran war, launch missile at Israel",
+          "title_ko": "후티, 이란 전쟁에 가담 — 이스라엘에 미사일 발사",
+          "summary_en": "The Houthi movement in Yemen formally joined the Iran war by launching missiles at Israel. The IDF has been regularly intercepting Houthi-launched missiles as part of the broader conflict involving Iran, Hezbollah, and allied groups.",
+          "summary_ko": "예멘의 후티 운동이 이스라엘에 미사일을 발사하며 이란 전쟁에 공식 가담했다. IDF는 이란·헤즈볼라 등 연계 세력과의 광범위한 분쟁 속에서 후티가 발사한 미사일을 지속적으로 요격하고 있다.",
+          "published_date": "2026-03-28",
+          "source": "Axios",
+          "relevance_note": "후티의 이란 전쟁 참전 경위와 미사일 발사 패턴을 설명하는 배경 기사"
+        }
+      ]
+    },
+    {
+      "event_id": "evt-004",
+      "date": "2026-04-01",
+      "time": "00:00:00Z",
+      "title": "이라크 에르빌 윤활유 공장, 드론 파상 공격으로 대형 화재",
+      "summary": "여러 차례의 드론 파상 공격이 이라크 에르빌(Erbil)의 윤활유 생산 공장을 표적으로 삼아 대형 화재를 일으켰다.",
+      "importance": "major",
+      "objectivity_avg": null,
+      "causally_related_to": [],
+      "confirmed_by": [
+        "wikipedia"
+      ],
+      "source_urls": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Timeline_of_the_2026_Iran_war#1_April"
+      },
+      "market_impact": {},
+      "trump_posts": [],
+      "related_articles": [
+        {
+          "article_id": "art-f6a7b8c9",
+          "url": "https://www.kurdistan24.net/en/story/904861/drone-attacks-spark-major-fire-at-motor-oil-depot-near-erbil",
+          "title_en": "Drone Attacks Spark Major Fire at Motor Oil Depot Near Erbil",
+          "title_ko": "에르빌 인근 윤활유 저장소, 드론 공격으로 대형 화재",
+          "summary_en": "Multiple drone waves struck a motor oil depot on the outskirts of Erbil, Iraq, igniting a major fire. The Erbil governor confirmed at least four drone attack waves, with firefighters unable to approach due to ongoing drone threat. The facility is linked to a British oil company.",
+          "summary_ko": "이라크 에르빌 외곽의 윤활유 저장소에 여러 차례 드론 공격이 가해져 대형 화재가 발생했다. 에르빌 주지사는 최소 4차례의 드론 공격이 있었다고 확인했으며, 소방대는 드론 위협이 계속돼 접근하지 못했다. 해당 시설은 영국계 석유회사와 연관돼 있다.",
+          "published_date": "2026-04-01",
+          "source": "Kurdistan 24",
+          "relevance_note": "에르빌 현지 언론의 사건 당일 직접 보도"
+        },
+        {
+          "article_id": "art-a7b8c9d0",
+          "url": "https://www.gbnews.com/news/iran-war-british-oil-firm-strike-iraq-erbil-castrol",
+          "title_en": "Iran war: Massive explosion as drone strikes British oil firm in Iraq after chilling Tehran warning",
+          "title_ko": "이란 전쟁: 드론, 이라크 주재 영국 석유사 공격으로 대폭발",
+          "summary_en": "A massive explosion and fire erupted at a Castrol oil plant in Erbil after drone strikes. The attack came after Iran's threat to target foreign companies operating in the region, with no staff injuries reported as emergency services responded.",
+          "summary_ko": "에르빌의 캐스트롤(Castrol) 석유 공장이 드론 공격을 받아 대폭발과 화재가 발생했다. 이번 공격은 이란이 역내 외국 기업을 표적으로 삼겠다고 경고한 직후 벌어졌다. 직원 부상자는 없었으며 구조대가 출동했다.",
+          "published_date": "2026-04-01",
+          "source": "GB News",
+          "relevance_note": "이란의 외국 기업 위협 경고 후 발생한 에르빌 공격 구체 보도"
+        }
+      ]
+    },
+    {
+      "event_id": "evt-005",
+      "date": "2026-04-01",
+      "time": "00:00:00Z",
+      "title": "미군 공습, 테헤란 구 미국대사관(현 박물관) 건물 피격",
+      "summary": "미군의 테헤란 공습이 구 미국대사관 건물에 피해를 입혔다고 보도됐다. 해당 건물은 1979년 이란 혁명 당시 점거된 이후 박물관으로 개조돼 사용 중이었다.",
+      "importance": "major",
+      "objectivity_avg": null,
+      "causally_related_to": [],
+      "confirmed_by": [
+        "wikipedia"
+      ],
+      "source_urls": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Timeline_of_the_2026_Iran_war#1_April"
+      },
+      "market_impact": {},
+      "trump_posts": [],
+      "related_articles": [
+        {
+          "article_id": "art-b8c9d0e1",
+          "url": "https://www.timesofisrael.com/liveblog_entry/airstrike-appears-to-hit-tehran-compound-of-former-us-embassy-where-irgc-set-up-anti-american-museum/",
+          "title_en": "Airstrike appears to hit Tehran compound of former US embassy where IRGC set up anti-American museum",
+          "title_ko": "테헤란 구 미국대사관 부지 공습 — IRGC가 운영하는 반미 박물관 타격",
+          "summary_en": "An airstrike struck inside the former US Embassy compound in Tehran on April 1, 2026. The compound has been controlled by the IRGC's Basij force since the 1979 hostage crisis, and operates an anti-American museum. Witnesses reported blown-out windows; Russia's nearby embassy also sustained collateral damage.",
+          "summary_ko": "4월 1일 테헤란 구 미국대사관 부지 내부에 공습이 가해졌다. 해당 부지는 1979년 인질 사태 이후 IRGC 바시지 부대가 관리하며 반미 박물관을 운영하고 있다. 목격자들은 유리창이 날아갔다고 전했으며, 인근 러시아 대사관도 부수적 피해를 입었다.",
+          "published_date": "2026-04-01",
+          "source": "The Times of Israel",
+          "relevance_note": "사건 현장 목격자 증언을 포함한 공습 직접 보도"
+        },
+        {
+          "article_id": "art-c9d0e1f2",
+          "url": "https://wtop.com/world/2026/04/airstrike-on-irans-capital-tehran-appears-to-have-hit-the-compound-of-the-former-u-s-embassy-there/",
+          "title_en": "Airstrike on Iran's capital, Tehran, appears to have hit the compound of the former U.S. Embassy there",
+          "title_ko": "이란 수도 테헤란 공습, 구 미국대사관 부지 타격한 듯",
+          "summary_en": "Reports confirmed an airstrike landed inside the compound of the former US Embassy in Tehran, which has served as the headquarters of Iran's 'Den of Espionage' museum since 1979. The strike's attribution was disputed between US and Israeli forces.",
+          "summary_ko": "테헤란 구 미국대사관 부지 내부에 공습이 가해졌다는 보도가 확인됐다. 해당 부지는 1979년 이후 이란의 '첩보소굴' 박물관 본부로 사용되고 있다. 공습 주체에 대해서는 미군과 이스라엘군 사이에 논란이 있었다.",
+          "published_date": "2026-04-01",
+          "source": "WTOP News",
+          "relevance_note": "공습 귀책 논란과 역사적 맥락을 함께 보도"
+        }
+      ]
+    },
+    {
+      "event_id": "evt-006",
+      "date": "2026-04-01",
+      "time": "00:00:00Z",
+      "title": "트럼프 '이란 대통령 휴전 요청' 주장, 이란 전면 부인",
+      "summary": "도널드 트럼프 미국 대통령은 이란 대통령이 휴전을 요청해 왔다고 주장했다. 이란 정부는 이를 \"거짓이며 근거 없는\" 발언이라며 전면 부인했다.",
+      "importance": "major",
+      "objectivity_avg": null,
+      "causally_related_to": [],
+      "confirmed_by": [
+        "wikipedia"
+      ],
+      "source_urls": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Timeline_of_the_2026_Iran_war#1_April"
+      },
+      "market_impact": {},
+      "trump_posts": [
+        {
+          "post_id": "tp-001",
+          "url": "https://truthsocial.com/@realDonaldTrump",
+          "date": "2026-04-01",
+          "platform": "Truth Social",
+          "text_en": "Iran's New Regime President, much less Radicalized and far more intelligent than his predecessors, has just asked the United States of America for a CEASEFIRE! We will consider it, but ONLY if Iran opens the Strait of Hormuz NOW, until such time as Negotiations can be successfully concluded. Otherwise, the United States of America, and its Allies, will be blasting Iran into oblivion or, as they say, back to the Stone Ages!!!",
+          "text_ko": "이란의 새 정권 대통령이 — 전임자들보다 훨씬 덜 급진적이고 훨씬 더 총명한 인물로 — 미합중국에 휴전을 요청해 왔습니다! 이란이 지금 당장 호르무즈 해협을 개방하고, 협상이 성공적으로 마무리될 때까지 유지한다면 검토하겠습니다. 그렇지 않으면 미합중국과 동맹국들은 이란을 아예 없애 버리거나, 이른바 석기시대로 되돌려 놓을 것입니다!!!",
+          "relevance_note": "트럼프가 이란 대통령의 휴전 요청을 직접 언급한 Truth Social 게시물 — 이번 사건의 핵심 1차 출처"
+        }
+      ],
+      "related_articles": [
+        {
+          "article_id": "art-d0e1f2a3",
+          "url": "https://www.axios.com/2026/04/01/trump-iran-ceasefire-president",
+          "title_en": "U.S. and Iran discussing ceasefire for reopening strait, officials say",
+          "title_ko": "미국·이란, 해협 개방 조건 휴전 논의 중 — 관리들",
+          "summary_en": "Three US officials confirmed that Washington and Tehran are exchanging messages via intermediaries in third countries including Pakistan regarding a potential ceasefire tied to reopening the Strait of Hormuz. No face-to-face talks have been arranged.",
+          "summary_ko": "미국 관리 3명은 워싱턴과 테헤란이 파키스탄 등 제3국 중재자를 통해 호르무즈 해협 재개방을 조건으로 한 잠재적 휴전에 대한 메시지를 교환 중이라고 확인했다. 직접 회담은 아직 준비되지 않았다.",
+          "published_date": "2026-04-01",
+          "source": "Axios",
+          "relevance_note": "미국 정부 관리들의 증언을 통해 트럼프 주장의 외교적 맥락을 보도"
+        },
+        {
+          "article_id": "art-e1f2a3b4",
+          "url": "https://www.aljazeera.com/news/2026/4/1/iran-denies-trumps-claim-iranian-president-requested-ceasefire",
+          "title_en": "Iran denies Trump's claim Iranian president requested ceasefire",
+          "title_ko": "이란, 트럼프의 '대통령 휴전 요청' 주장 부인",
+          "summary_en": "Iran's Foreign Ministry and a spokesperson for President Pezeshkian's office formally denied Trump's Truth Social claim that Iran asked for a ceasefire, stating Iran's position on national defense has not changed.",
+          "summary_ko": "이란 외교부와 페제시키안 대통령 대변인실은 이란이 휴전을 요청했다는 트럼프의 Truth Social 주장을 공식 부인하며, 이란의 국방에 관한 입장은 변하지 않았다고 밝혔다.",
+          "published_date": "2026-04-01",
+          "source": "Al Jazeera",
+          "relevance_note": "이란 정부의 공식 반박 성명을 직접 보도"
+        }
+      ]
+    },
+    {
+      "event_id": "evt-007",
+      "date": "2026-04-01",
+      "time": "00:00:00Z",
+      "title": "이란, 이스파한 인근 미 MQ-9 드론 2대 격추 — 전쟁 중 누적 16대 손실",
+      "summary": "이란이 이스파한(Isfahan) 인근에서 미군 MQ-9 리퍼(Reaper) 드론 2대를 격추했다. 이로써 이번 전쟁에서 미국이 잃은 MQ-9 리퍼 드론은 총 16대로 늘어났다.",
+      "importance": "major",
+      "objectivity_avg": null,
+      "causally_related_to": [],
+      "confirmed_by": [
+        "wikipedia"
+      ],
+      "source_urls": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Timeline_of_the_2026_Iran_war#1_April"
+      },
+      "market_impact": {},
+      "trump_posts": [],
+      "related_articles": [
+        {
+          "article_id": "art-f2a3b4c5",
+          "url": "https://defencesecurityasia.com/en/us-mq-9-reaper-losses-iran-operation-epic-fury-isfahan-usd480-million/",
+          "title_en": "US Loses 16 MQ-9 Reapers Over Iran as USD480 Million Drone Attrition Exposes Vulnerability",
+          "title_ko": "미국, 이란 상공에서 MQ-9 16대 손실 — 4억8000만 달러 소모전",
+          "summary_en": "As Iran shot down two more MQ-9 Reapers near Isfahan, the total US drone losses in the war reached 16. With each drone costing approximately $30 million, the total attrition value exceeded $480 million. The IRGC claimed the drones were destroyed using an advanced integrated air defense system.",
+          "summary_ko": "이란이 이스파한 인근에서 MQ-9 리퍼 2대를 추가 격추하면서 이번 전쟁에서 미국의 드론 손실 총계가 16대에 달했다. 대당 약 3000만 달러에 달하는 드론 가격을 감안하면 총 손실액은 4억8000만 달러를 넘는다. IRGC는 통합 방공 시스템으로 드론을 격추했다고 주장했다.",
+          "published_date": "2026-04-01",
+          "source": "Defence Security Asia",
+          "relevance_note": "이스파한 MQ-9 격추 사건과 전쟁 기간 누적 손실 현황을 종합 보도"
+        },
+        {
+          "article_id": "art-a8b9c0d1",
+          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/iran-says-it-shot-down-mq-9-drone-near-isfahan",
+          "title_en": "Iran says it shot down MQ-9 drone near Isfahan",
+          "title_ko": "이란, 이스파한 인근 MQ-9 드론 격추 발표",
+          "summary_en": "Middle East Eye reported Iran's claim of shooting down a US MQ-9 Reaper drone near Isfahan, with the IRGC stating the drone was destroyed by an advanced air defense system. The claim was part of Iran's ongoing campaign against US surveillance and strike drones.",
+          "summary_ko": "미들 이스트 아이는 이란이 이스파한 인근에서 미군 MQ-9 리퍼 드론을 격추했다고 주장했다고 보도했다. IRGC는 첨단 방공 시스템으로 드론을 격파했다고 밝혔다. 이 주장은 이란의 미군 정찰·타격 드론에 대한 지속적인 작전의 일환이다.",
+          "published_date": "2026-04-01",
+          "source": "Middle East Eye",
+          "relevance_note": "이스파한 인근 MQ-9 격추 사건을 직접 보도"
+        }
+      ]
+    },
+    {
+      "event_id": "evt-008",
+      "date": "2026-04-01",
+      "time": "00:00:00Z",
+      "title": "이란 전 외무장관 카라지 공습으로 중상, 부인 사망",
+      "summary": "이란 관영 매체 누르뉴스(Nournews)는 카말 카라지(Kamal Kharazi) 전 외무장관이 공습으로 중상을 입었으며 그의 부인은 사망했다고 보도했다.",
+      "importance": "major",
+      "objectivity_avg": null,
+      "causally_related_to": [],
+      "confirmed_by": [
+        "wikipedia"
+      ],
+      "source_urls": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Timeline_of_the_2026_Iran_war#1_April"
+      },
+      "market_impact": {},
+      "trump_posts": [],
+      "related_articles": [
+        {
+          "article_id": "art-a3b4c5d6",
+          "url": "https://www.aljazeera.com/news/2026/4/2/irans-ex-foreign-minister-kharazi-gravely-wounded-in-attack-on-his-home",
+          "title_en": "Iran's ex-foreign minister Kharazi 'gravely wounded' in attack on his home",
+          "title_ko": "이란 전 외무장관 카라지, 자택 공격으로 '중태'",
+          "summary_en": "Former Iranian Foreign Minister Kamal Kharazi was gravely wounded and his wife killed when an airstrike struck their home. Kharazi was reportedly involved in back-channel negotiations for peace talks, adding diplomatic significance to the strike.",
+          "summary_ko": "카말 카라지 전 이란 외무장관이 자택에 가해진 공습으로 중태에 빠졌으며 그의 부인은 사망했다. 카라지는 평화 협상을 위한 비공개 채널 협상에 관여했던 것으로 알려져 이번 공습의 외교적 의미가 더욱 주목받고 있다.",
+          "published_date": "2026-04-02",
+          "source": "Al Jazeera",
+          "relevance_note": "사건 직후 보도로 카라지의 외교적 역할과 공습 피해를 상세히 다룸"
+        },
+        {
+          "article_id": "art-b4c5d6e7",
+          "url": "https://www.irishtimes.com/world/middle-east/2026/04/02/former-iranian-foreign-minister-seriously-injured-and-wife-killed-in-us-israel-strike/",
+          "title_en": "Former Iranian foreign minister Kamal Kharazi seriously injured in US-Israeli strike – wife killed",
+          "title_ko": "미-이스라엘 공습으로 이란 전 외무장관 중상, 부인 사망",
+          "summary_en": "The Irish Times confirmed that Kharazi, who was reportedly coordinating back-channel talks between Iran and Western intermediaries, was seriously injured in the US-Israeli strike. His wife died in the attack. Some reports subsequently indicated Kharazi himself died of his injuries.",
+          "summary_ko": "아이리시 타임스는 이란과 서방 중재자 간 비공개 협상을 조율하던 카라지가 미-이스라엘 공습으로 중상을 입었다고 확인했다. 그의 부인은 공습으로 사망했다. 이후 일부 보도에서는 카라지도 부상으로 사망했다는 소식이 전해졌다.",
+          "published_date": "2026-04-02",
+          "source": "The Irish Times",
+          "relevance_note": "서방 언론의 사건 확인 보도 — 비공개 협상 역할 언급 포함"
+        }
+      ]
+    },
+    {
+      "event_id": "evt-009",
+      "date": "2026-04-02",
+      "time": "00:00:00Z",
+      "title": "걸프 국가들, 호르무즈 우회 대체 파이프라인 검토",
+      "summary": "걸프 국가들이 호르무즈 해협을 우회하는 대체 석유·가스 파이프라인 건설을 검토 중이라는 보도가 나왔다. 제안된 경로 중에는 하이파(Haifa)를 경유해 지중해로 연결하는 루트도 포함됐다.",
+      "importance": "major",
+      "objectivity_avg": null,
+      "causally_related_to": [],
+      "confirmed_by": [
+        "wikipedia"
+      ],
+      "source_urls": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Timeline_of_the_2026_Iran_war#2_April"
+      },
+      "market_impact": {},
+      "trump_posts": [],
+      "related_articles": [
+        {
+          "article_id": "art-f8a9b0c1",
+          "url": "https://www.jpost.com/business-and-innovation/energy-and-infrastructure/article-891934",
+          "title_en": "Gulf states consider bypassing Strait of Hormuz with new oil pipelines via Haifa - FT",
+          "title_ko": "걸프 국가들, 하이파 경유 신규 파이프라인으로 호르무즈 우회 검토 — FT",
+          "summary_en": "The Financial Times reported that Gulf states are exploring plans to bypass the Strait of Hormuz by building new oil pipelines, including a route via Haifa port to the Mediterranean. The discussions revived IMEC corridor proposals, with costs estimated at $5-20 billion.",
+          "summary_ko": "파이낸셜 타임스는 걸프 국가들이 하이파 항구를 경유해 지중해로 연결하는 루트를 포함한 새로운 석유 파이프라인 건설로 호르무즈 해협을 우회하는 방안을 검토 중이라고 보도했다. 이 논의는 IMEC 회랑 구상을 재활성화시켰으며, 비용은 50~200억 달러로 추산된다.",
+          "published_date": "2026-04-02",
+          "source": "The Jerusalem Post (citing Financial Times)",
+          "relevance_note": "걸프-하이파 파이프라인 논의를 최초 보도한 FT 기사를 인용"
+        },
+        {
+          "article_id": "art-a9b0c1d2",
+          "url": "https://www.aljazeera.com/economy/2026/3/27/saudi-uae-iraq-can-three-pipelines-help-oil-escape-strait-of-hormuz",
+          "title_en": "Saudi, UAE, Iraq: Can three pipelines help oil escape Strait of Hormuz?",
+          "title_ko": "사우디·UAE·이라크: 파이프라인 3개로 호르무즈 우회 가능한가?",
+          "summary_en": "Al Jazeera analyzed existing and proposed pipeline infrastructure that could allow Gulf oil exports to bypass the Strait of Hormuz. Saudi Arabia's east-west pipeline, capable of carrying 7 million barrels per day, and potential Iraqi and UAE alternatives were assessed.",
+          "summary_ko": "알자지라는 걸프 석유 수출이 호르무즈 해협을 우회할 수 있는 기존 및 계획 중인 파이프라인 인프라를 분석했다. 하루 700만 배럴 수송 능력의 사우디 동-서 파이프라인과 이라크·UAE 대안 루트가 검토됐다.",
+          "published_date": "2026-03-27",
+          "source": "Al Jazeera",
+          "relevance_note": "걸프 파이프라인 대안을 구체적으로 분석한 배경 기사 (사건 ±3일 내)"
+        }
+      ]
+    },
+    {
+      "event_id": "evt-010",
+      "date": "2026-04-02",
+      "time": "00:00:00Z",
+      "title": "이란 파스퇴르 연구소 건물, 공습으로 파괴",
+      "summary": "이란의 주요 공중보건·생물의학 연구기관인 파스퇴르 연구소(Pasteur Institute of Iran) 건물들이 공습으로 파괴됐다.",
+      "importance": "major",
+      "objectivity_avg": null,
+      "causally_related_to": [],
+      "confirmed_by": [
+        "wikipedia"
+      ],
+      "source_urls": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Timeline_of_the_2026_Iran_war#2_April"
+      },
+      "market_impact": {},
+      "trump_posts": [],
+      "related_articles": [
+        {
+          "article_id": "art-b0c1d2e3",
+          "url": "https://www.al-monitor.com/originals/2026/04/iran-says-strikes-hit-historic-pasteur-institute-tehran-what-know",
+          "title_en": "Iran says strikes hit historic Pasteur Institute in Tehran: What to know",
+          "title_ko": "이란 '공습이 테헤란 파스퇴르 연구소 타격': 배경 설명",
+          "summary_en": "Al-Monitor explained the significance of the Pasteur Institute of Iran — founded in 1920 and a central institution for vaccine production, infectious disease control, and biomedical research. Iran's Health Ministry confirmed the strike and warned of global health risks.",
+          "summary_ko": "알-모니터는 1920년에 설립된 이란 파스퇴르 연구소의 중요성을 설명했다. 이 연구소는 백신 생산, 감염병 관리, 생의학 연구의 핵심 기관이다. 이란 보건부는 공습을 확인하고 전 세계적 보건 위험을 경고했다.",
+          "published_date": "2026-04-02",
+          "source": "Al-Monitor",
+          "relevance_note": "파스퇴르 연구소의 역사적·의학적 중요성과 공습 피해를 심층 보도"
+        },
+        {
+          "article_id": "art-c1d2e3f4",
+          "url": "https://www.commondreams.org/news/pasteur-institute-iran",
+          "title_en": "'A Barbaric Assault': Iran Condemns US-Israeli Bombing of Century-Old Medical Research Center",
+          "title_ko": "'야만적 공습': 이란, 100년 역사 의학 연구소 폭격 규탄",
+          "summary_en": "Iran condemned the destruction of the Pasteur Institute as 'a barbaric assault,' citing it as a violation of international humanitarian law. Photos from Iran's Health Ministry spokesperson showed the institute in flames. International health experts called for investigations.",
+          "summary_ko": "이란은 파스퇴르 연구소 파괴를 '야만적 공습'이라고 규탄하며 국제인도법 위반이라고 주장했다. 이란 보건부 대변인이 공유한 사진에는 불길에 휩싸인 연구소가 담겼다. 국제 보건 전문가들은 조사를 촉구했다.",
+          "published_date": "2026-04-02",
+          "source": "Common Dreams",
+          "relevance_note": "이란 정부의 공식 규탄 성명과 국제 반응을 다룬 보도"
+        }
+      ]
+    },
+    {
+      "event_id": "evt-011",
+      "date": "2026-04-02",
+      "time": "00:00:00Z",
+      "title": "마샤드 공항 인근 연료 탱크 피격·화재",
+      "summary": "마샤드(Mashhad) 국제공항 인근의 연료 탱크가 발사체에 피격돼 화재가 발생했다.",
+      "importance": "minor",
+      "objectivity_avg": null,
+      "causally_related_to": [],
+      "confirmed_by": [
+        "wikipedia"
+      ],
+      "source_urls": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Timeline_of_the_2026_Iran_war#2_April"
+      },
+      "market_impact": {},
+      "trump_posts": [],
+      "related_articles": [
+        {
+          "article_id": "art-d2e3f4a5",
+          "url": "https://www.timesofisrael.com/liveblog_entry/fire-reported-at-irans-mashhad-airport-after-projectile-strikes-fuel-tank/",
+          "title_en": "Fire reported at Iran's Mashhad airport after projectile strikes fuel tank",
+          "title_ko": "이란 마샤드 공항, 발사체가 연료 탱크 타격 후 화재",
+          "summary_en": "A fire broke out near Mashhad International Airport in northeastern Iran after a projectile struck a fuel tank. The Khorasan Razavi governor's office reported no casualties. Columns of smoke were visible across the city as firefighting operations got underway.",
+          "summary_ko": "이란 북동부 마샤드 국제공항 인근에서 발사체가 연료 탱크를 타격한 후 화재가 발생했다. 호라산 라자비 주지사실은 인명 피해가 없다고 밝혔다. 소방 작업이 진행되는 동안 도시 전역에서 연기 기둥이 목격됐다.",
+          "published_date": "2026-04-02",
+          "source": "The Times of Israel",
+          "relevance_note": "마샤드 공항 인근 연료 탱크 피격 사건을 직접 보도"
+        }
+      ]
+    },
+    {
+      "event_id": "evt-012",
+      "date": "2026-04-02",
+      "time": "00:00:00Z",
+      "title": "이란, 바레인 아마존 클라우드 시설 타격·요르단 상공 미 전투기 공격",
+      "summary": "이란의 공격이 바레인의 아마존 웹서비스(AWS) 클라우드 컴퓨팅 시설을 표적으로 삼아 화재를 일으켰다. 이란은 또한 요르단 상공에서 작전 중이던 미군 전투기를 공격했다고 주장했다.",
+      "importance": "major",
+      "objectivity_avg": null,
+      "causally_related_to": [],
+      "confirmed_by": [
+        "wikipedia"
+      ],
+      "source_urls": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Timeline_of_the_2026_Iran_war#2_April"
+      },
+      "market_impact": {},
+      "trump_posts": [],
+      "related_articles": [
+        {
+          "article_id": "art-e3f4a5b6",
+          "url": "https://www.datacenterdynamics.com/en/news/fire-at-aws-data-center-in-bahrain-after-iranian-attack-report/",
+          "title_en": "Fire at AWS data center in Bahrain after Iranian attack - report",
+          "title_ko": "이란 공격 후 바레인 AWS 데이터센터 화재 — 보도",
+          "summary_en": "An Iranian strike targeted an Amazon Web Services data center in Bahrain, causing a fire. This was part of a broader Iranian campaign against commercial cloud infrastructure that began in early March 2026, causing service outages across banking, payments, and enterprise software.",
+          "summary_ko": "이란의 공격이 바레인의 아마존 웹서비스(AWS) 데이터센터를 타격해 화재가 발생했다. 이는 2026년 3월 초에 시작된 이란의 상업용 클라우드 인프라 공격 캠페인의 일환으로, 은행·결제·기업 소프트웨어 전반에 걸친 서비스 장애를 일으켰다.",
+          "published_date": "2026-04-02",
+          "source": "Data Center Dynamics",
+          "relevance_note": "AWS 바레인 데이터센터 공격을 직접 보도"
+        },
+        {
+          "article_id": "art-f4a5b6c7",
+          "url": "https://fortune.com/2026/03/09/irans-attacks-on-amazon-data-centers-in-uae-bahrain-signal-a-new-kind-of-war-as-ai-plays-an-increasingly-strategic-role-analysts-say/",
+          "title_en": "Iranian attacks on Amazon data centers in UAE, Bahrain signal a new kind of war",
+          "title_ko": "UAE·바레인 아마존 데이터센터 공격, 새로운 유형의 전쟁을 예고",
+          "summary_en": "Fortune analyzed the strategic significance of Iran targeting commercial cloud infrastructure, calling it the first deliberate wartime strikes on commercial data centers. Analysts noted that targeting AWS facilities supporting US military AI operations represents a new dimension of conflict.",
+          "summary_ko": "포춘은 이란이 상업용 클라우드 인프라를 표적으로 삼은 전략적 의미를 분석했다. 이를 전시 상업 데이터센터에 대한 최초의 의도적 공격으로 규정하며, 미군 AI 작전을 지원하는 AWS 시설을 표적으로 삼은 것은 새로운 분쟁 차원을 의미한다고 전문가들이 지적했다.",
+          "published_date": "2026-03-09",
+          "source": "Fortune",
+          "relevance_note": "이란의 데이터센터 공격 캠페인의 전략적 맥락을 심층 분석"
+        }
+      ]
+    },
+    {
+      "event_id": "evt-013",
+      "date": "2026-04-02",
+      "time": "02:00:00Z",
+      "title": "연합군, 테헤란 IRGC 지상군 기지·이동 지휘소 및 카라지 B1 교량 공습",
+      "summary": "IDF와 미국 주도 연합군이 테헤란의 이란혁명수비대(IRGC) 지상군 기지와 이동 지휘소를 타격했다. 미군은 테헤란과 카라지(Karaj)를 잇는 B1 교량도 두 차례 공습했다. 민간인 사상자 발생 여부는 확인되지 않았으며, 국제인도법(IHL) 위반 우려가 제기됐다.",
+      "importance": "critical",
+      "objectivity_avg": null,
+      "causally_related_to": [],
+      "confirmed_by": [
+        "wikipedia",
+        "iranwarlive"
+      ],
+      "source_urls": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Timeline_of_the_2026_Iran_war#2_April",
+        "iranwarlive": "https://iranwarlive.com/recaps/day-35.html"
+      },
+      "market_impact": {},
+      "trump_posts": [
+        {
+          "post_id": "tp-002",
+          "url": "https://truthsocial.com/@realDonaldTrump",
+          "date": "2026-04-02",
+          "platform": "Truth Social",
+          "text_en": "The biggest bridge in Iran comes tumbling down, never to be used again — Much more to follow! IT IS TIME FOR IRAN TO MAKE A DEAL BEFORE IT IS TOO LATE, AND THERE IS NOTHING LEFT OF WHAT STILL COULD BECOME A GREAT COUNTRY.",
+          "text_ko": "이란 최대 교량이 무너졌습니다, 다시는 사용될 수 없을 것입니다 — 더 많은 것이 뒤따를 것입니다! 이제 이란이 너무 늦기 전에, 아직 위대한 나라가 될 수 있는 것이 아무것도 남지 않기 전에 협상에 나설 때입니다.",
+          "relevance_note": "B1 교량 타격 직후 트럼프가 이를 자랑하며 이란에 협상을 촉구한 Truth Social 게시물"
+        }
+      ],
+      "related_articles": [
+        {
+          "article_id": "art-c5d6e7f8",
+          "url": "https://www.twz.com/news-features/key-iranian-bridge-severed-by-airstrikes",
+          "title_en": "Key Iranian Bridge Severed By Airstrikes",
+          "title_ko": "이란 핵심 교량, 공습으로 절단",
+          "summary_en": "The B1 Bridge connecting Tehran and Karaj — Iran's tallest highway bridge — was severed in two successive US-Israeli airstrikes on April 2. The strike was aimed at disrupting Iranian military supply routes for ballistic missiles and attack drones. Iran said 8 people were killed and 95 wounded.",
+          "summary_ko": "테헤란과 카라지를 잇는 이란 최고 높이 고속도로 교량 B1이 4월 2일 미-이스라엘의 두 차례 연속 공습으로 절단됐다. 이번 공습은 이란의 탄도미사일·공격 드론 군수 보급로 차단을 목표로 했다. 이란 측은 8명이 사망하고 95명이 부상했다고 밝혔다.",
+          "published_date": "2026-04-02",
+          "source": "The War Zone",
+          "relevance_note": "B1 교량 공습의 군사적 목적과 피해 규모를 상세히 분석"
+        },
+        {
+          "article_id": "art-d6e7f8a9",
+          "url": "https://www.axios.com/2026/04/02/trump-iran-bridge-stone-age",
+          "title_en": "U.S. bombs Iran's civilian infrastructure for first time after 'Stone Ages' threat",
+          "title_ko": "'석기시대' 발언 직후 미국, 처음으로 이란 민간 인프라 폭격",
+          "summary_en": "Following Trump's primetime 'stone ages' threat, US forces carried out the first strike on civilian infrastructure in Iran — the B1 Bridge linking Tehran to Karaj. The bridge partially collapsed, and the attack raised concerns about civilian impact and IHL compliance.",
+          "summary_ko": "트럼프의 '석기시대' 위협 직후 미군이 처음으로 이란 민간 인프라를 공격했다. 테헤란과 카라지를 잇는 B1 교량이 부분 붕괴됐으며, 이번 공격은 민간 피해와 국제인도법 준수 여부에 대한 우려를 낳았다.",
+          "published_date": "2026-04-02",
+          "source": "Axios",
+          "relevance_note": "민간 인프라 최초 타격이라는 역사적 맥락을 강조한 보도"
+        }
+      ]
+    },
+    {
+      "event_id": "evt-014",
+      "date": "2026-04-02",
+      "time": "04:30:00Z",
+      "title": "이란, 텔아비브·예루살렘 미사일 공격 — 성도 첫 표적, 민간인 4명 부상",
+      "summary": "이란이 텔아비브와 예루살렘을 향해 미사일을 발사했다. 예루살렘이 이번 전쟁에서 공격 대상이 된 것은 이번이 처음이다. 민간인 4명이 부상을 입었으며, Bnei Brak(브네이 브락)의 수도 기반시설도 피해를 입었다.",
+      "importance": "critical",
+      "objectivity_avg": null,
+      "causally_related_to": [],
+      "confirmed_by": [
+        "iranwarlive"
+      ],
+      "source_urls": {
+        "iranwarlive": "https://iranwarlive.com/recaps/day-35.html"
+      },
+      "market_impact": {},
+      "trump_posts": [],
+      "related_articles": [
+        {
+          "article_id": "art-e7f8a9b0",
+          "url": "https://marcschulman.substack.com/p/april-2-2026-iran-fires-20-missiles",
+          "title_en": "April 2, 2026: Iran Fires 20 Missiles at Israel As Passover Begins; Jerusalem Targeted",
+          "title_ko": "2026년 4월 2일: 유월절 시작과 동시에 이란, 이스라엘에 미사일 20발 — 예루살렘 표적",
+          "summary_en": "Iran fired approximately 20 missiles at Israel on April 2 as Passover began. Jerusalem was targeted for the first time in the war; a missile was intercepted with debris falling near Beit Shemesh. Water infrastructure in Bnei Brak was damaged and four civilians were wounded.",
+          "summary_ko": "이란은 유월절이 시작되는 4월 2일 이스라엘에 약 20발의 미사일을 발사했다. 이번 전쟁에서 처음으로 예루살렘이 표적이 됐으며, 요격된 미사일 파편이 베이트 셰메쉬 인근에 낙하했다. 브네이 브락의 수도 기반시설이 피해를 입었고 민간인 4명이 부상을 입었다.",
+          "published_date": "2026-04-02",
+          "source": "Marc Schulman / Substack",
+          "relevance_note": "예루살렘 최초 표적화와 유월절 시기 공격이라는 맥락을 담은 당일 보도"
+        },
+        {
+          "article_id": "art-f8b9c0d1",
+          "url": "https://www.aljazeera.com/news/2026/4/2/iran-war-what-is-happening-on-day-34-of-us-israel-attacks",
+          "title_en": "Iran war: What is happening on day 34 of US-Israel attacks?",
+          "title_ko": "이란 전쟁: 미-이스라엘 공격 34일째 현황",
+          "summary_en": "Al Jazeera's day 34 summary documented Iran's missile launches toward Tel Aviv and Jerusalem, confirming Jerusalem was targeted for the first time. The report covered the scope of Iranian missile volleys and Israeli missile defense responses on April 2.",
+          "summary_ko": "알자지라의 34일째 종합 보도는 이란의 텔아비브·예루살렘 미사일 발사를 기록했으며, 예루살렘이 처음으로 표적이 됐음을 확인했다. 4월 2일 이란의 미사일 공격 규모와 이스라엘 방공 대응 현황을 다뤘다.",
+          "published_date": "2026-04-02",
+          "source": "Al Jazeera",
+          "relevance_note": "사건 당일 이란의 대이스라엘 미사일 공격을 종합 보도"
+        }
+      ]
+    },
+    {
+      "event_id": "evt-015",
+      "date": "2026-04-02",
+      "time": "08:00:00Z",
+      "title": "사우디 이란 드론 4대 이상 요격, 쿠웨이트도 격퇴 — 바레인 경보·미 5함대 위협",
+      "summary": "사우디아라비아가 자국을 향해 접근하던 이란 드론 4대 이상을 요격했다. 쿠웨이트도 드론과 미사일 혼합 공격을 격퇴했다. 바레인에서는 공습 경보가 울렸으며, 바레인에 주둔한 미 해군 제5함대(US 5th Fleet)의 안전에 대한 우려가 커졌다.",
+      "importance": "major",
+      "objectivity_avg": null,
+      "causally_related_to": [],
+      "confirmed_by": [
+        "iranwarlive"
+      ],
+      "source_urls": {
+        "iranwarlive": "https://iranwarlive.com/recaps/day-35.html"
+      },
+      "market_impact": {},
+      "trump_posts": [],
+      "related_articles": [
+        {
+          "article_id": "art-a5b6c7d8",
+          "url": "https://www.turkiyetoday.com/region/saudi-arabia-kuwait-bahrain-intercept-aerial-threats-overnight-3217393",
+          "title_en": "Saudi Arabia, Kuwait, Bahrain intercept aerial threats overnight",
+          "title_ko": "사우디·쿠웨이트·바레인, 야간 공중 위협 요격",
+          "summary_en": "Saudi Arabia confirmed intercepting and destroying a drone targeting the kingdom. Kuwait repelled a combined drone and missile attack. Bahrain's air raid sirens sounded three times overnight, raising concerns about the nearby US Navy 5th Fleet headquarters.",
+          "summary_ko": "사우디아라비아는 자국을 표적으로 한 드론을 요격해 격파했다고 확인했다. 쿠웨이트는 드론과 미사일의 혼합 공격을 격퇴했다. 바레인에서는 야간에 세 차례 공습 경보가 울렸으며, 인근 미 해군 제5함대 본부에 대한 우려가 높아졌다.",
+          "published_date": "2026-04-02",
+          "source": "Türkiye Today",
+          "relevance_note": "사우디·쿠웨이트·바레인 세 나라의 방공 대응을 종합 보도"
+        },
+        {
+          "article_id": "art-b6c7d8e9",
+          "url": "https://www.fdd.org/analysis/2026/04/02/iran-and-proxies-fire-fewer-total-projectiles-increase-accuracy-in-attacks-on-region-march-28-april-1-updates/",
+          "title_en": "Iran and proxies fire fewer total projectiles, increase accuracy in attacks on region",
+          "title_ko": "이란과 대리 세력, 발사체 수 줄이고 정확도 높여",
+          "summary_en": "FDD analysis covering March 28 to April 2 documented Iran and its proxies shifting strategy toward more precise strikes across Saudi Arabia, Kuwait, and Bahrain. The increased accuracy heightened threats to critical infrastructure including the US 5th Fleet base in Bahrain.",
+          "summary_ko": "FDD의 3월 28일~4월 2일 공격 분석은 이란과 대리 세력이 사우디아라비아, 쿠웨이트, 바레인에 대해 더 정밀한 공격으로 전략을 전환하고 있음을 기록했다. 정확도 향상으로 바레인 미 5함대 기지를 포함한 핵심 인프라에 대한 위협이 커졌다.",
+          "published_date": "2026-04-02",
+          "source": "Foundation for Defense of Democracies",
+          "relevance_note": "걸프 지역 전반에 걸친 이란 공격 패턴 변화를 분석"
+        }
+      ]
+    },
+    {
+      "event_id": "evt-016",
+      "date": "2026-04-02",
+      "time": "12:00:00Z",
+      "title": "트럼프 '이란군 궤멸' 주장, 합의 없으면 2~3주 내 '석기시대' 폭격 위협",
+      "summary": "도널드 트럼프 미국 대통령은 이란군이 궤멸됐다고 주장하며, 2~3주 내에 평화 협정이 체결되지 않을 경우 이란을 '석기시대'로 되돌릴 만큼 폭격하겠다고 위협했다. 트럼프는 이란에서 1,000파운드(약 453kg)의 고농축 우라늄(HEU)을 공수해오는 계획에 대한 보고도 받은 것으로 알려졌다.",
+      "importance": "critical",
+      "objectivity_avg": null,
+      "causally_related_to": [],
+      "confirmed_by": [
+        "iranwarlive"
+      ],
+      "source_urls": {
+        "iranwarlive": "https://iranwarlive.com/recaps/day-35.html"
+      },
+      "market_impact": {},
+      "trump_posts": [
+        {
+          "post_id": "tp-003",
+          "url": "https://truthsocial.com/@realDonaldTrump",
+          "date": "2026-04-02",
+          "platform": "Truth Social / Primetime Address",
+          "text_en": "Iran has been essentially decimated – the hard part is done. We're going to bring them back to the Stone Ages. If there's no deal in the next two to three weeks, we will be hitting them very hard.",
+          "text_ko": "이란은 사실상 궤멸됐습니다 — 가장 어려운 부분은 끝났습니다. 우리는 그들을 석기시대로 되돌릴 것입니다. 앞으로 2~3주 내에 합의가 이뤄지지 않으면 이란을 매우 강력하게 타격할 것입니다.",
+          "relevance_note": "트럼프의 전국 대국민 연설 및 Truth Social에서 이란군 궤멸·석기시대 폭격을 직접 언급한 핵심 발언"
+        }
+      ],
+      "related_articles": [
+        {
+          "article_id": "art-c7d8e9f0",
+          "url": "https://www.axios.com/2026/04/02/trump-bomb-iran-stone-ages-power-plants",
+          "title_en": "Trump: U.S. will bomb Iran 'back to stone ages' over next 2-3 weeks",
+          "title_ko": "트럼프: '2~3주 내 이란을 석기시대로 폭격'",
+          "summary_en": "In a primetime national address, Trump said the US was close to ending its war in Iran but would bomb the country back to the stone ages within 2-3 weeks if no deal was reached. Markets reacted sharply: oil surged past $106/barrel and stock futures plummeted.",
+          "summary_ko": "트럼프는 전국 황금 시간대 연설에서 미국이 이란과의 전쟁을 마무리하는 단계에 접어들었지만, 2~3주 내에 합의가 이뤄지지 않으면 이란을 석기시대로 폭격하겠다고 밝혔다. 이에 시장은 급격히 반응해 유가가 배럴당 106달러를 돌파하고 주가 선물이 급락했다.",
+          "published_date": "2026-04-02",
+          "source": "Axios",
+          "relevance_note": "트럼프의 이란 전쟁 대국민 연설 핵심 내용과 시장 반응을 직접 보도"
+        },
+        {
+          "article_id": "art-d8e9f0a1",
+          "url": "https://foreignpolicy.com/2026/04/02/trump-iran-war-speech-what-happens-next/",
+          "title_en": "Trump's Iran Speech Gives Little Clarity on War",
+          "title_ko": "트럼프 이란 연설, 전쟁 방향에 대한 명확성 결여",
+          "summary_en": "Foreign Policy analyzed Trump's April 2 address, noting that while Trump threatened escalation, he offered no clear endgame or exit strategy. The speech did not address the HEU removal plan or ground troop deployment options, leaving analysts uncertain about US objectives.",
+          "summary_ko": "포린 폴리시는 트럼프의 4월 2일 연설을 분석하며, 트럼프가 확전을 위협했지만 명확한 최종 목표나 출구 전략을 제시하지 않았다고 지적했다. 연설에서는 HEU 반출 계획이나 지상군 투입 옵션에 대한 언급이 없어 미국의 목표에 대한 불확실성이 남았다.",
+          "published_date": "2026-04-02",
+          "source": "Foreign Policy",
+          "relevance_note": "트럼프 연설의 전략적 모호성과 이란 전쟁 전망을 심층 분석"
+        }
+      ]
+    },
+    {
+      "event_id": "evt-017",
+      "date": "2026-04-02",
+      "time": "14:00:00Z",
+      "title": "이란 '더 광범위하고 파괴적인 보복' 선언, 궤멸 주장 반박",
+      "summary": "이란은 '분쇄적이고 더 광범위하며 더 파괴적인' 보복을 다짐하는 성명을 발표하며, 이란군이 궤멸됐다는 미국의 주장을 정면으로 반박했다. 이란 관리들은 미국 주도 연합군의 손이 닿지 않는 곳에 은닉된 무기 비축물이 존재한다고 주장했다.",
+      "importance": "major",
+      "objectivity_avg": null,
+      "causally_related_to": [
+        "evt-016"
+      ],
+      "confirmed_by": [
+        "iranwarlive"
+      ],
+      "source_urls": {
+        "iranwarlive": "https://iranwarlive.com/recaps/day-35.html"
+      },
+      "market_impact": {},
+      "trump_posts": [],
+      "related_articles": [
+        {
+          "article_id": "art-e9f0a1b2",
+          "url": "https://www.euronews.com/2026/04/02/iran-vows-crushing-more-destructive-attacks-on-us-and-israel-after-trump-threats",
+          "title_en": "Iran vows 'crushing, more destructive' attacks on US and Israel after Trump threats",
+          "title_ko": "이란, 트럼프 위협 후 미국·이스라엘에 '분쇄적이고 더 파괴적인' 공격 다짐",
+          "summary_en": "Following Trump's 'stone ages' speech, Iranian officials formally vowed a 'crushing, broader, and more destructive' retaliatory response. A military spokesperson rejected the 'decimated' characterization, saying targeted facilities were 'insignificant' and hidden stockpiles remain intact.",
+          "summary_ko": "트럼프의 '석기시대' 발언 이후 이란 관리들은 공식적으로 '분쇄적이고 더 광범위하며 더 파괴적인' 보복을 다짐했다. 군 대변인은 '궤멸' 규정을 반박하며 표적이 된 시설들은 '무의미하고' 은닉 비축물은 온전하게 남아 있다고 주장했다.",
+          "published_date": "2026-04-02",
+          "source": "Euronews",
+          "relevance_note": "트럼프 연설에 대한 이란의 공식 반응을 직접 보도"
+        },
+        {
+          "article_id": "art-f0a1b2c3",
+          "url": "https://time.com/article/2026/04/02/iran-threatens-crushing-broader-attacks-us-israel-after-trump-warning/",
+          "title_en": "Iran Threatens 'Crushing and Broader' Attacks After Trump's Speech",
+          "title_ko": "트럼프 연설 후 이란, '분쇄적이고 광범위한' 공격 위협",
+          "summary_en": "Time Magazine reported Iran's official threat of escalation following Trump's primetime address. Iran's Foreign Ministry stated Tehran has 'no choice but to fight back strongly,' rejecting the ceasefire-for-Hormuz framework and vowing sustained retaliation.",
+          "summary_ko": "타임 매거진은 트럼프의 황금 시간대 연설 이후 이란의 공식 확전 위협을 보도했다. 이란 외교부는 테헤란이 '강력하게 반격할 수밖에 없다'고 밝히며 호르무즈 조건부 휴전 틀을 거부하고 지속적인 보복을 다짐했다.",
+          "published_date": "2026-04-02",
+          "source": "Time",
+          "relevance_note": "이란 외교부의 공식 입장과 확전 의지를 보도"
+        }
+      ]
+    },
+    {
+      "event_id": "evt-018",
+      "date": "2026-04-02",
+      "time": "16:30:00Z",
+      "title": "파키스탄, 4개국 지지 속 중재 의사 표명 — 함정 20척 호르무즈 통과",
+      "summary": "파키스탄이 사우디아라비아, 터키, 이집트, 쿠웨이트의 지지를 받아 이란 분쟁 중재 의사를 공식 확인했다. 신뢰 구축 조치의 일환으로 파키스탄 해군 함정 20척이 호르무즈 해협을 통과했다.",
+      "importance": "major",
+      "objectivity_avg": null,
+      "causally_related_to": [],
+      "confirmed_by": [
+        "iranwarlive"
+      ],
+      "source_urls": {
+        "iranwarlive": "https://iranwarlive.com/recaps/day-35.html"
+      },
+      "market_impact": {},
+      "trump_posts": [],
+      "related_articles": [
+        {
+          "article_id": "art-a1b2c3e4",
+          "url": "https://www.aljazeera.com/news/2026/3/28/pakistan-secures-iran-deal-to-send-20-ships-through-strait-of-hormuz",
+          "title_en": "Pakistan secures Iran deal to send 20 ships through Strait of Hormuz",
+          "title_ko": "파키스탄, 이란과 협의해 호르무즈 해협 선박 20척 통과 확보",
+          "summary_en": "Pakistan negotiated a deal with Iran to allow 20 Pakistani-flagged vessels to transit the Strait of Hormuz, in what Islamabad called a meaningful step toward easing one of the worst energy crises in modern history. Two ships were permitted to cross daily.",
+          "summary_ko": "파키스탄은 이란과 파키스탄 국기를 게양한 선박 20척이 호르무즈 해협을 통과할 수 있도록 하는 합의를 끌어냈다. 이슬라마바드는 이를 현대사에서 최악의 에너지 위기 중 하나를 완화하기 위한 의미 있는 첫걸음이라고 평가했다. 하루 2척 통과가 허용됐다.",
+          "published_date": "2026-03-28",
+          "source": "Al Jazeera",
+          "relevance_note": "파키스탄의 이란 중재 역할과 호르무즈 선박 통과 합의를 보도"
+        },
+        {
+          "article_id": "art-b2c3e4f5",
+          "url": "https://www.bloomberg.com/news/articles/2026-03-28/pakistan-says-iran-agreed-to-let-20-of-its-ships-through-hormuz",
+          "title_en": "Iran War: 20 Pakistani Ships to Transit Strait of Hormuz",
+          "title_ko": "이란 전쟁: 파키스탄 선박 20척 호르무즈 해협 통과",
+          "summary_en": "Bloomberg confirmed Iran agreed to allow 20 Pakistani ships to transit Hormuz as a confidence-building measure underpinning Islamabad's mediation role. Pakistan's FM Ishaq Dar hosted foreign ministers of Saudi Arabia, Turkey, and Egypt to coordinate the diplomatic push.",
+          "summary_ko": "블룸버그는 이란이 이슬라마바드의 중재 역할을 뒷받침하는 신뢰 구축 조치로 파키스탄 선박 20척의 호르무즈 통과를 허용하기로 합의했다고 확인했다. 파키스탄 이샤크 다르 외무장관은 외교적 추진력을 조율하기 위해 사우디·터키·이집트 외무장관을 초청했다.",
+          "published_date": "2026-03-28",
+          "source": "Bloomberg",
+          "relevance_note": "파키스탄 중재 노력의 배경과 국제적 지지 기반을 보도"
+        }
+      ]
+    },
+    {
+      "event_id": "evt-019",
+      "date": "2026-04-02",
+      "time": "19:00:00Z",
+      "title": "영국, 40개국 소집해 호르무즈 즉각 개방 촉구 — 미국 제외 G7 전원 참석",
+      "summary": "영국의 쿠퍼(Cooper) 외무장관이 호르무즈 해협의 즉각적인 개방을 촉구하기 위해 40개국을 긴급 소집했다. 미국을 제외한 G7 전원과 아랍에미리트(UAE), 바레인이 회의에 참석했다.",
+      "importance": "major",
+      "objectivity_avg": null,
+      "causally_related_to": [],
+      "confirmed_by": [
+        "iranwarlive"
+      ],
+      "source_urls": {
+        "iranwarlive": "https://iranwarlive.com/recaps/day-35.html"
+      },
+      "market_impact": {},
+      "trump_posts": [],
+      "related_articles": [
+        {
+          "article_id": "art-c3e4f5a6",
+          "url": "https://www.npr.org/2026/04/02/nx-s1-5771446/u-k-convenes-40-nations-to-discuss-strait-of-hormuz",
+          "title_en": "U.K. convenes 40 nations to discuss Strait of Hormuz",
+          "title_ko": "영국, 호르무즈 해협 논의 위해 40개국 소집",
+          "summary_en": "NPR confirmed that UK Foreign Secretary Yvette Cooper chaired a virtual meeting of 40 nations demanding Iran reopen the Strait of Hormuz. The US was notably absent. Participants discussed UN diplomatic pressure, coordinated economic measures, and working with the IMO to secure stranded vessels.",
+          "summary_ko": "NPR은 영국 이베트 쿠퍼 외무장관이 이란에 호르무즈 해협 개방을 촉구하는 40개국 화상 회의를 주재했다고 확인했다. 미국은 눈에 띄게 불참했다. 참가국들은 유엔 외교 압박, 조율된 경제적 조치, 억류 선박 처리를 위한 국제해사기구(IMO) 협력 방안을 논의했다.",
+          "published_date": "2026-04-02",
+          "source": "NPR",
+          "relevance_note": "영국 주도 40개국 회의의 구체적 내용과 미국 불참 사실을 보도"
+        },
+        {
+          "article_id": "art-d4f5a6b7",
+          "url": "https://foreignpolicy.com/2026/04/02/uk-coalition-talks-reopen-strait-hormuz-us-trump-oil-iran-war/",
+          "title_en": "Iran War: U.K. Hosts Coalition Talks to Reopen Strait of Hormuz—Without the U.S.",
+          "title_ko": "이란 전쟁: 영국, 미국 없이 호르무즈 재개방 연합 회의 주최",
+          "summary_en": "Foreign Policy highlighted the geopolitical significance of the UK-led meeting's exclusion of the US, noting it reflected a growing divergence between Washington and its traditional allies over the Iran war strategy. The US Secretary of State Rubio had signed onto a G7 statement but did not attend.",
+          "summary_ko": "포린 폴리시는 영국 주도 회의에서 미국이 배제된 지정학적 의미를 강조하며, 이것이 이란 전쟁 전략을 둘러싼 워싱턴과 전통 동맹국들 간의 점점 커지는 불협화음을 반영한다고 분석했다. 미국 국무장관 루비오는 G7 성명에는 서명했지만 회의에는 참석하지 않았다.",
+          "published_date": "2026-04-02",
+          "source": "Foreign Policy",
+          "relevance_note": "미국 배제의 외교적 함의와 서방 동맹 내 균열을 심층 분석"
+        }
+      ]
+    },
+    {
+      "event_id": "evt-020",
+      "date": "2026-04-03",
+      "time": "00:00:00Z",
+      "title": "이란 드론, 쿠웨이트 미나 알아흐마디 정유소 다발 화재",
+      "summary": "이란 드론이 쿠웨이트의 미나 알아흐마디(Mina Al-Ahmadi) 정유소를 타격해 시설 곳곳에서 화재가 발생했다.",
+      "importance": "major",
+      "objectivity_avg": null,
+      "causally_related_to": [],
+      "confirmed_by": [
+        "wikipedia"
+      ],
+      "source_urls": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Timeline_of_the_2026_Iran_war#3_April"
+      },
+      "market_impact": {},
+      "trump_posts": [],
+      "related_articles": [
+        {
+          "article_id": "art-e5a6b7c8",
+          "url": "https://www.aljazeera.com/news/2026/4/3/kuwait-desalination-plant-oil-refinery-hit-by-missile-and-drone-strikes",
+          "title_en": "Kuwait desalination plant, oil refinery hit by missile and drone strikes",
+          "title_ko": "쿠웨이트 해수담수화 시설·정유소, 미사일·드론 공격으로 타격",
+          "summary_en": "Al Jazeera confirmed Iranian drones struck Kuwait's Mina Al-Ahmadi oil refinery, igniting fires at multiple locations. It was the third time the refinery was hit during the war. Emergency teams contained the fires with no reported injuries.",
+          "summary_ko": "알자지라는 이란 드론이 쿠웨이트의 미나 알아흐마디 정유소를 타격해 곳곳에서 화재가 발생했다고 확인했다. 이번 전쟁에서 해당 정유소가 타격을 받은 것은 세 번째였다. 비상 대응팀이 화재를 진압했으며 부상자는 없었다.",
+          "published_date": "2026-04-03",
+          "source": "Al Jazeera",
+          "relevance_note": "미나 알아흐마디 정유소 공격과 쿠웨이트 담수화 시설 피해를 함께 보도"
+        },
+        {
+          "article_id": "art-f6b7c8d9",
+          "url": "https://www.thenationalnews.com/news/mena/2026/04/03/kuwait-races-to-contain-damage-after-drone-strikes-oil-refinery/",
+          "title_en": "Kuwait races to contain damage after drone strikes oil refinery",
+          "title_ko": "쿠웨이트, 드론 공격 받은 정유소 피해 수습 총력",
+          "summary_en": "The National reported that Kuwaiti emergency and firefighting teams scrambled to contain damage at Mina Al-Ahmadi, one of Kuwait's largest oil terminals with a refining capacity of 450,000-466,000 barrels per day. Authorities monitored air quality with no environmental impact detected.",
+          "summary_ko": "더 내셔널은 쿠웨이트 비상 대응·소방팀이 하루 45만~46만6000배럴 처리 규모를 자랑하는 쿠웨이트 최대 석유 터미널 중 하나인 미나 알아흐마디의 피해 수습에 총력을 기울였다고 보도했다. 당국은 공기질을 모니터링했으며 환경 피해는 감지되지 않았다.",
+          "published_date": "2026-04-03",
+          "source": "The National",
+          "relevance_note": "정유소의 전략적 규모와 피해 수습 상황을 상세 보도"
+        }
+      ]
+    },
+    {
+      "event_id": "evt-021",
+      "date": "2026-04-03",
+      "time": "00:00:00Z",
+      "title": "이란 전역 동시다발 폭발 — 알보르즈·부셰르·파르스 등 6개 지역",
+      "summary": "이란 전역의 여러 주에서 동시다발적으로 폭발이 보고됐다. 알보르즈(Alborz), 부셰르(Bushehr), 파르스(Fars), 이스파한(Isfahan), 후제스탄(Khuzestan) 주와 수도 테헤란이 포함됐다.",
+      "importance": "major",
+      "objectivity_avg": null,
+      "causally_related_to": [],
+      "confirmed_by": [
+        "wikipedia"
+      ],
+      "source_urls": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Timeline_of_the_2026_Iran_war#3_April"
+      },
+      "market_impact": {},
+      "trump_posts": [],
+      "related_articles": [
+        {
+          "article_id": "art-a7c8d9e0",
+          "url": "https://www.iranintl.com/en/202603195348",
+          "title_en": "Witnesses report blasts and strikes across Iran",
+          "title_ko": "목격자들, 이란 전역 폭발·공습 보고",
+          "summary_en": "Iran International documented simultaneous explosions across multiple Iranian provinces. Isfahan witnesses reported more than 15 missile impacts between 6:00-6:30 a.m., while Alborz's Fardis district was struck around 7:11 a.m., and Ahvaz in Khuzestan was hit at 9:30 a.m.",
+          "summary_ko": "이란 인터내셔널은 이란 여러 주에서 동시에 폭발이 발생했다고 기록했다. 이스파한 목격자들은 오전 6시~6시 30분 사이 15발 이상의 미사일 충격을 보고했으며, 알보르즈 주 파르디스 지구는 오전 7시 11분에, 후제스탄 주 아흐바즈는 오전 9시 30분에 타격을 받았다.",
+          "published_date": "2026-04-03",
+          "source": "Iran International",
+          "relevance_note": "이란 전역 동시다발 폭발을 시간순으로 기록한 현지 보도"
+        },
+        {
+          "article_id": "art-b8d9e0f1",
+          "url": "https://www.washingtonpost.com/business/2026/04/03/iran-us-israel-trump-lebanon-april-3-2026/4e578864-2f19-11f1-aac2-f56b5ccad184_story.html",
+          "title_en": "Iran fires on targets across Mideast while Israel and US hit Tehran as war shows no signs of slowing",
+          "title_ko": "이란, 중동 전역 표적 공격 — 미-이스라엘도 테헤란 타격, 전쟁 수그러들 기미 없어",
+          "summary_en": "The Washington Post reported on the broad escalation on April 3, with explosions across six Iranian provinces concurrent with Iranian strikes on Gulf states. The UN Security Council was convening over the Hormuz crisis as fighting showed no signs of abating.",
+          "summary_ko": "워싱턴 포스트는 4월 3일의 광범위한 확전을 보도했다. 이란 6개 주 전역의 폭발이 이란의 걸프 국가 공격과 동시에 벌어졌다. 유엔 안전보장이사회가 호르무즈 위기를 논의하기 위해 소집됐지만 전투는 수그러들 기미가 없었다.",
+          "published_date": "2026-04-03",
+          "source": "The Washington Post",
+          "relevance_note": "이란 전역 동시 폭발을 중동 전반의 4월 3일 확전 맥락에서 보도"
+        }
+      ]
+    },
+    {
+      "event_id": "evt-022",
+      "date": "2026-04-03",
+      "time": "00:00:00Z",
+      "title": "이란 드론, 쿠웨이트 해수담수화 시설 피해",
+      "summary": "쿠웨이트 당국은 이란 드론이 해수담수화 시설을 타격해 피해를 입혔다고 밝혔다. 이로 인해 쿠웨이트의 담수 공급에 차질이 우려된다.",
+      "importance": "major",
+      "objectivity_avg": null,
+      "causally_related_to": [],
+      "confirmed_by": [
+        "wikipedia"
+      ],
+      "source_urls": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Timeline_of_the_2026_Iran_war#3_April"
+      },
+      "market_impact": {},
+      "trump_posts": [],
+      "related_articles": [
+        {
+          "article_id": "art-c9e0f1a2",
+          "url": "https://www.ktvb.com/article/syndication/associatedpress/kuwait-says-an-iranian-attack-damaged-a-desalination-plant-after-an-earlier-assault-on-an-oil-refinery/616-74ac2470-65bc-4a15-9ecd-60a2b346357e",
+          "title_en": "Kuwait says an Iranian attack damaged a desalination plant after an earlier assault on an oil refinery",
+          "title_ko": "쿠웨이트 '이란 공격으로 정유소 이어 담수화 시설도 피해'",
+          "summary_en": "Kuwait confirmed that an Iranian attack damaged a desalination plant on April 3, coming after the earlier drone strike on Mina Al-Ahmadi oil refinery. Authorities said technical and emergency teams responded immediately under contingency plans. The IRGC denied responsibility, blaming Israel.",
+          "summary_ko": "쿠웨이트는 4월 3일 이란의 공격으로 해수담수화 시설이 피해를 입었다고 확인했다. 앞서 미나 알아흐마디 정유소 드론 공격에 이어 발생한 것이다. 당국은 기술·비상 대응팀이 비상계획에 따라 즉시 출동했다고 밝혔다. IRGC는 책임을 부인하며 이스라엘을 탓했다.",
+          "published_date": "2026-04-03",
+          "source": "KTVB (Associated Press)",
+          "relevance_note": "AP 통신이 확인한 쿠웨이트 해수담수화 시설 피해 보도"
+        },
+        {
+          "article_id": "art-d0f1a2b3",
+          "url": "https://www.aa.com.tr/en/middle-east/kuwait-says-power-and-desalination-plant-damaged-in-attack/3890325",
+          "title_en": "Kuwait says power and desalination plant damaged in attack",
+          "title_ko": "쿠웨이트 '발전·담수화 시설 공격으로 피해'",
+          "summary_en": "Anadolu Agency reported that Kuwait's electricity generation and water desalination plant was hit before midday on April 3, damaging some components. Technical teams immediately implemented contingency plans to maintain operations and ensure continued water supply.",
+          "summary_ko": "아나돌루 통신은 쿠웨이트의 발전·해수담수화 시설이 4월 3일 정오 이전에 타격을 받아 일부 설비가 손상됐다고 보도했다. 기술팀은 운영 유지와 안정적 수도 공급을 위해 즉시 비상계획을 실행했다.",
+          "published_date": "2026-04-03",
+          "source": "Anadolu Agency",
+          "relevance_note": "쿠웨이트 당국의 공식 발표를 전달하는 통신사 보도"
+        }
+      ]
+    },
+    {
+      "event_id": "evt-023",
+      "date": "2026-04-03",
+      "time": "00:00:00Z",
+      "title": "아부다비 하브샨 가스 시설, 요격 파편 낙하로 화재",
+      "summary": "아부다비 미디어 오피스는 공중 요격 과정에서 발생한 파편이 하브샨(Habshan) 천연가스 시설에 낙하해 화재가 발생했다고 밝혔다.",
+      "importance": "major",
+      "objectivity_avg": null,
+      "causally_related_to": [],
+      "confirmed_by": [
+        "wikipedia"
+      ],
+      "source_urls": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Timeline_of_the_2026_Iran_war#3_April"
+      },
+      "market_impact": {},
+      "trump_posts": [],
+      "related_articles": [
+        {
+          "article_id": "art-e1a2b3c4",
+          "url": "https://www.bloomberg.com/news/articles/2026-04-03/abu-dhabi-halts-operations-at-main-gas-facility-after-attack",
+          "title_en": "Iran War: Abu Dhabi Halts Operations at Habshan Gas Facility After Attack",
+          "title_ko": "이란 전쟁: 아부다비, 공격 후 하브샨 가스 시설 운영 중단",
+          "summary_en": "Bloomberg confirmed Abu Dhabi halted operations at the Habshan natural gas facility after debris from an intercepted Iranian munition fell on the site and caused a fire. ADNOC operates Habshan as the UAE's main gas collection and processing hub. No injuries were reported.",
+          "summary_ko": "블룸버그는 아부다비가 요격된 이란 발사체 파편이 하브샨 천연가스 시설에 낙하해 화재가 발생한 후 운영을 중단했다고 확인했다. ADNOC이 운영하는 하브샨은 UAE 최대 가스 집하·처리 허브다. 부상자는 없었다.",
+          "published_date": "2026-04-03",
+          "source": "Bloomberg",
+          "relevance_note": "하브샨 시설의 전략적 중요성과 운영 중단을 보도"
+        },
+        {
+          "article_id": "art-f2b3c4d5",
+          "url": "https://www.arabianbusiness.com/business/energy/abu-dhabi-suspends-habshan-gas-facility-operations-after-debris-falls-following-interception",
+          "title_en": "Abu Dhabi suspends Habshan gas facility operations after debris falls following interception",
+          "title_ko": "아부다비, 요격 후 파편 낙하로 하브샨 가스 시설 운영 중단",
+          "summary_en": "Arabian Business reported the suspension of operations at Habshan following debris from a 'successful interception by air defense systems.' UAE defenses intercepted 18 ballistic missiles, 4 cruise missiles, and 47 drones in the broader April 3 attack wave.",
+          "summary_ko": "아라비안 비즈니스는 '방공 시스템의 성공적인 요격' 이후 파편 낙하로 인한 하브샨 운영 중단을 보도했다. UAE 방공망은 4월 3일 공격 파동에서 탄도미사일 18발, 순항미사일 4발, 드론 47대를 요격했다.",
+          "published_date": "2026-04-03",
+          "source": "Arabian Business",
+          "relevance_note": "UAE 방공 요격 현황과 하브샨 시설 피해를 종합 보도"
+        }
+      ]
+    },
+    {
+      "event_id": "evt-024",
+      "date": "2026-04-03",
+      "time": "00:00:00Z",
+      "title": "이란, 미 F-35 2번째 격추 주장 — 조종사 생존 '희박'",
+      "summary": "이란 정부와 이란혁명수비대(IRGC)는 미군의 F-35 스텔스 전투기를 두 번째로 격추했다고 주장하며, 조종사의 생존 가능성은 '희박하다'고 밝혔다.",
+      "importance": "critical",
+      "objectivity_avg": null,
+      "causally_related_to": [],
+      "confirmed_by": [
+        "wikipedia"
+      ],
+      "source_urls": {
+        "wikipedia": "https://en.wikipedia.org/wiki/Timeline_of_the_2026_Iran_war#3_April"
+      },
+      "market_impact": {},
+      "trump_posts": [],
+      "related_articles": [
+        {
+          "article_id": "art-a3c4d5e6",
+          "url": "https://www.cnbc.com/2026/04/03/trump-iran-threats-un-resolution-blocked-strait-of-hormuz-f35-shot-down.html",
+          "title_en": "Trump threatens to destroy Iranian infrastructure after Iran claims second F-35 shot down",
+          "title_ko": "이란 F-35 2번째 격추 주장 후 트럼프, 이란 인프라 파괴 위협",
+          "summary_en": "CNBC reported Iran's claim of shooting down a second US F-35 over central Iran on April 3. The Pentagon had not confirmed the claim. Iranian media shared debris photos, but analysts noted the wreckage appeared to belong to an F-15E Strike Eagle rather than an F-35. Trump responded with further infrastructure destruction threats.",
+          "summary_ko": "CNBC는 4월 3일 이란이 이란 중부 상공에서 미군 F-35를 두 번째로 격추했다는 주장을 보도했다. 미 국방부는 이를 확인하지 않았다. 이란 언론이 파편 사진을 공개했지만, 전문가들은 잔해가 F-35보다 F-15E 스트라이크 이글에 속하는 것으로 보인다고 지적했다. 트럼프는 이에 인프라 파괴 위협으로 대응했다.",
+          "published_date": "2026-04-03",
+          "source": "CNBC",
+          "relevance_note": "이란의 F-35 격추 주장과 미국의 반응, 증거 논란을 종합 보도"
+        },
+        {
+          "article_id": "art-b4d5e6f7",
+          "url": "https://theaviationist.com/2026/04/03/iran-f-15e-debris/",
+          "title_en": "Iranian Media Posts Debris From USAF F-15E Claimed to Have Been Downed Earlier Today",
+          "title_ko": "이란 언론, '격추 주장' 미 공군 F-15E 잔해 사진 공개",
+          "summary_en": "The Aviationist analyzed debris photos released by Iranian media following the claimed F-35 shootdown, concluding that the images clearly show F-15E Strike Eagle tail sections rather than F-35 components. The discrepancy cast doubt on Iran's F-35 claim.",
+          "summary_ko": "더 에비에이셔니스트는 이란의 F-35 격추 주장 이후 이란 언론이 공개한 파편 사진을 분석해, 해당 이미지에 F-35 부품이 아닌 F-15E 스트라이크 이글의 꼬리 부분이 명확히 나타난다고 결론지었다. 이 불일치는 이란의 F-35 격추 주장에 의구심을 제기했다.",
+          "published_date": "2026-04-03",
+          "source": "The Aviationist",
+          "relevance_note": "이란의 F-35 격추 주장에 대한 기술적 반박과 증거 분석"
         }
       ]
     }
